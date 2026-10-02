@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RUPTURA 2026 — Mobility Data Explorer</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">RUPTURA 2026 · CASE 2</div>
+      <h1>Mobility Data Explorer</h1>
+      <p>Contexto → necessidade → recomendação → ação → valor</p>
+    </div>
+    <div class="source-badge">Dados sintéticos para protótipo</div>
+  </header>
+
+  <aside class="sidebar">
+    <button class="nav-btn active" data-view="dashboard">Visão geral</button>
+    <button class="nav-btn" data-view="explorer">Data Explorer</button>
+    <button class="nav-btn" data-view="customer">Customer 360</button>
+    <button class="nav-btn" data-view="context">Context Engine</button>
+    <button class="nav-btn" data-view="recommendations">Recomendações</button>
+    <button class="nav-btn" data-view="scenarios">Cenários</button>
+    <button class="nav-btn" data-view="dictionary">Dicionário & fontes</button>
+  </aside>
+
+  <main class="content">
+    <section id="dashboard" class="view active">
+      <div class="section-head"><div><h2>Visão geral</h2><p>Resumo do universo de dados utilizado no protótipo.</p></div></div>
+      <div id="kpis" class="kpi-grid"></div>
+      <div class="grid-2">
+        <div class="panel"><h3>Engajamento no app</h3><div id="chart-engagement" class="bars"></div></div>
+        <div class="panel"><h3>Powertrain</h3><div id="chart-powertrain" class="bars"></div></div>
+      </div>
+      <div class="grid-2">
+        <div class="panel"><h3>Prioridade de contexto</h3><div id="chart-context" class="bars"></div></div>
+        <div class="panel"><h3>Tipos de recomendação</h3><div id="chart-recommendations" class="bars"></div></div>
+      </div>
+    </section>
+
+    <section id="explorer" class="view">
+      <div class="section-head"><div><h2>Data Explorer</h2><p>Navegue por qualquer tabela, pesquise registros e veja metadados.</p></div></div>
+      <div class="toolbar">
+        <select id="dataset-select"></select>
+        <input id="dataset-search" placeholder="Pesquisar em qualquer coluna..." />
+        <button id="dataset-search-btn" class="primary">Pesquisar</button>
+        <span id="dataset-info" class="muted"></span>
+      </div>
+      <div id="dataset-meta" class="panel meta-panel"></div>
+      <div class="table-wrap"><table id="data-table"></table></div>
+      <div class="pager"><button id="prev-page">← Anterior</button><span id="page-info"></span><button id="next-page">Próxima →</button></div>
+    </section>
+
+    <section id="customer" class="view">
+      <div class="section-head"><div><h2>Customer 360</h2><p>Visão unificada de cliente, contrato, veículo, telemetria, manutenção, app e recomendações.</p></div></div>
+      <div class="toolbar"><select id="customer-select"></select><button id="load-customer" class="primary">Carregar cliente</button></div>
+      <div id="customer-header" class="panel"></div>
+      <div id="customer-kpis" class="kpi-grid"></div>
+      <div class="grid-2"><div class="panel"><h3>Contexto recente</h3><div id="customer-context"></div></div><div class="panel"><h3>Recomendações</h3><div id="customer-recs"></div></div></div>
+      <div class="grid-2"><div class="panel"><h3>Telemetria</h3><div id="customer-telemetry"></div></div><div class="panel"><h3>Manutenção</h3><div id="customer-maintenance"></div></div></div>
+    </section>
+
+    <section id="context" class="view">
+      <div class="section-head"><div><h2>Context Engine</h2><p>Simulação das regras sintéticas que transformam sinais em ações.</p></div></div>
+      <div class="toolbar"><select id="context-customer-select"></select><button id="run-context" class="primary">Executar contexto</button></div>
+      <div id="context-result"></div>
+    </section>
+
+    <section id="recommendations" class="view">
+      <div class="section-head"><div><h2>Recomendações</h2><p>Performance e exemplos das recomendações contextuais.</p></div></div>
+      <div class="grid-2"><div class="panel"><h3>Distribuição</h3><div id="rec-type-chart" class="bars"></div></div><div class="panel"><h3>Resultado</h3><div id="rec-outcome-chart" class="bars"></div></div></div>
+      <div class="panel"><h3>Exemplos recentes</h3><div class="table-wrap compact"><table id="rec-table"></table></div></div>
+    </section>
+
+    <section id="scenarios" class="view">
+      <div class="section-head"><div><h2>Cenários de protótipo</h2><p>10 histórias prontas para demonstrar contexto → necessidade → recomendação.</p></div></div>
+      <div id="scenario-grid" class="scenario-grid"></div>
+    </section>
+
+    <section id="dictionary" class="view">
+      <div class="section-head"><div><h2>Dicionário & fontes</h2><p>Origem, unidades, descrições e datasets públicos usados como referência.</p></div></div>
+      <div class="panel"><h3>Dataset selecionado</h3><select id="dictionary-select"></select><div id="dictionary-meta"></div></div>
+      <div class="panel"><h3>Datasets públicos de referência</h3><div id="public-datasets"></div></div>
+      <div class="panel"><h3>Relacionamentos</h3><div class="table-wrap compact"><table id="relationships-table"></table></div></div>
+    </section>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

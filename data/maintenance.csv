@@ -1,0 +1,1001 @@
+﻿maintenance_id,customer_id,vehicle_id,contract_id,data_origin,maintenance_type,maintenance_class,event_date,odometer_km,next_maintenance_km,km_remaining,workshop_name,estimated_cost_brl,duration_hours,status,tire_status,oil_status,battery_status,brake_status
+MNT0001,CUST0449,VEH0049,CONTR0449,SYNTHETIC,sistema elétrico,corretiva,2026-08-24,7848,8848,1000,Oficina Centro,919.84,3.7,cancelled,ok,ok,ok,attention
+MNT0002,CUST0316,VEH0016,CONTR0316,SYNTHETIC,bateria 12V,preventiva,2026-01-23,22611,25111,2500,PitStop 01,2108.12,3.6,completed,ok,attention,ok,attention
+MNT0003,CUST0250,VEH0050,CONTR0250,SYNTHETIC,diagnóstico,corretiva,2026-12-13,8454,9954,1500,Oficina Leste,,4.0,scheduled,ok,ok,attention,ok
+MNT0004,CUST0274,VEH0074,CONTR0274,SYNTHETIC,alinhamento,preventiva,2026-10-11,41010,41510,500,Oficina Norte,,3.4,scheduled,attention,ok,ok,ok
+MNT0005,CUST0169,VEH0069,CONTR0169,SYNTHETIC,pneus,preventiva,2026-12-10,55526,57026,1500,PitStop 01,,5.6,scheduled,ok,ok,ok,attention
+MNT0006,CUST0049,VEH0049,CONTR0049,SYNTHETIC,pneus,preventiva,2026-10-16,46983,47483,500,PitStop 02,,2.9,pending,attention,attention,ok,ok
+MNT0007,CUST0044,VEH0044,CONTR0044,SYNTHETIC,pneus,preventiva,2026-11-15,21405,22405,1000,Oficina Centro,,3.5,scheduled,attention,attention,ok,attention
+MNT0008,CUST0255,VEH0055,CONTR0255,SYNTHETIC,troca de óleo,preventiva,2026-11-13,45312,46312,1000,Oficina Sul,,5.8,pending,attention,ok,ok,ok
+MNT0009,CUST0489,VEH0089,CONTR0489,SYNTHETIC,revisão periódica,preventiva,2026-12-22,63563,66063,2500,Oficina Sul,,1.3,pending,ok,ok,ok,ok
+MNT0010,CUST0304,VEH0004,CONTR0304,SYNTHETIC,troca de óleo,preventiva,2026-12-19,70765,75765,5000,Oficina Leste,,3.7,pending,ok,attention,attention,attention
+MNT0011,CUST0254,VEH0054,CONTR0254,SYNTHETIC,pneus,preventiva,2026-10-28,81361,82361,1000,Oficina Sul,,4.5,pending,attention,ok,ok,attention
+MNT0012,CUST0239,VEH0039,CONTR0239,SYNTHETIC,alinhamento,preventiva,2026-03-18,55591,56591,1000,Oficina Leste,576.78,4.3,completed,attention,attention,attention,attention
+MNT0013,CUST0472,VEH0072,CONTR0472,SYNTHETIC,sistema elétrico,corretiva,2026-03-30,46386,48886,2500,Oficina Centro,2790.6,4.2,cancelled,attention,ok,attention,ok
+MNT0014,CUST0073,VEH0073,CONTR0073,SYNTHETIC,bateria 12V,preventiva,2025-12-01,6628,7628,1000,Oficina Sul,3397.3,1.2,completed,attention,ok,ok,ok
+MNT0015,CUST0422,VEH0022,CONTR0422,SYNTHETIC,troca de óleo,preventiva,2026-07-29,11516,12516,1000,Oficina Sul,1267.94,5.1,completed,attention,ok,attention,ok
+MNT0016,CUST0263,VEH0063,CONTR0263,SYNTHETIC,freios,preventiva,2026-12-02,59834,60334,500,Oficina Norte,,2.8,pending,ok,attention,ok,ok
+MNT0017,CUST0349,VEH0049,CONTR0349,SYNTHETIC,bateria 12V,preventiva,2025-11-19,23573,28573,5000,Oficina Leste,3092.95,5.2,completed,ok,ok,ok,ok
+MNT0018,CUST0068,VEH0068,CONTR0068,SYNTHETIC,bateria 12V,preventiva,2026-10-18,44556,45056,500,Oficina Centro,,5.8,scheduled,attention,ok,attention,ok
+MNT0019,CUST0113,VEH0013,CONTR0113,SYNTHETIC,troca de óleo,preventiva,2025-11-24,48613,53613,5000,Oficina Leste,2348.62,5.2,completed,ok,ok,ok,attention
+MNT0020,CUST0493,VEH0093,CONTR0493,SYNTHETIC,diagnóstico,corretiva,2026-11-24,20342,21342,1000,PitStop 02,,5.7,pending,ok,attention,ok,ok
+MNT0021,CUST0251,VEH0051,CONTR0251,SYNTHETIC,diagnóstico,corretiva,2026-02-04,37643,42643,5000,PitStop 02,1059.8,2.1,cancelled,ok,ok,ok,ok
+MNT0022,CUST0073,VEH0073,CONTR0073,SYNTHETIC,freios,preventiva,2026-12-10,6628,11628,5000,PitStop 01,,2.3,pending,ok,ok,attention,ok
+MNT0023,CUST0390,VEH0090,CONTR0390,SYNTHETIC,diagnóstico,corretiva,2026-11-05,42881,44381,1500,PitStop 02,,5.2,pending,ok,ok,ok,attention
+MNT0024,CUST0306,VEH0006,CONTR0306,SYNTHETIC,alinhamento,preventiva,2025-10-14,16986,17486,500,Oficina Leste,1542.18,2.4,cancelled,attention,ok,attention,ok
+MNT0025,CUST0014,VEH0014,CONTR0014,SYNTHETIC,pneus,preventiva,2026-11-27,22414,27414,5000,Oficina Norte,,2.6,scheduled,ok,attention,ok,attention
+MNT0026,CUST0138,VEH0038,CONTR0138,SYNTHETIC,sistema elétrico,corretiva,2026-03-30,36075,37575,1500,Oficina Leste,1020.37,5.3,cancelled,attention,ok,ok,ok
+MNT0027,CUST0444,VEH0044,CONTR0444,SYNTHETIC,alinhamento,preventiva,2026-12-07,29216,29716,500,Oficina Norte,,4.3,scheduled,ok,ok,ok,attention
+MNT0028,CUST0059,VEH0059,CONTR0059,SYNTHETIC,bateria 12V,preventiva,2025-10-16,81354,86354,5000,PitStop 02,403.29,3.7,completed,ok,ok,ok,ok
+MNT0029,CUST0056,VEH0056,CONTR0056,SYNTHETIC,pneus,preventiva,2026-11-14,47877,52877,5000,Oficina Centro,,3.9,pending,ok,attention,ok,attention
+MNT0030,CUST0310,VEH0010,CONTR0310,SYNTHETIC,freios,preventiva,2026-03-31,24657,26157,1500,Oficina Sul,2288.38,4.3,cancelled,ok,ok,ok,attention
+MNT0031,CUST0400,VEH0100,CONTR0400,SYNTHETIC,sistema elétrico,corretiva,2026-01-04,16744,17744,1000,PitStop 01,2634.26,5.9,completed,attention,attention,ok,ok
+MNT0032,CUST0371,VEH0071,CONTR0371,SYNTHETIC,alinhamento,preventiva,2026-12-05,51639,54139,2500,Oficina Sul,,1.6,scheduled,attention,ok,attention,ok
+MNT0033,CUST0145,VEH0045,CONTR0145,SYNTHETIC,revisão periódica,preventiva,2026-08-11,60289,60789,500,PitStop 02,786.95,1.1,completed,ok,ok,attention,attention
+MNT0034,CUST0381,VEH0081,CONTR0381,SYNTHETIC,troca de óleo,preventiva,2025-12-05,68086,69086,1000,Oficina Leste,1525.61,1.0,completed,ok,ok,ok,ok
+MNT0035,CUST0007,VEH0007,CONTR0007,SYNTHETIC,freios,preventiva,2025-12-25,81921,82421,500,Oficina Norte,2544.29,1.7,completed,ok,ok,ok,attention
+MNT0036,CUST0454,VEH0054,CONTR0454,SYNTHETIC,revisão periódica,preventiva,2026-10-19,13443,14443,1000,Oficina Sul,,5.9,scheduled,attention,attention,ok,ok
+MNT0037,CUST0266,VEH0066,CONTR0266,SYNTHETIC,pneus,preventiva,2026-04-02,24573,27073,2500,PitStop 01,2894.9,3.4,completed,ok,attention,ok,attention
+MNT0038,CUST0028,VEH0028,CONTR0028,SYNTHETIC,pneus,preventiva,2026-11-17,35097,35597,500,Oficina Centro,,1.3,pending,ok,ok,attention,ok
+MNT0039,CUST0478,VEH0078,CONTR0478,SYNTHETIC,freios,preventiva,2026-07-10,21607,23107,1500,Oficina Centro,2343.43,1.3,cancelled,ok,ok,ok,attention
+MNT0040,CUST0477,VEH0077,CONTR0477,SYNTHETIC,freios,preventiva,2026-11-12,50438,50938,500,PitStop 02,,1.6,pending,ok,ok,ok,ok
+MNT0041,CUST0289,VEH0089,CONTR0289,SYNTHETIC,pneus,preventiva,2026-12-29,21036,23536,2500,PitStop 02,,2.7,scheduled,ok,ok,ok,ok
+MNT0042,CUST0475,VEH0075,CONTR0475,SYNTHETIC,revisão periódica,preventiva,2026-07-06,43800,46300,2500,Oficina Sul,253.97,1.6,cancelled,attention,ok,attention,ok
+MNT0043,CUST0480,VEH0080,CONTR0480,SYNTHETIC,diagnóstico,corretiva,2026-05-08,67982,69482,1500,Oficina Sul,3186.28,3.1,cancelled,ok,attention,ok,ok
+MNT0044,CUST0423,VEH0023,CONTR0423,SYNTHETIC,bateria 12V,preventiva,2026-07-06,57555,58055,500,PitStop 02,2431.08,4.4,completed,ok,attention,attention,ok
+MNT0045,CUST0435,VEH0035,CONTR0435,SYNTHETIC,sistema elétrico,corretiva,2025-10-08,16426,21426,5000,PitStop 02,671.98,3.4,completed,ok,attention,ok,ok
+MNT0046,CUST0331,VEH0031,CONTR0331,SYNTHETIC,diagnóstico,corretiva,2026-10-16,9427,9927,500,Oficina Centro,,5.0,scheduled,ok,ok,attention,ok
+MNT0047,CUST0258,VEH0058,CONTR0258,SYNTHETIC,troca de óleo,preventiva,2025-12-28,81183,82183,1000,Oficina Norte,2724.47,4.1,completed,ok,attention,attention,ok
+MNT0048,CUST0383,VEH0083,CONTR0383,SYNTHETIC,sistema elétrico,corretiva,2026-04-22,76067,76567,500,PitStop 02,663.43,2.4,completed,ok,ok,attention,ok
+MNT0049,CUST0096,VEH0096,CONTR0096,SYNTHETIC,freios,preventiva,2026-03-27,56369,56869,500,Oficina Centro,1395.0,4.3,cancelled,ok,ok,attention,ok
+MNT0050,CUST0081,VEH0081,CONTR0081,SYNTHETIC,bateria 12V,preventiva,2026-11-18,22265,27265,5000,Oficina Sul,,3.8,scheduled,ok,ok,ok,ok
+MNT0051,CUST0216,VEH0016,CONTR0216,SYNTHETIC,freios,preventiva,2026-10-30,61825,62325,500,Oficina Centro,,1.4,scheduled,ok,ok,ok,ok
+MNT0052,CUST0447,VEH0047,CONTR0447,SYNTHETIC,troca de óleo,preventiva,2026-07-08,30982,31982,1000,PitStop 01,1491.53,5.1,cancelled,ok,attention,attention,attention
+MNT0053,CUST0009,VEH0009,CONTR0009,SYNTHETIC,troca de óleo,preventiva,2026-12-30,46454,48954,2500,PitStop 02,,3.2,scheduled,ok,ok,attention,ok
+MNT0054,CUST0178,VEH0078,CONTR0178,SYNTHETIC,diagnóstico,corretiva,2026-06-26,11096,11596,500,Oficina Centro,1665.83,5.9,completed,ok,ok,ok,ok
+MNT0055,CUST0387,VEH0087,CONTR0387,SYNTHETIC,pneus,preventiva,2026-11-27,56108,57108,1000,Oficina Norte,,4.7,pending,ok,ok,attention,ok
+MNT0056,CUST0490,VEH0090,CONTR0490,SYNTHETIC,bateria 12V,preventiva,2026-07-05,74636,77136,2500,Oficina Sul,2494.5,3.1,cancelled,ok,ok,ok,ok
+MNT0057,CUST0128,VEH0028,CONTR0128,SYNTHETIC,revisão periódica,preventiva,2026-02-23,22136,23136,1000,Oficina Norte,1954.52,2.2,cancelled,ok,ok,ok,ok
+MNT0058,CUST0443,VEH0043,CONTR0443,SYNTHETIC,freios,preventiva,2026-04-23,61724,62724,1000,Oficina Norte,1278.56,5.0,cancelled,ok,attention,ok,ok
+MNT0059,CUST0330,VEH0030,CONTR0330,SYNTHETIC,alinhamento,preventiva,2026-11-15,67183,72183,5000,Oficina Sul,,3.8,pending,attention,attention,ok,ok
+MNT0060,CUST0194,VEH0094,CONTR0194,SYNTHETIC,diagnóstico,corretiva,2026-08-25,18045,20545,2500,PitStop 02,3330.97,4.6,cancelled,ok,ok,ok,ok
+MNT0061,CUST0483,VEH0083,CONTR0483,SYNTHETIC,diagnóstico,corretiva,2026-03-05,37699,38699,1000,Oficina Norte,884.26,3.8,cancelled,ok,ok,attention,ok
+MNT0062,CUST0240,VEH0040,CONTR0240,SYNTHETIC,alinhamento,preventiva,2026-09-19,18690,20190,1500,PitStop 01,3155.55,2.8,cancelled,attention,ok,ok,ok
+MNT0063,CUST0162,VEH0062,CONTR0162,SYNTHETIC,diagnóstico,corretiva,2026-10-27,21635,22635,1000,Oficina Sul,,4.9,scheduled,ok,ok,attention,ok
+MNT0064,CUST0248,VEH0048,CONTR0248,SYNTHETIC,bateria 12V,preventiva,2026-10-27,19633,24633,5000,Oficina Sul,,1.6,scheduled,ok,attention,ok,ok
+MNT0065,CUST0159,VEH0059,CONTR0159,SYNTHETIC,sistema elétrico,corretiva,2026-12-25,33124,34124,1000,Oficina Leste,,2.8,scheduled,ok,attention,ok,attention
+MNT0066,CUST0471,VEH0071,CONTR0471,SYNTHETIC,revisão periódica,preventiva,2026-10-26,70706,72206,1500,PitStop 02,,4.2,pending,ok,ok,attention,ok
+MNT0067,CUST0383,VEH0083,CONTR0383,SYNTHETIC,troca de óleo,preventiva,2025-10-23,76067,77567,1500,PitStop 01,1751.45,3.7,completed,attention,attention,ok,attention
+MNT0068,CUST0118,VEH0018,CONTR0118,SYNTHETIC,diagnóstico,corretiva,2026-05-09,81082,82082,1000,PitStop 02,3453.74,3.6,cancelled,ok,ok,attention,ok
+MNT0069,CUST0153,VEH0053,CONTR0153,SYNTHETIC,alinhamento,preventiva,2026-02-17,65010,70010,5000,Oficina Leste,2131.34,3.1,completed,ok,attention,ok,ok
+MNT0070,CUST0209,VEH0009,CONTR0209,SYNTHETIC,revisão periódica,preventiva,2026-12-09,51966,53466,1500,Oficina Leste,,4.3,scheduled,ok,attention,ok,ok
+MNT0071,CUST0315,VEH0015,CONTR0315,SYNTHETIC,sistema elétrico,corretiva,2026-06-08,11704,16704,5000,PitStop 01,520.81,5.7,completed,ok,attention,ok,attention
+MNT0072,CUST0314,VEH0014,CONTR0314,SYNTHETIC,freios,preventiva,2026-12-28,28184,33184,5000,Oficina Sul,,4.9,scheduled,ok,ok,ok,ok
+MNT0073,CUST0255,VEH0055,CONTR0255,SYNTHETIC,sistema elétrico,corretiva,2026-03-23,45312,45812,500,Oficina Norte,3238.04,1.5,completed,attention,ok,attention,attention
+MNT0074,CUST0305,VEH0005,CONTR0305,SYNTHETIC,diagnóstico,corretiva,2025-10-01,17277,19777,2500,Oficina Leste,2465.72,4.5,completed,ok,ok,ok,ok
+MNT0075,CUST0389,VEH0089,CONTR0389,SYNTHETIC,sistema elétrico,corretiva,2026-02-09,64815,66315,1500,Oficina Sul,499.31,1.5,completed,attention,ok,attention,attention
+MNT0076,CUST0129,VEH0029,CONTR0129,SYNTHETIC,alinhamento,preventiva,2026-05-16,26589,29089,2500,Oficina Norte,945.22,5.2,completed,ok,attention,ok,ok
+MNT0077,CUST0355,VEH0055,CONTR0355,SYNTHETIC,revisão periódica,preventiva,2025-12-30,73259,75759,2500,Oficina Sul,867.01,2.7,cancelled,ok,ok,ok,ok
+MNT0078,CUST0256,VEH0056,CONTR0256,SYNTHETIC,revisão periódica,preventiva,2026-12-18,67545,68545,1000,Oficina Leste,,5.6,pending,ok,ok,attention,ok
+MNT0079,CUST0184,VEH0084,CONTR0184,SYNTHETIC,alinhamento,preventiva,2026-11-27,51293,52293,1000,Oficina Leste,,1.4,pending,ok,ok,ok,attention
+MNT0080,CUST0109,VEH0009,CONTR0109,SYNTHETIC,bateria 12V,preventiva,2026-02-02,68504,71004,2500,Oficina Norte,951.82,3.8,completed,ok,ok,attention,ok
+MNT0081,CUST0329,VEH0029,CONTR0329,SYNTHETIC,diagnóstico,corretiva,2026-11-08,42170,44670,2500,Oficina Sul,,5.6,pending,ok,ok,ok,attention
+MNT0082,CUST0111,VEH0011,CONTR0111,SYNTHETIC,sistema elétrico,corretiva,2026-04-29,46869,47869,1000,PitStop 01,728.13,3.7,completed,ok,ok,ok,ok
+MNT0083,CUST0284,VEH0084,CONTR0284,SYNTHETIC,bateria 12V,preventiva,2026-06-12,80640,83140,2500,PitStop 02,1875.68,1.8,completed,ok,ok,attention,ok
+MNT0084,CUST0328,VEH0028,CONTR0328,SYNTHETIC,alinhamento,preventiva,2026-11-07,46068,48568,2500,Oficina Norte,,4.7,scheduled,attention,attention,ok,attention
+MNT0085,CUST0033,VEH0033,CONTR0033,SYNTHETIC,alinhamento,preventiva,2026-12-06,38280,43280,5000,Oficina Sul,,3.9,scheduled,attention,attention,attention,ok
+MNT0086,CUST0252,VEH0052,CONTR0252,SYNTHETIC,diagnóstico,corretiva,2026-12-22,39133,41633,2500,Oficina Norte,,3.7,scheduled,ok,ok,attention,attention
+MNT0087,CUST0209,VEH0009,CONTR0209,SYNTHETIC,freios,preventiva,2025-11-24,51966,52966,1000,Oficina Centro,2967.53,3.0,completed,attention,ok,ok,ok
+MNT0088,CUST0185,VEH0085,CONTR0185,SYNTHETIC,freios,preventiva,2026-08-10,13188,14188,1000,Oficina Norte,2926.08,5.8,completed,attention,attention,ok,ok
+MNT0089,CUST0241,VEH0041,CONTR0241,SYNTHETIC,diagnóstico,corretiva,2025-10-06,48669,50169,1500,Oficina Centro,2234.27,4.4,completed,attention,ok,attention,ok
+MNT0090,CUST0087,VEH0087,CONTR0087,SYNTHETIC,pneus,preventiva,2026-11-08,72910,73410,500,Oficina Norte,,2.3,pending,attention,attention,attention,attention
+MNT0091,CUST0099,VEH0099,CONTR0099,SYNTHETIC,troca de óleo,preventiva,2026-10-26,62260,63760,1500,PitStop 01,,5.2,pending,attention,ok,attention,attention
+MNT0092,CUST0421,VEH0021,CONTR0421,SYNTHETIC,pneus,preventiva,2026-11-30,74735,76235,1500,PitStop 01,,2.3,pending,attention,attention,attention,ok
+MNT0093,CUST0248,VEH0048,CONTR0248,SYNTHETIC,freios,preventiva,2026-10-19,19633,20133,500,Oficina Norte,,1.5,scheduled,ok,ok,attention,ok
+MNT0094,CUST0096,VEH0096,CONTR0096,SYNTHETIC,revisão periódica,preventiva,2026-09-15,56369,61369,5000,Oficina Norte,1767.85,3.7,completed,ok,attention,attention,ok
+MNT0095,CUST0298,VEH0098,CONTR0298,SYNTHETIC,bateria 12V,preventiva,2026-01-13,67915,68415,500,Oficina Leste,1440.63,6.0,completed,ok,ok,ok,attention
+MNT0096,CUST0069,VEH0069,CONTR0069,SYNTHETIC,pneus,preventiva,2026-07-28,81305,81805,500,Oficina Centro,1551.27,2.0,completed,attention,attention,attention,ok
+MNT0097,CUST0366,VEH0066,CONTR0366,SYNTHETIC,bateria 12V,preventiva,2026-03-03,65444,67944,2500,Oficina Centro,3352.35,6.0,completed,attention,ok,ok,ok
+MNT0098,CUST0399,VEH0099,CONTR0399,SYNTHETIC,sistema elétrico,corretiva,2025-12-03,66547,71547,5000,Oficina Norte,2274.25,1.6,completed,attention,attention,attention,attention
+MNT0099,CUST0306,VEH0006,CONTR0306,SYNTHETIC,freios,preventiva,2026-12-19,16986,17986,1000,PitStop 01,,2.7,pending,ok,ok,attention,ok
+MNT0100,CUST0247,VEH0047,CONTR0247,SYNTHETIC,bateria 12V,preventiva,2026-08-29,56377,57877,1500,Oficina Sul,252.96,2.3,cancelled,ok,attention,ok,ok
+MNT0101,CUST0423,VEH0023,CONTR0423,SYNTHETIC,bateria 12V,preventiva,2026-05-28,57555,58555,1000,PitStop 01,257.36,4.6,completed,ok,ok,ok,attention
+MNT0102,CUST0108,VEH0008,CONTR0108,SYNTHETIC,diagnóstico,corretiva,2026-12-28,65495,65995,500,Oficina Leste,,1.5,scheduled,ok,ok,ok,ok
+MNT0103,CUST0310,VEH0010,CONTR0310,SYNTHETIC,diagnóstico,corretiva,2026-11-05,24657,27157,2500,Oficina Centro,,1.0,pending,attention,attention,attention,attention
+MNT0104,CUST0398,VEH0098,CONTR0398,SYNTHETIC,pneus,preventiva,2026-11-17,51720,53220,1500,Oficina Centro,,1.3,pending,ok,ok,attention,ok
+MNT0105,CUST0336,VEH0036,CONTR0336,SYNTHETIC,alinhamento,preventiva,2026-09-18,35901,38401,2500,PitStop 02,2067.2,1.9,completed,attention,attention,ok,ok
+MNT0106,CUST0158,VEH0058,CONTR0158,SYNTHETIC,sistema elétrico,corretiva,2026-07-02,77704,82704,5000,PitStop 02,1941.97,5.9,cancelled,ok,attention,ok,ok
+MNT0107,CUST0286,VEH0086,CONTR0286,SYNTHETIC,revisão periódica,preventiva,2026-08-02,70368,70868,500,PitStop 02,2715.69,3.6,cancelled,ok,ok,ok,ok
+MNT0108,CUST0293,VEH0093,CONTR0293,SYNTHETIC,pneus,preventiva,2026-04-14,53488,58488,5000,Oficina Norte,1919.47,4.1,cancelled,attention,ok,attention,attention
+MNT0109,CUST0274,VEH0074,CONTR0274,SYNTHETIC,alinhamento,preventiva,2026-12-25,41010,46010,5000,Oficina Centro,,3.6,scheduled,attention,ok,ok,ok
+MNT0110,CUST0459,VEH0059,CONTR0459,SYNTHETIC,pneus,preventiva,2026-10-17,86719,87219,500,PitStop 02,,5.5,pending,attention,attention,ok,ok
+MNT0111,CUST0217,VEH0017,CONTR0217,SYNTHETIC,freios,preventiva,2026-12-11,33839,38839,5000,Oficina Centro,,2.8,scheduled,ok,attention,ok,ok
+MNT0112,CUST0106,VEH0006,CONTR0106,SYNTHETIC,freios,preventiva,2026-10-26,11791,16791,5000,PitStop 01,,1.5,scheduled,attention,ok,ok,ok
+MNT0113,CUST0364,VEH0064,CONTR0364,SYNTHETIC,freios,preventiva,2026-08-04,54407,59407,5000,Oficina Centro,2562.97,4.6,completed,attention,attention,attention,ok
+MNT0114,CUST0172,VEH0072,CONTR0172,SYNTHETIC,revisão periódica,preventiva,2026-09-03,33410,35910,2500,Oficina Leste,2366.89,4.3,completed,ok,ok,ok,attention
+MNT0115,CUST0477,VEH0077,CONTR0477,SYNTHETIC,bateria 12V,preventiva,2026-10-19,50438,55438,5000,PitStop 02,,5.2,scheduled,ok,attention,ok,ok
+MNT0116,CUST0207,VEH0007,CONTR0207,SYNTHETIC,diagnóstico,corretiva,2026-11-02,81746,82746,1000,Oficina Sul,,3.7,scheduled,ok,ok,ok,ok
+MNT0117,CUST0107,VEH0007,CONTR0107,SYNTHETIC,sistema elétrico,corretiva,2026-12-16,33213,34713,1500,Oficina Centro,,5.7,pending,ok,attention,attention,ok
+MNT0118,CUST0086,VEH0086,CONTR0086,SYNTHETIC,pneus,preventiva,2025-11-03,56023,61023,5000,PitStop 01,3094.7,2.9,cancelled,ok,attention,attention,ok
+MNT0119,CUST0082,VEH0082,CONTR0082,SYNTHETIC,pneus,preventiva,2025-10-06,74673,76173,1500,PitStop 01,3176.62,4.9,cancelled,ok,ok,ok,ok
+MNT0120,CUST0004,VEH0004,CONTR0004,SYNTHETIC,freios,preventiva,2026-11-01,27076,32076,5000,Oficina Leste,,5.0,scheduled,ok,attention,ok,attention
+MNT0121,CUST0465,VEH0065,CONTR0465,SYNTHETIC,bateria 12V,preventiva,2026-06-20,17259,18259,1000,Oficina Leste,2984.99,1.2,cancelled,ok,ok,ok,attention
+MNT0122,CUST0373,VEH0073,CONTR0373,SYNTHETIC,freios,preventiva,2026-11-13,20436,20936,500,Oficina Leste,,4.3,pending,ok,ok,attention,attention
+MNT0123,CUST0163,VEH0063,CONTR0163,SYNTHETIC,bateria 12V,preventiva,2026-01-17,11336,11836,500,Oficina Norte,2751.78,5.1,cancelled,ok,ok,ok,attention
+MNT0124,CUST0057,VEH0057,CONTR0057,SYNTHETIC,troca de óleo,preventiva,2026-11-01,8603,11103,2500,PitStop 02,,6.0,scheduled,ok,ok,ok,ok
+MNT0125,CUST0471,VEH0071,CONTR0471,SYNTHETIC,diagnóstico,corretiva,2026-04-08,70706,75706,5000,Oficina Norte,852.71,1.3,completed,attention,ok,attention,ok
+MNT0126,CUST0145,VEH0045,CONTR0145,SYNTHETIC,alinhamento,preventiva,2026-11-22,60289,61789,1500,Oficina Norte,,1.3,pending,ok,ok,ok,ok
+MNT0127,CUST0002,VEH0002,CONTR0002,SYNTHETIC,alinhamento,preventiva,2026-06-09,61341,61841,500,PitStop 02,2920.39,5.1,completed,ok,ok,attention,ok
+MNT0128,CUST0449,VEH0049,CONTR0449,SYNTHETIC,sistema elétrico,corretiva,2026-01-18,7848,10348,2500,Oficina Centro,2271.54,1.3,completed,ok,ok,attention,ok
+MNT0129,CUST0022,VEH0022,CONTR0022,SYNTHETIC,pneus,preventiva,2026-12-26,17317,17817,500,PitStop 02,,4.9,scheduled,ok,ok,ok,ok
+MNT0130,CUST0181,VEH0081,CONTR0181,SYNTHETIC,sistema elétrico,corretiva,2026-03-19,23044,28044,5000,Oficina Norte,2329.2,5.1,completed,ok,ok,ok,ok
+MNT0131,CUST0106,VEH0006,CONTR0106,SYNTHETIC,revisão periódica,preventiva,2026-06-24,11791,12791,1000,Oficina Centro,2041.16,5.7,cancelled,ok,ok,attention,ok
+MNT0132,CUST0042,VEH0042,CONTR0042,SYNTHETIC,diagnóstico,corretiva,2025-12-31,31373,36373,5000,Oficina Leste,2348.94,1.6,cancelled,ok,ok,ok,attention
+MNT0133,CUST0142,VEH0042,CONTR0142,SYNTHETIC,pneus,preventiva,2026-07-11,37326,42326,5000,Oficina Centro,1908.39,2.1,completed,ok,ok,ok,ok
+MNT0134,CUST0275,VEH0075,CONTR0275,SYNTHETIC,alinhamento,preventiva,2026-10-16,65306,66306,1000,Oficina Leste,,3.8,pending,ok,ok,attention,attention
+MNT0135,CUST0459,VEH0059,CONTR0459,SYNTHETIC,alinhamento,preventiva,2025-10-21,86719,91719,5000,Oficina Norte,3269.63,1.4,completed,ok,attention,ok,ok
+MNT0136,CUST0059,VEH0059,CONTR0059,SYNTHETIC,sistema elétrico,corretiva,2025-10-23,81354,82854,1500,Oficina Sul,3213.28,4.8,completed,ok,attention,ok,ok
+MNT0137,CUST0274,VEH0074,CONTR0274,SYNTHETIC,revisão periódica,preventiva,2025-12-16,41010,41510,500,Oficina Sul,753.83,2.3,completed,attention,ok,attention,attention
+MNT0138,CUST0333,VEH0033,CONTR0333,SYNTHETIC,sistema elétrico,corretiva,2026-11-24,49279,49779,500,PitStop 01,,4.3,pending,ok,ok,ok,ok
+MNT0139,CUST0171,VEH0071,CONTR0171,SYNTHETIC,alinhamento,preventiva,2026-01-13,20089,25089,5000,Oficina Sul,1924.66,2.3,completed,ok,attention,ok,ok
+MNT0140,CUST0328,VEH0028,CONTR0328,SYNTHETIC,bateria 12V,preventiva,2026-06-13,46068,47068,1000,Oficina Leste,2129.99,3.8,cancelled,attention,ok,ok,attention
+MNT0141,CUST0239,VEH0039,CONTR0239,SYNTHETIC,pneus,preventiva,2025-12-09,55591,60591,5000,Oficina Centro,694.63,3.3,completed,ok,attention,attention,ok
+MNT0142,CUST0062,VEH0062,CONTR0062,SYNTHETIC,revisão periódica,preventiva,2026-01-29,22234,23234,1000,Oficina Norte,3331.38,6.0,cancelled,ok,ok,ok,ok
+MNT0143,CUST0065,VEH0065,CONTR0065,SYNTHETIC,alinhamento,preventiva,2026-01-23,63607,65107,1500,PitStop 02,2962.8,5.8,completed,ok,ok,ok,ok
+MNT0144,CUST0186,VEH0086,CONTR0186,SYNTHETIC,diagnóstico,corretiva,2026-07-12,79497,81997,2500,Oficina Centro,1284.45,4.7,completed,attention,ok,ok,ok
+MNT0145,CUST0403,VEH0003,CONTR0403,SYNTHETIC,bateria 12V,preventiva,2026-05-14,14408,19408,5000,Oficina Norte,1812.97,1.3,cancelled,attention,attention,ok,ok
+MNT0146,CUST0290,VEH0090,CONTR0290,SYNTHETIC,revisão periódica,preventiva,2025-12-01,78650,83650,5000,Oficina Centro,1104.33,1.3,cancelled,attention,ok,ok,ok
+MNT0147,CUST0235,VEH0035,CONTR0235,SYNTHETIC,freios,preventiva,2026-03-19,35986,37486,1500,PitStop 02,3377.16,3.7,completed,attention,ok,ok,attention
+MNT0148,CUST0072,VEH0072,CONTR0072,SYNTHETIC,alinhamento,preventiva,2026-12-20,59151,60651,1500,Oficina Norte,,1.9,scheduled,ok,ok,attention,attention
+MNT0149,CUST0410,VEH0010,CONTR0410,SYNTHETIC,diagnóstico,corretiva,2026-02-21,71703,73203,1500,Oficina Centro,2501.84,1.6,completed,ok,ok,attention,ok
+MNT0150,CUST0430,VEH0030,CONTR0430,SYNTHETIC,sistema elétrico,corretiva,2026-12-17,62076,67076,5000,Oficina Sul,,5.8,pending,ok,ok,attention,ok
+MNT0151,CUST0384,VEH0084,CONTR0384,SYNTHETIC,troca de óleo,preventiva,2026-05-22,67548,72548,5000,Oficina Leste,286.12,5.9,cancelled,ok,ok,ok,attention
+MNT0152,CUST0065,VEH0065,CONTR0065,SYNTHETIC,pneus,preventiva,2026-04-09,63607,65107,1500,PitStop 01,2496.36,2.6,completed,attention,attention,ok,ok
+MNT0153,CUST0213,VEH0013,CONTR0213,SYNTHETIC,sistema elétrico,corretiva,2026-12-26,68589,69589,1000,Oficina Leste,,5.8,pending,ok,ok,ok,attention
+MNT0154,CUST0012,VEH0012,CONTR0012,SYNTHETIC,freios,preventiva,2026-04-26,24365,26865,2500,Oficina Leste,1915.43,4.6,completed,ok,attention,attention,attention
+MNT0155,CUST0379,VEH0079,CONTR0379,SYNTHETIC,freios,preventiva,2026-10-19,43939,45439,1500,Oficina Leste,,1.4,pending,ok,ok,ok,attention
+MNT0156,CUST0248,VEH0048,CONTR0248,SYNTHETIC,freios,preventiva,2026-12-30,19633,22133,2500,Oficina Leste,,3.6,pending,ok,ok,ok,attention
+MNT0157,CUST0237,VEH0037,CONTR0237,SYNTHETIC,bateria 12V,preventiva,2026-06-23,77960,78460,500,Oficina Leste,3151.89,1.5,completed,ok,ok,ok,ok
+MNT0158,CUST0127,VEH0027,CONTR0127,SYNTHETIC,revisão periódica,preventiva,2026-12-13,57484,62484,5000,Oficina Norte,,4.6,scheduled,attention,ok,ok,ok
+MNT0159,CUST0031,VEH0031,CONTR0031,SYNTHETIC,freios,preventiva,2026-11-23,25864,26364,500,Oficina Leste,,3.6,scheduled,ok,ok,ok,ok
+MNT0160,CUST0432,VEH0032,CONTR0432,SYNTHETIC,sistema elétrico,corretiva,2025-11-23,53276,54276,1000,Oficina Leste,2132.52,3.1,completed,ok,attention,ok,attention
+MNT0161,CUST0231,VEH0031,CONTR0231,SYNTHETIC,revisão periódica,preventiva,2026-01-30,31676,33176,1500,Oficina Sul,907.91,4.6,cancelled,ok,ok,ok,ok
+MNT0162,CUST0319,VEH0019,CONTR0319,SYNTHETIC,sistema elétrico,corretiva,2026-10-03,42810,47810,5000,Oficina Norte,,2.2,scheduled,ok,ok,ok,ok
+MNT0163,CUST0113,VEH0013,CONTR0113,SYNTHETIC,alinhamento,preventiva,2026-12-15,48613,49113,500,PitStop 01,,1.4,scheduled,ok,ok,ok,ok
+MNT0164,CUST0323,VEH0023,CONTR0323,SYNTHETIC,revisão periódica,preventiva,2026-06-20,70788,71788,1000,PitStop 01,478.51,4.4,completed,ok,ok,ok,ok
+MNT0165,CUST0321,VEH0021,CONTR0321,SYNTHETIC,sistema elétrico,corretiva,2026-12-19,57474,58974,1500,PitStop 01,,2.2,pending,ok,attention,attention,ok
+MNT0166,CUST0173,VEH0073,CONTR0173,SYNTHETIC,bateria 12V,preventiva,2026-11-13,46392,46892,500,PitStop 01,,4.4,scheduled,ok,attention,attention,ok
+MNT0167,CUST0455,VEH0055,CONTR0455,SYNTHETIC,alinhamento,preventiva,2026-05-09,9437,11937,2500,Oficina Norte,1218.39,3.4,cancelled,attention,ok,ok,attention
+MNT0168,CUST0171,VEH0071,CONTR0171,SYNTHETIC,revisão periódica,preventiva,2026-09-08,20089,20589,500,Oficina Centro,3417.47,3.9,cancelled,ok,ok,ok,attention
+MNT0169,CUST0245,VEH0045,CONTR0245,SYNTHETIC,diagnóstico,corretiva,2025-12-18,66957,71957,5000,Oficina Centro,814.39,5.3,cancelled,ok,ok,ok,ok
+MNT0170,CUST0141,VEH0041,CONTR0141,SYNTHETIC,troca de óleo,preventiva,2026-11-05,55178,56678,1500,Oficina Norte,,5.7,scheduled,attention,ok,ok,attention
+MNT0171,CUST0057,VEH0057,CONTR0057,SYNTHETIC,bateria 12V,preventiva,2026-05-26,8603,11103,2500,PitStop 01,893.03,3.7,cancelled,attention,ok,ok,attention
+MNT0172,CUST0326,VEH0026,CONTR0326,SYNTHETIC,freios,preventiva,2026-05-30,12188,13188,1000,Oficina Sul,2785.07,3.2,completed,ok,ok,ok,ok
+MNT0173,CUST0283,VEH0083,CONTR0283,SYNTHETIC,alinhamento,preventiva,2026-03-10,45317,50317,5000,Oficina Centro,2004.44,2.9,completed,attention,ok,ok,attention
+MNT0174,CUST0176,VEH0076,CONTR0176,SYNTHETIC,sistema elétrico,corretiva,2026-12-02,69846,70846,1000,Oficina Leste,,1.9,pending,attention,ok,ok,ok
+MNT0175,CUST0068,VEH0068,CONTR0068,SYNTHETIC,sistema elétrico,corretiva,2026-05-02,44556,49556,5000,Oficina Centro,2038.03,5.5,cancelled,ok,ok,ok,attention
+MNT0176,CUST0425,VEH0025,CONTR0425,SYNTHETIC,sistema elétrico,corretiva,2026-07-05,79442,79942,500,PitStop 01,783.52,4.4,completed,attention,attention,ok,attention
+MNT0177,CUST0330,VEH0030,CONTR0330,SYNTHETIC,alinhamento,preventiva,2026-09-18,67183,67683,500,Oficina Leste,2612.77,5.2,completed,ok,attention,attention,ok
+MNT0178,CUST0175,VEH0075,CONTR0175,SYNTHETIC,alinhamento,preventiva,2025-10-04,26786,27786,1000,Oficina Norte,3377.83,3.9,cancelled,ok,ok,ok,ok
+MNT0179,CUST0496,VEH0096,CONTR0496,SYNTHETIC,alinhamento,preventiva,2026-08-05,20122,21622,1500,Oficina Sul,872.33,4.1,completed,ok,ok,ok,attention
+MNT0180,CUST0425,VEH0025,CONTR0425,SYNTHETIC,sistema elétrico,corretiva,2025-11-14,79442,84442,5000,Oficina Centro,2422.52,4.8,completed,ok,attention,ok,ok
+MNT0181,CUST0010,VEH0010,CONTR0010,SYNTHETIC,troca de óleo,preventiva,2026-10-07,37375,38375,1000,PitStop 02,,3.6,scheduled,attention,ok,ok,attention
+MNT0182,CUST0073,VEH0073,CONTR0073,SYNTHETIC,revisão periódica,preventiva,2026-03-31,6628,7628,1000,PitStop 02,3249.06,2.2,completed,ok,ok,ok,attention
+MNT0183,CUST0275,VEH0075,CONTR0275,SYNTHETIC,revisão periódica,preventiva,2026-08-07,65306,67806,2500,Oficina Norte,444.0,2.4,completed,ok,ok,ok,attention
+MNT0184,CUST0379,VEH0079,CONTR0379,SYNTHETIC,pneus,preventiva,2025-10-21,43939,44939,1000,PitStop 01,463.49,3.4,completed,ok,attention,ok,attention
+MNT0185,CUST0423,VEH0023,CONTR0423,SYNTHETIC,sistema elétrico,corretiva,2025-11-29,57555,58555,1000,PitStop 02,2848.56,5.5,cancelled,attention,attention,attention,ok
+MNT0186,CUST0005,VEH0005,CONTR0005,SYNTHETIC,bateria 12V,preventiva,2025-11-19,25764,30764,5000,Oficina Norte,1962.51,3.5,completed,ok,ok,ok,ok
+MNT0187,CUST0312,VEH0012,CONTR0312,SYNTHETIC,diagnóstico,corretiva,2026-12-03,76166,78666,2500,PitStop 01,,5.5,scheduled,attention,ok,ok,ok
+MNT0188,CUST0487,VEH0087,CONTR0487,SYNTHETIC,troca de óleo,preventiva,2026-04-24,9104,11604,2500,Oficina Leste,792.82,3.2,cancelled,ok,attention,ok,attention
+MNT0189,CUST0230,VEH0030,CONTR0230,SYNTHETIC,troca de óleo,preventiva,2026-07-24,81912,82412,500,Oficina Centro,831.46,5.6,completed,ok,attention,ok,ok
+MNT0190,CUST0303,VEH0003,CONTR0303,SYNTHETIC,revisão periódica,preventiva,2025-11-03,13400,15900,2500,Oficina Norte,2623.93,2.5,completed,ok,ok,ok,attention
+MNT0191,CUST0052,VEH0052,CONTR0052,SYNTHETIC,freios,preventiva,2026-06-06,18685,21185,2500,Oficina Sul,2906.21,5.3,cancelled,ok,ok,ok,ok
+MNT0192,CUST0195,VEH0095,CONTR0195,SYNTHETIC,alinhamento,preventiva,2026-11-10,23379,23879,500,PitStop 01,,3.7,scheduled,ok,ok,ok,ok
+MNT0193,CUST0492,VEH0092,CONTR0492,SYNTHETIC,revisão periódica,preventiva,2026-01-11,15024,15524,500,PitStop 01,3440.84,2.5,completed,attention,ok,ok,ok
+MNT0194,CUST0082,VEH0082,CONTR0082,SYNTHETIC,revisão periódica,preventiva,2026-10-07,74673,77173,2500,Oficina Leste,,2.4,scheduled,ok,ok,ok,attention
+MNT0195,CUST0046,VEH0046,CONTR0046,SYNTHETIC,freios,preventiva,2025-12-28,22954,27954,5000,Oficina Norte,1211.32,3.2,completed,ok,attention,attention,attention
+MNT0196,CUST0334,VEH0034,CONTR0334,SYNTHETIC,freios,preventiva,2026-12-08,31517,32517,1000,Oficina Sul,,5.6,scheduled,ok,ok,ok,ok
+MNT0197,CUST0354,VEH0054,CONTR0354,SYNTHETIC,bateria 12V,preventiva,2026-09-01,31743,32243,500,PitStop 02,1814.16,4.9,completed,ok,ok,ok,ok
+MNT0198,CUST0280,VEH0080,CONTR0280,SYNTHETIC,freios,preventiva,2026-12-16,18535,21035,2500,PitStop 01,,1.5,pending,ok,attention,attention,ok
+MNT0199,CUST0339,VEH0039,CONTR0339,SYNTHETIC,pneus,preventiva,2026-10-04,41778,46778,5000,Oficina Sul,,3.5,pending,attention,ok,attention,ok
+MNT0200,CUST0033,VEH0033,CONTR0033,SYNTHETIC,sistema elétrico,corretiva,2026-12-21,38280,39780,1500,Oficina Sul,,2.8,scheduled,attention,ok,ok,ok
+MNT0201,CUST0378,VEH0078,CONTR0378,SYNTHETIC,bateria 12V,preventiva,2026-04-04,71235,71735,500,Oficina Centro,3110.39,2.6,cancelled,ok,attention,ok,ok
+MNT0202,CUST0122,VEH0022,CONTR0122,SYNTHETIC,sistema elétrico,corretiva,2026-11-12,34570,36070,1500,Oficina Norte,,2.3,scheduled,attention,ok,ok,ok
+MNT0203,CUST0407,VEH0007,CONTR0407,SYNTHETIC,freios,preventiva,2026-12-10,76512,81512,5000,Oficina Leste,,4.4,pending,ok,ok,ok,ok
+MNT0204,CUST0138,VEH0038,CONTR0138,SYNTHETIC,alinhamento,preventiva,2026-12-19,36075,41075,5000,PitStop 02,,1.7,scheduled,attention,ok,attention,ok
+MNT0205,CUST0245,VEH0045,CONTR0245,SYNTHETIC,revisão periódica,preventiva,2026-06-13,66957,68457,1500,PitStop 02,1147.14,3.2,cancelled,ok,ok,ok,ok
+MNT0206,CUST0319,VEH0019,CONTR0319,SYNTHETIC,bateria 12V,preventiva,2026-12-23,42810,44310,1500,PitStop 02,,2.3,pending,attention,ok,ok,attention
+MNT0207,CUST0101,VEH0001,CONTR0101,SYNTHETIC,diagnóstico,corretiva,2026-02-17,34366,35866,1500,Oficina Centro,711.94,1.6,completed,ok,attention,ok,ok
+MNT0208,CUST0250,VEH0050,CONTR0250,SYNTHETIC,diagnóstico,corretiva,2026-05-17,8454,13454,5000,Oficina Centro,1199.47,5.6,cancelled,ok,attention,ok,ok
+MNT0209,CUST0113,VEH0013,CONTR0113,SYNTHETIC,freios,preventiva,2026-07-20,48613,49113,500,PitStop 02,1632.08,4.7,completed,ok,ok,ok,ok
+MNT0210,CUST0283,VEH0083,CONTR0283,SYNTHETIC,freios,preventiva,2026-11-20,45317,46817,1500,Oficina Centro,,2.9,scheduled,ok,attention,attention,attention
+MNT0211,CUST0119,VEH0019,CONTR0119,SYNTHETIC,bateria 12V,preventiva,2026-11-26,66443,66943,500,Oficina Leste,,2.4,scheduled,attention,ok,ok,attention
+MNT0212,CUST0465,VEH0065,CONTR0465,SYNTHETIC,sistema elétrico,corretiva,2025-12-04,17259,22259,5000,Oficina Leste,2299.28,2.5,cancelled,ok,ok,ok,attention
+MNT0213,CUST0086,VEH0086,CONTR0086,SYNTHETIC,alinhamento,preventiva,2025-10-11,56023,58523,2500,Oficina Centro,2043.13,1.1,completed,attention,ok,attention,ok
+MNT0214,CUST0203,VEH0003,CONTR0203,SYNTHETIC,pneus,preventiva,2026-07-21,68945,69445,500,PitStop 01,2001.76,1.5,completed,ok,ok,ok,ok
+MNT0215,CUST0253,VEH0053,CONTR0253,SYNTHETIC,alinhamento,preventiva,2026-06-04,38166,39166,1000,Oficina Sul,265.58,5.0,cancelled,ok,ok,ok,ok
+MNT0216,CUST0371,VEH0071,CONTR0371,SYNTHETIC,pneus,preventiva,2026-12-27,51639,54139,2500,PitStop 01,,1.5,scheduled,ok,attention,ok,ok
+MNT0217,CUST0194,VEH0094,CONTR0194,SYNTHETIC,sistema elétrico,corretiva,2025-12-05,18045,19045,1000,PitStop 01,1541.74,5.9,cancelled,attention,ok,attention,attention
+MNT0218,CUST0422,VEH0022,CONTR0422,SYNTHETIC,sistema elétrico,corretiva,2026-10-28,11516,12516,1000,PitStop 01,,2.3,scheduled,ok,ok,ok,attention
+MNT0219,CUST0018,VEH0018,CONTR0018,SYNTHETIC,pneus,preventiva,2026-08-04,37277,38777,1500,Oficina Leste,2089.22,1.1,completed,ok,attention,attention,ok
+MNT0220,CUST0393,VEH0093,CONTR0393,SYNTHETIC,troca de óleo,preventiva,2026-04-20,21019,21519,500,Oficina Leste,1117.96,3.9,completed,attention,attention,ok,ok
+MNT0221,CUST0364,VEH0064,CONTR0364,SYNTHETIC,freios,preventiva,2026-06-19,54407,56907,2500,PitStop 02,3113.33,5.5,cancelled,ok,ok,attention,ok
+MNT0222,CUST0410,VEH0010,CONTR0410,SYNTHETIC,diagnóstico,corretiva,2026-12-25,71703,72203,500,Oficina Sul,,3.1,pending,attention,ok,attention,ok
+MNT0223,CUST0493,VEH0093,CONTR0493,SYNTHETIC,freios,preventiva,2026-10-19,20342,25342,5000,Oficina Centro,,4.4,pending,attention,ok,ok,ok
+MNT0224,CUST0476,VEH0076,CONTR0476,SYNTHETIC,sistema elétrico,corretiva,2026-10-24,73028,74028,1000,PitStop 02,,3.6,pending,ok,attention,attention,ok
+MNT0225,CUST0100,VEH0100,CONTR0100,SYNTHETIC,pneus,preventiva,2026-10-21,73195,73695,500,Oficina Leste,,5.9,scheduled,attention,ok,ok,ok
+MNT0226,CUST0486,VEH0086,CONTR0486,SYNTHETIC,alinhamento,preventiva,2025-12-12,73049,74549,1500,Oficina Leste,2924.47,4.2,completed,attention,ok,ok,ok
+MNT0227,CUST0398,VEH0098,CONTR0398,SYNTHETIC,diagnóstico,corretiva,2025-12-10,51720,54220,2500,PitStop 01,1719.16,2.8,cancelled,ok,ok,ok,attention
+MNT0228,CUST0395,VEH0095,CONTR0395,SYNTHETIC,diagnóstico,corretiva,2025-11-20,75628,76128,500,Oficina Leste,1927.65,4.5,completed,attention,ok,attention,ok
+MNT0229,CUST0362,VEH0062,CONTR0362,SYNTHETIC,bateria 12V,preventiva,2026-03-11,73526,74526,1000,Oficina Norte,531.45,4.8,completed,ok,attention,ok,ok
+MNT0230,CUST0378,VEH0078,CONTR0378,SYNTHETIC,alinhamento,preventiva,2026-03-02,71235,72235,1000,Oficina Norte,334.21,5.1,completed,ok,ok,attention,attention
+MNT0231,CUST0166,VEH0066,CONTR0166,SYNTHETIC,bateria 12V,preventiva,2026-04-04,30793,33293,2500,PitStop 01,2432.47,5.4,completed,ok,ok,ok,attention
+MNT0232,CUST0428,VEH0028,CONTR0428,SYNTHETIC,sistema elétrico,corretiva,2026-10-18,65417,66917,1500,Oficina Centro,,3.2,pending,attention,ok,ok,ok
+MNT0233,CUST0009,VEH0009,CONTR0009,SYNTHETIC,troca de óleo,preventiva,2026-11-06,46454,47954,1500,Oficina Leste,,2.5,pending,attention,attention,attention,ok
+MNT0234,CUST0115,VEH0015,CONTR0115,SYNTHETIC,alinhamento,preventiva,2026-02-16,37628,38128,500,Oficina Sul,1603.73,5.4,completed,ok,attention,ok,ok
+MNT0235,CUST0160,VEH0060,CONTR0160,SYNTHETIC,pneus,preventiva,2026-06-21,54549,55549,1000,PitStop 01,1521.63,5.5,completed,attention,attention,ok,ok
+MNT0236,CUST0394,VEH0094,CONTR0394,SYNTHETIC,freios,preventiva,2026-05-28,29031,34031,5000,Oficina Centro,2617.21,1.3,completed,ok,attention,ok,attention
+MNT0237,CUST0111,VEH0011,CONTR0111,SYNTHETIC,diagnóstico,corretiva,2026-10-19,46869,51869,5000,PitStop 01,,4.4,pending,ok,attention,ok,ok
+MNT0238,CUST0110,VEH0010,CONTR0110,SYNTHETIC,sistema elétrico,corretiva,2026-11-04,14807,15307,500,Oficina Norte,,2.5,scheduled,ok,ok,ok,ok
+MNT0239,CUST0449,VEH0049,CONTR0449,SYNTHETIC,alinhamento,preventiva,2026-05-08,7848,8348,500,Oficina Centro,1060.54,3.7,cancelled,attention,attention,ok,attention
+MNT0240,CUST0285,VEH0085,CONTR0285,SYNTHETIC,troca de óleo,preventiva,2026-01-22,43089,45589,2500,PitStop 02,3492.98,5.2,cancelled,ok,attention,ok,ok
+MNT0241,CUST0131,VEH0031,CONTR0131,SYNTHETIC,pneus,preventiva,2026-12-27,27759,29259,1500,Oficina Sul,,3.8,pending,ok,ok,ok,ok
+MNT0242,CUST0001,VEH0001,CONTR0001,SYNTHETIC,pneus,preventiva,2025-10-23,76265,77265,1000,PitStop 02,909.81,5.8,completed,ok,attention,ok,ok
+MNT0243,CUST0483,VEH0083,CONTR0483,SYNTHETIC,pneus,preventiva,2026-03-02,37699,38699,1000,Oficina Leste,1270.48,1.9,completed,ok,attention,ok,ok
+MNT0244,CUST0187,VEH0087,CONTR0187,SYNTHETIC,freios,preventiva,2026-12-26,48445,53445,5000,Oficina Leste,,3.7,pending,ok,attention,attention,attention
+MNT0245,CUST0298,VEH0098,CONTR0298,SYNTHETIC,diagnóstico,corretiva,2026-05-24,67915,70415,2500,Oficina Leste,3041.24,1.9,cancelled,ok,attention,ok,attention
+MNT0246,CUST0080,VEH0080,CONTR0080,SYNTHETIC,pneus,preventiva,2026-08-07,85846,88346,2500,Oficina Sul,923.04,6.0,cancelled,attention,attention,attention,ok
+MNT0247,CUST0437,VEH0037,CONTR0437,SYNTHETIC,sistema elétrico,corretiva,2026-06-01,36877,37877,1000,Oficina Centro,2692.81,1.7,completed,ok,ok,attention,ok
+MNT0248,CUST0283,VEH0083,CONTR0283,SYNTHETIC,troca de óleo,preventiva,2025-10-02,45317,45817,500,Oficina Norte,1203.46,5.3,cancelled,ok,ok,attention,ok
+MNT0249,CUST0471,VEH0071,CONTR0471,SYNTHETIC,sistema elétrico,corretiva,2026-12-03,70706,71706,1000,Oficina Centro,,2.3,scheduled,ok,ok,ok,ok
+MNT0250,CUST0464,VEH0064,CONTR0464,SYNTHETIC,troca de óleo,preventiva,2026-12-12,52620,53620,1000,Oficina Sul,,4.3,scheduled,attention,attention,ok,ok
+MNT0251,CUST0274,VEH0074,CONTR0274,SYNTHETIC,bateria 12V,preventiva,2026-12-27,41010,42510,1500,Oficina Sul,,1.9,pending,ok,ok,ok,ok
+MNT0252,CUST0406,VEH0006,CONTR0406,SYNTHETIC,freios,preventiva,2026-12-04,38630,39130,500,PitStop 02,,3.0,pending,ok,attention,attention,attention
+MNT0253,CUST0234,VEH0034,CONTR0234,SYNTHETIC,pneus,preventiva,2026-11-20,13718,14218,500,PitStop 01,,1.9,scheduled,ok,attention,attention,ok
+MNT0254,CUST0010,VEH0010,CONTR0010,SYNTHETIC,alinhamento,preventiva,2026-08-20,37375,39875,2500,PitStop 02,3241.81,2.3,completed,ok,attention,ok,ok
+MNT0255,CUST0445,VEH0045,CONTR0445,SYNTHETIC,pneus,preventiva,2025-10-20,15899,18399,2500,PitStop 02,1615.65,4.9,completed,ok,ok,ok,ok
+MNT0256,CUST0136,VEH0036,CONTR0136,SYNTHETIC,diagnóstico,corretiva,2025-12-26,18016,20516,2500,Oficina Leste,904.18,1.1,cancelled,ok,ok,ok,ok
+MNT0257,CUST0437,VEH0037,CONTR0437,SYNTHETIC,sistema elétrico,corretiva,2025-10-04,36877,41877,5000,Oficina Centro,1748.64,2.9,completed,ok,attention,ok,attention
+MNT0258,CUST0124,VEH0024,CONTR0124,SYNTHETIC,troca de óleo,preventiva,2025-10-07,11948,12448,500,Oficina Norte,2162.12,3.6,cancelled,ok,ok,attention,ok
+MNT0259,CUST0136,VEH0036,CONTR0136,SYNTHETIC,freios,preventiva,2026-12-06,18016,18516,500,PitStop 02,,1.6,pending,ok,attention,ok,ok
+MNT0260,CUST0140,VEH0040,CONTR0140,SYNTHETIC,freios,preventiva,2026-04-08,47752,48252,500,Oficina Leste,2934.73,4.3,completed,ok,ok,attention,attention
+MNT0261,CUST0029,VEH0029,CONTR0029,SYNTHETIC,troca de óleo,preventiva,2026-12-05,64207,69207,5000,Oficina Leste,,3.4,pending,attention,ok,attention,attention
+MNT0262,CUST0498,VEH0098,CONTR0498,SYNTHETIC,sistema elétrico,corretiva,2026-11-27,65880,67380,1500,Oficina Centro,,4.9,scheduled,ok,attention,ok,ok
+MNT0263,CUST0109,VEH0009,CONTR0109,SYNTHETIC,alinhamento,preventiva,2026-11-02,68504,69504,1000,Oficina Sul,,3.5,pending,ok,ok,attention,ok
+MNT0264,CUST0100,VEH0100,CONTR0100,SYNTHETIC,troca de óleo,preventiva,2026-09-05,73195,78195,5000,PitStop 02,2313.51,2.2,cancelled,attention,ok,ok,ok
+MNT0265,CUST0409,VEH0009,CONTR0409,SYNTHETIC,alinhamento,preventiva,2026-11-29,77753,79253,1500,Oficina Centro,,1.5,scheduled,ok,attention,ok,ok
+MNT0266,CUST0205,VEH0005,CONTR0205,SYNTHETIC,troca de óleo,preventiva,2026-11-14,60836,61836,1000,Oficina Centro,,1.6,pending,ok,ok,attention,ok
+MNT0267,CUST0447,VEH0047,CONTR0447,SYNTHETIC,troca de óleo,preventiva,2026-12-13,30982,31982,1000,Oficina Sul,,3.7,scheduled,ok,ok,ok,ok
+MNT0268,CUST0043,VEH0043,CONTR0043,SYNTHETIC,alinhamento,preventiva,2026-11-13,63777,65277,1500,Oficina Centro,,2.7,scheduled,attention,ok,attention,ok
+MNT0269,CUST0146,VEH0046,CONTR0146,SYNTHETIC,alinhamento,preventiva,2026-11-28,46519,47019,500,PitStop 01,,5.9,scheduled,ok,attention,attention,ok
+MNT0270,CUST0065,VEH0065,CONTR0065,SYNTHETIC,troca de óleo,preventiva,2026-12-08,63607,68607,5000,Oficina Leste,,5.0,pending,ok,attention,attention,ok
+MNT0271,CUST0497,VEH0097,CONTR0497,SYNTHETIC,freios,preventiva,2026-12-21,49178,50678,1500,Oficina Norte,,4.7,pending,attention,ok,ok,attention
+MNT0272,CUST0346,VEH0046,CONTR0346,SYNTHETIC,revisão periódica,preventiva,2026-04-28,69793,74793,5000,Oficina Norte,1867.98,2.9,completed,attention,attention,ok,ok
+MNT0273,CUST0421,VEH0021,CONTR0421,SYNTHETIC,bateria 12V,preventiva,2026-06-08,74735,77235,2500,Oficina Norte,328.73,1.3,cancelled,attention,ok,ok,ok
+MNT0274,CUST0317,VEH0017,CONTR0317,SYNTHETIC,troca de óleo,preventiva,2026-10-31,58048,59548,1500,Oficina Centro,,1.1,scheduled,ok,ok,ok,ok
+MNT0275,CUST0112,VEH0012,CONTR0112,SYNTHETIC,troca de óleo,preventiva,2026-03-04,46571,47571,1000,Oficina Centro,410.45,4.1,completed,ok,ok,ok,ok
+MNT0276,CUST0442,VEH0042,CONTR0442,SYNTHETIC,troca de óleo,preventiva,2025-10-01,29624,30624,1000,Oficina Centro,1937.54,3.1,completed,ok,ok,ok,ok
+MNT0277,CUST0040,VEH0040,CONTR0040,SYNTHETIC,bateria 12V,preventiva,2026-07-04,52264,53264,1000,PitStop 02,1642.31,5.9,cancelled,attention,ok,ok,ok
+MNT0278,CUST0039,VEH0039,CONTR0039,SYNTHETIC,diagnóstico,corretiva,2026-11-06,40725,45725,5000,Oficina Sul,,2.3,scheduled,attention,ok,ok,ok
+MNT0279,CUST0084,VEH0084,CONTR0084,SYNTHETIC,diagnóstico,corretiva,2026-01-20,13895,16395,2500,Oficina Norte,1125.43,5.9,cancelled,ok,ok,ok,ok
+MNT0280,CUST0458,VEH0058,CONTR0458,SYNTHETIC,alinhamento,preventiva,2026-12-29,76020,77520,1500,Oficina Norte,,4.5,scheduled,attention,ok,ok,attention
+MNT0281,CUST0235,VEH0035,CONTR0235,SYNTHETIC,bateria 12V,preventiva,2026-10-07,35986,38486,2500,Oficina Leste,,3.1,pending,ok,attention,ok,ok
+MNT0282,CUST0449,VEH0049,CONTR0449,SYNTHETIC,bateria 12V,preventiva,2025-11-04,7848,8848,1000,PitStop 02,3103.1,2.6,cancelled,ok,attention,ok,attention
+MNT0283,CUST0453,VEH0053,CONTR0453,SYNTHETIC,troca de óleo,preventiva,2026-02-13,49311,50311,1000,Oficina Sul,2692.18,2.2,completed,ok,ok,attention,ok
+MNT0284,CUST0273,VEH0073,CONTR0273,SYNTHETIC,sistema elétrico,corretiva,2026-09-18,14021,15521,1500,PitStop 01,1063.16,3.7,completed,ok,ok,ok,ok
+MNT0285,CUST0306,VEH0006,CONTR0306,SYNTHETIC,revisão periódica,preventiva,2026-11-30,16986,17986,1000,Oficina Centro,,4.7,scheduled,ok,ok,attention,ok
+MNT0286,CUST0263,VEH0063,CONTR0263,SYNTHETIC,revisão periódica,preventiva,2026-09-21,59834,60834,1000,Oficina Centro,3230.24,4.5,cancelled,attention,ok,ok,ok
+MNT0287,CUST0475,VEH0075,CONTR0475,SYNTHETIC,revisão periódica,preventiva,2026-10-19,43800,46300,2500,PitStop 01,,2.8,scheduled,attention,ok,ok,attention
+MNT0288,CUST0046,VEH0046,CONTR0046,SYNTHETIC,alinhamento,preventiva,2026-12-08,22954,24454,1500,Oficina Norte,,4.1,scheduled,attention,attention,attention,attention
+MNT0289,CUST0449,VEH0049,CONTR0449,SYNTHETIC,troca de óleo,preventiva,2026-12-07,7848,12848,5000,Oficina Leste,,3.3,pending,ok,ok,ok,ok
+MNT0290,CUST0139,VEH0039,CONTR0139,SYNTHETIC,freios,preventiva,2026-12-05,21010,22010,1000,Oficina Centro,,5.7,pending,attention,attention,ok,ok
+MNT0291,CUST0280,VEH0080,CONTR0280,SYNTHETIC,pneus,preventiva,2026-10-31,18535,23535,5000,PitStop 01,,5.5,scheduled,attention,attention,attention,attention
+MNT0292,CUST0483,VEH0083,CONTR0483,SYNTHETIC,alinhamento,preventiva,2026-01-30,37699,40199,2500,PitStop 02,3226.2,4.1,completed,ok,ok,attention,ok
+MNT0293,CUST0420,VEH0020,CONTR0420,SYNTHETIC,troca de óleo,preventiva,2026-03-20,36635,37635,1000,Oficina Leste,2038.87,2.6,cancelled,attention,ok,ok,ok
+MNT0294,CUST0486,VEH0086,CONTR0486,SYNTHETIC,alinhamento,preventiva,2026-11-10,73049,74549,1500,Oficina Centro,,3.7,scheduled,ok,attention,attention,attention
+MNT0295,CUST0026,VEH0026,CONTR0026,SYNTHETIC,alinhamento,preventiva,2026-01-13,60625,65625,5000,PitStop 01,1102.71,3.9,completed,ok,attention,attention,ok
+MNT0296,CUST0377,VEH0077,CONTR0377,SYNTHETIC,troca de óleo,preventiva,2026-04-26,74932,79932,5000,PitStop 02,945.72,5.9,cancelled,ok,ok,ok,ok
+MNT0297,CUST0452,VEH0052,CONTR0452,SYNTHETIC,sistema elétrico,corretiva,2026-10-07,19168,24168,5000,Oficina Leste,,2.1,pending,attention,attention,attention,ok
+MNT0298,CUST0384,VEH0084,CONTR0384,SYNTHETIC,sistema elétrico,corretiva,2025-12-09,67548,68048,500,PitStop 01,2664.5,1.5,completed,ok,ok,ok,ok
+MNT0299,CUST0494,VEH0094,CONTR0494,SYNTHETIC,bateria 12V,preventiva,2026-09-17,56096,56596,500,Oficina Leste,3300.32,4.0,completed,ok,ok,ok,attention
+MNT0300,CUST0411,VEH0011,CONTR0411,SYNTHETIC,freios,preventiva,2026-10-28,24601,27101,2500,Oficina Sul,,1.4,scheduled,ok,attention,ok,ok
+MNT0301,CUST0076,VEH0076,CONTR0076,SYNTHETIC,bateria 12V,preventiva,2026-10-23,68732,73732,5000,PitStop 02,,4.9,scheduled,ok,ok,ok,ok
+MNT0302,CUST0106,VEH0006,CONTR0106,SYNTHETIC,freios,preventiva,2026-03-21,11791,13291,1500,Oficina Leste,2604.47,4.0,completed,attention,attention,ok,ok
+MNT0303,CUST0309,VEH0009,CONTR0309,SYNTHETIC,sistema elétrico,corretiva,2026-02-05,78069,83069,5000,PitStop 01,2997.05,5.6,completed,attention,ok,ok,ok
+MNT0304,CUST0420,VEH0020,CONTR0420,SYNTHETIC,pneus,preventiva,2026-07-31,36635,38135,1500,Oficina Centro,763.04,5.9,cancelled,ok,ok,attention,attention
+MNT0305,CUST0471,VEH0071,CONTR0471,SYNTHETIC,sistema elétrico,corretiva,2025-11-15,70706,71206,500,PitStop 01,1695.13,4.9,completed,ok,ok,ok,ok
+MNT0306,CUST0433,VEH0033,CONTR0433,SYNTHETIC,revisão periódica,preventiva,2026-10-16,77504,78504,1000,Oficina Sul,,5.2,pending,ok,attention,attention,ok
+MNT0307,CUST0431,VEH0031,CONTR0431,SYNTHETIC,troca de óleo,preventiva,2026-10-06,33722,34722,1000,Oficina Norte,,4.2,scheduled,ok,ok,ok,ok
+MNT0308,CUST0008,VEH0008,CONTR0008,SYNTHETIC,pneus,preventiva,2026-11-09,33766,34266,500,PitStop 02,,1.5,pending,ok,ok,ok,ok
+MNT0309,CUST0172,VEH0072,CONTR0172,SYNTHETIC,alinhamento,preventiva,2025-12-27,33410,33910,500,Oficina Sul,1378.27,5.0,completed,attention,ok,ok,ok
+MNT0310,CUST0124,VEH0024,CONTR0124,SYNTHETIC,alinhamento,preventiva,2026-01-31,11948,13448,1500,Oficina Leste,1503.98,4.8,cancelled,ok,ok,ok,ok
+MNT0311,CUST0256,VEH0056,CONTR0256,SYNTHETIC,sistema elétrico,corretiva,2026-11-29,67545,68545,1000,Oficina Centro,,4.8,scheduled,ok,attention,ok,ok
+MNT0312,CUST0497,VEH0097,CONTR0497,SYNTHETIC,sistema elétrico,corretiva,2026-11-19,49178,49678,500,PitStop 02,,4.6,scheduled,ok,ok,ok,ok
+MNT0313,CUST0429,VEH0029,CONTR0429,SYNTHETIC,sistema elétrico,corretiva,2025-10-13,44697,45197,500,Oficina Norte,496.62,5.9,completed,ok,attention,ok,attention
+MNT0314,CUST0078,VEH0078,CONTR0078,SYNTHETIC,diagnóstico,corretiva,2025-10-18,47914,52914,5000,Oficina Norte,3189.14,4.3,completed,ok,attention,attention,attention
+MNT0315,CUST0119,VEH0019,CONTR0119,SYNTHETIC,revisão periódica,preventiva,2026-03-16,66443,67943,1500,Oficina Leste,1334.01,4.6,completed,attention,attention,ok,ok
+MNT0316,CUST0351,VEH0051,CONTR0351,SYNTHETIC,troca de óleo,preventiva,2026-07-20,33457,34957,1500,Oficina Sul,350.48,4.4,completed,attention,attention,attention,attention
+MNT0317,CUST0051,VEH0051,CONTR0051,SYNTHETIC,alinhamento,preventiva,2026-12-20,67288,67788,500,PitStop 01,,2.9,scheduled,attention,ok,attention,attention
+MNT0318,CUST0228,VEH0028,CONTR0228,SYNTHETIC,alinhamento,preventiva,2026-11-23,13553,15053,1500,Oficina Leste,,3.7,pending,attention,attention,ok,attention
+MNT0319,CUST0131,VEH0031,CONTR0131,SYNTHETIC,freios,preventiva,2026-11-20,27759,28259,500,PitStop 02,,4.8,scheduled,ok,attention,attention,attention
+MNT0320,CUST0403,VEH0003,CONTR0403,SYNTHETIC,sistema elétrico,corretiva,2026-12-12,14408,15908,1500,Oficina Norte,,1.2,pending,attention,ok,attention,attention
+MNT0321,CUST0443,VEH0043,CONTR0443,SYNTHETIC,troca de óleo,preventiva,2025-12-02,61724,63224,1500,Oficina Centro,3182.19,1.1,cancelled,ok,ok,ok,attention
+MNT0322,CUST0222,VEH0022,CONTR0222,SYNTHETIC,sistema elétrico,corretiva,2025-12-28,64929,67429,2500,Oficina Norte,1480.15,2.1,completed,attention,ok,ok,ok
+MNT0323,CUST0483,VEH0083,CONTR0483,SYNTHETIC,alinhamento,preventiva,2026-04-29,37699,38199,500,Oficina Centro,1754.18,4.0,cancelled,attention,ok,ok,ok
+MNT0324,CUST0327,VEH0027,CONTR0327,SYNTHETIC,diagnóstico,corretiva,2026-07-18,51213,52713,1500,Oficina Centro,1938.91,5.7,completed,ok,attention,ok,attention
+MNT0325,CUST0366,VEH0066,CONTR0366,SYNTHETIC,diagnóstico,corretiva,2026-01-19,65444,67944,2500,Oficina Norte,3116.38,3.4,cancelled,attention,ok,ok,ok
+MNT0326,CUST0231,VEH0031,CONTR0231,SYNTHETIC,freios,preventiva,2026-12-24,31676,32676,1000,Oficina Sul,,1.7,pending,ok,ok,attention,ok
+MNT0327,CUST0006,VEH0006,CONTR0006,SYNTHETIC,bateria 12V,preventiva,2026-11-14,44706,45206,500,PitStop 02,,3.3,pending,attention,ok,ok,attention
+MNT0328,CUST0470,VEH0070,CONTR0470,SYNTHETIC,troca de óleo,preventiva,2026-02-01,69188,71688,2500,Oficina Norte,2102.01,2.2,cancelled,ok,ok,attention,attention
+MNT0329,CUST0365,VEH0065,CONTR0365,SYNTHETIC,troca de óleo,preventiva,2026-10-05,30851,35851,5000,Oficina Norte,,3.9,scheduled,ok,ok,ok,attention
+MNT0330,CUST0452,VEH0052,CONTR0452,SYNTHETIC,freios,preventiva,2026-04-04,19168,21668,2500,PitStop 01,3198.74,5.6,cancelled,ok,attention,ok,ok
+MNT0331,CUST0035,VEH0035,CONTR0035,SYNTHETIC,pneus,preventiva,2026-11-05,46403,48903,2500,Oficina Sul,,1.5,pending,ok,ok,attention,ok
+MNT0332,CUST0196,VEH0096,CONTR0196,SYNTHETIC,bateria 12V,preventiva,2026-04-15,72504,73504,1000,PitStop 02,345.46,2.4,cancelled,ok,attention,attention,ok
+MNT0333,CUST0354,VEH0054,CONTR0354,SYNTHETIC,bateria 12V,preventiva,2026-11-05,31743,32743,1000,PitStop 01,,3.9,scheduled,ok,ok,attention,ok
+MNT0334,CUST0248,VEH0048,CONTR0248,SYNTHETIC,diagnóstico,corretiva,2026-12-17,19633,20133,500,Oficina Centro,,5.5,pending,attention,ok,ok,attention
+MNT0335,CUST0122,VEH0022,CONTR0122,SYNTHETIC,diagnóstico,corretiva,2025-12-12,34570,39570,5000,PitStop 01,663.02,3.2,completed,attention,ok,attention,attention
+MNT0336,CUST0476,VEH0076,CONTR0476,SYNTHETIC,pneus,preventiva,2026-11-07,73028,75528,2500,Oficina Sul,,3.0,scheduled,ok,ok,attention,attention
+MNT0337,CUST0350,VEH0050,CONTR0350,SYNTHETIC,diagnóstico,corretiva,2026-10-04,56612,59112,2500,Oficina Centro,,1.0,pending,ok,ok,ok,ok
+MNT0338,CUST0351,VEH0051,CONTR0351,SYNTHETIC,alinhamento,preventiva,2026-02-15,33457,34457,1000,Oficina Norte,975.71,3.8,cancelled,attention,ok,ok,ok
+MNT0339,CUST0157,VEH0057,CONTR0157,SYNTHETIC,diagnóstico,corretiva,2026-11-20,53178,55678,2500,PitStop 02,,4.9,pending,ok,attention,attention,attention
+MNT0340,CUST0303,VEH0003,CONTR0303,SYNTHETIC,revisão periódica,preventiva,2026-12-27,13400,14400,1000,PitStop 01,,5.5,pending,attention,ok,ok,ok
+MNT0341,CUST0353,VEH0053,CONTR0353,SYNTHETIC,diagnóstico,corretiva,2026-12-12,63737,64737,1000,Oficina Norte,,1.8,scheduled,ok,ok,ok,attention
+MNT0342,CUST0185,VEH0085,CONTR0185,SYNTHETIC,bateria 12V,preventiva,2025-10-12,13188,18188,5000,PitStop 01,330.1,1.8,completed,ok,ok,ok,ok
+MNT0343,CUST0143,VEH0043,CONTR0143,SYNTHETIC,freios,preventiva,2026-12-27,23688,25188,1500,Oficina Centro,,5.5,scheduled,attention,attention,ok,attention
+MNT0344,CUST0377,VEH0077,CONTR0377,SYNTHETIC,pneus,preventiva,2025-12-31,74932,76432,1500,Oficina Centro,2988.63,5.3,completed,ok,ok,ok,ok
+MNT0345,CUST0147,VEH0047,CONTR0147,SYNTHETIC,diagnóstico,corretiva,2026-12-25,24699,29699,5000,Oficina Norte,,4.5,scheduled,ok,ok,ok,ok
+MNT0346,CUST0213,VEH0013,CONTR0213,SYNTHETIC,revisão periódica,preventiva,2026-03-05,68589,69089,500,Oficina Sul,765.47,3.4,completed,ok,ok,ok,ok
+MNT0347,CUST0148,VEH0048,CONTR0148,SYNTHETIC,diagnóstico,corretiva,2026-10-24,47295,48295,1000,Oficina Sul,,3.1,scheduled,ok,ok,attention,ok
+MNT0348,CUST0140,VEH0040,CONTR0140,SYNTHETIC,diagnóstico,corretiva,2026-12-11,47752,49252,1500,Oficina Centro,,1.3,pending,ok,attention,ok,ok
+MNT0349,CUST0210,VEH0010,CONTR0210,SYNTHETIC,pneus,preventiva,2025-12-25,61410,63910,2500,Oficina Leste,643.18,2.9,cancelled,attention,ok,attention,ok
+MNT0350,CUST0288,VEH0088,CONTR0288,SYNTHETIC,troca de óleo,preventiva,2026-10-21,43315,43815,500,PitStop 01,,3.2,scheduled,ok,ok,attention,ok
+MNT0351,CUST0337,VEH0037,CONTR0337,SYNTHETIC,pneus,preventiva,2026-11-16,22535,24035,1500,PitStop 01,,3.7,pending,attention,ok,ok,ok
+MNT0352,CUST0470,VEH0070,CONTR0470,SYNTHETIC,diagnóstico,corretiva,2026-01-22,69188,70688,1500,PitStop 02,620.93,1.4,completed,ok,ok,ok,ok
+MNT0353,CUST0346,VEH0046,CONTR0346,SYNTHETIC,sistema elétrico,corretiva,2026-06-21,69793,70293,500,Oficina Centro,3245.33,2.2,completed,ok,attention,ok,ok
+MNT0354,CUST0396,VEH0096,CONTR0396,SYNTHETIC,sistema elétrico,corretiva,2025-12-20,15092,15592,500,Oficina Centro,1094.02,1.0,completed,ok,ok,attention,ok
+MNT0355,CUST0146,VEH0046,CONTR0146,SYNTHETIC,diagnóstico,corretiva,2026-11-12,46519,48019,1500,Oficina Sul,,2.6,pending,ok,ok,attention,ok
+MNT0356,CUST0224,VEH0024,CONTR0224,SYNTHETIC,diagnóstico,corretiva,2026-08-18,64055,65555,1500,Oficina Leste,298.36,4.8,completed,attention,ok,attention,ok
+MNT0357,CUST0428,VEH0028,CONTR0428,SYNTHETIC,sistema elétrico,corretiva,2026-12-13,65417,66917,1500,PitStop 02,,1.4,pending,ok,attention,ok,attention
+MNT0358,CUST0283,VEH0083,CONTR0283,SYNTHETIC,troca de óleo,preventiva,2026-12-30,45317,46817,1500,PitStop 02,,1.2,scheduled,ok,attention,ok,ok
+MNT0359,CUST0400,VEH0100,CONTR0400,SYNTHETIC,freios,preventiva,2026-12-22,16744,18244,1500,PitStop 02,,2.7,pending,ok,attention,ok,ok
+MNT0360,CUST0496,VEH0096,CONTR0496,SYNTHETIC,sistema elétrico,corretiva,2026-12-08,20122,20622,500,Oficina Sul,,1.4,pending,ok,ok,ok,ok
+MNT0361,CUST0429,VEH0029,CONTR0429,SYNTHETIC,alinhamento,preventiva,2026-10-27,44697,45697,1000,Oficina Leste,,4.7,scheduled,ok,attention,attention,attention
+MNT0362,CUST0459,VEH0059,CONTR0459,SYNTHETIC,diagnóstico,corretiva,2026-10-16,86719,89219,2500,Oficina Sul,,1.3,pending,attention,ok,ok,ok
+MNT0363,CUST0355,VEH0055,CONTR0355,SYNTHETIC,pneus,preventiva,2025-10-31,73259,73759,500,Oficina Sul,2590.95,1.7,completed,ok,ok,ok,ok
+MNT0364,CUST0267,VEH0067,CONTR0267,SYNTHETIC,troca de óleo,preventiva,2025-12-25,49891,52391,2500,PitStop 02,1406.74,1.7,cancelled,attention,ok,ok,ok
+MNT0365,CUST0230,VEH0030,CONTR0230,SYNTHETIC,diagnóstico,corretiva,2026-05-07,81912,82412,500,Oficina Leste,347.27,4.4,completed,ok,attention,attention,attention
+MNT0366,CUST0466,VEH0066,CONTR0466,SYNTHETIC,bateria 12V,preventiva,2026-03-29,21172,26172,5000,Oficina Leste,777.71,3.5,completed,attention,ok,attention,ok
+MNT0367,CUST0423,VEH0023,CONTR0423,SYNTHETIC,diagnóstico,corretiva,2026-03-04,57555,58555,1000,Oficina Centro,2113.91,3.0,completed,attention,ok,attention,attention
+MNT0368,CUST0363,VEH0063,CONTR0363,SYNTHETIC,diagnóstico,corretiva,2026-05-13,71014,71514,500,PitStop 02,2772.43,5.2,completed,attention,attention,attention,ok
+MNT0369,CUST0180,VEH0080,CONTR0180,SYNTHETIC,sistema elétrico,corretiva,2026-10-10,62940,63440,500,PitStop 01,,2.9,pending,ok,attention,attention,attention
+MNT0370,CUST0417,VEH0017,CONTR0417,SYNTHETIC,diagnóstico,corretiva,2026-04-17,57662,60162,2500,PitStop 01,1925.64,1.5,completed,attention,ok,attention,ok
+MNT0371,CUST0152,VEH0052,CONTR0152,SYNTHETIC,troca de óleo,preventiva,2026-12-10,13189,15689,2500,Oficina Sul,,1.7,scheduled,ok,ok,ok,attention
+MNT0372,CUST0466,VEH0066,CONTR0466,SYNTHETIC,diagnóstico,corretiva,2026-11-28,21172,22172,1000,PitStop 01,,4.7,scheduled,ok,attention,attention,attention
+MNT0373,CUST0025,VEH0025,CONTR0025,SYNTHETIC,bateria 12V,preventiva,2026-06-05,66208,66708,500,Oficina Sul,2984.7,5.4,completed,ok,ok,attention,attention
+MNT0374,CUST0269,VEH0069,CONTR0269,SYNTHETIC,alinhamento,preventiva,2026-06-09,48807,50307,1500,Oficina Leste,899.75,2.0,cancelled,ok,ok,ok,attention
+MNT0375,CUST0330,VEH0030,CONTR0330,SYNTHETIC,pneus,preventiva,2026-01-04,67183,68183,1000,PitStop 01,2051.56,2.7,completed,ok,attention,ok,attention
+MNT0376,CUST0043,VEH0043,CONTR0043,SYNTHETIC,diagnóstico,corretiva,2025-10-23,63777,66277,2500,PitStop 01,3317.41,4.9,completed,ok,ok,ok,ok
+MNT0377,CUST0037,VEH0037,CONTR0037,SYNTHETIC,pneus,preventiva,2026-05-09,80225,85225,5000,Oficina Norte,451.41,3.4,completed,ok,ok,ok,attention
+MNT0378,CUST0112,VEH0012,CONTR0112,SYNTHETIC,sistema elétrico,corretiva,2026-12-10,46571,48071,1500,Oficina Norte,,3.5,scheduled,attention,attention,attention,attention
+MNT0379,CUST0164,VEH0064,CONTR0164,SYNTHETIC,troca de óleo,preventiva,2026-11-22,32018,33018,1000,PitStop 01,,2.5,pending,ok,ok,ok,ok
+MNT0380,CUST0141,VEH0041,CONTR0141,SYNTHETIC,sistema elétrico,corretiva,2026-11-27,55178,60178,5000,PitStop 01,,5.4,pending,ok,ok,attention,ok
+MNT0381,CUST0478,VEH0078,CONTR0478,SYNTHETIC,bateria 12V,preventiva,2026-12-16,21607,22107,500,Oficina Centro,,1.0,pending,ok,attention,attention,attention
+MNT0382,CUST0376,VEH0076,CONTR0376,SYNTHETIC,diagnóstico,corretiva,2026-10-29,23115,24615,1500,Oficina Centro,,3.9,pending,attention,ok,ok,ok
+MNT0383,CUST0455,VEH0055,CONTR0455,SYNTHETIC,freios,preventiva,2026-04-09,9437,10937,1500,Oficina Sul,797.04,2.9,cancelled,ok,ok,attention,ok
+MNT0384,CUST0486,VEH0086,CONTR0486,SYNTHETIC,freios,preventiva,2026-02-02,73049,74549,1500,Oficina Leste,2509.42,3.7,completed,attention,ok,ok,attention
+MNT0385,CUST0024,VEH0024,CONTR0024,SYNTHETIC,freios,preventiva,2026-12-03,10715,13215,2500,Oficina Norte,,4.7,scheduled,ok,attention,attention,ok
+MNT0386,CUST0310,VEH0010,CONTR0310,SYNTHETIC,freios,preventiva,2026-10-12,24657,26157,1500,PitStop 01,,5.6,pending,attention,attention,attention,attention
+MNT0387,CUST0160,VEH0060,CONTR0160,SYNTHETIC,sistema elétrico,corretiva,2026-12-18,54549,55549,1000,Oficina Sul,,4.7,scheduled,ok,ok,ok,ok
+MNT0388,CUST0459,VEH0059,CONTR0459,SYNTHETIC,bateria 12V,preventiva,2026-10-06,86719,88219,1500,PitStop 02,,1.7,scheduled,attention,ok,attention,ok
+MNT0389,CUST0118,VEH0018,CONTR0118,SYNTHETIC,revisão periódica,preventiva,2026-12-12,81082,82082,1000,Oficina Sul,,4.2,scheduled,ok,ok,ok,ok
+MNT0390,CUST0476,VEH0076,CONTR0476,SYNTHETIC,bateria 12V,preventiva,2025-10-13,73028,74028,1000,Oficina Sul,1230.81,5.8,completed,ok,attention,ok,attention
+MNT0391,CUST0408,VEH0008,CONTR0408,SYNTHETIC,pneus,preventiva,2026-03-22,22759,24259,1500,Oficina Sul,2924.68,5.1,completed,ok,attention,ok,attention
+MNT0392,CUST0144,VEH0044,CONTR0144,SYNTHETIC,freios,preventiva,2026-11-10,66801,67801,1000,PitStop 02,,5.1,pending,ok,ok,ok,ok
+MNT0393,CUST0386,VEH0086,CONTR0386,SYNTHETIC,alinhamento,preventiva,2026-09-01,58245,63245,5000,Oficina Sul,2072.18,5.8,completed,ok,attention,ok,ok
+MNT0394,CUST0334,VEH0034,CONTR0334,SYNTHETIC,alinhamento,preventiva,2026-05-20,31517,36517,5000,Oficina Norte,2962.78,3.1,completed,ok,ok,attention,attention
+MNT0395,CUST0154,VEH0054,CONTR0154,SYNTHETIC,alinhamento,preventiva,2025-10-15,9500,14500,5000,PitStop 02,2348.21,2.7,completed,ok,ok,ok,attention
+MNT0396,CUST0180,VEH0080,CONTR0180,SYNTHETIC,sistema elétrico,corretiva,2026-12-21,62940,65440,2500,Oficina Leste,,3.5,pending,ok,ok,ok,ok
+MNT0397,CUST0026,VEH0026,CONTR0026,SYNTHETIC,troca de óleo,preventiva,2026-04-27,60625,61625,1000,Oficina Centro,1282.12,6.0,completed,attention,attention,ok,ok
+MNT0398,CUST0458,VEH0058,CONTR0458,SYNTHETIC,sistema elétrico,corretiva,2026-07-30,76020,81020,5000,PitStop 01,2998.3,3.8,completed,ok,ok,attention,ok
+MNT0399,CUST0420,VEH0020,CONTR0420,SYNTHETIC,revisão periódica,preventiva,2025-12-10,36635,37635,1000,PitStop 01,3373.64,3.0,cancelled,attention,ok,ok,ok
+MNT0400,CUST0274,VEH0074,CONTR0274,SYNTHETIC,alinhamento,preventiva,2026-12-14,41010,43510,2500,Oficina Sul,,2.7,pending,ok,ok,attention,attention
+MNT0401,CUST0124,VEH0024,CONTR0124,SYNTHETIC,pneus,preventiva,2026-06-19,11948,12448,500,PitStop 02,1980.43,3.3,cancelled,ok,ok,attention,ok
+MNT0402,CUST0392,VEH0092,CONTR0392,SYNTHETIC,pneus,preventiva,2025-12-07,23242,28242,5000,Oficina Sul,810.72,3.9,completed,ok,ok,ok,ok
+MNT0403,CUST0053,VEH0053,CONTR0053,SYNTHETIC,troca de óleo,preventiva,2026-10-26,82924,83924,1000,PitStop 01,,2.6,scheduled,ok,ok,ok,ok
+MNT0404,CUST0104,VEH0004,CONTR0104,SYNTHETIC,sistema elétrico,corretiva,2025-10-15,47908,50408,2500,Oficina Leste,3088.69,1.9,cancelled,attention,attention,ok,ok
+MNT0405,CUST0090,VEH0090,CONTR0090,SYNTHETIC,troca de óleo,preventiva,2026-04-18,65697,66697,1000,PitStop 01,2237.02,2.2,completed,attention,ok,attention,ok
+MNT0406,CUST0170,VEH0070,CONTR0170,SYNTHETIC,bateria 12V,preventiva,2026-12-01,57044,57544,500,Oficina Norte,,4.2,pending,attention,attention,ok,ok
+MNT0407,CUST0326,VEH0026,CONTR0326,SYNTHETIC,pneus,preventiva,2026-10-05,12188,13188,1000,Oficina Leste,,2.7,scheduled,ok,attention,attention,ok
+MNT0408,CUST0374,VEH0074,CONTR0374,SYNTHETIC,alinhamento,preventiva,2026-06-02,29791,31291,1500,Oficina Sul,2445.75,5.9,completed,ok,attention,ok,ok
+MNT0409,CUST0154,VEH0054,CONTR0154,SYNTHETIC,diagnóstico,corretiva,2026-10-29,9500,10000,500,Oficina Centro,,3.9,pending,attention,attention,ok,ok
+MNT0410,CUST0410,VEH0010,CONTR0410,SYNTHETIC,troca de óleo,preventiva,2025-11-25,71703,74203,2500,PitStop 01,1994.13,5.0,completed,attention,ok,ok,ok
+MNT0411,CUST0400,VEH0100,CONTR0400,SYNTHETIC,pneus,preventiva,2026-12-17,16744,18244,1500,Oficina Norte,,3.1,pending,ok,ok,ok,ok
+MNT0412,CUST0232,VEH0032,CONTR0232,SYNTHETIC,pneus,preventiva,2026-05-15,75857,78357,2500,Oficina Leste,302.66,3.6,cancelled,attention,ok,ok,ok
+MNT0413,CUST0435,VEH0035,CONTR0435,SYNTHETIC,troca de óleo,preventiva,2025-12-28,16426,16926,500,PitStop 01,431.1,3.1,completed,ok,ok,ok,attention
+MNT0414,CUST0136,VEH0036,CONTR0136,SYNTHETIC,sistema elétrico,corretiva,2026-10-16,18016,19016,1000,PitStop 02,,1.7,scheduled,attention,attention,ok,attention
+MNT0415,CUST0058,VEH0058,CONTR0058,SYNTHETIC,sistema elétrico,corretiva,2026-10-13,74633,77133,2500,Oficina Centro,,2.9,pending,attention,ok,ok,ok
+MNT0416,CUST0273,VEH0073,CONTR0273,SYNTHETIC,troca de óleo,preventiva,2026-05-25,14021,14521,500,PitStop 02,581.4,4.5,completed,attention,ok,attention,ok
+MNT0417,CUST0449,VEH0049,CONTR0449,SYNTHETIC,alinhamento,preventiva,2026-08-13,7848,10348,2500,Oficina Norte,3119.71,1.8,completed,attention,attention,attention,ok
+MNT0418,CUST0212,VEH0012,CONTR0212,SYNTHETIC,bateria 12V,preventiva,2025-12-03,20713,21713,1000,PitStop 02,1594.08,5.0,completed,ok,attention,attention,attention
+MNT0419,CUST0422,VEH0022,CONTR0422,SYNTHETIC,pneus,preventiva,2026-10-29,11516,12016,500,PitStop 01,,3.1,scheduled,attention,ok,attention,attention
+MNT0420,CUST0058,VEH0058,CONTR0058,SYNTHETIC,diagnóstico,corretiva,2026-03-08,74633,76133,1500,PitStop 02,2334.31,5.2,completed,ok,ok,ok,ok
+MNT0421,CUST0168,VEH0068,CONTR0168,SYNTHETIC,alinhamento,preventiva,2025-12-31,37349,37849,500,PitStop 01,367.78,1.8,completed,attention,ok,ok,ok
+MNT0422,CUST0282,VEH0082,CONTR0282,SYNTHETIC,alinhamento,preventiva,2026-05-19,45267,50267,5000,Oficina Leste,2881.88,3.4,completed,ok,ok,attention,ok
+MNT0423,CUST0145,VEH0045,CONTR0145,SYNTHETIC,freios,preventiva,2026-07-09,60289,61789,1500,Oficina Sul,2227.86,4.0,completed,ok,ok,ok,ok
+MNT0424,CUST0341,VEH0041,CONTR0341,SYNTHETIC,diagnóstico,corretiva,2026-07-30,41802,44302,2500,PitStop 01,1280.44,2.8,completed,ok,ok,ok,ok
+MNT0425,CUST0259,VEH0059,CONTR0259,SYNTHETIC,sistema elétrico,corretiva,2026-12-20,25575,28075,2500,Oficina Leste,,2.1,scheduled,attention,ok,ok,attention
+MNT0426,CUST0200,VEH0100,CONTR0200,SYNTHETIC,bateria 12V,preventiva,2026-01-01,50001,50501,500,PitStop 01,1159.08,3.9,completed,attention,attention,attention,ok
+MNT0427,CUST0207,VEH0007,CONTR0207,SYNTHETIC,bateria 12V,preventiva,2026-11-14,81746,82746,1000,Oficina Centro,,5.8,pending,attention,ok,attention,ok
+MNT0428,CUST0321,VEH0021,CONTR0321,SYNTHETIC,sistema elétrico,corretiva,2026-12-09,57474,58474,1000,Oficina Sul,,1.6,scheduled,ok,attention,ok,attention
+MNT0429,CUST0190,VEH0090,CONTR0190,SYNTHETIC,diagnóstico,corretiva,2026-11-14,43121,44621,1500,Oficina Sul,,3.5,scheduled,ok,attention,ok,attention
+MNT0430,CUST0332,VEH0032,CONTR0332,SYNTHETIC,troca de óleo,preventiva,2026-03-16,73832,75332,1500,Oficina Leste,1357.12,3.6,completed,attention,ok,ok,attention
+MNT0431,CUST0354,VEH0054,CONTR0354,SYNTHETIC,bateria 12V,preventiva,2026-10-19,31743,32243,500,Oficina Sul,,1.5,scheduled,ok,ok,attention,ok
+MNT0432,CUST0312,VEH0012,CONTR0312,SYNTHETIC,pneus,preventiva,2026-12-28,76166,77166,1000,Oficina Sul,,3.8,pending,ok,attention,ok,ok
+MNT0433,CUST0384,VEH0084,CONTR0384,SYNTHETIC,freios,preventiva,2026-11-28,67548,68548,1000,Oficina Leste,,1.2,scheduled,attention,ok,attention,ok
+MNT0434,CUST0275,VEH0075,CONTR0275,SYNTHETIC,sistema elétrico,corretiva,2026-10-28,65306,67806,2500,PitStop 02,,4.4,pending,ok,ok,ok,ok
+MNT0435,CUST0152,VEH0052,CONTR0152,SYNTHETIC,diagnóstico,corretiva,2026-10-10,13189,15689,2500,Oficina Norte,,5.5,scheduled,ok,attention,ok,attention
+MNT0436,CUST0021,VEH0021,CONTR0021,SYNTHETIC,revisão periódica,preventiva,2026-05-15,18551,23551,5000,Oficina Centro,1571.85,5.2,cancelled,attention,attention,attention,ok
+MNT0437,CUST0033,VEH0033,CONTR0033,SYNTHETIC,diagnóstico,corretiva,2025-10-23,38280,38780,500,Oficina Leste,3265.74,5.9,completed,attention,ok,attention,attention
+MNT0438,CUST0318,VEH0018,CONTR0318,SYNTHETIC,freios,preventiva,2026-01-27,45712,46712,1000,Oficina Centro,3090.55,4.6,completed,attention,ok,attention,attention
+MNT0439,CUST0124,VEH0024,CONTR0124,SYNTHETIC,sistema elétrico,corretiva,2025-10-02,11948,13448,1500,Oficina Norte,1387.13,5.4,completed,attention,ok,attention,attention
+MNT0440,CUST0176,VEH0076,CONTR0176,SYNTHETIC,pneus,preventiva,2026-11-02,69846,72346,2500,PitStop 01,,5.5,scheduled,ok,attention,ok,attention
+MNT0441,CUST0189,VEH0089,CONTR0189,SYNTHETIC,sistema elétrico,corretiva,2025-10-28,65319,66819,1500,Oficina Sul,3437.65,3.6,completed,ok,ok,ok,ok
+MNT0442,CUST0428,VEH0028,CONTR0428,SYNTHETIC,alinhamento,preventiva,2026-12-07,65417,66917,1500,Oficina Norte,,2.5,pending,attention,ok,ok,ok
+MNT0443,CUST0462,VEH0062,CONTR0462,SYNTHETIC,troca de óleo,preventiva,2025-12-10,22168,22668,500,Oficina Norte,1160.95,2.1,completed,attention,ok,ok,attention
+MNT0444,CUST0030,VEH0030,CONTR0030,SYNTHETIC,pneus,preventiva,2026-12-01,51228,52728,1500,Oficina Norte,,4.3,scheduled,ok,ok,ok,ok
+MNT0445,CUST0121,VEH0021,CONTR0121,SYNTHETIC,sistema elétrico,corretiva,2026-12-01,14969,16469,1500,PitStop 01,,3.5,pending,ok,attention,ok,attention
+MNT0446,CUST0091,VEH0091,CONTR0091,SYNTHETIC,alinhamento,preventiva,2026-05-06,23780,24780,1000,Oficina Centro,2803.6,3.1,completed,ok,attention,attention,ok
+MNT0447,CUST0487,VEH0087,CONTR0487,SYNTHETIC,troca de óleo,preventiva,2026-06-17,9104,11604,2500,Oficina Centro,2950.29,3.4,cancelled,attention,ok,ok,attention
+MNT0448,CUST0278,VEH0078,CONTR0278,SYNTHETIC,revisão periódica,preventiva,2026-12-01,43677,44177,500,Oficina Sul,,4.9,pending,attention,ok,ok,ok
+MNT0449,CUST0381,VEH0081,CONTR0381,SYNTHETIC,sistema elétrico,corretiva,2026-02-26,68086,73086,5000,Oficina Centro,1321.57,2.2,completed,ok,ok,attention,attention
+MNT0450,CUST0382,VEH0082,CONTR0382,SYNTHETIC,freios,preventiva,2025-10-13,58739,61239,2500,PitStop 02,274.38,3.1,completed,ok,ok,ok,attention
+MNT0451,CUST0406,VEH0006,CONTR0406,SYNTHETIC,troca de óleo,preventiva,2026-11-03,38630,41130,2500,PitStop 02,,3.1,pending,ok,ok,ok,attention
+MNT0452,CUST0397,VEH0097,CONTR0397,SYNTHETIC,sistema elétrico,corretiva,2026-10-24,80088,85088,5000,Oficina Norte,,5.9,scheduled,ok,attention,ok,ok
+MNT0453,CUST0261,VEH0061,CONTR0261,SYNTHETIC,sistema elétrico,corretiva,2026-05-21,20895,21395,500,PitStop 01,3444.88,3.3,completed,ok,ok,attention,ok
+MNT0454,CUST0482,VEH0082,CONTR0482,SYNTHETIC,bateria 12V,preventiva,2026-12-01,56039,58539,2500,Oficina Leste,,3.9,scheduled,ok,ok,ok,ok
+MNT0455,CUST0473,VEH0073,CONTR0473,SYNTHETIC,revisão periódica,preventiva,2026-10-30,47559,48559,1000,Oficina Sul,,2.7,scheduled,ok,attention,ok,attention
+MNT0456,CUST0160,VEH0060,CONTR0160,SYNTHETIC,sistema elétrico,corretiva,2026-12-18,54549,55049,500,Oficina Sul,,1.9,pending,ok,ok,ok,ok
+MNT0457,CUST0402,VEH0002,CONTR0402,SYNTHETIC,alinhamento,preventiva,2026-12-20,70052,71052,1000,PitStop 02,,2.1,scheduled,ok,ok,attention,ok
+MNT0458,CUST0487,VEH0087,CONTR0487,SYNTHETIC,bateria 12V,preventiva,2026-05-12,9104,9604,500,PitStop 01,1819.59,3.7,cancelled,attention,ok,attention,ok
+MNT0459,CUST0463,VEH0063,CONTR0463,SYNTHETIC,diagnóstico,corretiva,2026-11-27,71987,72487,500,Oficina Sul,,5.7,pending,ok,ok,attention,ok
+MNT0460,CUST0286,VEH0086,CONTR0286,SYNTHETIC,revisão periódica,preventiva,2025-10-21,70368,75368,5000,PitStop 01,2065.33,1.5,cancelled,ok,attention,ok,attention
+MNT0461,CUST0385,VEH0085,CONTR0385,SYNTHETIC,bateria 12V,preventiva,2026-10-22,13834,14834,1000,Oficina Leste,,2.4,pending,ok,ok,ok,attention
+MNT0462,CUST0171,VEH0071,CONTR0171,SYNTHETIC,pneus,preventiva,2026-08-01,20089,22589,2500,Oficina Sul,2131.19,1.7,cancelled,ok,ok,ok,ok
+MNT0463,CUST0418,VEH0018,CONTR0418,SYNTHETIC,revisão periódica,preventiva,2026-11-15,69670,72170,2500,Oficina Leste,,3.0,scheduled,ok,ok,attention,ok
+MNT0464,CUST0027,VEH0027,CONTR0027,SYNTHETIC,sistema elétrico,corretiva,2026-06-06,15753,16753,1000,Oficina Sul,2800.31,5.1,completed,attention,ok,ok,ok
+MNT0465,CUST0366,VEH0066,CONTR0366,SYNTHETIC,pneus,preventiva,2025-10-22,65444,67944,2500,Oficina Centro,708.1,2.7,cancelled,attention,ok,ok,ok
+MNT0466,CUST0327,VEH0027,CONTR0327,SYNTHETIC,bateria 12V,preventiva,2025-12-14,51213,52713,1500,PitStop 01,2022.54,5.1,completed,attention,ok,ok,attention
+MNT0467,CUST0405,VEH0005,CONTR0405,SYNTHETIC,bateria 12V,preventiva,2026-07-28,69874,74874,5000,Oficina Norte,482.13,3.4,completed,ok,ok,attention,ok
+MNT0468,CUST0252,VEH0052,CONTR0252,SYNTHETIC,troca de óleo,preventiva,2026-11-14,39133,39633,500,PitStop 02,,1.1,scheduled,ok,attention,ok,ok
+MNT0469,CUST0275,VEH0075,CONTR0275,SYNTHETIC,bateria 12V,preventiva,2026-03-17,65306,67806,2500,Oficina Centro,963.69,2.0,completed,attention,attention,attention,ok
+MNT0470,CUST0115,VEH0015,CONTR0115,SYNTHETIC,freios,preventiva,2026-10-12,37628,39128,1500,PitStop 01,,4.9,scheduled,ok,attention,ok,ok
+MNT0471,CUST0119,VEH0019,CONTR0119,SYNTHETIC,troca de óleo,preventiva,2025-12-12,66443,67943,1500,Oficina Norte,3489.84,5.8,completed,ok,attention,attention,ok
+MNT0472,CUST0168,VEH0068,CONTR0168,SYNTHETIC,pneus,preventiva,2026-07-24,37349,38349,1000,PitStop 01,1951.33,2.4,completed,ok,ok,ok,attention
+MNT0473,CUST0287,VEH0087,CONTR0287,SYNTHETIC,revisão periódica,preventiva,2026-05-07,15395,20395,5000,Oficina Centro,613.45,1.9,cancelled,ok,ok,ok,ok
+MNT0474,CUST0497,VEH0097,CONTR0497,SYNTHETIC,diagnóstico,corretiva,2025-12-12,49178,50178,1000,Oficina Sul,344.67,4.1,cancelled,attention,ok,ok,ok
+MNT0475,CUST0373,VEH0073,CONTR0373,SYNTHETIC,troca de óleo,preventiva,2026-06-20,20436,25436,5000,PitStop 01,2461.67,4.1,cancelled,attention,ok,ok,ok
+MNT0476,CUST0495,VEH0095,CONTR0495,SYNTHETIC,revisão periódica,preventiva,2026-11-06,72869,75369,2500,Oficina Norte,,5.3,scheduled,attention,attention,ok,attention
+MNT0477,CUST0335,VEH0035,CONTR0335,SYNTHETIC,bateria 12V,preventiva,2025-12-01,30448,30948,500,PitStop 01,1530.03,5.0,completed,ok,ok,ok,ok
+MNT0478,CUST0427,VEH0027,CONTR0427,SYNTHETIC,freios,preventiva,2026-11-06,22868,23368,500,Oficina Leste,,5.3,pending,ok,ok,ok,ok
+MNT0479,CUST0183,VEH0083,CONTR0183,SYNTHETIC,sistema elétrico,corretiva,2026-12-10,73016,78016,5000,Oficina Leste,,1.3,pending,ok,ok,ok,attention
+MNT0480,CUST0463,VEH0063,CONTR0463,SYNTHETIC,freios,preventiva,2026-02-02,71987,76987,5000,Oficina Leste,3166.66,5.8,completed,ok,attention,ok,ok
+MNT0481,CUST0096,VEH0096,CONTR0096,SYNTHETIC,sistema elétrico,corretiva,2025-11-03,56369,57869,1500,Oficina Sul,1800.25,2.1,completed,ok,ok,ok,ok
+MNT0482,CUST0490,VEH0090,CONTR0490,SYNTHETIC,pneus,preventiva,2026-07-09,74636,79636,5000,Oficina Leste,1365.09,4.4,cancelled,attention,ok,ok,attention
+MNT0483,CUST0101,VEH0001,CONTR0101,SYNTHETIC,bateria 12V,preventiva,2026-02-04,34366,35366,1000,PitStop 02,3146.96,1.0,cancelled,ok,ok,attention,ok
+MNT0484,CUST0187,VEH0087,CONTR0187,SYNTHETIC,sistema elétrico,corretiva,2026-03-08,48445,50945,2500,Oficina Norte,2782.56,1.5,completed,ok,ok,attention,ok
+MNT0485,CUST0025,VEH0025,CONTR0025,SYNTHETIC,troca de óleo,preventiva,2026-06-20,66208,67708,1500,Oficina Norte,1698.11,6.0,completed,ok,attention,ok,attention
+MNT0486,CUST0189,VEH0089,CONTR0189,SYNTHETIC,revisão periódica,preventiva,2026-02-09,65319,66319,1000,Oficina Norte,1043.15,2.9,completed,attention,ok,attention,attention
+MNT0487,CUST0338,VEH0038,CONTR0338,SYNTHETIC,pneus,preventiva,2026-03-11,15172,16672,1500,Oficina Centro,631.28,2.2,completed,attention,ok,ok,ok
+MNT0488,CUST0345,VEH0045,CONTR0345,SYNTHETIC,diagnóstico,corretiva,2025-12-07,76182,77682,1500,Oficina Norte,758.93,3.1,completed,ok,attention,attention,ok
+MNT0489,CUST0224,VEH0024,CONTR0224,SYNTHETIC,alinhamento,preventiva,2026-11-06,64055,65055,1000,Oficina Leste,,4.9,scheduled,ok,attention,attention,ok
+MNT0490,CUST0190,VEH0090,CONTR0190,SYNTHETIC,troca de óleo,preventiva,2026-05-31,43121,44621,1500,Oficina Norte,3359.86,5.8,cancelled,ok,ok,ok,ok
+MNT0491,CUST0100,VEH0100,CONTR0100,SYNTHETIC,alinhamento,preventiva,2026-12-22,73195,74695,1500,Oficina Leste,,5.6,pending,attention,attention,ok,ok
+MNT0492,CUST0488,VEH0088,CONTR0488,SYNTHETIC,pneus,preventiva,2026-11-30,33239,38239,5000,PitStop 01,,3.7,pending,attention,ok,ok,ok
+MNT0493,CUST0059,VEH0059,CONTR0059,SYNTHETIC,troca de óleo,preventiva,2025-12-03,81354,81854,500,Oficina Sul,806.0,2.7,completed,attention,attention,ok,attention
+MNT0494,CUST0436,VEH0036,CONTR0436,SYNTHETIC,revisão periódica,preventiva,2026-08-01,34288,36788,2500,PitStop 01,477.86,1.2,completed,ok,ok,attention,attention
+MNT0495,CUST0476,VEH0076,CONTR0476,SYNTHETIC,revisão periódica,preventiva,2026-12-05,73028,74528,1500,Oficina Leste,,2.2,pending,ok,attention,attention,ok
+MNT0496,CUST0228,VEH0028,CONTR0228,SYNTHETIC,pneus,preventiva,2026-12-12,13553,14053,500,Oficina Centro,,3.9,scheduled,ok,ok,ok,ok
+MNT0497,CUST0286,VEH0086,CONTR0286,SYNTHETIC,diagnóstico,corretiva,2026-10-16,70368,70868,500,Oficina Norte,,1.8,pending,ok,ok,attention,ok
+MNT0498,CUST0359,VEH0059,CONTR0359,SYNTHETIC,troca de óleo,preventiva,2025-10-16,16327,18827,2500,Oficina Leste,3298.16,5.2,completed,ok,attention,ok,attention
+MNT0499,CUST0041,VEH0041,CONTR0041,SYNTHETIC,freios,preventiva,2026-04-13,40509,41509,1000,Oficina Centro,915.17,4.4,completed,ok,ok,attention,ok
+MNT0500,CUST0116,VEH0016,CONTR0116,SYNTHETIC,freios,preventiva,2026-04-28,46844,47844,1000,Oficina Norte,1578.9,2.3,completed,ok,ok,ok,attention
+MNT0501,CUST0054,VEH0054,CONTR0054,SYNTHETIC,sistema elétrico,corretiva,2026-06-27,32308,37308,5000,Oficina Centro,1165.04,2.3,completed,ok,ok,attention,ok
+MNT0502,CUST0393,VEH0093,CONTR0393,SYNTHETIC,freios,preventiva,2026-10-30,21019,23519,2500,Oficina Centro,,3.2,pending,ok,attention,attention,attention
+MNT0503,CUST0010,VEH0010,CONTR0010,SYNTHETIC,alinhamento,preventiva,2026-10-05,37375,38375,1000,Oficina Sul,,5.8,pending,ok,ok,attention,attention
+MNT0504,CUST0152,VEH0052,CONTR0152,SYNTHETIC,sistema elétrico,corretiva,2026-11-28,13189,13689,500,Oficina Centro,,1.7,scheduled,ok,attention,ok,attention
+MNT0505,CUST0310,VEH0010,CONTR0310,SYNTHETIC,diagnóstico,corretiva,2026-12-03,24657,29657,5000,Oficina Centro,,6.0,pending,ok,ok,ok,attention
+MNT0506,CUST0026,VEH0026,CONTR0026,SYNTHETIC,pneus,preventiva,2026-11-11,60625,65625,5000,PitStop 01,,3.2,scheduled,ok,ok,ok,attention
+MNT0507,CUST0203,VEH0003,CONTR0203,SYNTHETIC,sistema elétrico,corretiva,2026-11-23,68945,69445,500,Oficina Leste,,1.8,scheduled,attention,ok,ok,ok
+MNT0508,CUST0388,VEH0088,CONTR0388,SYNTHETIC,alinhamento,preventiva,2026-12-23,49422,49922,500,PitStop 01,,5.3,scheduled,attention,attention,attention,ok
+MNT0509,CUST0441,VEH0041,CONTR0441,SYNTHETIC,freios,preventiva,2026-05-30,78219,83219,5000,Oficina Leste,2704.55,3.2,completed,ok,ok,ok,ok
+MNT0510,CUST0377,VEH0077,CONTR0377,SYNTHETIC,pneus,preventiva,2026-06-29,74932,76432,1500,Oficina Sul,1229.2,5.5,completed,attention,ok,attention,ok
+MNT0511,CUST0447,VEH0047,CONTR0447,SYNTHETIC,freios,preventiva,2026-12-27,30982,33482,2500,Oficina Leste,,3.8,scheduled,attention,ok,ok,attention
+MNT0512,CUST0202,VEH0002,CONTR0202,SYNTHETIC,freios,preventiva,2026-10-03,51993,53493,1500,Oficina Centro,,2.6,scheduled,attention,attention,attention,ok
+MNT0513,CUST0418,VEH0018,CONTR0418,SYNTHETIC,bateria 12V,preventiva,2026-11-30,69670,74670,5000,PitStop 02,,5.1,pending,ok,ok,ok,attention
+MNT0514,CUST0435,VEH0035,CONTR0435,SYNTHETIC,diagnóstico,corretiva,2026-03-07,16426,17926,1500,PitStop 01,1428.38,3.1,cancelled,attention,attention,ok,attention
+MNT0515,CUST0010,VEH0010,CONTR0010,SYNTHETIC,revisão periódica,preventiva,2026-11-13,37375,37875,500,PitStop 02,,2.9,pending,ok,ok,ok,ok
+MNT0516,CUST0339,VEH0039,CONTR0339,SYNTHETIC,alinhamento,preventiva,2026-12-29,41778,44278,2500,Oficina Sul,,4.4,scheduled,ok,attention,ok,attention
+MNT0517,CUST0461,VEH0061,CONTR0461,SYNTHETIC,alinhamento,preventiva,2026-11-12,81544,83044,1500,PitStop 01,,2.8,scheduled,ok,attention,attention,ok
+MNT0518,CUST0288,VEH0088,CONTR0288,SYNTHETIC,troca de óleo,preventiva,2026-09-04,43315,44815,1500,PitStop 01,2981.22,1.2,cancelled,ok,ok,ok,ok
+MNT0519,CUST0453,VEH0053,CONTR0453,SYNTHETIC,diagnóstico,corretiva,2026-11-30,49311,54311,5000,Oficina Leste,,3.0,scheduled,attention,attention,ok,ok
+MNT0520,CUST0156,VEH0056,CONTR0156,SYNTHETIC,troca de óleo,preventiva,2026-01-14,40222,41722,1500,Oficina Leste,381.22,4.4,cancelled,ok,attention,ok,ok
+MNT0521,CUST0203,VEH0003,CONTR0203,SYNTHETIC,alinhamento,preventiva,2026-02-02,68945,69445,500,Oficina Norte,1067.53,4.4,completed,attention,attention,ok,ok
+MNT0522,CUST0110,VEH0010,CONTR0110,SYNTHETIC,diagnóstico,corretiva,2026-06-10,14807,17307,2500,Oficina Norte,2062.72,4.7,cancelled,attention,ok,ok,attention
+MNT0523,CUST0109,VEH0009,CONTR0109,SYNTHETIC,diagnóstico,corretiva,2026-02-22,68504,71004,2500,Oficina Sul,1164.72,5.6,cancelled,attention,ok,ok,attention
+MNT0524,CUST0056,VEH0056,CONTR0056,SYNTHETIC,sistema elétrico,corretiva,2026-01-22,47877,48877,1000,PitStop 02,590.85,1.5,cancelled,ok,ok,ok,ok
+MNT0525,CUST0340,VEH0040,CONTR0340,SYNTHETIC,diagnóstico,corretiva,2026-01-25,79337,80337,1000,Oficina Sul,1759.28,4.5,completed,ok,ok,attention,ok
+MNT0526,CUST0090,VEH0090,CONTR0090,SYNTHETIC,sistema elétrico,corretiva,2026-10-24,65697,70697,5000,PitStop 02,,3.7,pending,ok,ok,ok,attention
+MNT0527,CUST0412,VEH0012,CONTR0412,SYNTHETIC,pneus,preventiva,2026-12-07,14819,16319,1500,Oficina Sul,,6.0,pending,attention,attention,attention,ok
+MNT0528,CUST0012,VEH0012,CONTR0012,SYNTHETIC,alinhamento,preventiva,2026-04-19,24365,29365,5000,Oficina Norte,2353.07,2.5,completed,ok,ok,ok,ok
+MNT0529,CUST0143,VEH0043,CONTR0143,SYNTHETIC,bateria 12V,preventiva,2025-12-06,23688,26188,2500,Oficina Norte,3077.53,5.0,completed,ok,attention,ok,attention
+MNT0530,CUST0166,VEH0066,CONTR0166,SYNTHETIC,sistema elétrico,corretiva,2025-11-30,30793,31293,500,Oficina Sul,564.5,2.6,completed,ok,ok,attention,attention
+MNT0531,CUST0136,VEH0036,CONTR0136,SYNTHETIC,freios,preventiva,2026-03-22,18016,23016,5000,Oficina Leste,1612.24,4.2,cancelled,ok,attention,ok,ok
+MNT0532,CUST0109,VEH0009,CONTR0109,SYNTHETIC,revisão periódica,preventiva,2026-12-03,68504,73504,5000,Oficina Norte,,5.4,scheduled,ok,ok,ok,ok
+MNT0533,CUST0287,VEH0087,CONTR0287,SYNTHETIC,alinhamento,preventiva,2026-11-25,15395,16895,1500,PitStop 01,,2.5,pending,attention,attention,attention,ok
+MNT0534,CUST0328,VEH0028,CONTR0328,SYNTHETIC,revisão periódica,preventiva,2026-12-17,46068,47568,1500,PitStop 01,,4.0,pending,ok,ok,ok,attention
+MNT0535,CUST0080,VEH0080,CONTR0080,SYNTHETIC,sistema elétrico,corretiva,2026-12-06,85846,87346,1500,Oficina Norte,,4.7,pending,ok,ok,ok,ok
+MNT0536,CUST0150,VEH0050,CONTR0150,SYNTHETIC,freios,preventiva,2026-11-06,68352,70852,2500,Oficina Leste,,4.6,pending,ok,attention,ok,ok
+MNT0537,CUST0413,VEH0013,CONTR0413,SYNTHETIC,sistema elétrico,corretiva,2026-07-06,33806,34306,500,Oficina Norte,2790.69,3.6,completed,ok,attention,attention,ok
+MNT0538,CUST0109,VEH0009,CONTR0109,SYNTHETIC,pneus,preventiva,2026-01-12,68504,70004,1500,Oficina Leste,1343.12,1.9,completed,ok,ok,ok,ok
+MNT0539,CUST0272,VEH0072,CONTR0272,SYNTHETIC,freios,preventiva,2026-06-25,23568,24568,1000,PitStop 01,948.3,5.4,cancelled,ok,ok,ok,attention
+MNT0540,CUST0197,VEH0097,CONTR0197,SYNTHETIC,alinhamento,preventiva,2026-04-21,29801,30301,500,PitStop 02,3064.81,2.8,completed,attention,attention,ok,ok
+MNT0541,CUST0476,VEH0076,CONTR0476,SYNTHETIC,bateria 12V,preventiva,2026-11-27,73028,78028,5000,Oficina Centro,,4.4,pending,ok,ok,ok,ok
+MNT0542,CUST0060,VEH0060,CONTR0060,SYNTHETIC,bateria 12V,preventiva,2026-01-28,18485,18985,500,Oficina Sul,952.38,5.9,completed,ok,attention,ok,attention
+MNT0543,CUST0156,VEH0056,CONTR0156,SYNTHETIC,bateria 12V,preventiva,2026-04-11,40222,41722,1500,Oficina Norte,545.19,5.3,cancelled,ok,ok,ok,attention
+MNT0544,CUST0363,VEH0063,CONTR0363,SYNTHETIC,pneus,preventiva,2026-01-19,71014,72514,1500,Oficina Leste,1804.01,4.6,completed,ok,attention,ok,ok
+MNT0545,CUST0099,VEH0099,CONTR0099,SYNTHETIC,freios,preventiva,2025-10-28,62260,64760,2500,Oficina Sul,1716.42,5.2,completed,attention,ok,ok,ok
+MNT0546,CUST0063,VEH0063,CONTR0063,SYNTHETIC,pneus,preventiva,2026-12-07,52804,54304,1500,Oficina Norte,,5.8,pending,attention,ok,attention,attention
+MNT0547,CUST0442,VEH0042,CONTR0442,SYNTHETIC,freios,preventiva,2025-11-11,29624,32124,2500,PitStop 02,834.93,3.1,completed,attention,ok,ok,ok
+MNT0548,CUST0423,VEH0023,CONTR0423,SYNTHETIC,pneus,preventiva,2026-11-30,57555,62555,5000,Oficina Leste,,2.2,scheduled,attention,attention,ok,attention
+MNT0549,CUST0325,VEH0025,CONTR0325,SYNTHETIC,troca de óleo,preventiva,2026-12-19,59819,61319,1500,Oficina Centro,,3.2,pending,ok,attention,attention,attention
+MNT0550,CUST0215,VEH0015,CONTR0215,SYNTHETIC,alinhamento,preventiva,2026-12-13,78555,79555,1000,Oficina Sul,,2.5,scheduled,attention,ok,attention,ok
+MNT0551,CUST0468,VEH0068,CONTR0468,SYNTHETIC,pneus,preventiva,2025-12-05,70225,71725,1500,Oficina Norte,2585.08,4.1,completed,attention,ok,attention,attention
+MNT0552,CUST0218,VEH0018,CONTR0218,SYNTHETIC,revisão periódica,preventiva,2026-06-30,12371,14871,2500,PitStop 02,2364.36,4.0,completed,ok,attention,attention,attention
+MNT0553,CUST0225,VEH0025,CONTR0225,SYNTHETIC,diagnóstico,corretiva,2026-12-15,65592,66092,500,Oficina Sul,,3.2,pending,attention,attention,attention,ok
+MNT0554,CUST0440,VEH0040,CONTR0440,SYNTHETIC,freios,preventiva,2026-12-01,46626,48126,1500,Oficina Sul,,5.7,pending,ok,ok,ok,ok
+MNT0555,CUST0412,VEH0012,CONTR0412,SYNTHETIC,freios,preventiva,2026-12-12,14819,15319,500,Oficina Norte,,3.0,pending,ok,attention,attention,attention
+MNT0556,CUST0167,VEH0067,CONTR0167,SYNTHETIC,alinhamento,preventiva,2026-05-11,70364,75364,5000,Oficina Norte,1977.45,4.0,completed,ok,attention,ok,attention
+MNT0557,CUST0207,VEH0007,CONTR0207,SYNTHETIC,troca de óleo,preventiva,2026-08-06,81746,86746,5000,Oficina Sul,2070.43,3.7,completed,ok,ok,attention,attention
+MNT0558,CUST0472,VEH0072,CONTR0472,SYNTHETIC,pneus,preventiva,2026-11-19,46386,51386,5000,PitStop 02,,2.9,pending,attention,ok,ok,attention
+MNT0559,CUST0177,VEH0077,CONTR0177,SYNTHETIC,pneus,preventiva,2026-03-04,16787,17287,500,PitStop 01,267.48,5.5,completed,ok,ok,attention,attention
+MNT0560,CUST0057,VEH0057,CONTR0057,SYNTHETIC,revisão periódica,preventiva,2026-11-29,8603,9103,500,Oficina Norte,,3.2,pending,attention,ok,ok,attention
+MNT0561,CUST0046,VEH0046,CONTR0046,SYNTHETIC,revisão periódica,preventiva,2026-07-12,22954,23454,500,Oficina Leste,2419.91,1.7,cancelled,attention,attention,attention,ok
+MNT0562,CUST0414,VEH0014,CONTR0414,SYNTHETIC,bateria 12V,preventiva,2026-11-04,82885,83885,1000,Oficina Norte,,3.0,pending,attention,ok,ok,ok
+MNT0563,CUST0256,VEH0056,CONTR0256,SYNTHETIC,diagnóstico,corretiva,2025-12-16,67545,68545,1000,PitStop 02,534.42,3.0,completed,ok,ok,ok,attention
+MNT0564,CUST0187,VEH0087,CONTR0187,SYNTHETIC,alinhamento,preventiva,2026-12-02,48445,50945,2500,Oficina Centro,,4.2,scheduled,attention,ok,ok,ok
+MNT0565,CUST0003,VEH0003,CONTR0003,SYNTHETIC,sistema elétrico,corretiva,2026-06-27,68116,73116,5000,PitStop 01,2180.47,5.6,cancelled,attention,ok,ok,ok
+MNT0566,CUST0252,VEH0052,CONTR0252,SYNTHETIC,diagnóstico,corretiva,2026-04-03,39133,44133,5000,Oficina Leste,1008.17,2.4,cancelled,attention,ok,attention,ok
+MNT0567,CUST0380,VEH0080,CONTR0380,SYNTHETIC,freios,preventiva,2026-07-15,51163,52663,1500,Oficina Norte,2461.55,2.6,completed,ok,ok,ok,attention
+MNT0568,CUST0323,VEH0023,CONTR0323,SYNTHETIC,troca de óleo,preventiva,2026-01-10,70788,72288,1500,PitStop 01,2183.66,4.0,cancelled,attention,ok,ok,attention
+MNT0569,CUST0478,VEH0078,CONTR0478,SYNTHETIC,troca de óleo,preventiva,2026-10-19,21607,22107,500,Oficina Centro,,5.1,pending,ok,ok,ok,ok
+MNT0570,CUST0361,VEH0061,CONTR0361,SYNTHETIC,bateria 12V,preventiva,2026-01-09,32829,37829,5000,PitStop 02,1437.15,4.8,completed,attention,attention,ok,attention
+MNT0571,CUST0463,VEH0063,CONTR0463,SYNTHETIC,pneus,preventiva,2026-11-23,71987,73487,1500,Oficina Sul,,1.8,scheduled,attention,ok,attention,ok
+MNT0572,CUST0303,VEH0003,CONTR0303,SYNTHETIC,diagnóstico,corretiva,2026-12-07,13400,14900,1500,PitStop 01,,5.3,scheduled,ok,attention,attention,attention
+MNT0573,CUST0494,VEH0094,CONTR0494,SYNTHETIC,troca de óleo,preventiva,2026-09-20,56096,56596,500,Oficina Centro,3359.84,2.9,cancelled,ok,attention,attention,ok
+MNT0574,CUST0230,VEH0030,CONTR0230,SYNTHETIC,revisão periódica,preventiva,2026-11-10,81912,82912,1000,PitStop 02,,4.3,pending,ok,ok,attention,attention
+MNT0575,CUST0260,VEH0060,CONTR0260,SYNTHETIC,pneus,preventiva,2026-01-26,59260,60260,1000,PitStop 01,2822.76,1.6,cancelled,ok,ok,ok,ok
+MNT0576,CUST0211,VEH0011,CONTR0211,SYNTHETIC,bateria 12V,preventiva,2026-12-29,32007,32507,500,Oficina Norte,,2.4,scheduled,ok,ok,ok,attention
+MNT0577,CUST0383,VEH0083,CONTR0383,SYNTHETIC,alinhamento,preventiva,2026-11-19,76067,77567,1500,Oficina Norte,,5.7,scheduled,attention,attention,ok,ok
+MNT0578,CUST0500,VEH0100,CONTR0500,SYNTHETIC,pneus,preventiva,2026-12-23,84173,85673,1500,Oficina Norte,,4.3,scheduled,ok,attention,attention,ok
+MNT0579,CUST0120,VEH0020,CONTR0120,SYNTHETIC,pneus,preventiva,2026-12-15,10646,11646,1000,PitStop 02,,5.5,scheduled,ok,attention,ok,ok
+MNT0580,CUST0254,VEH0054,CONTR0254,SYNTHETIC,pneus,preventiva,2026-05-16,81361,82861,1500,Oficina Leste,3153.73,1.9,completed,ok,attention,attention,attention
+MNT0581,CUST0484,VEH0084,CONTR0484,SYNTHETIC,bateria 12V,preventiva,2025-11-06,28794,29294,500,Oficina Sul,276.83,4.1,completed,attention,attention,ok,ok
+MNT0582,CUST0272,VEH0072,CONTR0272,SYNTHETIC,alinhamento,preventiva,2026-03-27,23568,24568,1000,Oficina Sul,2798.87,1.8,completed,ok,attention,attention,ok
+MNT0583,CUST0214,VEH0014,CONTR0214,SYNTHETIC,bateria 12V,preventiva,2026-10-08,62812,67812,5000,Oficina Leste,,2.3,pending,attention,ok,ok,ok
+MNT0584,CUST0151,VEH0051,CONTR0151,SYNTHETIC,bateria 12V,preventiva,2026-11-02,69140,69640,500,Oficina Centro,,4.8,pending,attention,ok,ok,ok
+MNT0585,CUST0445,VEH0045,CONTR0445,SYNTHETIC,alinhamento,preventiva,2026-08-30,15899,16399,500,Oficina Leste,1834.62,2.6,completed,attention,ok,ok,attention
+MNT0586,CUST0079,VEH0079,CONTR0079,SYNTHETIC,freios,preventiva,2026-12-24,41495,43995,2500,Oficina Leste,,1.8,pending,attention,ok,attention,ok
+MNT0587,CUST0043,VEH0043,CONTR0043,SYNTHETIC,diagnóstico,corretiva,2026-06-29,63777,66277,2500,Oficina Norte,1464.23,3.2,completed,ok,ok,ok,ok
+MNT0588,CUST0032,VEH0032,CONTR0032,SYNTHETIC,troca de óleo,preventiva,2026-10-29,12237,14737,2500,PitStop 02,,3.8,scheduled,attention,ok,attention,ok
+MNT0589,CUST0455,VEH0055,CONTR0455,SYNTHETIC,freios,preventiva,2026-07-15,9437,9937,500,Oficina Leste,1243.82,5.7,completed,attention,ok,ok,attention
+MNT0590,CUST0040,VEH0040,CONTR0040,SYNTHETIC,sistema elétrico,corretiva,2025-12-14,52264,53264,1000,Oficina Centro,1819.57,1.5,completed,ok,ok,ok,ok
+MNT0591,CUST0019,VEH0019,CONTR0019,SYNTHETIC,alinhamento,preventiva,2026-06-28,26351,27851,1500,Oficina Centro,2750.83,4.1,completed,ok,attention,ok,attention
+MNT0592,CUST0119,VEH0019,CONTR0119,SYNTHETIC,revisão periódica,preventiva,2026-10-30,66443,66943,500,Oficina Sul,,5.3,scheduled,attention,ok,attention,ok
+MNT0593,CUST0400,VEH0100,CONTR0400,SYNTHETIC,bateria 12V,preventiva,2026-11-26,16744,17244,500,Oficina Leste,,5.6,scheduled,ok,ok,ok,attention
+MNT0594,CUST0076,VEH0076,CONTR0076,SYNTHETIC,diagnóstico,corretiva,2026-10-16,68732,69732,1000,Oficina Sul,,2.1,pending,attention,ok,attention,ok
+MNT0595,CUST0132,VEH0032,CONTR0132,SYNTHETIC,bateria 12V,preventiva,2026-12-15,64616,65116,500,Oficina Sul,,2.2,pending,ok,ok,ok,ok
+MNT0596,CUST0160,VEH0060,CONTR0160,SYNTHETIC,revisão periódica,preventiva,2026-11-12,54549,57049,2500,Oficina Centro,,4.4,scheduled,ok,ok,attention,ok
+MNT0597,CUST0379,VEH0079,CONTR0379,SYNTHETIC,freios,preventiva,2026-08-02,43939,44439,500,PitStop 01,1582.63,2.2,completed,ok,ok,ok,attention
+MNT0598,CUST0321,VEH0021,CONTR0321,SYNTHETIC,troca de óleo,preventiva,2026-11-05,57474,58474,1000,PitStop 01,,2.8,scheduled,ok,ok,ok,ok
+MNT0599,CUST0120,VEH0020,CONTR0120,SYNTHETIC,revisão periódica,preventiva,2026-11-21,10646,11646,1000,Oficina Centro,,5.7,scheduled,ok,ok,ok,attention
+MNT0600,CUST0072,VEH0072,CONTR0072,SYNTHETIC,sistema elétrico,corretiva,2026-04-17,59151,60651,1500,Oficina Leste,2533.99,5.3,cancelled,attention,attention,ok,ok
+MNT0601,CUST0345,VEH0045,CONTR0345,SYNTHETIC,alinhamento,preventiva,2026-02-12,76182,77682,1500,PitStop 01,2195.49,3.6,completed,ok,attention,attention,ok
+MNT0602,CUST0319,VEH0019,CONTR0319,SYNTHETIC,troca de óleo,preventiva,2026-05-18,42810,45310,2500,Oficina Leste,295.32,1.8,completed,attention,ok,ok,ok
+MNT0603,CUST0082,VEH0082,CONTR0082,SYNTHETIC,bateria 12V,preventiva,2026-04-30,74673,75173,500,Oficina Sul,932.67,2.9,completed,ok,ok,attention,ok
+MNT0604,CUST0023,VEH0023,CONTR0023,SYNTHETIC,bateria 12V,preventiva,2025-12-01,29757,30257,500,PitStop 02,497.96,2.8,completed,ok,attention,ok,attention
+MNT0605,CUST0236,VEH0036,CONTR0236,SYNTHETIC,freios,preventiva,2026-12-11,18511,20011,1500,Oficina Leste,,1.4,pending,attention,attention,ok,attention
+MNT0606,CUST0429,VEH0029,CONTR0429,SYNTHETIC,freios,preventiva,2026-06-12,44697,45197,500,PitStop 02,1492.18,3.4,cancelled,ok,attention,ok,attention
+MNT0607,CUST0107,VEH0007,CONTR0107,SYNTHETIC,troca de óleo,preventiva,2026-12-20,33213,38213,5000,PitStop 01,,3.6,scheduled,attention,ok,ok,ok
+MNT0608,CUST0234,VEH0034,CONTR0234,SYNTHETIC,sistema elétrico,corretiva,2026-03-01,13718,18718,5000,PitStop 01,2419.41,5.9,completed,ok,ok,attention,ok
+MNT0609,CUST0467,VEH0067,CONTR0467,SYNTHETIC,pneus,preventiva,2026-08-04,38000,39000,1000,Oficina Centro,573.07,4.3,completed,ok,ok,ok,ok
+MNT0610,CUST0453,VEH0053,CONTR0453,SYNTHETIC,revisão periódica,preventiva,2026-05-11,49311,50811,1500,Oficina Centro,2992.82,5.4,completed,ok,ok,attention,ok
+MNT0611,CUST0492,VEH0092,CONTR0492,SYNTHETIC,pneus,preventiva,2026-03-12,15024,17524,2500,PitStop 01,2777.03,2.8,completed,ok,ok,ok,attention
+MNT0612,CUST0098,VEH0098,CONTR0098,SYNTHETIC,alinhamento,preventiva,2026-08-16,74518,75518,1000,Oficina Leste,3229.79,2.1,cancelled,attention,ok,attention,ok
+MNT0613,CUST0481,VEH0081,CONTR0481,SYNTHETIC,alinhamento,preventiva,2026-01-07,77321,79821,2500,PitStop 02,1851.76,5.4,cancelled,ok,ok,ok,ok
+MNT0614,CUST0185,VEH0085,CONTR0185,SYNTHETIC,troca de óleo,preventiva,2026-11-04,13188,14688,1500,PitStop 02,,5.1,scheduled,ok,ok,ok,attention
+MNT0615,CUST0210,VEH0010,CONTR0210,SYNTHETIC,revisão periódica,preventiva,2026-05-05,61410,66410,5000,Oficina Centro,2844.5,2.2,completed,ok,ok,ok,ok
+MNT0616,CUST0198,VEH0098,CONTR0198,SYNTHETIC,diagnóstico,corretiva,2026-06-27,40919,41419,500,Oficina Centro,2528.07,2.4,completed,ok,attention,attention,attention
+MNT0617,CUST0331,VEH0031,CONTR0331,SYNTHETIC,freios,preventiva,2026-01-30,9427,9927,500,Oficina Centro,594.0,4.6,completed,ok,ok,ok,ok
+MNT0618,CUST0004,VEH0004,CONTR0004,SYNTHETIC,alinhamento,preventiva,2026-10-31,27076,27576,500,Oficina Leste,,1.6,pending,ok,ok,ok,ok
+MNT0619,CUST0060,VEH0060,CONTR0060,SYNTHETIC,alinhamento,preventiva,2026-10-31,18485,19485,1000,PitStop 02,,1.7,scheduled,ok,ok,ok,attention
+MNT0620,CUST0457,VEH0057,CONTR0457,SYNTHETIC,revisão periódica,preventiva,2025-11-01,20440,20940,500,PitStop 02,2489.82,3.1,cancelled,attention,ok,attention,attention
+MNT0621,CUST0375,VEH0075,CONTR0375,SYNTHETIC,revisão periódica,preventiva,2026-02-07,29858,34858,5000,Oficina Sul,1848.8,2.3,cancelled,ok,ok,ok,ok
+MNT0622,CUST0007,VEH0007,CONTR0007,SYNTHETIC,revisão periódica,preventiva,2026-03-29,81921,82421,500,Oficina Sul,1902.82,4.7,cancelled,ok,ok,ok,ok
+MNT0623,CUST0223,VEH0023,CONTR0223,SYNTHETIC,alinhamento,preventiva,2026-11-21,33204,34704,1500,Oficina Sul,,4.9,pending,ok,ok,ok,attention
+MNT0624,CUST0316,VEH0016,CONTR0316,SYNTHETIC,troca de óleo,preventiva,2026-04-17,22611,25111,2500,Oficina Centro,2285.69,2.7,completed,ok,ok,ok,ok
+MNT0625,CUST0020,VEH0020,CONTR0020,SYNTHETIC,bateria 12V,preventiva,2026-04-15,87522,90022,2500,Oficina Leste,3278.19,4.8,completed,ok,ok,ok,ok
+MNT0626,CUST0115,VEH0015,CONTR0115,SYNTHETIC,pneus,preventiva,2025-10-07,37628,38128,500,Oficina Leste,1795.25,5.2,completed,ok,attention,attention,ok
+MNT0627,CUST0105,VEH0005,CONTR0105,SYNTHETIC,freios,preventiva,2026-11-19,61903,66903,5000,Oficina Sul,,3.2,pending,ok,ok,ok,ok
+MNT0628,CUST0256,VEH0056,CONTR0256,SYNTHETIC,diagnóstico,corretiva,2026-05-08,67545,69045,1500,Oficina Norte,516.14,5.6,cancelled,attention,ok,ok,attention
+MNT0629,CUST0065,VEH0065,CONTR0065,SYNTHETIC,freios,preventiva,2025-10-07,63607,68607,5000,Oficina Sul,2614.31,5.7,completed,attention,ok,ok,attention
+MNT0630,CUST0152,VEH0052,CONTR0152,SYNTHETIC,revisão periódica,preventiva,2026-08-06,13189,13689,500,Oficina Leste,1426.94,5.9,completed,ok,ok,ok,attention
+MNT0631,CUST0099,VEH0099,CONTR0099,SYNTHETIC,diagnóstico,corretiva,2025-12-29,62260,63760,1500,Oficina Norte,302.04,4.9,completed,ok,attention,ok,attention
+MNT0632,CUST0488,VEH0088,CONTR0488,SYNTHETIC,freios,preventiva,2026-10-03,33239,35739,2500,Oficina Norte,,3.4,scheduled,ok,ok,ok,attention
+MNT0633,CUST0177,VEH0077,CONTR0177,SYNTHETIC,pneus,preventiva,2026-04-24,16787,21787,5000,Oficina Norte,721.15,3.3,completed,attention,ok,ok,attention
+MNT0634,CUST0027,VEH0027,CONTR0027,SYNTHETIC,pneus,preventiva,2026-09-08,15753,17253,1500,PitStop 01,2997.46,5.5,completed,attention,ok,ok,attention
+MNT0635,CUST0112,VEH0012,CONTR0112,SYNTHETIC,troca de óleo,preventiva,2026-11-27,46571,47071,500,PitStop 02,,5.2,scheduled,ok,attention,ok,ok
+MNT0636,CUST0219,VEH0019,CONTR0219,SYNTHETIC,revisão periódica,preventiva,2026-09-17,21953,22953,1000,Oficina Leste,1931.63,2.7,cancelled,attention,ok,attention,ok
+MNT0637,CUST0358,VEH0058,CONTR0358,SYNTHETIC,bateria 12V,preventiva,2026-12-02,78680,80180,1500,PitStop 02,,1.8,pending,ok,ok,attention,attention
+MNT0638,CUST0299,VEH0099,CONTR0299,SYNTHETIC,freios,preventiva,2025-11-16,12895,13895,1000,PitStop 01,2125.44,2.1,cancelled,ok,ok,ok,ok
+MNT0639,CUST0117,VEH0017,CONTR0117,SYNTHETIC,freios,preventiva,2026-11-14,38800,39800,1000,Oficina Leste,,3.5,pending,ok,ok,ok,attention
+MNT0640,CUST0168,VEH0068,CONTR0168,SYNTHETIC,revisão periódica,preventiva,2026-11-06,37349,37849,500,Oficina Centro,,1.2,pending,ok,attention,ok,ok
+MNT0641,CUST0319,VEH0019,CONTR0319,SYNTHETIC,revisão periódica,preventiva,2026-04-15,42810,43810,1000,Oficina Centro,2247.71,4.3,cancelled,attention,attention,ok,attention
+MNT0642,CUST0199,VEH0099,CONTR0199,SYNTHETIC,revisão periódica,preventiva,2026-06-16,81694,82694,1000,Oficina Sul,1612.38,4.7,completed,ok,ok,ok,ok
+MNT0643,CUST0197,VEH0097,CONTR0197,SYNTHETIC,pneus,preventiva,2026-09-03,29801,31301,1500,PitStop 01,2175.27,3.6,completed,attention,attention,ok,attention
+MNT0644,CUST0150,VEH0050,CONTR0150,SYNTHETIC,pneus,preventiva,2026-01-11,68352,68852,500,Oficina Sul,660.9,2.0,completed,ok,attention,attention,ok
+MNT0645,CUST0047,VEH0047,CONTR0047,SYNTHETIC,alinhamento,preventiva,2026-10-26,50037,52537,2500,Oficina Leste,,2.8,pending,attention,ok,attention,ok
+MNT0646,CUST0486,VEH0086,CONTR0486,SYNTHETIC,alinhamento,preventiva,2026-07-04,73049,74049,1000,Oficina Sul,3050.19,2.3,completed,ok,ok,attention,ok
+MNT0647,CUST0242,VEH0042,CONTR0242,SYNTHETIC,diagnóstico,corretiva,2025-11-29,49200,54200,5000,PitStop 01,2274.87,4.3,completed,attention,ok,ok,ok
+MNT0648,CUST0266,VEH0066,CONTR0266,SYNTHETIC,pneus,preventiva,2026-02-06,24573,25573,1000,Oficina Leste,679.79,2.6,completed,ok,ok,ok,ok
+MNT0649,CUST0422,VEH0022,CONTR0422,SYNTHETIC,freios,preventiva,2026-02-04,11516,12016,500,PitStop 01,996.96,3.8,completed,attention,ok,attention,attention
+MNT0650,CUST0497,VEH0097,CONTR0497,SYNTHETIC,diagnóstico,corretiva,2026-09-11,49178,51678,2500,Oficina Norte,3116.86,3.0,cancelled,attention,ok,attention,ok
+MNT0651,CUST0307,VEH0007,CONTR0307,SYNTHETIC,bateria 12V,preventiva,2026-02-21,21690,26690,5000,Oficina Sul,691.19,5.5,completed,ok,ok,ok,attention
+MNT0652,CUST0078,VEH0078,CONTR0078,SYNTHETIC,sistema elétrico,corretiva,2026-11-19,47914,48914,1000,PitStop 01,,2.3,scheduled,attention,attention,ok,ok
+MNT0653,CUST0059,VEH0059,CONTR0059,SYNTHETIC,alinhamento,preventiva,2026-12-22,81354,82854,1500,Oficina Sul,,4.1,scheduled,attention,attention,ok,attention
+MNT0654,CUST0489,VEH0089,CONTR0489,SYNTHETIC,bateria 12V,preventiva,2026-12-15,63563,65063,1500,PitStop 02,,2.2,pending,ok,ok,ok,ok
+MNT0655,CUST0499,VEH0099,CONTR0499,SYNTHETIC,alinhamento,preventiva,2026-10-24,19759,22259,2500,Oficina Leste,,5.7,pending,ok,attention,ok,ok
+MNT0656,CUST0369,VEH0069,CONTR0369,SYNTHETIC,sistema elétrico,corretiva,2026-07-21,30005,35005,5000,PitStop 02,1607.4,4.7,completed,ok,ok,attention,attention
+MNT0657,CUST0472,VEH0072,CONTR0472,SYNTHETIC,sistema elétrico,corretiva,2025-12-11,46386,47386,1000,PitStop 01,2327.32,1.2,completed,ok,ok,ok,ok
+MNT0658,CUST0374,VEH0074,CONTR0374,SYNTHETIC,diagnóstico,corretiva,2025-11-03,29791,31291,1500,PitStop 02,1142.22,2.8,cancelled,ok,ok,ok,attention
+MNT0659,CUST0343,VEH0043,CONTR0343,SYNTHETIC,troca de óleo,preventiva,2026-06-08,45379,50379,5000,Oficina Sul,2674.66,2.6,completed,attention,attention,ok,attention
+MNT0660,CUST0470,VEH0070,CONTR0470,SYNTHETIC,revisão periódica,preventiva,2025-11-04,69188,74188,5000,Oficina Centro,1380.96,2.1,completed,ok,ok,ok,ok
+MNT0661,CUST0078,VEH0078,CONTR0078,SYNTHETIC,bateria 12V,preventiva,2026-10-29,47914,50414,2500,Oficina Centro,,4.5,scheduled,ok,attention,attention,attention
+MNT0662,CUST0174,VEH0074,CONTR0174,SYNTHETIC,bateria 12V,preventiva,2026-10-26,20504,22004,1500,PitStop 01,,4.0,scheduled,ok,ok,attention,ok
+MNT0663,CUST0390,VEH0090,CONTR0390,SYNTHETIC,freios,preventiva,2026-04-06,42881,45381,2500,Oficina Centro,1926.17,4.8,cancelled,ok,attention,attention,ok
+MNT0664,CUST0366,VEH0066,CONTR0366,SYNTHETIC,diagnóstico,corretiva,2026-01-14,65444,66944,1500,Oficina Leste,2676.89,1.4,completed,ok,attention,ok,attention
+MNT0665,CUST0137,VEH0037,CONTR0137,SYNTHETIC,freios,preventiva,2026-12-16,25629,26129,500,Oficina Leste,,4.8,scheduled,attention,attention,ok,ok
+MNT0666,CUST0266,VEH0066,CONTR0266,SYNTHETIC,sistema elétrico,corretiva,2026-05-13,24573,25073,500,Oficina Centro,3497.12,2.6,completed,ok,ok,attention,ok
+MNT0667,CUST0431,VEH0031,CONTR0431,SYNTHETIC,bateria 12V,preventiva,2025-10-25,33722,35222,1500,Oficina Sul,3438.99,3.9,cancelled,ok,attention,attention,ok
+MNT0668,CUST0373,VEH0073,CONTR0373,SYNTHETIC,bateria 12V,preventiva,2026-02-02,20436,21936,1500,PitStop 01,1415.02,2.0,completed,ok,ok,ok,attention
+MNT0669,CUST0355,VEH0055,CONTR0355,SYNTHETIC,pneus,preventiva,2026-05-30,73259,73759,500,Oficina Sul,2805.84,4.7,cancelled,attention,ok,ok,ok
+MNT0670,CUST0189,VEH0089,CONTR0189,SYNTHETIC,troca de óleo,preventiva,2026-12-26,65319,66819,1500,Oficina Centro,,1.1,pending,attention,attention,ok,attention
+MNT0671,CUST0337,VEH0037,CONTR0337,SYNTHETIC,sistema elétrico,corretiva,2025-11-06,22535,25035,2500,PitStop 01,2989.97,3.0,cancelled,ok,ok,ok,ok
+MNT0672,CUST0016,VEH0016,CONTR0016,SYNTHETIC,diagnóstico,corretiva,2025-12-31,51170,52670,1500,Oficina Centro,733.24,5.2,completed,attention,ok,attention,ok
+MNT0673,CUST0442,VEH0042,CONTR0442,SYNTHETIC,diagnóstico,corretiva,2026-08-04,29624,31124,1500,PitStop 01,480.37,3.3,cancelled,ok,ok,ok,attention
+MNT0674,CUST0149,VEH0049,CONTR0149,SYNTHETIC,troca de óleo,preventiva,2026-03-12,71782,74282,2500,Oficina Norte,2361.98,4.5,completed,ok,ok,ok,ok
+MNT0675,CUST0413,VEH0013,CONTR0413,SYNTHETIC,troca de óleo,preventiva,2026-10-11,33806,34806,1000,Oficina Centro,,2.8,pending,ok,attention,attention,ok
+MNT0676,CUST0024,VEH0024,CONTR0024,SYNTHETIC,sistema elétrico,corretiva,2026-08-30,10715,11215,500,Oficina Norte,2342.05,2.1,completed,attention,ok,ok,ok
+MNT0677,CUST0314,VEH0014,CONTR0314,SYNTHETIC,diagnóstico,corretiva,2026-05-28,28184,29184,1000,PitStop 01,3304.93,1.9,completed,attention,attention,ok,attention
+MNT0678,CUST0315,VEH0015,CONTR0315,SYNTHETIC,freios,preventiva,2026-05-13,11704,12204,500,Oficina Leste,1915.38,1.7,completed,attention,attention,attention,ok
+MNT0679,CUST0495,VEH0095,CONTR0495,SYNTHETIC,troca de óleo,preventiva,2026-10-24,72869,73369,500,PitStop 01,,5.0,pending,ok,attention,ok,attention
+MNT0680,CUST0451,VEH0051,CONTR0451,SYNTHETIC,pneus,preventiva,2026-03-29,66081,66581,500,Oficina Leste,979.84,5.2,cancelled,ok,ok,ok,attention
+MNT0681,CUST0489,VEH0089,CONTR0489,SYNTHETIC,bateria 12V,preventiva,2026-07-27,63563,65063,1500,Oficina Sul,2010.42,5.4,completed,attention,ok,ok,attention
+MNT0682,CUST0273,VEH0073,CONTR0273,SYNTHETIC,freios,preventiva,2026-05-28,14021,15521,1500,Oficina Norte,2788.84,1.1,completed,ok,ok,attention,ok
+MNT0683,CUST0274,VEH0074,CONTR0274,SYNTHETIC,bateria 12V,preventiva,2026-08-23,41010,42510,1500,Oficina Norte,1908.39,1.0,cancelled,ok,ok,ok,attention
+MNT0684,CUST0399,VEH0099,CONTR0399,SYNTHETIC,revisão periódica,preventiva,2025-11-03,66547,68047,1500,PitStop 02,2289.79,3.8,cancelled,ok,ok,ok,ok
+MNT0685,CUST0206,VEH0006,CONTR0206,SYNTHETIC,bateria 12V,preventiva,2026-09-09,72927,73927,1000,PitStop 02,922.25,5.1,completed,ok,ok,ok,attention
+MNT0686,CUST0051,VEH0051,CONTR0051,SYNTHETIC,diagnóstico,corretiva,2025-12-08,67288,68788,1500,Oficina Sul,1998.64,2.9,cancelled,ok,ok,ok,attention
+MNT0687,CUST0034,VEH0034,CONTR0034,SYNTHETIC,bateria 12V,preventiva,2026-10-03,13642,14142,500,Oficina Norte,,4.9,scheduled,ok,ok,attention,ok
+MNT0688,CUST0107,VEH0007,CONTR0107,SYNTHETIC,pneus,preventiva,2026-11-24,33213,38213,5000,PitStop 02,,2.2,scheduled,ok,ok,ok,ok
+MNT0689,CUST0229,VEH0029,CONTR0229,SYNTHETIC,revisão periódica,preventiva,2026-04-24,72018,73018,1000,PitStop 01,2636.45,4.6,completed,ok,ok,attention,attention
+MNT0690,CUST0383,VEH0083,CONTR0383,SYNTHETIC,troca de óleo,preventiva,2026-12-02,76067,77567,1500,Oficina Centro,,4.7,pending,ok,ok,ok,ok
+MNT0691,CUST0369,VEH0069,CONTR0369,SYNTHETIC,freios,preventiva,2026-12-11,30005,32505,2500,Oficina Leste,,3.2,pending,attention,attention,ok,attention
+MNT0692,CUST0427,VEH0027,CONTR0427,SYNTHETIC,sistema elétrico,corretiva,2026-06-17,22868,27868,5000,PitStop 02,2749.78,2.0,completed,attention,ok,ok,ok
+MNT0693,CUST0390,VEH0090,CONTR0390,SYNTHETIC,alinhamento,preventiva,2026-02-13,42881,43881,1000,PitStop 01,510.77,2.1,completed,ok,attention,ok,ok
+MNT0694,CUST0239,VEH0039,CONTR0239,SYNTHETIC,troca de óleo,preventiva,2026-10-12,55591,60591,5000,PitStop 01,,4.8,scheduled,ok,ok,ok,ok
+MNT0695,CUST0408,VEH0008,CONTR0408,SYNTHETIC,pneus,preventiva,2025-12-25,22759,23759,1000,Oficina Leste,1401.33,2.0,cancelled,ok,ok,ok,ok
+MNT0696,CUST0198,VEH0098,CONTR0198,SYNTHETIC,freios,preventiva,2025-10-11,40919,45919,5000,Oficina Sul,1499.8,5.6,completed,ok,ok,ok,ok
+MNT0697,CUST0147,VEH0047,CONTR0147,SYNTHETIC,troca de óleo,preventiva,2026-04-24,24699,29699,5000,PitStop 02,2540.62,2.7,completed,attention,ok,attention,attention
+MNT0698,CUST0163,VEH0063,CONTR0163,SYNTHETIC,revisão periódica,preventiva,2026-09-11,11336,12336,1000,PitStop 01,2123.94,1.9,cancelled,ok,ok,ok,ok
+MNT0699,CUST0254,VEH0054,CONTR0254,SYNTHETIC,revisão periódica,preventiva,2026-11-23,81361,82861,1500,Oficina Centro,,3.6,pending,attention,attention,attention,attention
+MNT0700,CUST0140,VEH0040,CONTR0140,SYNTHETIC,pneus,preventiva,2026-12-28,47752,50252,2500,Oficina Norte,,6.0,scheduled,ok,attention,ok,attention
+MNT0701,CUST0372,VEH0072,CONTR0372,SYNTHETIC,troca de óleo,preventiva,2026-10-30,9955,10455,500,Oficina Sul,,4.2,scheduled,ok,ok,ok,attention
+MNT0702,CUST0493,VEH0093,CONTR0493,SYNTHETIC,bateria 12V,preventiva,2026-12-18,20342,21842,1500,Oficina Leste,,3.4,scheduled,attention,attention,ok,attention
+MNT0703,CUST0451,VEH0051,CONTR0451,SYNTHETIC,diagnóstico,corretiva,2025-10-05,66081,66581,500,Oficina Leste,2262.17,1.6,cancelled,ok,attention,ok,ok
+MNT0704,CUST0096,VEH0096,CONTR0096,SYNTHETIC,troca de óleo,preventiva,2026-11-25,56369,57369,1000,Oficina Sul,,4.3,scheduled,ok,ok,ok,ok
+MNT0705,CUST0111,VEH0011,CONTR0111,SYNTHETIC,troca de óleo,preventiva,2026-06-07,46869,49369,2500,Oficina Norte,1556.93,3.5,completed,attention,attention,ok,ok
+MNT0706,CUST0328,VEH0028,CONTR0328,SYNTHETIC,freios,preventiva,2026-01-14,46068,47568,1500,PitStop 01,1355.1,1.6,completed,ok,ok,ok,ok
+MNT0707,CUST0442,VEH0042,CONTR0442,SYNTHETIC,alinhamento,preventiva,2026-10-16,29624,31124,1500,PitStop 01,,5.3,pending,attention,attention,attention,ok
+MNT0708,CUST0328,VEH0028,CONTR0328,SYNTHETIC,revisão periódica,preventiva,2026-04-19,46068,46568,500,Oficina Centro,624.19,4.7,cancelled,attention,ok,ok,ok
+MNT0709,CUST0250,VEH0050,CONTR0250,SYNTHETIC,revisão periódica,preventiva,2026-11-06,8454,9454,1000,Oficina Leste,,1.7,pending,ok,ok,ok,ok
+MNT0710,CUST0240,VEH0040,CONTR0240,SYNTHETIC,sistema elétrico,corretiva,2026-10-14,18690,21190,2500,Oficina Sul,,6.0,pending,ok,ok,ok,attention
+MNT0711,CUST0056,VEH0056,CONTR0056,SYNTHETIC,freios,preventiva,2025-11-19,47877,48377,500,Oficina Centro,3398.35,2.9,completed,attention,attention,ok,attention
+MNT0712,CUST0191,VEH0091,CONTR0191,SYNTHETIC,pneus,preventiva,2026-12-22,66553,69053,2500,PitStop 02,,1.8,pending,attention,ok,ok,attention
+MNT0713,CUST0252,VEH0052,CONTR0252,SYNTHETIC,revisão periódica,preventiva,2025-11-12,39133,41633,2500,PitStop 01,572.19,1.3,completed,ok,attention,ok,attention
+MNT0714,CUST0433,VEH0033,CONTR0433,SYNTHETIC,sistema elétrico,corretiva,2026-12-27,77504,82504,5000,PitStop 01,,5.2,scheduled,ok,ok,attention,ok
+MNT0715,CUST0140,VEH0040,CONTR0140,SYNTHETIC,diagnóstico,corretiva,2025-11-02,47752,49252,1500,Oficina Norte,449.48,2.4,completed,attention,ok,attention,ok
+MNT0716,CUST0478,VEH0078,CONTR0478,SYNTHETIC,sistema elétrico,corretiva,2026-11-30,21607,23107,1500,Oficina Leste,,2.9,scheduled,ok,ok,attention,ok
+MNT0717,CUST0010,VEH0010,CONTR0010,SYNTHETIC,troca de óleo,preventiva,2025-10-10,37375,37875,500,Oficina Centro,716.04,2.0,cancelled,attention,ok,ok,ok
+MNT0718,CUST0314,VEH0014,CONTR0314,SYNTHETIC,pneus,preventiva,2026-11-18,28184,29184,1000,Oficina Sul,,2.1,scheduled,ok,attention,attention,ok
+MNT0719,CUST0230,VEH0030,CONTR0230,SYNTHETIC,revisão periódica,preventiva,2026-07-20,81912,84412,2500,Oficina Norte,2411.0,2.9,cancelled,attention,attention,ok,ok
+MNT0720,CUST0237,VEH0037,CONTR0237,SYNTHETIC,sistema elétrico,corretiva,2025-10-13,77960,80460,2500,PitStop 01,2694.69,4.7,cancelled,ok,ok,attention,ok
+MNT0721,CUST0173,VEH0073,CONTR0173,SYNTHETIC,pneus,preventiva,2025-10-29,46392,47892,1500,Oficina Centro,3143.86,4.9,completed,ok,ok,attention,attention
+MNT0722,CUST0204,VEH0004,CONTR0204,SYNTHETIC,sistema elétrico,corretiva,2025-10-18,56747,57747,1000,Oficina Norte,3036.98,5.4,cancelled,ok,ok,attention,ok
+MNT0723,CUST0298,VEH0098,CONTR0298,SYNTHETIC,sistema elétrico,corretiva,2025-11-08,67915,72915,5000,PitStop 01,1692.44,2.7,cancelled,attention,ok,attention,attention
+MNT0724,CUST0247,VEH0047,CONTR0247,SYNTHETIC,bateria 12V,preventiva,2025-10-18,56377,57377,1000,PitStop 01,3009.5,4.5,completed,ok,attention,ok,ok
+MNT0725,CUST0162,VEH0062,CONTR0162,SYNTHETIC,freios,preventiva,2026-01-07,21635,26635,5000,Oficina Norte,2096.88,4.3,completed,ok,ok,ok,ok
+MNT0726,CUST0358,VEH0058,CONTR0358,SYNTHETIC,diagnóstico,corretiva,2025-10-15,78680,81180,2500,Oficina Leste,507.23,5.6,completed,ok,ok,ok,attention
+MNT0727,CUST0271,VEH0071,CONTR0271,SYNTHETIC,revisão periódica,preventiva,2026-11-06,29484,29984,500,Oficina Norte,,5.8,scheduled,attention,attention,ok,ok
+MNT0728,CUST0102,VEH0002,CONTR0102,SYNTHETIC,freios,preventiva,2026-08-26,32563,33063,500,Oficina Sul,1851.71,2.5,completed,ok,ok,ok,ok
+MNT0729,CUST0117,VEH0017,CONTR0117,SYNTHETIC,diagnóstico,corretiva,2025-12-19,38800,39800,1000,PitStop 01,881.04,5.3,cancelled,attention,ok,ok,ok
+MNT0730,CUST0381,VEH0081,CONTR0381,SYNTHETIC,sistema elétrico,corretiva,2026-11-09,68086,73086,5000,Oficina Norte,,2.8,pending,attention,ok,ok,ok
+MNT0731,CUST0115,VEH0015,CONTR0115,SYNTHETIC,sistema elétrico,corretiva,2026-10-26,37628,39128,1500,Oficina Norte,,3.8,scheduled,ok,ok,ok,ok
+MNT0732,CUST0116,VEH0016,CONTR0116,SYNTHETIC,alinhamento,preventiva,2026-05-02,46844,51844,5000,Oficina Leste,1952.28,3.3,completed,ok,ok,attention,ok
+MNT0733,CUST0479,VEH0079,CONTR0479,SYNTHETIC,revisão periódica,preventiva,2025-10-09,16099,17599,1500,Oficina Sul,937.76,3.1,cancelled,ok,attention,attention,attention
+MNT0734,CUST0037,VEH0037,CONTR0037,SYNTHETIC,freios,preventiva,2026-09-21,80225,82725,2500,Oficina Leste,1725.33,4.2,cancelled,ok,ok,ok,ok
+MNT0735,CUST0348,VEH0048,CONTR0348,SYNTHETIC,diagnóstico,corretiva,2026-11-15,74861,79861,5000,PitStop 01,,2.3,pending,ok,ok,ok,attention
+MNT0736,CUST0181,VEH0081,CONTR0181,SYNTHETIC,revisão periódica,preventiva,2026-08-27,23044,25544,2500,Oficina Centro,375.65,4.4,cancelled,ok,ok,attention,attention
+MNT0737,CUST0168,VEH0068,CONTR0168,SYNTHETIC,pneus,preventiva,2025-10-07,37349,38849,1500,Oficina Leste,2551.84,2.6,cancelled,ok,ok,ok,ok
+MNT0738,CUST0295,VEH0095,CONTR0295,SYNTHETIC,troca de óleo,preventiva,2026-11-17,46912,47412,500,Oficina Leste,,2.8,scheduled,attention,attention,attention,ok
+MNT0739,CUST0473,VEH0073,CONTR0473,SYNTHETIC,sistema elétrico,corretiva,2025-11-01,47559,48559,1000,Oficina Leste,1332.98,5.6,completed,attention,attention,attention,attention
+MNT0740,CUST0392,VEH0092,CONTR0392,SYNTHETIC,freios,preventiva,2026-07-29,23242,28242,5000,PitStop 02,2275.67,2.2,completed,attention,ok,ok,ok
+MNT0741,CUST0474,VEH0074,CONTR0474,SYNTHETIC,revisão periódica,preventiva,2026-11-15,44253,46753,2500,Oficina Leste,,4.2,scheduled,ok,ok,ok,ok
+MNT0742,CUST0035,VEH0035,CONTR0035,SYNTHETIC,bateria 12V,preventiva,2026-01-31,46403,51403,5000,PitStop 01,2947.72,3.6,completed,ok,ok,attention,attention
+MNT0743,CUST0156,VEH0056,CONTR0156,SYNTHETIC,diagnóstico,corretiva,2026-11-06,40222,40722,500,Oficina Sul,,5.4,scheduled,ok,ok,ok,ok
+MNT0744,CUST0130,VEH0030,CONTR0130,SYNTHETIC,troca de óleo,preventiva,2026-05-04,65783,66783,1000,Oficina Sul,3090.04,3.9,completed,ok,ok,ok,ok
+MNT0745,CUST0404,VEH0004,CONTR0404,SYNTHETIC,revisão periódica,preventiva,2026-12-19,78242,83242,5000,Oficina Norte,,1.0,pending,attention,ok,ok,ok
+MNT0746,CUST0500,VEH0100,CONTR0500,SYNTHETIC,revisão periódica,preventiva,2026-12-17,84173,86673,2500,Oficina Leste,,2.4,pending,ok,ok,ok,ok
+MNT0747,CUST0156,VEH0056,CONTR0156,SYNTHETIC,alinhamento,preventiva,2026-03-17,40222,41222,1000,PitStop 01,1322.66,1.3,completed,attention,ok,ok,ok
+MNT0748,CUST0009,VEH0009,CONTR0009,SYNTHETIC,diagnóstico,corretiva,2026-12-01,46454,51454,5000,Oficina Norte,,1.5,scheduled,ok,ok,attention,ok
+MNT0749,CUST0102,VEH0002,CONTR0102,SYNTHETIC,revisão periódica,preventiva,2026-07-05,32563,33563,1000,PitStop 01,2697.56,5.4,cancelled,ok,ok,ok,ok
+MNT0750,CUST0229,VEH0029,CONTR0229,SYNTHETIC,pneus,preventiva,2026-11-01,72018,73518,1500,PitStop 01,,3.8,scheduled,ok,attention,ok,ok
+MNT0751,CUST0485,VEH0085,CONTR0485,SYNTHETIC,alinhamento,preventiva,2026-12-06,43687,44187,500,Oficina Norte,,3.8,pending,attention,ok,attention,attention
+MNT0752,CUST0285,VEH0085,CONTR0285,SYNTHETIC,sistema elétrico,corretiva,2025-11-22,43089,48089,5000,PitStop 01,297.82,3.8,cancelled,ok,attention,ok,attention
+MNT0753,CUST0428,VEH0028,CONTR0428,SYNTHETIC,pneus,preventiva,2026-07-05,65417,66417,1000,Oficina Sul,684.2,3.5,cancelled,ok,attention,ok,ok
+MNT0754,CUST0196,VEH0096,CONTR0196,SYNTHETIC,diagnóstico,corretiva,2025-10-25,72504,74004,1500,PitStop 02,2870.22,4.6,completed,ok,ok,ok,ok
+MNT0755,CUST0409,VEH0009,CONTR0409,SYNTHETIC,sistema elétrico,corretiva,2026-11-20,77753,78253,500,PitStop 01,,5.4,pending,attention,attention,ok,ok
+MNT0756,CUST0204,VEH0004,CONTR0204,SYNTHETIC,alinhamento,preventiva,2026-07-11,56747,57747,1000,Oficina Sul,355.69,3.5,completed,ok,attention,ok,ok
+MNT0757,CUST0223,VEH0023,CONTR0223,SYNTHETIC,sistema elétrico,corretiva,2026-12-09,33204,34704,1500,PitStop 01,,4.8,pending,ok,ok,ok,ok
+MNT0758,CUST0188,VEH0088,CONTR0188,SYNTHETIC,pneus,preventiva,2026-12-26,19304,19804,500,Oficina Centro,,4.2,pending,attention,attention,ok,ok
+MNT0759,CUST0308,VEH0008,CONTR0308,SYNTHETIC,pneus,preventiva,2026-10-22,32221,33721,1500,Oficina Centro,,3.2,pending,ok,ok,attention,ok
+MNT0760,CUST0139,VEH0039,CONTR0139,SYNTHETIC,bateria 12V,preventiva,2026-12-29,21010,22510,1500,PitStop 01,,4.4,scheduled,ok,ok,attention,ok
+MNT0761,CUST0247,VEH0047,CONTR0247,SYNTHETIC,bateria 12V,preventiva,2026-08-26,56377,56877,500,PitStop 01,1850.3,1.3,completed,ok,ok,ok,ok
+MNT0762,CUST0459,VEH0059,CONTR0459,SYNTHETIC,bateria 12V,preventiva,2026-06-09,86719,87719,1000,Oficina Sul,3055.82,3.6,completed,ok,ok,ok,ok
+MNT0763,CUST0398,VEH0098,CONTR0398,SYNTHETIC,pneus,preventiva,2025-12-10,51720,54220,2500,Oficina Leste,2321.35,1.5,cancelled,ok,ok,ok,ok
+MNT0764,CUST0264,VEH0064,CONTR0264,SYNTHETIC,alinhamento,preventiva,2026-10-04,37654,38154,500,Oficina Norte,,6.0,pending,ok,ok,ok,attention
+MNT0765,CUST0144,VEH0044,CONTR0144,SYNTHETIC,alinhamento,preventiva,2026-10-14,66801,67801,1000,Oficina Sul,,5.2,pending,ok,ok,attention,attention
+MNT0766,CUST0457,VEH0057,CONTR0457,SYNTHETIC,freios,preventiva,2026-12-30,20440,21940,1500,Oficina Sul,,3.8,scheduled,attention,ok,attention,attention
+MNT0767,CUST0358,VEH0058,CONTR0358,SYNTHETIC,alinhamento,preventiva,2026-10-17,78680,79680,1000,PitStop 02,,4.2,scheduled,attention,attention,attention,ok
+MNT0768,CUST0233,VEH0033,CONTR0233,SYNTHETIC,freios,preventiva,2026-12-01,52631,53131,500,Oficina Centro,,3.6,pending,attention,ok,attention,ok
+MNT0769,CUST0269,VEH0069,CONTR0269,SYNTHETIC,revisão periódica,preventiva,2025-11-28,48807,49807,1000,Oficina Norte,779.19,4.7,completed,ok,ok,ok,ok
+MNT0770,CUST0408,VEH0008,CONTR0408,SYNTHETIC,alinhamento,preventiva,2026-10-16,22759,25259,2500,Oficina Leste,,4.0,pending,ok,attention,ok,ok
+MNT0771,CUST0341,VEH0041,CONTR0341,SYNTHETIC,troca de óleo,preventiva,2026-11-02,41802,46802,5000,PitStop 01,,2.8,scheduled,attention,ok,attention,ok
+MNT0772,CUST0132,VEH0032,CONTR0132,SYNTHETIC,pneus,preventiva,2026-07-22,64616,69616,5000,Oficina Norte,1816.21,1.4,completed,ok,ok,ok,ok
+MNT0773,CUST0183,VEH0083,CONTR0183,SYNTHETIC,sistema elétrico,corretiva,2026-04-09,73016,73516,500,Oficina Norte,2433.85,5.6,completed,ok,attention,ok,ok
+MNT0774,CUST0029,VEH0029,CONTR0029,SYNTHETIC,troca de óleo,preventiva,2026-07-24,64207,65707,1500,Oficina Sul,1995.45,4.3,cancelled,attention,ok,ok,attention
+MNT0775,CUST0317,VEH0017,CONTR0317,SYNTHETIC,alinhamento,preventiva,2026-02-13,58048,59548,1500,Oficina Centro,1284.06,4.8,cancelled,attention,ok,ok,ok
+MNT0776,CUST0064,VEH0064,CONTR0064,SYNTHETIC,revisão periódica,preventiva,2026-05-30,68518,69518,1000,Oficina Centro,1967.19,3.5,completed,ok,ok,ok,ok
+MNT0777,CUST0200,VEH0100,CONTR0200,SYNTHETIC,alinhamento,preventiva,2026-11-07,50001,55001,5000,Oficina Centro,,3.2,pending,attention,ok,ok,attention
+MNT0778,CUST0203,VEH0003,CONTR0203,SYNTHETIC,revisão periódica,preventiva,2026-04-26,68945,71445,2500,Oficina Centro,836.66,5.6,completed,attention,ok,attention,ok
+MNT0779,CUST0390,VEH0090,CONTR0390,SYNTHETIC,diagnóstico,corretiva,2026-01-07,42881,43381,500,Oficina Norte,1951.84,5.7,cancelled,ok,ok,attention,ok
+MNT0780,CUST0447,VEH0047,CONTR0447,SYNTHETIC,sistema elétrico,corretiva,2025-11-03,30982,31982,1000,Oficina Sul,2677.25,3.8,cancelled,ok,ok,attention,ok
+MNT0781,CUST0145,VEH0045,CONTR0145,SYNTHETIC,troca de óleo,preventiva,2026-03-02,60289,61789,1500,PitStop 01,2746.16,2.3,cancelled,attention,ok,attention,attention
+MNT0782,CUST0297,VEH0097,CONTR0297,SYNTHETIC,sistema elétrico,corretiva,2026-10-08,20795,22295,1500,PitStop 01,,2.9,pending,ok,ok,attention,ok
+MNT0783,CUST0029,VEH0029,CONTR0029,SYNTHETIC,revisão periódica,preventiva,2026-12-06,64207,66707,2500,Oficina Norte,,2.8,scheduled,ok,ok,attention,ok
+MNT0784,CUST0142,VEH0042,CONTR0142,SYNTHETIC,bateria 12V,preventiva,2025-10-07,37326,42326,5000,Oficina Centro,3349.74,3.8,cancelled,ok,attention,ok,attention
+MNT0785,CUST0014,VEH0014,CONTR0014,SYNTHETIC,revisão periódica,preventiva,2026-12-01,22414,24914,2500,Oficina Centro,,1.6,scheduled,ok,ok,attention,attention
+MNT0786,CUST0264,VEH0064,CONTR0264,SYNTHETIC,revisão periódica,preventiva,2026-10-17,37654,38654,1000,Oficina Norte,,3.4,scheduled,ok,attention,ok,ok
+MNT0787,CUST0457,VEH0057,CONTR0457,SYNTHETIC,troca de óleo,preventiva,2026-12-07,20440,22940,2500,Oficina Leste,,5.2,scheduled,ok,ok,ok,attention
+MNT0788,CUST0255,VEH0055,CONTR0255,SYNTHETIC,troca de óleo,preventiva,2026-11-09,45312,46812,1500,Oficina Leste,,3.7,pending,ok,attention,attention,ok
+MNT0789,CUST0211,VEH0011,CONTR0211,SYNTHETIC,revisão periódica,preventiva,2026-04-22,32007,33007,1000,PitStop 01,1857.92,2.6,completed,attention,ok,attention,ok
+MNT0790,CUST0194,VEH0094,CONTR0194,SYNTHETIC,pneus,preventiva,2026-04-13,18045,20545,2500,Oficina Leste,2690.2,5.0,completed,ok,ok,attention,ok
+MNT0791,CUST0226,VEH0026,CONTR0226,SYNTHETIC,sistema elétrico,corretiva,2026-12-14,75612,78112,2500,Oficina Sul,,1.2,pending,ok,ok,attention,ok
+MNT0792,CUST0469,VEH0069,CONTR0469,SYNTHETIC,sistema elétrico,corretiva,2026-09-19,48041,53041,5000,PitStop 01,1464.71,4.5,completed,attention,attention,attention,ok
+MNT0793,CUST0021,VEH0021,CONTR0021,SYNTHETIC,pneus,preventiva,2026-11-04,18551,19051,500,Oficina Sul,,1.4,pending,ok,ok,attention,ok
+MNT0794,CUST0131,VEH0031,CONTR0131,SYNTHETIC,bateria 12V,preventiva,2026-11-18,27759,28259,500,Oficina Centro,,2.8,scheduled,attention,ok,ok,attention
+MNT0795,CUST0410,VEH0010,CONTR0410,SYNTHETIC,pneus,preventiva,2026-12-03,71703,72203,500,PitStop 01,,5.7,pending,ok,ok,ok,attention
+MNT0796,CUST0395,VEH0095,CONTR0395,SYNTHETIC,diagnóstico,corretiva,2026-10-25,75628,78128,2500,Oficina Norte,,2.1,scheduled,ok,ok,ok,attention
+MNT0797,CUST0441,VEH0041,CONTR0441,SYNTHETIC,sistema elétrico,corretiva,2026-11-04,78219,79719,1500,PitStop 02,,1.9,pending,ok,ok,ok,ok
+MNT0798,CUST0134,VEH0034,CONTR0134,SYNTHETIC,pneus,preventiva,2025-11-20,22566,23066,500,Oficina Sul,2437.1,4.0,completed,attention,attention,ok,attention
+MNT0799,CUST0418,VEH0018,CONTR0418,SYNTHETIC,diagnóstico,corretiva,2025-10-24,69670,71170,1500,Oficina Centro,2516.95,3.4,completed,attention,ok,attention,ok
+MNT0800,CUST0101,VEH0001,CONTR0101,SYNTHETIC,pneus,preventiva,2026-03-08,34366,35866,1500,Oficina Norte,2831.45,5.9,completed,ok,attention,ok,ok
+MNT0801,CUST0309,VEH0009,CONTR0309,SYNTHETIC,bateria 12V,preventiva,2026-05-13,78069,79569,1500,PitStop 01,2058.04,3.9,completed,ok,ok,ok,ok
+MNT0802,CUST0265,VEH0065,CONTR0265,SYNTHETIC,bateria 12V,preventiva,2026-07-31,48271,53271,5000,Oficina Sul,1267.14,1.4,completed,ok,ok,attention,ok
+MNT0803,CUST0310,VEH0010,CONTR0310,SYNTHETIC,revisão periódica,preventiva,2026-06-09,24657,27157,2500,Oficina Norte,335.19,4.0,cancelled,ok,ok,ok,ok
+MNT0804,CUST0439,VEH0039,CONTR0439,SYNTHETIC,alinhamento,preventiva,2026-03-18,11981,12981,1000,Oficina Centro,1098.39,3.4,cancelled,ok,ok,ok,ok
+MNT0805,CUST0217,VEH0017,CONTR0217,SYNTHETIC,diagnóstico,corretiva,2026-01-25,33839,34839,1000,Oficina Leste,2951.62,1.2,completed,ok,ok,ok,ok
+MNT0806,CUST0360,VEH0060,CONTR0360,SYNTHETIC,bateria 12V,preventiva,2025-10-02,9536,10536,1000,PitStop 02,3093.43,1.9,completed,ok,attention,attention,ok
+MNT0807,CUST0494,VEH0094,CONTR0494,SYNTHETIC,pneus,preventiva,2026-12-13,56096,56596,500,Oficina Leste,,4.6,pending,attention,ok,attention,attention
+MNT0808,CUST0333,VEH0033,CONTR0333,SYNTHETIC,bateria 12V,preventiva,2026-05-13,49279,49779,500,PitStop 01,448.43,3.0,completed,ok,ok,ok,attention
+MNT0809,CUST0384,VEH0084,CONTR0384,SYNTHETIC,troca de óleo,preventiva,2026-10-03,67548,69048,1500,Oficina Leste,,4.4,scheduled,ok,attention,attention,attention
+MNT0810,CUST0332,VEH0032,CONTR0332,SYNTHETIC,bateria 12V,preventiva,2026-12-19,73832,74832,1000,Oficina Leste,,1.6,scheduled,attention,ok,ok,ok
+MNT0811,CUST0402,VEH0002,CONTR0402,SYNTHETIC,bateria 12V,preventiva,2026-01-25,70052,70552,500,Oficina Norte,2328.18,2.3,completed,ok,ok,ok,ok
+MNT0812,CUST0075,VEH0075,CONTR0075,SYNTHETIC,sistema elétrico,corretiva,2026-05-17,30547,32047,1500,PitStop 01,1787.05,1.8,completed,attention,attention,ok,attention
+MNT0813,CUST0434,VEH0034,CONTR0434,SYNTHETIC,sistema elétrico,corretiva,2025-10-22,51576,53076,1500,Oficina Centro,847.91,5.7,completed,attention,ok,attention,attention
+MNT0814,CUST0060,VEH0060,CONTR0060,SYNTHETIC,pneus,preventiva,2026-03-01,18485,18985,500,PitStop 02,1347.21,5.6,cancelled,attention,attention,attention,ok
+MNT0815,CUST0479,VEH0079,CONTR0479,SYNTHETIC,freios,preventiva,2026-01-26,16099,17099,1000,PitStop 02,736.12,2.0,completed,ok,ok,ok,ok
+MNT0816,CUST0042,VEH0042,CONTR0042,SYNTHETIC,alinhamento,preventiva,2026-10-18,31373,33873,2500,PitStop 02,,2.6,scheduled,attention,ok,ok,ok
+MNT0817,CUST0216,VEH0016,CONTR0216,SYNTHETIC,sistema elétrico,corretiva,2026-03-24,61825,66825,5000,Oficina Norte,1142.57,1.7,cancelled,ok,attention,attention,ok
+MNT0818,CUST0150,VEH0050,CONTR0150,SYNTHETIC,troca de óleo,preventiva,2026-10-12,68352,68852,500,Oficina Leste,,3.5,scheduled,attention,ok,ok,attention
+MNT0819,CUST0060,VEH0060,CONTR0060,SYNTHETIC,pneus,preventiva,2026-03-24,18485,19485,1000,Oficina Sul,412.14,4.1,completed,ok,ok,ok,ok
+MNT0820,CUST0343,VEH0043,CONTR0343,SYNTHETIC,pneus,preventiva,2026-01-12,45379,46879,1500,PitStop 01,2085.29,1.2,completed,ok,ok,attention,ok
+MNT0821,CUST0382,VEH0082,CONTR0382,SYNTHETIC,sistema elétrico,corretiva,2026-10-28,58739,59739,1000,Oficina Norte,,1.3,pending,ok,ok,ok,ok
+MNT0822,CUST0142,VEH0042,CONTR0142,SYNTHETIC,alinhamento,preventiva,2026-10-22,37326,39826,2500,PitStop 02,,6.0,scheduled,attention,ok,ok,attention
+MNT0823,CUST0083,VEH0083,CONTR0083,SYNTHETIC,pneus,preventiva,2026-03-15,74556,75556,1000,Oficina Sul,2990.36,3.7,completed,ok,attention,attention,ok
+MNT0824,CUST0220,VEH0020,CONTR0220,SYNTHETIC,freios,preventiva,2026-11-14,68025,70525,2500,PitStop 01,,4.1,scheduled,ok,attention,attention,ok
+MNT0825,CUST0217,VEH0017,CONTR0217,SYNTHETIC,troca de óleo,preventiva,2026-11-21,33839,38839,5000,Oficina Leste,,4.9,pending,attention,ok,ok,ok
+MNT0826,CUST0292,VEH0092,CONTR0292,SYNTHETIC,freios,preventiva,2026-05-17,57561,59061,1500,Oficina Leste,2571.88,5.4,cancelled,ok,attention,ok,ok
+MNT0827,CUST0342,VEH0042,CONTR0342,SYNTHETIC,sistema elétrico,corretiva,2026-10-18,69750,74750,5000,Oficina Norte,,4.2,scheduled,ok,ok,ok,ok
+MNT0828,CUST0249,VEH0049,CONTR0249,SYNTHETIC,freios,preventiva,2026-10-26,39686,40186,500,Oficina Centro,,5.2,pending,attention,ok,ok,ok
+MNT0829,CUST0338,VEH0038,CONTR0338,SYNTHETIC,troca de óleo,preventiva,2026-11-26,15172,15672,500,Oficina Norte,,1.6,pending,ok,ok,attention,ok
+MNT0830,CUST0061,VEH0061,CONTR0061,SYNTHETIC,revisão periódica,preventiva,2026-12-09,22334,22834,500,Oficina Sul,,5.7,scheduled,ok,attention,ok,ok
+MNT0831,CUST0455,VEH0055,CONTR0455,SYNTHETIC,sistema elétrico,corretiva,2026-08-13,9437,14437,5000,Oficina Sul,2950.42,4.7,completed,ok,ok,ok,ok
+MNT0832,CUST0187,VEH0087,CONTR0187,SYNTHETIC,pneus,preventiva,2026-02-11,48445,49945,1500,PitStop 02,1179.11,2.7,completed,ok,attention,ok,attention
+MNT0833,CUST0132,VEH0032,CONTR0132,SYNTHETIC,pneus,preventiva,2026-12-03,64616,69616,5000,PitStop 02,,2.1,pending,ok,ok,ok,ok
+MNT0834,CUST0088,VEH0088,CONTR0088,SYNTHETIC,alinhamento,preventiva,2025-10-06,45365,46365,1000,Oficina Leste,3289.4,4.0,cancelled,ok,attention,attention,attention
+MNT0835,CUST0492,VEH0092,CONTR0492,SYNTHETIC,diagnóstico,corretiva,2026-12-13,15024,15524,500,Oficina Leste,,4.3,scheduled,ok,ok,ok,attention
+MNT0836,CUST0495,VEH0095,CONTR0495,SYNTHETIC,pneus,preventiva,2026-06-26,72869,74369,1500,Oficina Norte,2600.15,2.7,completed,ok,attention,ok,ok
+MNT0837,CUST0470,VEH0070,CONTR0470,SYNTHETIC,troca de óleo,preventiva,2025-12-08,69188,70688,1500,Oficina Norte,2256.94,2.4,completed,ok,ok,ok,ok
+MNT0838,CUST0239,VEH0039,CONTR0239,SYNTHETIC,bateria 12V,preventiva,2026-11-13,55591,60591,5000,Oficina Sul,,1.6,pending,attention,ok,attention,ok
+MNT0839,CUST0265,VEH0065,CONTR0265,SYNTHETIC,sistema elétrico,corretiva,2026-12-04,48271,53271,5000,PitStop 01,,6.0,pending,attention,ok,ok,attention
+MNT0840,CUST0229,VEH0029,CONTR0229,SYNTHETIC,revisão periódica,preventiva,2026-12-21,72018,73518,1500,Oficina Sul,,4.5,scheduled,ok,ok,ok,attention
+MNT0841,CUST0109,VEH0009,CONTR0109,SYNTHETIC,troca de óleo,preventiva,2025-11-01,68504,69004,500,Oficina Leste,1702.74,1.7,completed,ok,attention,ok,attention
+MNT0842,CUST0319,VEH0019,CONTR0319,SYNTHETIC,diagnóstico,corretiva,2026-04-24,42810,45310,2500,Oficina Norte,369.9,1.6,completed,attention,ok,ok,ok
+MNT0843,CUST0101,VEH0001,CONTR0101,SYNTHETIC,troca de óleo,preventiva,2026-06-17,34366,35866,1500,PitStop 01,1538.56,2.9,completed,ok,ok,ok,attention
+MNT0844,CUST0014,VEH0014,CONTR0014,SYNTHETIC,freios,preventiva,2025-12-31,22414,27414,5000,PitStop 02,1552.07,2.4,completed,ok,ok,attention,ok
+MNT0845,CUST0292,VEH0092,CONTR0292,SYNTHETIC,pneus,preventiva,2026-07-11,57561,58561,1000,Oficina Norte,2927.76,3.8,cancelled,attention,attention,ok,ok
+MNT0846,CUST0208,VEH0008,CONTR0208,SYNTHETIC,alinhamento,preventiva,2026-04-21,75298,76798,1500,Oficina Sul,2749.83,5.4,completed,ok,attention,ok,ok
+MNT0847,CUST0446,VEH0046,CONTR0446,SYNTHETIC,freios,preventiva,2026-10-16,81146,82646,1500,Oficina Norte,,4.3,scheduled,ok,attention,attention,ok
+MNT0848,CUST0224,VEH0024,CONTR0224,SYNTHETIC,troca de óleo,preventiva,2026-05-23,64055,66555,2500,Oficina Leste,392.02,2.0,completed,attention,ok,ok,ok
+MNT0849,CUST0086,VEH0086,CONTR0086,SYNTHETIC,bateria 12V,preventiva,2026-10-05,56023,57523,1500,PitStop 02,,4.9,pending,ok,ok,ok,ok
+MNT0850,CUST0231,VEH0031,CONTR0231,SYNTHETIC,troca de óleo,preventiva,2026-03-17,31676,36676,5000,Oficina Sul,998.06,4.5,completed,attention,ok,attention,ok
+MNT0851,CUST0310,VEH0010,CONTR0310,SYNTHETIC,pneus,preventiva,2026-07-28,24657,26157,1500,PitStop 02,2282.18,4.7,cancelled,ok,ok,ok,ok
+MNT0852,CUST0416,VEH0016,CONTR0416,SYNTHETIC,freios,preventiva,2026-03-18,19234,19734,500,PitStop 01,1020.99,3.0,completed,ok,ok,attention,ok
+MNT0853,CUST0123,VEH0023,CONTR0123,SYNTHETIC,alinhamento,preventiva,2026-11-23,69003,70003,1000,PitStop 01,,1.1,scheduled,attention,ok,ok,attention
+MNT0854,CUST0362,VEH0062,CONTR0362,SYNTHETIC,troca de óleo,preventiva,2026-10-29,73526,74526,1000,Oficina Sul,,4.1,scheduled,ok,attention,ok,ok
+MNT0855,CUST0053,VEH0053,CONTR0053,SYNTHETIC,revisão periódica,preventiva,2025-10-07,82924,84424,1500,Oficina Leste,2063.9,2.2,completed,ok,ok,ok,ok
+MNT0856,CUST0261,VEH0061,CONTR0261,SYNTHETIC,pneus,preventiva,2026-10-20,20895,21895,1000,PitStop 01,,4.3,scheduled,ok,attention,ok,attention
+MNT0857,CUST0379,VEH0079,CONTR0379,SYNTHETIC,troca de óleo,preventiva,2026-03-04,43939,45439,1500,PitStop 01,2784.32,1.4,completed,ok,ok,ok,ok
+MNT0858,CUST0375,VEH0075,CONTR0375,SYNTHETIC,freios,preventiva,2026-07-09,29858,30358,500,Oficina Norte,2323.13,2.4,completed,attention,attention,ok,attention
+MNT0859,CUST0145,VEH0045,CONTR0145,SYNTHETIC,pneus,preventiva,2026-08-05,60289,60789,500,Oficina Centro,2553.03,4.0,completed,ok,ok,ok,ok
+MNT0860,CUST0456,VEH0056,CONTR0456,SYNTHETIC,pneus,preventiva,2026-12-11,40500,43000,2500,Oficina Sul,,1.9,scheduled,ok,attention,attention,attention
+MNT0861,CUST0369,VEH0069,CONTR0369,SYNTHETIC,diagnóstico,corretiva,2025-10-15,30005,30505,500,PitStop 02,452.13,1.9,completed,attention,ok,attention,ok
+MNT0862,CUST0447,VEH0047,CONTR0447,SYNTHETIC,revisão periódica,preventiva,2026-06-16,30982,35982,5000,Oficina Sul,873.44,4.3,completed,ok,ok,ok,ok
+MNT0863,CUST0045,VEH0045,CONTR0045,SYNTHETIC,troca de óleo,preventiva,2026-12-29,22308,22808,500,PitStop 02,,5.2,pending,ok,ok,ok,ok
+MNT0864,CUST0381,VEH0081,CONTR0381,SYNTHETIC,diagnóstico,corretiva,2025-11-13,68086,68586,500,Oficina Centro,424.33,5.8,completed,attention,ok,ok,ok
+MNT0865,CUST0150,VEH0050,CONTR0150,SYNTHETIC,revisão periódica,preventiva,2026-11-26,68352,73352,5000,Oficina Sul,,1.2,scheduled,ok,ok,attention,attention
+MNT0866,CUST0357,VEH0057,CONTR0357,SYNTHETIC,alinhamento,preventiva,2026-11-06,77626,78126,500,Oficina Centro,,3.6,pending,ok,attention,ok,ok
+MNT0867,CUST0427,VEH0027,CONTR0427,SYNTHETIC,alinhamento,preventiva,2026-07-17,22868,25368,2500,Oficina Leste,2679.93,3.0,completed,attention,ok,ok,ok
+MNT0868,CUST0427,VEH0027,CONTR0427,SYNTHETIC,bateria 12V,preventiva,2026-12-28,22868,23368,500,PitStop 02,,2.4,scheduled,ok,ok,attention,attention
+MNT0869,CUST0144,VEH0044,CONTR0144,SYNTHETIC,diagnóstico,corretiva,2025-12-17,66801,67801,1000,Oficina Sul,2025.59,5.6,cancelled,attention,ok,attention,ok
+MNT0870,CUST0037,VEH0037,CONTR0037,SYNTHETIC,bateria 12V,preventiva,2025-10-03,80225,80725,500,PitStop 02,773.73,5.0,cancelled,attention,ok,ok,ok
+MNT0871,CUST0078,VEH0078,CONTR0078,SYNTHETIC,alinhamento,preventiva,2026-07-22,47914,48414,500,Oficina Norte,1463.57,4.9,completed,ok,ok,ok,attention
+MNT0872,CUST0426,VEH0026,CONTR0426,SYNTHETIC,freios,preventiva,2026-10-04,53874,56374,2500,Oficina Norte,,3.6,pending,attention,ok,ok,ok
+MNT0873,CUST0431,VEH0031,CONTR0431,SYNTHETIC,bateria 12V,preventiva,2026-11-04,33722,34722,1000,Oficina Norte,,4.3,scheduled,ok,attention,ok,ok
+MNT0874,CUST0096,VEH0096,CONTR0096,SYNTHETIC,sistema elétrico,corretiva,2026-10-29,56369,57369,1000,Oficina Centro,,5.8,pending,ok,attention,attention,ok
+MNT0875,CUST0445,VEH0045,CONTR0445,SYNTHETIC,sistema elétrico,corretiva,2025-11-17,15899,20899,5000,PitStop 02,1117.55,1.8,cancelled,ok,ok,ok,attention
+MNT0876,CUST0365,VEH0065,CONTR0365,SYNTHETIC,sistema elétrico,corretiva,2026-12-09,30851,32351,1500,Oficina Sul,,2.5,pending,attention,ok,attention,ok
+MNT0877,CUST0002,VEH0002,CONTR0002,SYNTHETIC,alinhamento,preventiva,2026-02-23,61341,61841,500,PitStop 01,3342.6,4.2,completed,ok,ok,attention,ok
+MNT0878,CUST0183,VEH0083,CONTR0183,SYNTHETIC,alinhamento,preventiva,2026-02-12,73016,75516,2500,PitStop 02,3454.42,3.6,completed,attention,attention,ok,ok
+MNT0879,CUST0489,VEH0089,CONTR0489,SYNTHETIC,revisão periódica,preventiva,2026-08-06,63563,64563,1000,PitStop 02,1717.77,5.1,cancelled,ok,attention,attention,ok
+MNT0880,CUST0130,VEH0030,CONTR0130,SYNTHETIC,diagnóstico,corretiva,2025-12-11,65783,67283,1500,PitStop 02,2767.6,2.1,cancelled,ok,ok,attention,attention
+MNT0881,CUST0170,VEH0070,CONTR0170,SYNTHETIC,alinhamento,preventiva,2026-01-18,57044,62044,5000,Oficina Centro,625.57,3.7,completed,attention,attention,ok,ok
+MNT0882,CUST0260,VEH0060,CONTR0260,SYNTHETIC,alinhamento,preventiva,2026-03-29,59260,59760,500,PitStop 01,1524.95,5.0,cancelled,attention,attention,ok,ok
+MNT0883,CUST0331,VEH0031,CONTR0331,SYNTHETIC,troca de óleo,preventiva,2026-10-22,9427,9927,500,Oficina Sul,,4.5,scheduled,ok,ok,ok,ok
+MNT0884,CUST0180,VEH0080,CONTR0180,SYNTHETIC,bateria 12V,preventiva,2026-10-15,62940,65440,2500,Oficina Centro,,1.9,scheduled,attention,attention,attention,attention
+MNT0885,CUST0092,VEH0092,CONTR0092,SYNTHETIC,revisão periódica,preventiva,2026-10-05,15670,20670,5000,Oficina Norte,,1.3,pending,ok,ok,ok,ok
+MNT0886,CUST0451,VEH0051,CONTR0451,SYNTHETIC,bateria 12V,preventiva,2026-12-09,66081,67581,1500,Oficina Leste,,5.4,scheduled,attention,ok,attention,attention
+MNT0887,CUST0024,VEH0024,CONTR0024,SYNTHETIC,sistema elétrico,corretiva,2026-11-10,10715,12215,1500,PitStop 01,,1.3,scheduled,attention,ok,ok,ok
+MNT0888,CUST0234,VEH0034,CONTR0234,SYNTHETIC,pneus,preventiva,2025-12-13,13718,14718,1000,PitStop 01,2545.23,3.7,completed,ok,ok,attention,ok
+MNT0889,CUST0318,VEH0018,CONTR0318,SYNTHETIC,revisão periódica,preventiva,2026-03-10,45712,46212,500,Oficina Centro,1613.94,4.0,completed,attention,ok,ok,ok
+MNT0890,CUST0415,VEH0015,CONTR0415,SYNTHETIC,sistema elétrico,corretiva,2026-11-10,50304,51304,1000,Oficina Centro,,4.4,scheduled,ok,ok,attention,attention
+MNT0891,CUST0346,VEH0046,CONTR0346,SYNTHETIC,alinhamento,preventiva,2026-11-03,69793,71293,1500,PitStop 02,,1.1,scheduled,attention,ok,attention,ok
+MNT0892,CUST0135,VEH0035,CONTR0135,SYNTHETIC,pneus,preventiva,2026-02-02,8360,10860,2500,PitStop 01,1600.06,3.8,completed,attention,ok,attention,ok
+MNT0893,CUST0415,VEH0015,CONTR0415,SYNTHETIC,sistema elétrico,corretiva,2025-11-06,50304,51804,1500,PitStop 01,1672.47,3.8,completed,ok,ok,attention,ok
+MNT0894,CUST0271,VEH0071,CONTR0271,SYNTHETIC,bateria 12V,preventiva,2026-04-05,29484,31984,2500,Oficina Norte,486.2,1.9,completed,ok,ok,ok,attention
+MNT0895,CUST0157,VEH0057,CONTR0157,SYNTHETIC,bateria 12V,preventiva,2026-07-26,53178,53678,500,Oficina Norte,554.31,5.0,completed,ok,attention,ok,ok
+MNT0896,CUST0030,VEH0030,CONTR0030,SYNTHETIC,bateria 12V,preventiva,2025-12-15,51228,53728,2500,Oficina Norte,2797.83,3.0,completed,ok,ok,attention,ok
+MNT0897,CUST0499,VEH0099,CONTR0499,SYNTHETIC,revisão periódica,preventiva,2026-11-18,19759,20759,1000,Oficina Norte,,4.1,scheduled,ok,ok,ok,ok
+MNT0898,CUST0054,VEH0054,CONTR0054,SYNTHETIC,freios,preventiva,2025-10-18,32308,32808,500,PitStop 01,3344.47,4.7,completed,ok,ok,ok,ok
+MNT0899,CUST0451,VEH0051,CONTR0451,SYNTHETIC,diagnóstico,corretiva,2025-11-05,66081,66581,500,Oficina Leste,2205.3,1.3,completed,ok,attention,ok,ok
+MNT0900,CUST0274,VEH0074,CONTR0274,SYNTHETIC,freios,preventiva,2026-05-04,41010,43510,2500,PitStop 01,847.02,4.4,cancelled,attention,attention,ok,ok
+MNT0901,CUST0440,VEH0040,CONTR0440,SYNTHETIC,revisão periódica,preventiva,2025-12-16,46626,49126,2500,PitStop 01,1159.94,4.0,completed,ok,attention,ok,attention
+MNT0902,CUST0212,VEH0012,CONTR0212,SYNTHETIC,alinhamento,preventiva,2026-10-31,20713,23213,2500,PitStop 01,,5.2,pending,attention,ok,ok,ok
+MNT0903,CUST0037,VEH0037,CONTR0037,SYNTHETIC,freios,preventiva,2026-10-09,80225,81225,1000,Oficina Centro,,2.1,scheduled,ok,ok,ok,attention
+MNT0904,CUST0007,VEH0007,CONTR0007,SYNTHETIC,freios,preventiva,2026-11-08,81921,82921,1000,Oficina Leste,,4.5,pending,ok,attention,ok,ok
+MNT0905,CUST0206,VEH0006,CONTR0206,SYNTHETIC,freios,preventiva,2026-12-17,72927,77927,5000,Oficina Sul,,1.4,pending,ok,attention,attention,ok
+MNT0906,CUST0477,VEH0077,CONTR0477,SYNTHETIC,freios,preventiva,2026-07-09,50438,51938,1500,Oficina Centro,582.14,3.2,cancelled,attention,ok,ok,ok
+MNT0907,CUST0180,VEH0080,CONTR0180,SYNTHETIC,freios,preventiva,2026-12-07,62940,65440,2500,Oficina Leste,,5.0,pending,attention,attention,ok,ok
+MNT0908,CUST0228,VEH0028,CONTR0228,SYNTHETIC,revisão periódica,preventiva,2026-01-22,13553,15053,1500,PitStop 02,2106.5,5.8,completed,ok,ok,attention,ok
+MNT0909,CUST0398,VEH0098,CONTR0398,SYNTHETIC,bateria 12V,preventiva,2026-10-30,51720,52220,500,PitStop 02,,5.3,pending,ok,ok,ok,ok
+MNT0910,CUST0014,VEH0014,CONTR0014,SYNTHETIC,freios,preventiva,2026-12-01,22414,24914,2500,Oficina Sul,,3.7,pending,ok,attention,attention,attention
+MNT0911,CUST0164,VEH0064,CONTR0164,SYNTHETIC,bateria 12V,preventiva,2026-06-06,32018,33518,1500,Oficina Norte,2673.52,1.5,cancelled,ok,ok,ok,ok
+MNT0912,CUST0385,VEH0085,CONTR0385,SYNTHETIC,alinhamento,preventiva,2026-10-09,13834,14334,500,PitStop 01,,4.8,pending,ok,ok,ok,ok
+MNT0913,CUST0237,VEH0037,CONTR0237,SYNTHETIC,revisão periódica,preventiva,2026-07-04,77960,80460,2500,Oficina Norte,3308.05,2.8,completed,attention,ok,ok,attention
+MNT0914,CUST0451,VEH0051,CONTR0451,SYNTHETIC,revisão periódica,preventiva,2026-08-17,66081,71081,5000,Oficina Sul,1732.13,2.6,cancelled,attention,attention,ok,attention
+MNT0915,CUST0228,VEH0028,CONTR0228,SYNTHETIC,sistema elétrico,corretiva,2026-10-18,13553,16053,2500,PitStop 02,,5.7,scheduled,ok,ok,ok,ok
+MNT0916,CUST0354,VEH0054,CONTR0354,SYNTHETIC,revisão periódica,preventiva,2026-10-03,31743,32743,1000,Oficina Norte,,5.0,scheduled,ok,ok,ok,ok
+MNT0917,CUST0015,VEH0015,CONTR0015,SYNTHETIC,alinhamento,preventiva,2026-08-18,24854,27354,2500,Oficina Sul,1149.29,4.0,completed,attention,ok,ok,ok
+MNT0918,CUST0132,VEH0032,CONTR0132,SYNTHETIC,sistema elétrico,corretiva,2026-12-11,64616,65116,500,Oficina Norte,,2.5,pending,ok,attention,ok,attention
+MNT0919,CUST0458,VEH0058,CONTR0458,SYNTHETIC,alinhamento,preventiva,2026-04-12,76020,78520,2500,PitStop 01,853.82,5.0,cancelled,ok,attention,ok,ok
+MNT0920,CUST0454,VEH0054,CONTR0454,SYNTHETIC,bateria 12V,preventiva,2026-11-19,13443,13943,500,Oficina Norte,,2.8,pending,attention,attention,ok,ok
+MNT0921,CUST0404,VEH0004,CONTR0404,SYNTHETIC,freios,preventiva,2026-07-30,78242,79742,1500,PitStop 02,3105.37,3.6,cancelled,ok,ok,ok,attention
+MNT0922,CUST0169,VEH0069,CONTR0169,SYNTHETIC,revisão periódica,preventiva,2026-03-21,55526,60526,5000,Oficina Leste,1264.66,2.0,completed,ok,ok,attention,ok
+MNT0923,CUST0378,VEH0078,CONTR0378,SYNTHETIC,revisão periódica,preventiva,2025-10-03,71235,71735,500,Oficina Sul,436.61,4.0,cancelled,ok,ok,ok,ok
+MNT0924,CUST0093,VEH0093,CONTR0093,SYNTHETIC,bateria 12V,preventiva,2026-10-12,36928,39428,2500,Oficina Sul,,4.9,scheduled,attention,ok,ok,ok
+MNT0925,CUST0483,VEH0083,CONTR0483,SYNTHETIC,troca de óleo,preventiva,2026-08-10,37699,39199,1500,Oficina Leste,2310.54,4.8,completed,ok,ok,attention,attention
+MNT0926,CUST0398,VEH0098,CONTR0398,SYNTHETIC,diagnóstico,corretiva,2026-11-30,51720,52720,1000,Oficina Leste,,5.6,scheduled,ok,attention,ok,ok
+MNT0927,CUST0206,VEH0006,CONTR0206,SYNTHETIC,troca de óleo,preventiva,2026-09-14,72927,75427,2500,PitStop 01,2462.44,2.3,completed,ok,ok,attention,attention
+MNT0928,CUST0340,VEH0040,CONTR0340,SYNTHETIC,diagnóstico,corretiva,2026-07-30,79337,80337,1000,Oficina Sul,2832.85,4.4,completed,attention,attention,attention,ok
+MNT0929,CUST0131,VEH0031,CONTR0131,SYNTHETIC,diagnóstico,corretiva,2026-05-04,27759,28259,500,PitStop 01,2954.37,1.9,completed,ok,ok,ok,attention
+MNT0930,CUST0072,VEH0072,CONTR0072,SYNTHETIC,revisão periódica,preventiva,2026-01-07,59151,60651,1500,Oficina Sul,2571.81,5.1,cancelled,ok,ok,ok,ok
+MNT0931,CUST0245,VEH0045,CONTR0245,SYNTHETIC,freios,preventiva,2026-07-10,66957,67957,1000,Oficina Sul,389.61,3.3,cancelled,ok,ok,ok,ok
+MNT0932,CUST0190,VEH0090,CONTR0190,SYNTHETIC,diagnóstico,corretiva,2026-10-21,43121,45621,2500,Oficina Centro,,2.6,pending,ok,ok,ok,attention
+MNT0933,CUST0436,VEH0036,CONTR0436,SYNTHETIC,diagnóstico,corretiva,2026-10-11,34288,39288,5000,Oficina Leste,,2.3,pending,attention,ok,ok,ok
+MNT0934,CUST0128,VEH0028,CONTR0128,SYNTHETIC,diagnóstico,corretiva,2025-11-03,22136,22636,500,PitStop 02,2779.89,5.8,cancelled,attention,ok,ok,attention
+MNT0935,CUST0001,VEH0001,CONTR0001,SYNTHETIC,revisão periódica,preventiva,2026-08-19,76265,77265,1000,Oficina Centro,871.66,4.9,completed,ok,ok,ok,ok
+MNT0936,CUST0173,VEH0073,CONTR0173,SYNTHETIC,troca de óleo,preventiva,2025-12-09,46392,46892,500,PitStop 01,2887.58,2.1,cancelled,attention,ok,ok,attention
+MNT0937,CUST0177,VEH0077,CONTR0177,SYNTHETIC,bateria 12V,preventiva,2026-11-12,16787,17787,1000,Oficina Leste,,3.8,pending,ok,attention,ok,ok
+MNT0938,CUST0292,VEH0092,CONTR0292,SYNTHETIC,sistema elétrico,corretiva,2025-11-17,57561,62561,5000,Oficina Sul,3410.22,5.6,cancelled,ok,attention,attention,ok
+MNT0939,CUST0296,VEH0096,CONTR0296,SYNTHETIC,bateria 12V,preventiva,2025-12-30,61154,62154,1000,Oficina Centro,2126.06,5.2,completed,ok,ok,ok,ok
+MNT0940,CUST0395,VEH0095,CONTR0395,SYNTHETIC,revisão periódica,preventiva,2025-10-17,75628,77128,1500,PitStop 01,2721.53,2.2,completed,attention,attention,ok,attention
+MNT0941,CUST0386,VEH0086,CONTR0386,SYNTHETIC,bateria 12V,preventiva,2026-12-08,58245,59245,1000,Oficina Leste,,3.1,pending,ok,attention,ok,attention
+MNT0942,CUST0154,VEH0054,CONTR0154,SYNTHETIC,revisão periódica,preventiva,2026-08-31,9500,12000,2500,PitStop 02,2710.91,1.9,completed,attention,ok,ok,attention
+MNT0943,CUST0187,VEH0087,CONTR0187,SYNTHETIC,pneus,preventiva,2026-01-14,48445,50945,2500,Oficina Leste,3430.08,3.9,completed,ok,ok,ok,ok
+MNT0944,CUST0149,VEH0049,CONTR0149,SYNTHETIC,freios,preventiva,2026-08-19,71782,74282,2500,Oficina Norte,1891.41,4.5,completed,ok,attention,attention,ok
+MNT0945,CUST0103,VEH0003,CONTR0103,SYNTHETIC,troca de óleo,preventiva,2026-03-09,37849,38349,500,Oficina Sul,1681.7,5.2,completed,attention,attention,ok,ok
+MNT0946,CUST0448,VEH0048,CONTR0448,SYNTHETIC,bateria 12V,preventiva,2026-04-07,17446,18946,1500,Oficina Norte,1546.48,5.2,completed,attention,attention,ok,attention
+MNT0947,CUST0139,VEH0039,CONTR0139,SYNTHETIC,alinhamento,preventiva,2026-11-16,21010,21510,500,Oficina Leste,,1.4,scheduled,ok,ok,attention,attention
+MNT0948,CUST0396,VEH0096,CONTR0396,SYNTHETIC,sistema elétrico,corretiva,2026-12-15,15092,16592,1500,Oficina Centro,,2.3,pending,ok,ok,ok,attention
+MNT0949,CUST0437,VEH0037,CONTR0437,SYNTHETIC,troca de óleo,preventiva,2026-12-22,36877,39377,2500,Oficina Centro,,5.2,scheduled,attention,ok,ok,ok
+MNT0950,CUST0204,VEH0004,CONTR0204,SYNTHETIC,diagnóstico,corretiva,2026-07-15,56747,59247,2500,PitStop 01,1418.01,1.1,cancelled,ok,attention,attention,ok
+MNT0951,CUST0024,VEH0024,CONTR0024,SYNTHETIC,troca de óleo,preventiva,2026-10-27,10715,13215,2500,PitStop 02,,2.3,pending,ok,attention,ok,attention
+MNT0952,CUST0007,VEH0007,CONTR0007,SYNTHETIC,pneus,preventiva,2026-02-14,81921,84421,2500,PitStop 02,1157.01,2.8,completed,ok,attention,attention,ok
+MNT0953,CUST0039,VEH0039,CONTR0039,SYNTHETIC,freios,preventiva,2025-11-18,40725,43225,2500,PitStop 02,2756.16,2.2,completed,ok,ok,attention,ok
+MNT0954,CUST0269,VEH0069,CONTR0269,SYNTHETIC,revisão periódica,preventiva,2026-08-04,48807,51307,2500,Oficina Norte,551.62,1.7,cancelled,ok,attention,ok,ok
+MNT0955,CUST0200,VEH0100,CONTR0200,SYNTHETIC,diagnóstico,corretiva,2026-07-07,50001,51001,1000,PitStop 01,421.61,3.6,completed,ok,attention,attention,ok
+MNT0956,CUST0331,VEH0031,CONTR0331,SYNTHETIC,freios,preventiva,2025-12-09,9427,10427,1000,PitStop 02,613.8,1.4,cancelled,attention,ok,ok,attention
+MNT0957,CUST0467,VEH0067,CONTR0467,SYNTHETIC,diagnóstico,corretiva,2026-04-29,38000,40500,2500,Oficina Norte,2159.61,3.6,completed,ok,ok,attention,ok
+MNT0958,CUST0009,VEH0009,CONTR0009,SYNTHETIC,sistema elétrico,corretiva,2026-01-12,46454,46954,500,PitStop 01,2868.47,5.3,cancelled,ok,attention,ok,ok
+MNT0959,CUST0355,VEH0055,CONTR0355,SYNTHETIC,freios,preventiva,2026-12-20,73259,78259,5000,PitStop 02,,4.7,scheduled,ok,ok,ok,ok
+MNT0960,CUST0384,VEH0084,CONTR0384,SYNTHETIC,freios,preventiva,2026-11-07,67548,72548,5000,Oficina Norte,,4.4,pending,ok,ok,ok,attention
+MNT0961,CUST0152,VEH0052,CONTR0152,SYNTHETIC,sistema elétrico,corretiva,2026-10-25,13189,15689,2500,PitStop 01,,1.5,pending,ok,ok,ok,attention
+MNT0962,CUST0145,VEH0045,CONTR0145,SYNTHETIC,freios,preventiva,2026-08-13,60289,62789,2500,Oficina Leste,1111.3,3.0,completed,ok,attention,ok,ok
+MNT0963,CUST0282,VEH0082,CONTR0282,SYNTHETIC,alinhamento,preventiva,2026-01-26,45267,50267,5000,PitStop 02,1535.25,4.6,cancelled,ok,ok,ok,attention
+MNT0964,CUST0074,VEH0074,CONTR0074,SYNTHETIC,revisão periódica,preventiva,2026-12-01,19188,20688,1500,PitStop 02,,3.1,scheduled,attention,ok,ok,ok
+MNT0965,CUST0237,VEH0037,CONTR0237,SYNTHETIC,freios,preventiva,2026-11-18,77960,80460,2500,Oficina Centro,,2.5,pending,ok,attention,ok,ok
+MNT0966,CUST0326,VEH0026,CONTR0326,SYNTHETIC,bateria 12V,preventiva,2026-10-17,12188,17188,5000,PitStop 01,,3.8,scheduled,ok,attention,ok,attention
+MNT0967,CUST0369,VEH0069,CONTR0369,SYNTHETIC,bateria 12V,preventiva,2025-11-15,30005,30505,500,Oficina Leste,2561.84,3.3,cancelled,attention,ok,attention,attention
+MNT0968,CUST0140,VEH0040,CONTR0140,SYNTHETIC,freios,preventiva,2026-02-07,47752,48252,500,Oficina Centro,2686.09,5.4,completed,attention,ok,attention,ok
+MNT0969,CUST0168,VEH0068,CONTR0168,SYNTHETIC,alinhamento,preventiva,2026-11-08,37349,37849,500,PitStop 02,,2.9,scheduled,attention,ok,ok,ok
+MNT0970,CUST0101,VEH0001,CONTR0101,SYNTHETIC,alinhamento,preventiva,2026-07-04,34366,39366,5000,PitStop 01,1754.26,4.1,completed,attention,attention,attention,ok
+MNT0971,CUST0210,VEH0010,CONTR0210,SYNTHETIC,troca de óleo,preventiva,2026-03-14,61410,63910,2500,PitStop 01,2431.01,5.4,cancelled,attention,attention,ok,ok
+MNT0972,CUST0203,VEH0003,CONTR0203,SYNTHETIC,troca de óleo,preventiva,2025-11-19,68945,70445,1500,PitStop 01,2570.93,4.8,cancelled,ok,ok,ok,attention
+MNT0973,CUST0341,VEH0041,CONTR0341,SYNTHETIC,sistema elétrico,corretiva,2026-12-10,41802,42302,500,PitStop 01,,2.2,scheduled,ok,ok,ok,ok
+MNT0974,CUST0124,VEH0024,CONTR0124,SYNTHETIC,sistema elétrico,corretiva,2026-11-08,11948,12948,1000,Oficina Leste,,3.0,scheduled,ok,attention,ok,ok
+MNT0975,CUST0086,VEH0086,CONTR0086,SYNTHETIC,diagnóstico,corretiva,2026-11-07,56023,57023,1000,Oficina Norte,,5.1,pending,ok,ok,attention,attention
+MNT0976,CUST0176,VEH0076,CONTR0176,SYNTHETIC,alinhamento,preventiva,2025-10-10,69846,70846,1000,Oficina Leste,3484.78,1.7,cancelled,ok,attention,ok,ok
+MNT0977,CUST0010,VEH0010,CONTR0010,SYNTHETIC,pneus,preventiva,2026-02-14,37375,38375,1000,Oficina Centro,1625.78,1.2,completed,ok,ok,ok,ok
+MNT0978,CUST0255,VEH0055,CONTR0255,SYNTHETIC,freios,preventiva,2026-12-19,45312,45812,500,Oficina Sul,,5.2,scheduled,ok,attention,ok,attention
+MNT0979,CUST0240,VEH0040,CONTR0240,SYNTHETIC,troca de óleo,preventiva,2025-12-14,18690,20190,1500,PitStop 01,1081.24,5.4,completed,ok,ok,ok,attention
+MNT0980,CUST0495,VEH0095,CONTR0495,SYNTHETIC,troca de óleo,preventiva,2026-08-24,72869,75369,2500,Oficina Norte,565.33,4.1,cancelled,attention,attention,attention,attention
+MNT0981,CUST0374,VEH0074,CONTR0374,SYNTHETIC,sistema elétrico,corretiva,2026-02-21,29791,34791,5000,Oficina Norte,820.31,5.1,cancelled,ok,ok,ok,ok
+MNT0982,CUST0382,VEH0082,CONTR0382,SYNTHETIC,diagnóstico,corretiva,2026-12-13,58739,61239,2500,Oficina Norte,,5.3,pending,attention,ok,ok,ok
+MNT0983,CUST0237,VEH0037,CONTR0237,SYNTHETIC,pneus,preventiva,2026-08-25,77960,78460,500,PitStop 01,1324.6,4.1,completed,attention,attention,ok,ok
+MNT0984,CUST0184,VEH0084,CONTR0184,SYNTHETIC,diagnóstico,corretiva,2026-01-01,51293,52293,1000,Oficina Centro,907.18,3.2,completed,attention,ok,ok,ok
+MNT0985,CUST0046,VEH0046,CONTR0046,SYNTHETIC,pneus,preventiva,2025-12-15,22954,27954,5000,Oficina Centro,283.74,3.8,completed,ok,attention,ok,ok
+MNT0986,CUST0158,VEH0058,CONTR0158,SYNTHETIC,bateria 12V,preventiva,2025-11-02,77704,80204,2500,Oficina Leste,882.85,3.5,completed,attention,ok,ok,ok
+MNT0987,CUST0097,VEH0097,CONTR0097,SYNTHETIC,diagnóstico,corretiva,2026-05-31,35852,40852,5000,Oficina Leste,2042.7,2.6,completed,ok,attention,attention,attention
+MNT0988,CUST0099,VEH0099,CONTR0099,SYNTHETIC,revisão periódica,preventiva,2026-04-11,62260,64760,2500,PitStop 01,1588.29,5.0,completed,ok,ok,ok,ok
+MNT0989,CUST0013,VEH0013,CONTR0013,SYNTHETIC,diagnóstico,corretiva,2025-12-05,38276,38776,500,Oficina Norte,1770.62,5.4,completed,ok,attention,ok,attention
+MNT0990,CUST0375,VEH0075,CONTR0375,SYNTHETIC,diagnóstico,corretiva,2026-10-31,29858,31358,1500,PitStop 01,,2.4,scheduled,attention,attention,ok,ok
+MNT0991,CUST0120,VEH0020,CONTR0120,SYNTHETIC,troca de óleo,preventiva,2026-05-18,10646,11646,1000,Oficina Leste,2399.46,5.3,cancelled,ok,ok,attention,ok
+MNT0992,CUST0088,VEH0088,CONTR0088,SYNTHETIC,alinhamento,preventiva,2025-11-04,45365,46865,1500,Oficina Leste,1318.05,5.1,completed,attention,attention,attention,ok
+MNT0993,CUST0210,VEH0010,CONTR0210,SYNTHETIC,troca de óleo,preventiva,2026-03-07,61410,62910,1500,Oficina Leste,1014.81,3.6,completed,ok,ok,ok,ok
+MNT0994,CUST0168,VEH0068,CONTR0168,SYNTHETIC,sistema elétrico,corretiva,2026-11-15,37349,39849,2500,Oficina Centro,,2.9,scheduled,ok,attention,ok,ok
+MNT0995,CUST0393,VEH0093,CONTR0393,SYNTHETIC,sistema elétrico,corretiva,2026-03-08,21019,22519,1500,Oficina Norte,702.46,6.0,completed,ok,attention,attention,ok
+MNT0996,CUST0224,VEH0024,CONTR0224,SYNTHETIC,bateria 12V,preventiva,2025-10-03,64055,64555,500,PitStop 01,2461.75,3.3,completed,ok,ok,attention,attention
+MNT0997,CUST0067,VEH0067,CONTR0067,SYNTHETIC,diagnóstico,corretiva,2026-05-22,55607,56107,500,Oficina Sul,2807.16,5.2,completed,ok,ok,attention,ok
+MNT0998,CUST0384,VEH0084,CONTR0384,SYNTHETIC,sistema elétrico,corretiva,2026-01-15,67548,70048,2500,PitStop 02,943.29,1.9,completed,ok,ok,ok,ok
+MNT0999,CUST0377,VEH0077,CONTR0377,SYNTHETIC,freios,preventiva,2026-07-01,74932,75932,1000,Oficina Leste,554.71,3.8,completed,attention,attention,ok,ok
+MNT1000,CUST0497,VEH0097,CONTR0497,SYNTHETIC,diagnóstico,corretiva,2026-03-25,49178,49678,500,PitStop 01,1658.59,4.1,completed,attention,ok,ok,attention

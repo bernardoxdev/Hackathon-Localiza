@@ -1,0 +1,11 @@
+﻿insight_id,condition,example,interpretation,recommendation,action,value
+INS001,franchise_utilization_pct >= 80,Cliente com 86% da franquia usada,Ritmo de uso elevado,Ver KM e planejar uso,open_km,Reduzir surpresa com franquia
+INS002,maintenance_km_remaining <= 1000,Revisão a 720 km,Manutenção próxima,Agendar revisão,schedule_maintenance,Antecipar necessidade
+INS003,contract_days_to_renewal <= 120,Contrato termina em 87 dias,Janela de renovação,Iniciar jornada de preferências,review_contract,Planejar renovação
+INS004,long_trip_pattern = True,3+ viagens >=150 km,Padrão rodoviário,Preparar próxima viagem,open_planner,Planejamento contextual
+INS005,low_energy = True,Combustível 18%,Autonomia baixa,Planejar abastecimento/recarga,open_energy,Evitar fricção
+INS006,franchise_utilization_pct < 45,Cliente usando 34% da franquia,Subutilização relativa,Ver minha mobilidade,open_mobility,Percepção de valor
+INS007,benefit_available = True,Há benefício relevante,Contexto de benefício,Ver benefício,open_benefit,Maior relevância
+INS008,support_need_signal = True,Sinal de possível dificuldade,Necessidade de suporte,Abrir suporte orientado,open_support,Reduzir esforço
+INS009,low app use + high context,"Poucos acessos, mas necessidade concreta",Reativação por utilidade,Enviar mensagem única,push,Evitar spam
+INS010,hybrid_or_ev + low_energy,Autonomia abaixo do padrão,Necessidade energética,Planejar recarga/abastecimento,open_energy,Antecipar necessidade

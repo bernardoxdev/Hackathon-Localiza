@@ -1,0 +1,12 @@
+﻿parent_table,parent_key,child_table,child_key,cardinality,purpose
+clients,customer_id,contracts,customer_id,1:N,Cliente possui contratos
+vehicles,vehicle_id,contracts,vehicle_id,1:N,Veículo pode aparecer em contratos
+contracts,contract_id,telemetry,contract_id,1:N,Snapshots de telemetria ligados ao contrato
+clients,customer_id,telemetry,customer_id,1:N,Telemetria por cliente
+clients,customer_id,trips,customer_id,1:N,Viagens do cliente
+vehicles,vehicle_id,trips,vehicle_id,1:N,Viagens do veículo
+clients,customer_id,maintenance,customer_id,1:N,Manutenções do cliente/veículo
+vehicles,vehicle_id,maintenance,vehicle_id,1:N,Manutenções do veículo
+clients,customer_id,app_events,customer_id,1:N,Eventos digitais
+clients,customer_id,context_events,customer_id,1:N,Snapshots do Context Engine
+context_events,context_event_id,recommendations,context_event_id,1:N,Recomendação derivada de contexto

@@ -1,0 +1,101 @@
+﻿vehicle_id,data_origin,make,model,version,year,category,powertrain,fuel_type,power_hp,avg_consumption,consumption_unit,estimated_range_km,tank_capacity_l,battery_capacity_kwh,passengers,trunk_l,transmission,price_approx_brl,length_mm,width_mm,height_mm,weight_kg,mobility_archetype,typical_daily_km,spec_source_note
+VEH0001,SYNTHETIC,Toyota,Corolla,2.0 Flex CVT,2026,Sedan,Combustão,Flex,174.2,11.97,km/l,535,46.3,,5,458,CVT,172000,4634,1783,1421,1395,Misto,39.8,Synthetic illustration; not Localiza data.
+VEH0002,SYNTHETIC,Toyota,Corolla Cross,2.0 Flex CVT,2026,SUV,Combustão,Flex,173.6,11.0,km/l,527,47.1,,5,432,CVT,189000,4487,1806,1629,1497,Família,43.6,Synthetic illustration; not Localiza data.
+VEH0003,SYNTHETIC,Toyota,Corolla Cross,1.8 Hybrid,2024,SUV,Híbrido,Híbrido,120.6,18.08,km/l,748,35.8,1.3,5,435,e-CVT,201000,4419,1823,1607,1455,Urbano,34.8,Synthetic illustration; not Localiza data.
+VEH0004,SYNTHETIC,Honda,City,1.5 Flex CVT,2025,Sedan,Combustão,Flex,127.7,12.59,km/l,580,44.1,,5,525,CVT,138000,4555,1740,1467,1180,Urbano,32.2,Synthetic illustration; not Localiza data.
+VEH0005,SYNTHETIC,Honda,HR-V,1.5 Turbo CVT,2025,SUV,Combustão,Flex,176.7,11.22,km/l,502,46.7,,5,357,CVT,197000,4586,1824,1614,1452,Família,41.8,Synthetic illustration; not Localiza data.
+VEH0006,SYNTHETIC,Jeep,Renegade,1.3 Turbo AT6,2025,SUV,Combustão,Flex,184.1,10.81,km/l,506,55.1,,5,317,AT6,164000,4291,1795,1678,1453,Misto,38.1,Synthetic illustration; not Localiza data.
+VEH0007,SYNTHETIC,Jeep,Compass,1.3 Turbo AT6,2024,SUV,Combustão,Flex,188.1,10.24,km/l,561,59.3,,5,409,AT6,207000,4416,1806,1618,1552,Família,46.4,Synthetic illustration; not Localiza data.
+VEH0008,SYNTHETIC,VW,T-Cross,200 TSI AT6,2026,SUV,Combustão,Flex,128.4,11.67,km/l,564,51.4,,5,384,AT6,147000,4165,1744,1579,1289,Urbano,40.2,Synthetic illustration; not Localiza data.
+VEH0009,SYNTHETIC,VW,Nivus,200 TSI AT6,2025,Crossover,Combustão,Flex,128.5,11.82,km/l,585,51.9,,5,408,AT6,143000,4303,1763,1481,1217,Urbano,42.0,Synthetic illustration; not Localiza data.
+VEH0010,SYNTHETIC,VW,Polo,170 TSI AT6,2026,Hatch,Combustão,Flex,115.3,11.95,km/l,579,51.0,,5,303,AT6,130000,4117,1760,1471,1103,Urbano,34.9,Synthetic illustration; not Localiza data.
+VEH0011,SYNTHETIC,Nissan,Kicks,1.6 CVT,2026,SUV,Combustão,Flex,113.0,11.49,km/l,562,40.4,,5,443,CVT,155000,4346,1763,1609,1123,Urbano,36.0,Synthetic illustration; not Localiza data.
+VEH0012,SYNTHETIC,Hyundai,Creta,1.0 Turbo,2025,SUV,Combustão,Flex,118.7,10.83,km/l,563,49.2,,5,427,AT6,163000,4341,1791,1622,1302,Família,46.8,Synthetic illustration; not Localiza data.
+VEH0013,SYNTHETIC,Chevrolet,Tracker,1.2 Turbo AT6,2024,SUV,Combustão,Flex,131.8,11.55,km/l,555,43.5,,5,393,AT6,161000,4244,1784,1640,1301,Misto,40.5,Synthetic illustration; not Localiza data.
+VEH0014,SYNTHETIC,Chevrolet,Onix,1.0 Turbo AT6,2026,Hatch,Combustão,Flex,115.8,12.61,km/l,612,43.2,,5,275,AT6,123000,4121,1737,1462,1051,Urbano,30.8,Synthetic illustration; not Localiza data.
+VEH0015,SYNTHETIC,Renault,Duster,1.3 Turbo CVT,2025,SUV,Combustão,Flex,160.2,10.43,km/l,579,49.4,,5,464,CVT,160000,4382,1830,1702,1374,Família,41.3,Synthetic illustration; not Localiza data.
+VEH0016,SYNTHETIC,Renault,Kwid,1.0,2024,Hatch,Combustão,Flex,70.4,14.87,km/l,495,38.6,,5,282,Manual,82000,3741,1565,1480,794,Urbano,24.0,Synthetic illustration; not Localiza data.
+VEH0017,SYNTHETIC,Fiat,Pulse,1.0 Turbo CVT,2024,Crossover,Combustão,Flex,128.4,11.46,km/l,575,46.6,,5,364,CVT,144000,4094,1786,1578,1099,Urbano,39.6,Synthetic illustration; not Localiza data.
+VEH0018,SYNTHETIC,Fiat,Fastback,1.0 Turbo CVT,2024,Crossover,Combustão,Flex,132.4,11.49,km/l,620,46.4,,5,599,CVT,141000,4418,1758,1541,1296,Família,40.0,Synthetic illustration; not Localiza data.
+VEH0019,SYNTHETIC,Fiat,Toro,1.3 Turbo,2025,Picape,Combustão,Flex,183.4,10.12,km/l,552,55.6,,5,946,AT6,177000,4884,1833,1720,1764,Utilitário,47.4,Synthetic illustration; not Localiza data.
+VEH0020,SYNTHETIC,Fiat,Strada,1.3 CVT,2025,Picape,Combustão,Flex,105.1,11.86,km/l,600,55.8,,5,826,CVT,145000,4436,1721,1603,1212,Utilitário,45.5,Synthetic illustration; not Localiza data.
+VEH0021,SYNTHETIC,BYD,Dolphin,GS EV,2024,Hatch,Elétrico,Elétrico,96.7,15.56,kWh/100km,293,,43.7,5,336,Automático,155000,4130,1763,1562,1419,Elétrico urbano,28.9,Synthetic illustration; not Localiza data.
+VEH0022,SYNTHETIC,BYD,Song Plus,DM-i,2025,SUV,Híbrido,Híbrido,234.0,22.23,km/l_equi,979,59.6,18.6,5,559,e-CVT,232000,4832,1908,1645,1867,Híbrido viagem,47.7,Synthetic illustration; not Localiza data.
+VEH0023,SYNTHETIC,BYD,Yuan Plus,GS EV,2025,SUV,Elétrico,Elétrico,207.1,16.88,kWh/100km,290,,59.3,5,448,Automático,218000,4464,1893,1619,1572,Elétrico misto,41.5,Synthetic illustration; not Localiza data.
+VEH0024,SYNTHETIC,GWM,Haval H6,HEV,2025,SUV,Híbrido,Híbrido,247.2,13.47,km/l,830,60.4,1.6,5,568,DHT,213000,4632,1875,1724,1719,Híbrido,51.4,Synthetic illustration; not Localiza data.
+VEH0025,SYNTHETIC,Caoa Chery,Tiggo 7,1.5 Turbo CVT,2026,SUV,Combustão,Flex,146.9,11.06,km/l,641,50.2,,5,534,CVT,157000,4455,1849,1709,1518,Família,46.1,Synthetic illustration; not Localiza data.
+VEH0026,SYNTHETIC,Peugeot,2008,1.0 Turbo CVT,2026,SUV,Combustão,Flex,126.0,11.74,km/l,576,47.8,,5,438,CVT,140000,4263,1765,1544,1249,Urbano,34.5,Synthetic illustration; not Localiza data.
+VEH0027,SYNTHETIC,Ford,Territory,1.5 Turbo,2025,SUV,Combustão,Gasolina,171.7,9.57,km/l,621,61.0,,5,440,DCT,216000,4593,1945,1719,1690,Família premium,47.1,Synthetic illustration; not Localiza data.
+VEH0028,SYNTHETIC,Toyota,Corolla,2.0 Flex CVT Tech,2024,Sedan,Combustão,Flex,179.6,12.14,km/l,567,47.7,,5,456,CVT,172000,4614,1795,1443,1461,Misto,44.6,Synthetic illustration; not Localiza data.
+VEH0029,SYNTHETIC,Toyota,Corolla Cross,2.0 Flex CVT Connect,2024,SUV,Combustão,Flex,179.0,10.94,km/l,539,47.7,,5,432,CVT,195000,4456,1817,1629,1455,Família,40.7,Synthetic illustration; not Localiza data.
+VEH0030,SYNTHETIC,Toyota,Corolla Cross,1.8 Hybrid Tech,2025,SUV,Híbrido,Híbrido,121.2,18.19,km/l,816,35.7,1.3,5,437,e-CVT,220000,4463,1841,1607,1460,Urbano,35.6,Synthetic illustration; not Localiza data.
+VEH0031,SYNTHETIC,Honda,City,1.5 Flex CVT Connect,2024,Sedan,Combustão,Flex,124.0,12.45,km/l,572,43.7,,5,522,CVT,147000,4569,1750,1472,1215,Urbano,31.5,Synthetic illustration; not Localiza data.
+VEH0032,SYNTHETIC,Honda,HR-V,1.5 Turbo CVT Tech,2025,SUV,Combustão,Flex,176.5,11.3,km/l,541,47.2,,5,357,CVT,183000,4606,1840,1615,1434,Família,45.7,Synthetic illustration; not Localiza data.
+VEH0033,SYNTHETIC,Jeep,Renegade,1.3 Turbo AT6 Tech,2024,SUV,Combustão,Flex,184.4,10.78,km/l,508,55.9,,5,316,AT6,153000,4272,1786,1686,1463,Misto,40.6,Synthetic illustration; not Localiza data.
+VEH0034,SYNTHETIC,Jeep,Compass,1.3 Turbo AT6 Connect,2025,SUV,Combustão,Flex,184.6,10.31,km/l,550,60.7,,5,421,AT6,203000,4417,1811,1635,1540,Família,42.3,Synthetic illustration; not Localiza data.
+VEH0035,SYNTHETIC,VW,T-Cross,200 TSI AT6 Tech,2026,SUV,Combustão,Flex,127.0,11.61,km/l,549,51.1,,5,383,AT6,149000,4222,1758,1604,1285,Urbano,39.7,Synthetic illustration; not Localiza data.
+VEH0036,SYNTHETIC,VW,Nivus,200 TSI AT6 Pack,2025,Crossover,Combustão,Flex,127.5,11.65,km/l,590,52.8,,5,423,AT6,149000,4289,1747,1502,1203,Urbano,39.7,Synthetic illustration; not Localiza data.
+VEH0037,SYNTHETIC,VW,Polo,170 TSI AT6 Tech,2024,Hatch,Combustão,Flex,115.8,12.32,km/l,610,53.0,,5,301,AT6,134000,4110,1754,1477,1130,Urbano,36.2,Synthetic illustration; not Localiza data.
+VEH0038,SYNTHETIC,Nissan,Kicks,1.6 CVT Pack,2024,SUV,Combustão,Flex,114.1,11.68,km/l,556,40.6,,5,435,CVT,152000,4311,1764,1602,1120,Urbano,35.4,Synthetic illustration; not Localiza data.
+VEH0039,SYNTHETIC,Hyundai,Creta,1.0 Turbo Connect,2025,SUV,Combustão,Flex,119.1,11.03,km/l,539,49.5,,5,426,AT6,161000,4262,1786,1636,1283,Família,40.5,Synthetic illustration; not Localiza data.
+VEH0040,SYNTHETIC,Chevrolet,Tracker,1.2 Turbo AT6 Pack,2025,SUV,Combustão,Flex,135.2,11.36,km/l,570,44.6,,5,399,AT6,154000,4227,1785,1632,1317,Misto,44.7,Synthetic illustration; not Localiza data.
+VEH0041,SYNTHETIC,Chevrolet,Onix,1.0 Turbo AT6 Pack,2026,Hatch,Combustão,Flex,117.1,12.84,km/l,646,43.5,,5,270,AT6,120000,4123,1724,1481,1073,Urbano,31.7,Synthetic illustration; not Localiza data.
+VEH0042,SYNTHETIC,Renault,Duster,1.3 Turbo CVT Pack,2024,SUV,Combustão,Flex,166.1,10.62,km/l,593,50.2,,5,479,CVT,144000,4369,1845,1682,1330,Família,42.5,Synthetic illustration; not Localiza data.
+VEH0043,SYNTHETIC,Renault,Kwid,1.0 Pack,2025,Hatch,Combustão,Flex,69.5,15.34,km/l,488,38.7,,5,288,Manual,84000,3728,1586,1460,801,Urbano,24.6,Synthetic illustration; not Localiza data.
+VEH0044,SYNTHETIC,Fiat,Pulse,1.0 Turbo CVT Plus,2026,Crossover,Combustão,Flex,127.6,11.18,km/l,565,47.6,,5,372,CVT,132000,4096,1760,1591,1127,Urbano,34.2,Synthetic illustration; not Localiza data.
+VEH0045,SYNTHETIC,Fiat,Fastback,1.0 Turbo CVT Connect,2024,Crossover,Combustão,Flex,130.6,11.51,km/l,613,47.5,,5,587,CVT,143000,4433,1789,1547,1290,Família,41.0,Synthetic illustration; not Localiza data.
+VEH0046,SYNTHETIC,Fiat,Toro,1.3 Turbo Tech,2024,Picape,Combustão,Flex,185.7,10.2,km/l,526,55.4,,5,925,AT6,181000,4945,1854,1738,1692,Utilitário,52.3,Synthetic illustration; not Localiza data.
+VEH0047,SYNTHETIC,Fiat,Strada,1.3 CVT Connect,2024,Picape,Combustão,Flex,107.0,11.69,km/l,620,55.7,,5,824,CVT,145000,4486,1743,1606,1195,Utilitário,50.2,Synthetic illustration; not Localiza data.
+VEH0048,SYNTHETIC,BYD,Dolphin,GS EV Connect,2026,Hatch,Elétrico,Elétrico,96.2,15.54,kWh/100km,290,,44.7,5,349,Automático,147000,4154,1781,1557,1437,Elétrico urbano,28.5,Synthetic illustration; not Localiza data.
+VEH0049,SYNTHETIC,BYD,Song Plus,DM-i Pack,2026,SUV,Híbrido,Híbrido,236.0,21.84,km/l_equi,952,60.8,18.0,5,564,e-CVT,242000,4769,1904,1666,1874,Híbrido viagem,45.1,Synthetic illustration; not Localiza data.
+VEH0050,SYNTHETIC,BYD,Yuan Plus,GS EV Tech,2024,SUV,Elétrico,Elétrico,201.9,16.41,kWh/100km,295,,59.6,5,439,Automático,218000,4450,1856,1608,1610,Elétrico misto,37.0,Synthetic illustration; not Localiza data.
+VEH0051,SYNTHETIC,GWM,Haval H6,HEV Connect,2025,SUV,Híbrido,Híbrido,243.5,13.67,km/l,839,61.1,1.6,5,558,DHT,217000,4627,1894,1723,1724,Híbrido,52.3,Synthetic illustration; not Localiza data.
+VEH0052,SYNTHETIC,Caoa Chery,Tiggo 7,1.5 Turbo CVT Tech,2024,SUV,Combustão,Flex,145.3,10.79,km/l,633,52.0,,5,537,CVT,157000,4464,1828,1695,1510,Família,39.7,Synthetic illustration; not Localiza data.
+VEH0053,SYNTHETIC,Peugeot,2008,1.0 Turbo CVT Tech,2025,SUV,Combustão,Flex,122.7,11.39,km/l,587,47.8,,5,437,CVT,151000,4268,1752,1536,1253,Urbano,36.8,Synthetic illustration; not Localiza data.
+VEH0054,SYNTHETIC,Ford,Territory,1.5 Turbo Plus,2025,SUV,Combustão,Gasolina,172.0,9.39,km/l,619,59.8,,5,436,DCT,227000,4588,1921,1708,1679,Família premium,50.5,Synthetic illustration; not Localiza data.
+VEH0055,SYNTHETIC,Toyota,Corolla,2.0 Flex CVT Plus,2026,Sedan,Combustão,Flex,178.9,11.88,km/l,565,46.5,,5,470,CVT,166000,4624,1792,1449,1413,Misto,43.0,Synthetic illustration; not Localiza data.
+VEH0056,SYNTHETIC,Toyota,Corolla Cross,2.0 Flex CVT Plus,2024,SUV,Combustão,Flex,177.9,11.04,km/l,498,46.5,,5,441,CVT,179000,4451,1831,1619,1438,Família,43.1,Synthetic illustration; not Localiza data.
+VEH0057,SYNTHETIC,Toyota,Corolla Cross,1.8 Hybrid Connect,2026,SUV,Híbrido,Híbrido,123.8,17.34,km/l,759,35.7,1.3,5,442,e-CVT,216000,4433,1810,1611,1390,Urbano,36.2,Synthetic illustration; not Localiza data.
+VEH0058,SYNTHETIC,Honda,City,1.5 Flex CVT Tech,2024,Sedan,Combustão,Flex,123.8,12.72,km/l,565,44.6,,5,532,CVT,146000,4577,1741,1477,1183,Urbano,35.3,Synthetic illustration; not Localiza data.
+VEH0059,SYNTHETIC,Honda,HR-V,1.5 Turbo CVT Pack,2024,SUV,Combustão,Flex,177.7,11.26,km/l,532,47.2,,5,343,CVT,186000,4585,1853,1612,1408,Família,46.3,Synthetic illustration; not Localiza data.
+VEH0060,SYNTHETIC,Jeep,Renegade,1.3 Turbo AT6 Connect,2026,SUV,Combustão,Flex,181.6,10.66,km/l,498,55.3,,5,321,AT6,150000,4275,1809,1693,1433,Misto,38.8,Synthetic illustration; not Localiza data.
+VEH0061,SYNTHETIC,Jeep,Compass,1.3 Turbo AT6 Connect,2025,SUV,Combustão,Flex,186.3,10.42,km/l,540,60.5,,5,404,AT6,209000,4431,1820,1628,1512,Família,44.4,Synthetic illustration; not Localiza data.
+VEH0062,SYNTHETIC,VW,T-Cross,200 TSI AT6 Pack,2026,SUV,Combustão,Flex,129.7,11.06,km/l,591,51.9,,5,363,AT6,147000,4210,1759,1590,1245,Urbano,36.2,Synthetic illustration; not Localiza data.
+VEH0063,SYNTHETIC,VW,Nivus,200 TSI AT6 Tech,2025,Crossover,Combustão,Flex,127.7,12.04,km/l,558,53.0,,5,417,AT6,137000,4236,1758,1494,1160,Urbano,43.9,Synthetic illustration; not Localiza data.
+VEH0064,SYNTHETIC,VW,Polo,170 TSI AT6 Plus,2025,Hatch,Combustão,Flex,118.1,12.21,km/l,579,52.9,,5,296,AT6,130000,4072,1750,1470,1127,Urbano,31.6,Synthetic illustration; not Localiza data.
+VEH0065,SYNTHETIC,Nissan,Kicks,1.6 CVT Tech,2026,SUV,Combustão,Flex,113.0,11.97,km/l,590,40.6,,5,439,CVT,145000,4347,1760,1620,1135,Urbano,35.5,Synthetic illustration; not Localiza data.
+VEH0066,SYNTHETIC,Hyundai,Creta,1.0 Turbo Pack,2024,SUV,Combustão,Flex,119.7,10.99,km/l,550,50.5,,5,418,AT6,166000,4331,1807,1626,1280,Família,46.1,Synthetic illustration; not Localiza data.
+VEH0067,SYNTHETIC,Chevrolet,Tracker,1.2 Turbo AT6 Pack,2024,SUV,Combustão,Flex,132.0,11.28,km/l,583,43.8,,5,404,AT6,163000,4282,1778,1639,1261,Misto,44.8,Synthetic illustration; not Localiza data.
+VEH0068,SYNTHETIC,Chevrolet,Onix,1.0 Turbo AT6 Connect,2024,Hatch,Combustão,Flex,117.7,12.75,km/l,641,43.9,,5,278,AT6,120000,4175,1718,1475,1110,Urbano,32.9,Synthetic illustration; not Localiza data.
+VEH0069,SYNTHETIC,Renault,Duster,1.3 Turbo CVT Pack,2026,SUV,Combustão,Flex,160.3,10.49,km/l,579,50.1,,5,487,CVT,154000,4409,1831,1694,1359,Família,41.7,Synthetic illustration; not Localiza data.
+VEH0070,SYNTHETIC,Renault,Kwid,1.0 Connect,2024,Hatch,Combustão,Flex,70.7,14.94,km/l,479,38.2,,5,296,Manual,80000,3745,1591,1460,793,Urbano,24.9,Synthetic illustration; not Localiza data.
+VEH0071,SYNTHETIC,Fiat,Pulse,1.0 Turbo CVT Connect,2025,Crossover,Combustão,Flex,128.2,11.52,km/l,583,47.5,,5,362,CVT,129000,4129,1778,1568,1157,Urbano,33.4,Synthetic illustration; not Localiza data.
+VEH0072,SYNTHETIC,Fiat,Fastback,1.0 Turbo CVT Pack,2026,Crossover,Combustão,Flex,128.7,11.04,km/l,570,47.6,,5,614,CVT,150000,4396,1771,1540,1266,Família,43.2,Synthetic illustration; not Localiza data.
+VEH0073,SYNTHETIC,Fiat,Toro,1.3 Turbo Pack,2026,Picape,Combustão,Flex,183.2,10.21,km/l,523,54.7,,5,936,AT6,171000,4922,1846,1753,1718,Utilitário,57.0,Synthetic illustration; not Localiza data.
+VEH0074,SYNTHETIC,Fiat,Strada,1.3 CVT Pack,2025,Picape,Combustão,Flex,104.9,12.06,km/l,616,56.0,,5,864,CVT,141000,4503,1745,1608,1180,Utilitário,50.9,Synthetic illustration; not Localiza data.
+VEH0075,SYNTHETIC,BYD,Dolphin,GS EV Tech,2026,Hatch,Elétrico,Elétrico,93.8,15.27,kWh/100km,298,,45.6,5,348,Automático,145000,4091,1774,1555,1429,Elétrico urbano,27.2,Synthetic illustration; not Localiza data.
+VEH0076,SYNTHETIC,BYD,Song Plus,DM-i Connect,2026,SUV,Híbrido,Híbrido,231.5,22.54,km/l_equi,982,59.8,18.0,5,583,e-CVT,244000,4772,1890,1652,1861,Híbrido viagem,54.1,Synthetic illustration; not Localiza data.
+VEH0077,SYNTHETIC,BYD,Yuan Plus,GS EV Pack,2025,SUV,Elétrico,Elétrico,206.0,16.34,kWh/100km,282,,62.2,5,430,Automático,225000,4487,1883,1630,1665,Elétrico misto,41.4,Synthetic illustration; not Localiza data.
+VEH0078,SYNTHETIC,GWM,Haval H6,HEV Connect,2024,SUV,Híbrido,Híbrido,245.8,13.4,km/l,802,60.9,1.6,5,565,DHT,225000,4683,1902,1716,1672,Híbrido,43.4,Synthetic illustration; not Localiza data.
+VEH0079,SYNTHETIC,Caoa Chery,Tiggo 7,1.5 Turbo CVT Connect,2026,SUV,Combustão,Flex,145.4,10.52,km/l,640,51.8,,5,530,CVT,160000,4467,1856,1698,1539,Família,40.5,Synthetic illustration; not Localiza data.
+VEH0080,SYNTHETIC,Peugeot,2008,1.0 Turbo CVT Tech,2025,SUV,Combustão,Flex,124.8,11.82,km/l,614,47.8,,5,431,CVT,151000,4273,1766,1530,1254,Urbano,37.3,Synthetic illustration; not Localiza data.
+VEH0081,SYNTHETIC,Ford,Territory,1.5 Turbo Connect,2024,SUV,Combustão,Gasolina,170.3,9.24,km/l,596,59.4,,5,444,DCT,237000,4617,1950,1710,1655,Família premium,43.9,Synthetic illustration; not Localiza data.
+VEH0082,SYNTHETIC,Toyota,Corolla,2.0 Flex CVT Plus,2025,Sedan,Combustão,Flex,174.1,11.6,km/l,557,47.9,,5,457,CVT,163000,4675,1790,1426,1458,Misto,42.5,Synthetic illustration; not Localiza data.
+VEH0083,SYNTHETIC,Toyota,Corolla Cross,2.0 Flex CVT Tech,2024,SUV,Combustão,Flex,175.8,10.96,km/l,540,46.1,,5,449,CVT,179000,4426,1815,1609,1494,Família,40.7,Synthetic illustration; not Localiza data.
+VEH0084,SYNTHETIC,Toyota,Corolla Cross,1.8 Hybrid Plus,2025,SUV,Híbrido,Híbrido,123.4,17.52,km/l,766,35.5,1.3,5,446,e-CVT,208000,4481,1824,1629,1421,Urbano,35.0,Synthetic illustration; not Localiza data.
+VEH0085,SYNTHETIC,Honda,City,1.5 Flex CVT Tech,2026,Sedan,Combustão,Flex,123.7,12.71,km/l,580,44.0,,5,517,CVT,155000,4539,1747,1477,1213,Urbano,34.9,Synthetic illustration; not Localiza data.
+VEH0086,SYNTHETIC,Honda,HR-V,1.5 Turbo CVT Pack,2024,SUV,Combustão,Flex,179.8,10.88,km/l,501,46.3,,5,356,CVT,194000,4589,1835,1613,1432,Família,44.0,Synthetic illustration; not Localiza data.
+VEH0087,SYNTHETIC,Jeep,Renegade,1.3 Turbo AT6 Pack,2024,SUV,Combustão,Flex,187.2,10.26,km/l,507,55.8,,5,314,AT6,164000,4262,1819,1691,1498,Misto,39.2,Synthetic illustration; not Localiza data.
+VEH0088,SYNTHETIC,Jeep,Compass,1.3 Turbo AT6 Plus,2025,SUV,Combustão,Flex,184.5,10.3,km/l,543,59.2,,5,420,AT6,186000,4433,1804,1616,1551,Família,48.9,Synthetic illustration; not Localiza data.
+VEH0089,SYNTHETIC,VW,T-Cross,200 TSI AT6 Plus,2026,SUV,Combustão,Flex,130.3,11.44,km/l,579,51.8,,5,381,AT6,155000,4193,1774,1577,1263,Urbano,36.6,Synthetic illustration; not Localiza data.
+VEH0090,SYNTHETIC,VW,Nivus,200 TSI AT6 Plus,2026,Crossover,Combustão,Flex,128.0,11.65,km/l,578,52.7,,5,411,AT6,143000,4233,1749,1484,1184,Urbano,40.5,Synthetic illustration; not Localiza data.
+VEH0091,SYNTHETIC,VW,Polo,170 TSI AT6 Plus,2026,Hatch,Combustão,Flex,118.0,12.34,km/l,586,51.3,,5,303,AT6,123000,4065,1733,1481,1134,Urbano,33.3,Synthetic illustration; not Localiza data.
+VEH0092,SYNTHETIC,Nissan,Kicks,1.6 CVT Tech,2026,SUV,Combustão,Flex,113.6,11.37,km/l,584,40.5,,5,429,CVT,144000,4298,1767,1618,1154,Urbano,33.9,Synthetic illustration; not Localiza data.
+VEH0093,SYNTHETIC,Hyundai,Creta,1.0 Turbo Plus,2024,SUV,Combustão,Flex,118.4,11.08,km/l,569,49.5,,5,426,AT6,157000,4295,1781,1643,1260,Família,42.4,Synthetic illustration; not Localiza data.
+VEH0094,SYNTHETIC,Chevrolet,Tracker,1.2 Turbo AT6 Connect,2026,SUV,Combustão,Flex,133.9,11.29,km/l,569,43.2,,5,390,AT6,159000,4227,1783,1614,1261,Misto,39.0,Synthetic illustration; not Localiza data.
+VEH0095,SYNTHETIC,Chevrolet,Onix,1.0 Turbo AT6 Connect,2024,Hatch,Combustão,Flex,113.7,12.99,km/l,619,43.8,,5,278,AT6,121000,4190,1740,1463,1103,Urbano,30.9,Synthetic illustration; not Localiza data.
+VEH0096,SYNTHETIC,Renault,Duster,1.3 Turbo CVT Plus,2025,SUV,Combustão,Flex,165.7,10.83,km/l,574,50.1,,5,480,CVT,150000,4342,1814,1687,1374,Família,45.0,Synthetic illustration; not Localiza data.
+VEH0097,SYNTHETIC,Renault,Kwid,1.0 Connect,2024,Hatch,Combustão,Flex,69.8,14.65,km/l,496,37.8,,5,282,Manual,85000,3749,1570,1482,760,Urbano,26.7,Synthetic illustration; not Localiza data.
+VEH0098,SYNTHETIC,Fiat,Pulse,1.0 Turbo CVT Tech,2025,Crossover,Combustão,Flex,129.2,11.82,km/l,588,46.3,,5,361,CVT,132000,4072,1761,1585,1101,Urbano,39.2,Synthetic illustration; not Localiza data.
+VEH0099,SYNTHETIC,Fiat,Fastback,1.0 Turbo CVT Pack,2025,Crossover,Combustão,Flex,131.3,11.37,km/l,596,47.8,,5,602,CVT,149000,4438,1786,1548,1233,Família,38.4,Synthetic illustration; not Localiza data.
+VEH0100,SYNTHETIC,Fiat,Toro,1.3 Turbo Pack,2026,Picape,Combustão,Flex,183.5,9.86,km/l,516,55.0,,5,926,AT6,176000,4871,1856,1721,1778,Utilitário,55.7,Synthetic illustration; not Localiza data.

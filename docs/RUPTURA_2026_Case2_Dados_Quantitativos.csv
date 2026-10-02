@@ -1,0 +1,31 @@
+﻿ID,Indicador,Valor,Unidade,Tipo,Período/Base,População/Base,Observação,Fonte,Status
+Q01,Clientes Localiza Assinatura,70000,clientes,Dado do case,2026,base de clientes,aprox.,Cases PDF / dossiê §4.1,Confirmado
+Q02,Clientes que acessam no mês,0.801,% clientes,Dado do case,2026,clientes,"80,1% no slide; dossiê resume >80%",Case 2 PDF / dossiê §4.1,Confirmado
+Q03,MAU,53000,usuários/mês,Dado do case,2026,clientes,Usuários ativos mensais,Case 2 PDF / dossiê §4.1,Confirmado
+Q04,WAU,31000,usuários/semana,Dado do case,2026,clientes,Usuários ativos semanais,Case 2 PDF / dossiê §4.1,Confirmado
+Q05,Usuários que acessaram nos últimos 3 meses,0.955,% usuários,Dado do case,2026,usuários,"95,5%","Case 2 PDF, slide de dados",Confirmado
+Q06,Usuários que acessaram nos últimos 6 meses,0.99,% usuários,Dado do case,2026,usuários,99%,"Case 2 PDF, slide de dados",Confirmado
+Q07,1–2 acessos/mês,0.36,% dos que acessam,Dado do case,2026,usuários que acessam,Maior faixa,Case 2 PDF / dossiê §4.2,Confirmado
+Q08,3–5 acessos/mês,0.28,% dos que acessam,Dado do case,2026,usuários que acessam,,Case 2 PDF / dossiê §4.2,Confirmado
+Q09,6–10 acessos/mês,0.19,% dos que acessam,Dado do case,2026,usuários que acessam,,Case 2 PDF / dossiê §4.2,Confirmado
+Q10,11–20 acessos/mês,0.11,% dos que acessam,Dado do case,2026,usuários que acessam,,Case 2 PDF / dossiê §4.2,Confirmado
+Q11,21+ acessos/mês,0.06,% dos que acessam,Dado do case,2026,usuários que acessam,,Case 2 PDF / dossiê §4.2,Confirmado
+Q12,11+ acessos/mês (derivado),,% dos que acessam,Derivado,2026,usuários que acessam,11% + 6%,Calculado a partir de Q10 + Q11,Calculado
+Q13,App NPS,84,NPS,Dado do case,2026,usuários do app,O app é bem avaliado,Case 2 PDF / dossiê §4.3,Confirmado
+Q14,NPS relacional Assinatura,45,NPS,Dado do case,2026,clientes assinatura,aprox.,Case 2 PDF / dossiê §4.3,Confirmado
+Q15,Contatos mensais,>80.000,contatos/mês,Dado do case,2026,clientes/atendimento,valor é apresentado como 'mais de',Case 2 PDF / dossiê §6.3,Confirmado
+Q16,Contatos via chat,0.75,% contatos,Dado do case,2026,contatos mensais,aprox.,Case 2 PDF / dossiê §6.3,Confirmado
+Q17,Contatos via telefone,0.25,% contatos,Dado do case,2026,contatos mensais,aprox.,Case 2 PDF / dossiê §6.3,Confirmado
+Q18,Renovação ao fim do contrato,0.48,% clientes,Dado do case,2026,clientes com contrato encerrando,aprox.,Case 2 PDF / dossiê §6.4,Confirmado
+Q19,Indicação de amigo/familiar,0.07,% clientes,Dado do case,2026,clientes,aprox.,Case 2 PDF / dossiê §6.5,Confirmado
+Q20,Downloads do app,>100.000,downloads,Dado atual do produto,24/09/2026,Google Play,data de atualização do app mencionada no dossiê,"Google Play, conforme dossiê §10",Confirmado no dossiê
+Q21,Modelos de veículos,>150,modelos,Dado atual do produto,2026,oferta Localiza Assinatura,site oficial,"Site oficial, conforme dossiê §11",Confirmado no dossiê
+Q22,Pontos de retirada,>500,pontos,Dado atual do produto,2026,operação Localiza Assinatura,site oficial,"Site oficial, conforme dossiê §11",Confirmado no dossiê
+Q23,Oficinas parceiras,>10.000,oficinas,Dado atual do produto,2026,rede Localiza Assinatura,site oficial,"Site oficial, conforme dossiê §11",Confirmado no dossiê
+Q24,Frota ativa,70000,carros,Dado de contexto,2026,Localiza Assinatura,aprox.,"Case Localiza Assinatura, slide de contexto",Confirmado
+Q25,Capital investido na frota,7500000000,BRL,Dado de contexto,2026,Localiza Assinatura,aprox.,"Case Localiza Assinatura, slide de contexto",Confirmado
+Q26,Pessoas suportando a operação,630,pessoas,Dado de contexto,2026,Localiza Assinatura,aprox.,"Case Localiza Assinatura, slide de contexto",Confirmado
+Q27,NPS do produto Assinatura,85,NPS,Dado de contexto,2026,clientes Assinatura,"produto, não app","Case Localiza Assinatura, slide de contexto",Confirmado
+Q28,Nível de serviço célula Platinum,0.97,%,Dado de contexto,2026,célula Platinum,aprox.,"Case Localiza Assinatura, slide de contexto",Confirmado
+Q29,Prazo de assinatura,,meses,Dado de contexto,2026,contratos,"12, 24, 36 ou 48","Case Localiza Assinatura, slide de contexto",Confirmado
+Q30,Franquia mensal de KM,,km/mês,Dado de contexto,2026,contratos,"1.000, 1.500, 2.000, 2.500 ou 3.000 km","Case Localiza Assinatura, slide de contexto",Confirmado

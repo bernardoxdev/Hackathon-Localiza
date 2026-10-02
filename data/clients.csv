@@ -1,0 +1,501 @@
+﻿customer_id,data_origin,age,profile,city,state,region,home_lat_approx,home_lon_approx,preferred_channel,consent_location,consent_personalization,app_engagement_segment
+CUST0001,SYNTHETIC,55,weekend,Salvador,BA,Nordeste,-12.97924,-38.49357,email,True,True,médio
+CUST0002,SYNTHETIC,26,urban_commuter,Recife,PE,Nordeste,-8.05396,-34.87512,push,True,True,alto
+CUST0003,SYNTHETIC,56,weekend,Goiânia,GO,Centro-Oeste,-16.67122,-49.26089,push,False,True,médio
+CUST0004,SYNTHETIC,58,urban_commuter,Porto Alegre,RS,Sul,-30.01573,-51.24727,email,True,True,médio
+CUST0005,SYNTHETIC,48,low_use,Fortaleza,CE,Nordeste,-3.75968,-38.51329,app,True,True,alto
+CUST0006,SYNTHETIC,50,business,Fortaleza,CE,Nordeste,-3.72932,-38.56854,push,True,True,baixo
+CUST0007,SYNTHETIC,41,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.88245,-43.20191,email,True,True,alto
+CUST0008,SYNTHETIC,62,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.88528,-43.19676,push,True,True,médio
+CUST0009,SYNTHETIC,37,frequent_traveler,Florianópolis,SC,Sul,-27.58728,-48.56524,push,True,True,médio
+CUST0010,SYNTHETIC,56,frequent_traveler,Brasília,DF,Centro-Oeste,-15.79651,-47.90704,app,True,True,médio
+CUST0011,SYNTHETIC,30,frequent_traveler,Florianópolis,SC,Sul,-27.60719,-48.52895,push,False,True,alto
+CUST0012,SYNTHETIC,49,urban_commuter,Porto Alegre,RS,Sul,-30.06574,-51.22984,app,False,True,baixo
+CUST0013,SYNTHETIC,44,business,Florianópolis,SC,Sul,-27.56669,-48.57899,push,False,True,alto
+CUST0014,SYNTHETIC,36,family,Belo Horizonte,MG,Sudeste,-19.8932,-43.9361,email,False,True,baixo
+CUST0015,SYNTHETIC,63,frequent_traveler,Campinas,SP,Sudeste,-22.88649,-47.06343,app,False,True,alto
+CUST0016,SYNTHETIC,62,urban_commuter,Brasília,DF,Centro-Oeste,-15.80177,-47.87435,app,True,True,alto
+CUST0017,SYNTHETIC,47,business,Belo Horizonte,MG,Sudeste,-19.88152,-43.95971,app,True,True,baixo
+CUST0018,SYNTHETIC,57,family,Belo Horizonte,MG,Sudeste,-19.93292,-43.92858,email,False,True,alto
+CUST0019,SYNTHETIC,52,utility,Florianópolis,SC,Sul,-27.62704,-48.57387,app,True,True,médio
+CUST0020,SYNTHETIC,64,utility,Belo Horizonte,MG,Sudeste,-19.94471,-43.95144,app,True,True,médio
+CUST0021,SYNTHETIC,34,family,Brasília,DF,Centro-Oeste,-15.7903,-47.8802,email,True,True,baixo
+CUST0022,SYNTHETIC,43,family,Recife,PE,Nordeste,-8.08179,-34.91377,push,True,True,médio
+CUST0023,SYNTHETIC,45,urban_commuter,Goiânia,GO,Centro-Oeste,-16.67081,-49.2552,email,True,True,baixo
+CUST0024,SYNTHETIC,61,urban_commuter,Belo Horizonte,MG,Sudeste,-19.90575,-43.94495,app,True,True,baixo
+CUST0025,SYNTHETIC,51,urban_commuter,Salvador,BA,Nordeste,-12.93409,-38.51024,app,True,True,alto
+CUST0026,SYNTHETIC,34,urban_commuter,São Paulo,SP,Sudeste,-23.55008,-46.63904,email,True,True,médio
+CUST0027,SYNTHETIC,31,urban_commuter,Campinas,SP,Sudeste,-22.88177,-47.06384,email,False,True,baixo
+CUST0028,SYNTHETIC,63,urban_commuter,Curitiba,PR,Sul,-25.45607,-49.28108,app,True,True,baixo
+CUST0029,SYNTHETIC,46,weekend,Recife,PE,Nordeste,-8.05261,-34.86136,app,True,True,baixo
+CUST0030,SYNTHETIC,31,urban_commuter,Salvador,BA,Nordeste,-12.93221,-38.48861,push,False,True,alto
+CUST0031,SYNTHETIC,26,frequent_traveler,Brasília,DF,Centro-Oeste,-15.76349,-47.87855,push,True,True,baixo
+CUST0032,SYNTHETIC,63,urban_commuter,Curitiba,PR,Sul,-25.39349,-49.28804,email,True,True,alto
+CUST0033,SYNTHETIC,61,business,Fortaleza,CE,Nordeste,-3.74299,-38.49609,app,True,True,baixo
+CUST0034,SYNTHETIC,24,business,Salvador,BA,Nordeste,-12.97016,-38.48983,push,True,True,médio
+CUST0035,SYNTHETIC,33,urban_commuter,Florianópolis,SC,Sul,-27.59483,-48.55126,app,True,True,alto
+CUST0036,SYNTHETIC,46,utility,Rio de Janeiro,RJ,Sudeste,-22.9088,-43.20151,app,False,True,baixo
+CUST0037,SYNTHETIC,47,family,Belo Horizonte,MG,Sudeste,-19.89087,-43.94655,app,True,True,alto
+CUST0038,SYNTHETIC,54,frequent_traveler,Recife,PE,Nordeste,-8.01967,-34.90021,app,False,True,alto
+CUST0039,SYNTHETIC,54,family,Belo Horizonte,MG,Sudeste,-19.9122,-43.91257,email,False,True,médio
+CUST0040,SYNTHETIC,46,low_use,Curitiba,PR,Sul,-25.40889,-49.28073,push,True,True,alto
+CUST0041,SYNTHETIC,51,frequent_traveler,Brasília,DF,Centro-Oeste,-15.76885,-47.89762,email,True,True,baixo
+CUST0042,SYNTHETIC,61,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.90927,-43.16999,app,True,True,baixo
+CUST0043,SYNTHETIC,31,frequent_traveler,Salvador,BA,Nordeste,-12.98376,-38.49095,app,False,True,alto
+CUST0044,SYNTHETIC,46,urban_commuter,Goiânia,GO,Centro-Oeste,-16.6935,-49.28123,push,True,True,alto
+CUST0045,SYNTHETIC,60,utility,Fortaleza,CE,Nordeste,-3.72379,-38.51229,email,False,True,baixo
+CUST0046,SYNTHETIC,30,weekend,Belo Horizonte,MG,Sudeste,-19.94474,-43.94472,push,True,True,médio
+CUST0047,SYNTHETIC,56,urban_commuter,Florianópolis,SC,Sul,-27.61341,-48.564,email,False,True,alto
+CUST0048,SYNTHETIC,64,family,Recife,PE,Nordeste,-8.02571,-34.91885,push,True,True,baixo
+CUST0049,SYNTHETIC,36,low_use,Curitiba,PR,Sul,-25.41478,-49.27088,push,True,True,alto
+CUST0050,SYNTHETIC,32,family,Brasília,DF,Centro-Oeste,-15.80676,-47.89699,email,True,True,médio
+CUST0051,SYNTHETIC,40,weekend,Campinas,SP,Sudeste,-22.87536,-47.04431,app,True,True,alto
+CUST0052,SYNTHETIC,37,weekend,Fortaleza,CE,Nordeste,-3.71896,-38.5658,push,True,True,alto
+CUST0053,SYNTHETIC,53,business,Brasília,DF,Centro-Oeste,-15.7918,-47.90404,push,True,True,médio
+CUST0054,SYNTHETIC,34,frequent_traveler,Rio de Janeiro,RJ,Sudeste,-22.87529,-43.20709,push,False,True,baixo
+CUST0055,SYNTHETIC,29,business,Salvador,BA,Nordeste,-12.93572,-38.5132,push,False,True,baixo
+CUST0056,SYNTHETIC,52,urban_commuter,Porto Alegre,RS,Sul,-30.01814,-51.21251,app,True,True,médio
+CUST0057,SYNTHETIC,43,frequent_traveler,Brasília,DF,Centro-Oeste,-15.82306,-47.86646,app,True,True,médio
+CUST0058,SYNTHETIC,40,frequent_traveler,Campinas,SP,Sudeste,-22.87368,-47.07584,email,True,True,médio
+CUST0059,SYNTHETIC,33,family,Goiânia,GO,Centro-Oeste,-16.68757,-49.2498,email,True,True,alto
+CUST0060,SYNTHETIC,53,urban_commuter,Campinas,SP,Sudeste,-22.93775,-47.04018,email,True,True,médio
+CUST0061,SYNTHETIC,61,utility,Fortaleza,CE,Nordeste,-3.70015,-38.56345,push,True,True,baixo
+CUST0062,SYNTHETIC,56,family,Rio de Janeiro,RJ,Sudeste,-22.91465,-43.15558,email,False,True,baixo
+CUST0063,SYNTHETIC,52,frequent_traveler,Recife,PE,Nordeste,-8.04489,-34.8953,email,True,True,alto
+CUST0064,SYNTHETIC,25,urban_commuter,Salvador,BA,Nordeste,-12.9761,-38.48397,email,True,True,baixo
+CUST0065,SYNTHETIC,64,utility,Rio de Janeiro,RJ,Sudeste,-22.87173,-43.15833,push,True,True,médio
+CUST0066,SYNTHETIC,30,family,Fortaleza,CE,Nordeste,-3.75572,-38.52702,email,True,True,alto
+CUST0067,SYNTHETIC,57,low_use,Fortaleza,CE,Nordeste,-3.73607,-38.53966,app,True,True,médio
+CUST0068,SYNTHETIC,49,business,Belo Horizonte,MG,Sudeste,-19.91081,-43.9051,app,True,True,baixo
+CUST0069,SYNTHETIC,25,low_use,Campinas,SP,Sudeste,-22.91782,-47.08125,app,True,True,baixo
+CUST0070,SYNTHETIC,32,family,Campinas,SP,Sudeste,-22.87114,-47.0583,push,True,True,médio
+CUST0071,SYNTHETIC,64,family,Belo Horizonte,MG,Sudeste,-19.90629,-43.91714,push,False,True,médio
+CUST0072,SYNTHETIC,42,family,Campinas,SP,Sudeste,-22.8814,-47.08845,push,True,True,alto
+CUST0073,SYNTHETIC,44,urban_commuter,Curitiba,PR,Sul,-25.41826,-49.23622,push,True,True,alto
+CUST0074,SYNTHETIC,61,business,Fortaleza,CE,Nordeste,-3.76684,-38.56418,email,True,True,médio
+CUST0075,SYNTHETIC,30,low_use,Campinas,SP,Sudeste,-22.89025,-47.03965,app,True,True,médio
+CUST0076,SYNTHETIC,64,weekend,Goiânia,GO,Centro-Oeste,-16.69126,-49.26908,email,False,True,médio
+CUST0077,SYNTHETIC,25,family,Porto Alegre,RS,Sul,-30.025,-51.2523,app,True,True,médio
+CUST0078,SYNTHETIC,37,family,Campinas,SP,Sudeste,-22.91961,-47.03333,push,True,True,médio
+CUST0079,SYNTHETIC,33,family,Florianópolis,SC,Sul,-27.6188,-48.54628,app,True,True,alto
+CUST0080,SYNTHETIC,37,business,Rio de Janeiro,RJ,Sudeste,-22.94456,-43.19792,app,False,True,médio
+CUST0081,SYNTHETIC,58,weekend,Belo Horizonte,MG,Sudeste,-19.92709,-43.97866,email,True,True,alto
+CUST0082,SYNTHETIC,32,weekend,São Paulo,SP,Sudeste,-23.57072,-46.62042,push,True,True,médio
+CUST0083,SYNTHETIC,37,family,Salvador,BA,Nordeste,-12.986,-38.47376,app,True,True,baixo
+CUST0084,SYNTHETIC,33,urban_commuter,Fortaleza,CE,Nordeste,-3.76339,-38.50237,email,True,True,alto
+CUST0085,SYNTHETIC,53,weekend,Florianópolis,SC,Sul,-27.60831,-48.51607,email,True,True,alto
+CUST0086,SYNTHETIC,60,urban_commuter,Belo Horizonte,MG,Sudeste,-19.94846,-43.91434,push,True,True,médio
+CUST0087,SYNTHETIC,31,utility,Brasília,DF,Centro-Oeste,-15.76676,-47.86486,app,True,True,baixo
+CUST0088,SYNTHETIC,62,utility,Salvador,BA,Nordeste,-12.93361,-38.50826,push,True,True,alto
+CUST0089,SYNTHETIC,50,family,Recife,PE,Nordeste,-8.07514,-34.89313,push,True,True,alto
+CUST0090,SYNTHETIC,63,family,Rio de Janeiro,RJ,Sudeste,-22.93766,-43.17883,push,True,True,baixo
+CUST0091,SYNTHETIC,28,urban_commuter,São Paulo,SP,Sudeste,-23.57501,-46.63409,email,False,True,baixo
+CUST0092,SYNTHETIC,41,urban_commuter,Brasília,DF,Centro-Oeste,-15.7969,-47.85767,email,True,True,alto
+CUST0093,SYNTHETIC,40,family,Curitiba,PR,Sul,-25.43055,-49.30494,push,True,True,médio
+CUST0094,SYNTHETIC,63,low_use,Campinas,SP,Sudeste,-22.91034,-47.05067,push,True,True,baixo
+CUST0095,SYNTHETIC,44,frequent_traveler,Porto Alegre,RS,Sul,-30.03555,-51.20412,email,True,True,médio
+CUST0096,SYNTHETIC,43,family,Rio de Janeiro,RJ,Sudeste,-22.92668,-43.1544,push,True,True,médio
+CUST0097,SYNTHETIC,60,urban_commuter,Salvador,BA,Nordeste,-12.93022,-38.52561,email,True,True,alto
+CUST0098,SYNTHETIC,54,business,Brasília,DF,Centro-Oeste,-15.81887,-47.89577,push,True,True,alto
+CUST0099,SYNTHETIC,57,family,Salvador,BA,Nordeste,-12.96947,-38.46637,email,False,True,alto
+CUST0100,SYNTHETIC,45,business,Fortaleza,CE,Nordeste,-3.75669,-38.52099,email,False,True,médio
+CUST0101,SYNTHETIC,56,frequent_traveler,Campinas,SP,Sudeste,-22.90536,-47.04499,app,False,True,médio
+CUST0102,SYNTHETIC,41,urban_commuter,Goiânia,GO,Centro-Oeste,-16.68672,-49.21306,app,True,True,médio
+CUST0103,SYNTHETIC,29,frequent_traveler,Porto Alegre,RS,Sul,-30.03495,-51.21426,push,True,True,médio
+CUST0104,SYNTHETIC,38,urban_commuter,Fortaleza,CE,Nordeste,-3.72872,-38.52585,push,False,True,médio
+CUST0105,SYNTHETIC,62,urban_commuter,Brasília,DF,Centro-Oeste,-15.75935,-47.88403,push,False,True,baixo
+CUST0106,SYNTHETIC,57,urban_commuter,Salvador,BA,Nordeste,-12.99504,-38.51392,push,True,True,médio
+CUST0107,SYNTHETIC,45,urban_commuter,Salvador,BA,Nordeste,-12.98184,-38.50337,app,True,True,alto
+CUST0108,SYNTHETIC,30,family,Campinas,SP,Sudeste,-22.93536,-47.04453,email,False,True,médio
+CUST0109,SYNTHETIC,57,business,Goiânia,GO,Centro-Oeste,-16.66453,-49.23838,app,True,True,médio
+CUST0110,SYNTHETIC,45,urban_commuter,Salvador,BA,Nordeste,-12.93385,-38.50123,app,False,True,alto
+CUST0111,SYNTHETIC,51,low_use,Brasília,DF,Centro-Oeste,-15.7909,-47.91339,app,True,True,médio
+CUST0112,SYNTHETIC,54,weekend,Goiânia,GO,Centro-Oeste,-16.67602,-49.28094,app,True,True,alto
+CUST0113,SYNTHETIC,64,urban_commuter,Brasília,DF,Centro-Oeste,-15.76989,-47.89618,app,False,True,médio
+CUST0114,SYNTHETIC,60,low_use,Campinas,SP,Sudeste,-22.89487,-47.03112,email,False,True,baixo
+CUST0115,SYNTHETIC,57,family,Salvador,BA,Nordeste,-12.98751,-38.4969,push,True,True,médio
+CUST0116,SYNTHETIC,64,family,Belo Horizonte,MG,Sudeste,-19.94985,-43.91071,app,True,True,alto
+CUST0117,SYNTHETIC,40,business,Salvador,BA,Nordeste,-12.95977,-38.50999,app,True,True,médio
+CUST0118,SYNTHETIC,23,weekend,Porto Alegre,RS,Sul,-30.00049,-51.20223,app,False,True,alto
+CUST0119,SYNTHETIC,54,urban_commuter,Brasília,DF,Centro-Oeste,-15.80852,-47.85373,push,True,True,alto
+CUST0120,SYNTHETIC,24,frequent_traveler,Fortaleza,CE,Nordeste,-3.76006,-38.50139,push,False,True,baixo
+CUST0121,SYNTHETIC,64,urban_commuter,Curitiba,PR,Sul,-25.44117,-49.30341,email,True,True,baixo
+CUST0122,SYNTHETIC,29,urban_commuter,Fortaleza,CE,Nordeste,-3.76991,-38.53186,app,True,True,alto
+CUST0123,SYNTHETIC,31,frequent_traveler,São Paulo,SP,Sudeste,-23.55178,-46.65168,app,True,True,baixo
+CUST0124,SYNTHETIC,32,business,Rio de Janeiro,RJ,Sudeste,-22.94453,-43.16494,email,True,True,médio
+CUST0125,SYNTHETIC,29,urban_commuter,Campinas,SP,Sudeste,-22.9388,-47.09015,email,False,True,médio
+CUST0126,SYNTHETIC,38,urban_commuter,Fortaleza,CE,Nordeste,-3.72573,-38.522,email,True,True,alto
+CUST0127,SYNTHETIC,41,family,Florianópolis,SC,Sul,-27.57831,-48.5273,app,False,True,médio
+CUST0128,SYNTHETIC,31,family,Porto Alegre,RS,Sul,-30.03905,-51.20288,push,True,True,alto
+CUST0129,SYNTHETIC,23,urban_commuter,Salvador,BA,Nordeste,-12.98903,-38.53681,app,False,True,alto
+CUST0130,SYNTHETIC,57,business,São Paulo,SP,Sudeste,-23.54699,-46.65779,app,True,True,baixo
+CUST0131,SYNTHETIC,64,business,Salvador,BA,Nordeste,-12.95552,-38.53471,email,False,True,alto
+CUST0132,SYNTHETIC,62,frequent_traveler,São Paulo,SP,Sudeste,-23.54129,-46.64526,email,True,True,baixo
+CUST0133,SYNTHETIC,56,frequent_traveler,Porto Alegre,RS,Sul,-30.00736,-51.21234,app,True,True,baixo
+CUST0134,SYNTHETIC,56,family,Brasília,DF,Centro-Oeste,-15.82489,-47.86301,email,True,True,médio
+CUST0135,SYNTHETIC,46,urban_commuter,Salvador,BA,Nordeste,-12.99742,-38.47813,email,True,True,baixo
+CUST0136,SYNTHETIC,53,urban_commuter,Campinas,SP,Sudeste,-22.92088,-47.02638,app,True,True,alto
+CUST0137,SYNTHETIC,43,frequent_traveler,Campinas,SP,Sudeste,-22.9283,-47.09377,push,True,True,alto
+CUST0138,SYNTHETIC,52,urban_commuter,Brasília,DF,Centro-Oeste,-15.76072,-47.85812,push,True,True,baixo
+CUST0139,SYNTHETIC,42,weekend,Curitiba,PR,Sul,-25.41083,-49.29059,push,False,True,baixo
+CUST0140,SYNTHETIC,37,urban_commuter,Brasília,DF,Centro-Oeste,-15.78668,-47.86912,email,True,True,médio
+CUST0141,SYNTHETIC,38,weekend,Campinas,SP,Sudeste,-22.91641,-47.02311,app,True,True,baixo
+CUST0142,SYNTHETIC,60,urban_commuter,Florianópolis,SC,Sul,-27.62235,-48.57932,push,True,True,alto
+CUST0143,SYNTHETIC,43,family,Curitiba,PR,Sul,-25.39592,-49.27856,email,True,True,médio
+CUST0144,SYNTHETIC,60,utility,Rio de Janeiro,RJ,Sudeste,-22.94128,-43.20155,push,False,True,médio
+CUST0145,SYNTHETIC,39,frequent_traveler,Curitiba,PR,Sul,-25.4018,-49.30277,email,True,True,alto
+CUST0146,SYNTHETIC,38,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.87253,-43.1783,app,True,True,médio
+CUST0147,SYNTHETIC,29,frequent_traveler,São Paulo,SP,Sudeste,-23.52569,-46.65882,app,True,True,baixo
+CUST0148,SYNTHETIC,39,weekend,Salvador,BA,Nordeste,-12.93661,-38.534,app,True,True,alto
+CUST0149,SYNTHETIC,26,frequent_traveler,Belo Horizonte,MG,Sudeste,-19.94656,-43.93409,email,False,True,médio
+CUST0150,SYNTHETIC,40,urban_commuter,Campinas,SP,Sudeste,-22.92761,-47.02933,app,True,True,alto
+CUST0151,SYNTHETIC,47,family,São Paulo,SP,Sudeste,-23.57902,-46.65404,email,True,True,alto
+CUST0152,SYNTHETIC,45,frequent_traveler,Recife,PE,Nordeste,-8.01699,-34.89981,push,True,True,baixo
+CUST0153,SYNTHETIC,56,frequent_traveler,Belo Horizonte,MG,Sudeste,-19.93141,-43.93328,app,True,True,baixo
+CUST0154,SYNTHETIC,47,weekend,Campinas,SP,Sudeste,-22.92162,-47.03286,app,True,True,baixo
+CUST0155,SYNTHETIC,32,weekend,Salvador,BA,Nordeste,-12.96495,-38.52494,push,True,True,baixo
+CUST0156,SYNTHETIC,24,family,Salvador,BA,Nordeste,-12.96788,-38.53995,email,True,True,baixo
+CUST0157,SYNTHETIC,32,weekend,Rio de Janeiro,RJ,Sudeste,-22.88805,-43.14228,push,True,True,médio
+CUST0158,SYNTHETIC,31,family,Curitiba,PR,Sul,-25.39193,-49.25141,push,False,True,alto
+CUST0159,SYNTHETIC,41,family,Brasília,DF,Centro-Oeste,-15.81981,-47.86169,email,False,True,alto
+CUST0160,SYNTHETIC,44,urban_commuter,Goiânia,GO,Centro-Oeste,-16.66037,-49.27096,push,True,True,alto
+CUST0161,SYNTHETIC,38,urban_commuter,Curitiba,PR,Sul,-25.41455,-49.28196,app,True,True,baixo
+CUST0162,SYNTHETIC,45,family,Goiânia,GO,Centro-Oeste,-16.67632,-49.28189,push,True,True,baixo
+CUST0163,SYNTHETIC,29,family,Porto Alegre,RS,Sul,-30.06406,-51.25639,push,True,True,alto
+CUST0164,SYNTHETIC,50,urban_commuter,Florianópolis,SC,Sul,-27.5546,-48.5768,push,True,True,baixo
+CUST0165,SYNTHETIC,57,weekend,Florianópolis,SC,Sul,-27.60878,-48.56748,app,True,True,baixo
+CUST0166,SYNTHETIC,50,urban_commuter,Porto Alegre,RS,Sul,-30.06299,-51.20409,email,False,True,baixo
+CUST0167,SYNTHETIC,30,frequent_traveler,São Paulo,SP,Sudeste,-23.56533,-46.6382,push,True,True,baixo
+CUST0168,SYNTHETIC,34,family,Brasília,DF,Centro-Oeste,-15.79434,-47.89894,push,True,True,baixo
+CUST0169,SYNTHETIC,45,business,São Paulo,SP,Sudeste,-23.52535,-46.63688,email,True,True,alto
+CUST0170,SYNTHETIC,28,family,Goiânia,GO,Centro-Oeste,-16.68842,-49.22168,app,True,True,baixo
+CUST0171,SYNTHETIC,50,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.94373,-43.15535,app,True,True,alto
+CUST0172,SYNTHETIC,58,family,Recife,PE,Nordeste,-8.06391,-34.9179,push,True,True,alto
+CUST0173,SYNTHETIC,59,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.90297,-43.14933,app,True,True,alto
+CUST0174,SYNTHETIC,54,business,Brasília,DF,Centro-Oeste,-15.78424,-47.88216,app,True,True,médio
+CUST0175,SYNTHETIC,38,low_use,Porto Alegre,RS,Sul,-30.06606,-51.23198,push,True,True,baixo
+CUST0176,SYNTHETIC,29,low_use,Florianópolis,SC,Sul,-27.5522,-48.57176,push,False,True,médio
+CUST0177,SYNTHETIC,54,family,Campinas,SP,Sudeste,-22.88924,-47.03062,app,True,True,baixo
+CUST0178,SYNTHETIC,35,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.88304,-43.19004,push,True,True,médio
+CUST0179,SYNTHETIC,63,family,Recife,PE,Nordeste,-8.01615,-34.88551,app,True,True,médio
+CUST0180,SYNTHETIC,39,urban_commuter,Porto Alegre,RS,Sul,-30.01008,-51.21489,push,True,True,médio
+CUST0181,SYNTHETIC,40,urban_commuter,Fortaleza,CE,Nordeste,-3.71787,-38.52894,email,True,True,médio
+CUST0182,SYNTHETIC,42,business,Curitiba,PR,Sul,-25.41298,-49.25325,push,False,True,médio
+CUST0183,SYNTHETIC,56,business,Curitiba,PR,Sul,-25.40406,-49.27823,app,True,True,alto
+CUST0184,SYNTHETIC,44,urban_commuter,Goiânia,GO,Centro-Oeste,-16.64093,-49.23875,push,True,True,alto
+CUST0185,SYNTHETIC,38,utility,Recife,PE,Nordeste,-8.01803,-34.87557,email,False,True,alto
+CUST0186,SYNTHETIC,49,family,Curitiba,PR,Sul,-25.43763,-49.25106,email,True,True,médio
+CUST0187,SYNTHETIC,58,business,Rio de Janeiro,RJ,Sudeste,-22.93551,-43.20219,app,True,True,alto
+CUST0188,SYNTHETIC,42,family,Porto Alegre,RS,Sul,-30.03636,-51.19905,push,True,True,alto
+CUST0189,SYNTHETIC,60,weekend,Fortaleza,CE,Nordeste,-3.69446,-38.5643,app,True,True,alto
+CUST0190,SYNTHETIC,35,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.92259,-43.13102,push,True,True,médio
+CUST0191,SYNTHETIC,43,urban_commuter,Fortaleza,CE,Nordeste,-3.71924,-38.56962,push,True,True,baixo
+CUST0192,SYNTHETIC,63,frequent_traveler,Salvador,BA,Nordeste,-12.97565,-38.50568,push,False,True,baixo
+CUST0193,SYNTHETIC,56,utility,Porto Alegre,RS,Sul,-30.05475,-51.21586,email,True,True,baixo
+CUST0194,SYNTHETIC,60,frequent_traveler,Brasília,DF,Centro-Oeste,-15.80551,-47.91478,app,True,True,médio
+CUST0195,SYNTHETIC,45,frequent_traveler,Porto Alegre,RS,Sul,-30.00999,-51.25681,push,True,True,baixo
+CUST0196,SYNTHETIC,64,family,São Paulo,SP,Sudeste,-23.52663,-46.63998,email,True,True,alto
+CUST0197,SYNTHETIC,30,low_use,Belo Horizonte,MG,Sudeste,-19.92666,-43.94958,email,True,True,médio
+CUST0198,SYNTHETIC,29,business,Brasília,DF,Centro-Oeste,-15.777,-47.8984,email,True,True,médio
+CUST0199,SYNTHETIC,35,frequent_traveler,São Paulo,SP,Sudeste,-23.54128,-46.60776,email,True,True,médio
+CUST0200,SYNTHETIC,36,frequent_traveler,Recife,PE,Nordeste,-8.03494,-34.90155,app,True,True,baixo
+CUST0201,SYNTHETIC,55,utility,São Paulo,SP,Sudeste,-23.584,-46.61211,push,True,True,médio
+CUST0202,SYNTHETIC,41,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.92118,-43.15586,push,True,True,baixo
+CUST0203,SYNTHETIC,62,frequent_traveler,Porto Alegre,RS,Sul,-30.04854,-51.21135,push,True,True,baixo
+CUST0204,SYNTHETIC,53,low_use,Brasília,DF,Centro-Oeste,-15.76601,-47.86809,app,True,True,baixo
+CUST0205,SYNTHETIC,59,frequent_traveler,Salvador,BA,Nordeste,-12.95573,-38.5255,push,True,True,alto
+CUST0206,SYNTHETIC,51,family,São Paulo,SP,Sudeste,-23.58632,-46.64907,push,True,True,alto
+CUST0207,SYNTHETIC,38,business,Brasília,DF,Centro-Oeste,-15.79145,-47.8669,email,False,True,baixo
+CUST0208,SYNTHETIC,54,frequent_traveler,Recife,PE,Nordeste,-8.02045,-34.93401,push,True,True,baixo
+CUST0209,SYNTHETIC,28,family,Brasília,DF,Centro-Oeste,-15.79327,-47.8559,push,True,True,médio
+CUST0210,SYNTHETIC,49,family,São Paulo,SP,Sudeste,-23.58713,-46.62607,app,True,True,alto
+CUST0211,SYNTHETIC,52,family,Belo Horizonte,MG,Sudeste,-19.93344,-43.91861,email,False,True,alto
+CUST0212,SYNTHETIC,23,family,Fortaleza,CE,Nordeste,-3.74269,-38.50361,push,True,True,alto
+CUST0213,SYNTHETIC,49,utility,Florianópolis,SC,Sul,-27.62144,-48.54113,app,True,True,médio
+CUST0214,SYNTHETIC,63,urban_commuter,Brasília,DF,Centro-Oeste,-15.763,-47.8729,push,False,True,alto
+CUST0215,SYNTHETIC,26,low_use,Recife,PE,Nordeste,-8.04574,-34.90538,email,False,True,alto
+CUST0216,SYNTHETIC,61,business,Brasília,DF,Centro-Oeste,-15.78151,-47.89425,push,False,True,alto
+CUST0217,SYNTHETIC,31,frequent_traveler,Curitiba,PR,Sul,-25.45895,-49.2618,email,True,True,alto
+CUST0218,SYNTHETIC,41,low_use,Salvador,BA,Nordeste,-12.95507,-38.4663,app,True,True,alto
+CUST0219,SYNTHETIC,60,frequent_traveler,Recife,PE,Nordeste,-8.04435,-34.88663,push,True,True,médio
+CUST0220,SYNTHETIC,26,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.93401,-43.14999,app,True,True,alto
+CUST0221,SYNTHETIC,45,urban_commuter,Recife,PE,Nordeste,-8.02488,-34.9318,email,True,True,alto
+CUST0222,SYNTHETIC,26,business,Florianópolis,SC,Sul,-27.55588,-48.559,email,True,True,alto
+CUST0223,SYNTHETIC,64,business,Campinas,SP,Sudeste,-22.92058,-47.05293,email,True,True,alto
+CUST0224,SYNTHETIC,55,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.94045,-43.20675,push,True,True,baixo
+CUST0225,SYNTHETIC,32,low_use,Goiânia,GO,Centro-Oeste,-16.7168,-49.21571,email,True,True,alto
+CUST0226,SYNTHETIC,43,low_use,São Paulo,SP,Sudeste,-23.54797,-46.59344,email,True,True,alto
+CUST0227,SYNTHETIC,44,urban_commuter,Campinas,SP,Sudeste,-22.92351,-47.07651,email,False,True,alto
+CUST0228,SYNTHETIC,62,business,Campinas,SP,Sudeste,-22.87651,-47.08049,app,True,True,médio
+CUST0229,SYNTHETIC,46,utility,Recife,PE,Nordeste,-8.04886,-34.8993,push,True,True,médio
+CUST0230,SYNTHETIC,57,utility,Rio de Janeiro,RJ,Sudeste,-22.90734,-43.15985,app,True,True,alto
+CUST0231,SYNTHETIC,32,low_use,Florianópolis,SC,Sul,-27.6281,-48.53265,app,True,True,baixo
+CUST0232,SYNTHETIC,47,family,Curitiba,PR,Sul,-25.43391,-49.27764,push,True,True,médio
+CUST0233,SYNTHETIC,45,urban_commuter,Florianópolis,SC,Sul,-27.55576,-48.58151,email,True,True,alto
+CUST0234,SYNTHETIC,53,urban_commuter,Fortaleza,CE,Nordeste,-3.75749,-38.55241,email,False,True,alto
+CUST0235,SYNTHETIC,58,weekend,Belo Horizonte,MG,Sudeste,-19.94869,-43.97666,email,False,True,alto
+CUST0236,SYNTHETIC,64,family,Campinas,SP,Sudeste,-22.88188,-47.0886,app,True,True,alto
+CUST0237,SYNTHETIC,64,frequent_traveler,Recife,PE,Nordeste,-8.04603,-34.91675,app,True,True,baixo
+CUST0238,SYNTHETIC,64,business,Rio de Janeiro,RJ,Sudeste,-22.93124,-43.18719,app,True,True,médio
+CUST0239,SYNTHETIC,46,weekend,Salvador,BA,Nordeste,-12.94538,-38.46331,app,True,True,médio
+CUST0240,SYNTHETIC,44,business,Rio de Janeiro,RJ,Sudeste,-22.87977,-43.17297,push,True,True,médio
+CUST0241,SYNTHETIC,35,weekend,Rio de Janeiro,RJ,Sudeste,-22.92894,-43.13909,app,True,True,baixo
+CUST0242,SYNTHETIC,39,weekend,Belo Horizonte,MG,Sudeste,-19.91652,-43.9001,push,True,True,médio
+CUST0243,SYNTHETIC,28,frequent_traveler,Recife,PE,Nordeste,-8.05826,-34.89983,email,True,True,alto
+CUST0244,SYNTHETIC,59,weekend,Rio de Janeiro,RJ,Sudeste,-22.89725,-43.13258,email,False,True,médio
+CUST0245,SYNTHETIC,37,family,Curitiba,PR,Sul,-25.46658,-49.29346,push,False,True,médio
+CUST0246,SYNTHETIC,63,frequent_traveler,Florianópolis,SC,Sul,-27.56363,-48.52321,push,True,True,médio
+CUST0247,SYNTHETIC,56,family,Brasília,DF,Centro-Oeste,-15.79753,-47.85462,push,False,True,médio
+CUST0248,SYNTHETIC,55,urban_commuter,Campinas,SP,Sudeste,-22.89852,-47.08308,app,True,True,médio
+CUST0249,SYNTHETIC,53,urban_commuter,Florianópolis,SC,Sul,-27.57598,-48.55168,email,True,True,alto
+CUST0250,SYNTHETIC,33,weekend,Salvador,BA,Nordeste,-12.99922,-38.49899,email,True,True,baixo
+CUST0251,SYNTHETIC,41,low_use,Florianópolis,SC,Sul,-27.55422,-48.57267,email,False,True,médio
+CUST0252,SYNTHETIC,55,business,Salvador,BA,Nordeste,-12.98884,-38.48207,push,False,True,alto
+CUST0253,SYNTHETIC,24,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.93381,-43.14123,email,False,True,baixo
+CUST0254,SYNTHETIC,30,frequent_traveler,Recife,PE,Nordeste,-8.08254,-34.88725,email,True,True,alto
+CUST0255,SYNTHETIC,50,weekend,Florianópolis,SC,Sul,-27.61164,-48.52582,push,True,True,alto
+CUST0256,SYNTHETIC,37,frequent_traveler,Curitiba,PR,Sul,-25.39719,-49.30329,email,False,True,médio
+CUST0257,SYNTHETIC,36,business,Brasília,DF,Centro-Oeste,-15.77498,-47.89473,push,True,True,baixo
+CUST0258,SYNTHETIC,62,family,Salvador,BA,Nordeste,-12.98796,-38.48555,app,False,True,alto
+CUST0259,SYNTHETIC,59,family,Curitiba,PR,Sul,-25.44245,-49.25356,email,True,True,alto
+CUST0260,SYNTHETIC,48,frequent_traveler,Campinas,SP,Sudeste,-22.88711,-47.03593,email,True,True,baixo
+CUST0261,SYNTHETIC,50,weekend,Goiânia,GO,Centro-Oeste,-16.71295,-49.26895,push,True,True,alto
+CUST0262,SYNTHETIC,54,business,Rio de Janeiro,RJ,Sudeste,-22.91488,-43.19386,email,True,True,baixo
+CUST0263,SYNTHETIC,64,family,Porto Alegre,RS,Sul,-30.06998,-51.2574,push,False,True,médio
+CUST0264,SYNTHETIC,27,low_use,Florianópolis,SC,Sul,-27.55647,-48.54603,email,True,True,médio
+CUST0265,SYNTHETIC,39,urban_commuter,Salvador,BA,Nordeste,-12.996,-38.4995,email,True,True,alto
+CUST0266,SYNTHETIC,47,frequent_traveler,Florianópolis,SC,Sul,-27.58495,-48.5284,push,False,True,alto
+CUST0267,SYNTHETIC,47,urban_commuter,Curitiba,PR,Sul,-25.41931,-49.23046,email,True,True,médio
+CUST0268,SYNTHETIC,48,urban_commuter,Curitiba,PR,Sul,-25.4161,-49.24431,app,True,True,médio
+CUST0269,SYNTHETIC,35,low_use,Florianópolis,SC,Sul,-27.59008,-48.57403,email,True,True,médio
+CUST0270,SYNTHETIC,29,utility,Rio de Janeiro,RJ,Sudeste,-22.94041,-43.20372,email,False,True,alto
+CUST0271,SYNTHETIC,54,family,Salvador,BA,Nordeste,-12.93815,-38.46952,email,True,True,médio
+CUST0272,SYNTHETIC,26,urban_commuter,Salvador,BA,Nordeste,-12.96794,-38.50615,email,True,True,alto
+CUST0273,SYNTHETIC,52,frequent_traveler,Florianópolis,SC,Sul,-27.60475,-48.58933,email,True,True,médio
+CUST0274,SYNTHETIC,39,weekend,Rio de Janeiro,RJ,Sudeste,-22.93103,-43.17229,email,True,True,médio
+CUST0275,SYNTHETIC,46,utility,Florianópolis,SC,Sul,-27.60079,-48.55795,push,True,True,alto
+CUST0276,SYNTHETIC,50,weekend,Campinas,SP,Sudeste,-22.8815,-47.08431,email,True,True,médio
+CUST0277,SYNTHETIC,57,frequent_traveler,Fortaleza,CE,Nordeste,-3.71236,-38.50717,push,True,True,alto
+CUST0278,SYNTHETIC,39,urban_commuter,Belo Horizonte,MG,Sudeste,-19.92188,-43.92961,push,True,True,médio
+CUST0279,SYNTHETIC,45,urban_commuter,Brasília,DF,Centro-Oeste,-15.76061,-47.84295,app,True,True,médio
+CUST0280,SYNTHETIC,41,business,Brasília,DF,Centro-Oeste,-15.7929,-47.84347,app,True,True,médio
+CUST0281,SYNTHETIC,37,family,Rio de Janeiro,RJ,Sudeste,-22.92492,-43.15776,email,True,True,alto
+CUST0282,SYNTHETIC,56,weekend,Florianópolis,SC,Sul,-27.55276,-48.55688,app,True,True,baixo
+CUST0283,SYNTHETIC,29,family,Rio de Janeiro,RJ,Sudeste,-22.94236,-43.13506,push,True,True,baixo
+CUST0284,SYNTHETIC,28,urban_commuter,Salvador,BA,Nordeste,-12.95761,-38.46916,push,True,True,baixo
+CUST0285,SYNTHETIC,24,urban_commuter,Recife,PE,Nordeste,-8.08719,-34.91145,push,False,True,médio
+CUST0286,SYNTHETIC,52,weekend,Salvador,BA,Nordeste,-12.95952,-38.48913,email,False,True,alto
+CUST0287,SYNTHETIC,28,family,Recife,PE,Nordeste,-8.05465,-34.91074,push,True,True,médio
+CUST0288,SYNTHETIC,23,weekend,Goiânia,GO,Centro-Oeste,-16.66498,-49.25065,push,True,True,baixo
+CUST0289,SYNTHETIC,58,family,Campinas,SP,Sudeste,-22.91503,-47.08001,email,False,True,médio
+CUST0290,SYNTHETIC,62,utility,Recife,PE,Nordeste,-8.02539,-34.88523,push,True,True,médio
+CUST0291,SYNTHETIC,52,business,São Paulo,SP,Sudeste,-23.54058,-46.64823,email,False,True,baixo
+CUST0292,SYNTHETIC,41,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.92846,-43.15278,email,True,True,baixo
+CUST0293,SYNTHETIC,42,frequent_traveler,Porto Alegre,RS,Sul,-30.00714,-51.23013,push,False,True,alto
+CUST0294,SYNTHETIC,48,utility,Curitiba,PR,Sul,-25.46429,-49.27239,app,True,True,médio
+CUST0295,SYNTHETIC,25,low_use,Campinas,SP,Sudeste,-22.93407,-47.04117,app,True,True,médio
+CUST0296,SYNTHETIC,25,low_use,Fortaleza,CE,Nordeste,-3.71042,-38.52603,app,True,True,médio
+CUST0297,SYNTHETIC,30,urban_commuter,Fortaleza,CE,Nordeste,-3.75112,-38.53527,app,True,True,médio
+CUST0298,SYNTHETIC,53,weekend,Belo Horizonte,MG,Sudeste,-19.90493,-43.9676,app,True,True,baixo
+CUST0299,SYNTHETIC,32,business,Porto Alegre,RS,Sul,-30.01389,-51.20668,app,False,True,baixo
+CUST0300,SYNTHETIC,47,low_use,Belo Horizonte,MG,Sudeste,-19.93135,-43.96922,app,False,True,alto
+CUST0301,SYNTHETIC,57,urban_commuter,Salvador,BA,Nordeste,-12.98219,-38.48141,push,True,True,baixo
+CUST0302,SYNTHETIC,52,family,Recife,PE,Nordeste,-8.08994,-34.88896,push,True,True,baixo
+CUST0303,SYNTHETIC,47,weekend,Fortaleza,CE,Nordeste,-3.75481,-38.51534,email,True,True,alto
+CUST0304,SYNTHETIC,27,frequent_traveler,São Paulo,SP,Sudeste,-23.5865,-46.59498,app,True,True,baixo
+CUST0305,SYNTHETIC,47,business,Salvador,BA,Nordeste,-12.95737,-38.49793,email,True,True,baixo
+CUST0306,SYNTHETIC,28,frequent_traveler,Fortaleza,CE,Nordeste,-3.73256,-38.51889,push,False,True,médio
+CUST0307,SYNTHETIC,36,urban_commuter,Curitiba,PR,Sul,-25.39315,-49.30223,email,True,True,alto
+CUST0308,SYNTHETIC,58,utility,Recife,PE,Nordeste,-8.05679,-34.93156,email,True,True,alto
+CUST0309,SYNTHETIC,48,weekend,Rio de Janeiro,RJ,Sudeste,-22.90962,-43.1574,email,False,True,médio
+CUST0310,SYNTHETIC,43,frequent_traveler,Fortaleza,CE,Nordeste,-3.72133,-38.52495,app,False,True,alto
+CUST0311,SYNTHETIC,25,urban_commuter,Brasília,DF,Centro-Oeste,-15.75136,-47.87234,email,True,True,médio
+CUST0312,SYNTHETIC,40,utility,Belo Horizonte,MG,Sudeste,-19.88647,-43.9391,email,True,True,baixo
+CUST0313,SYNTHETIC,60,family,Curitiba,PR,Sul,-25.45001,-49.2895,push,True,True,alto
+CUST0314,SYNTHETIC,54,urban_commuter,Goiânia,GO,Centro-Oeste,-16.65394,-49.23483,email,True,True,alto
+CUST0315,SYNTHETIC,44,utility,Belo Horizonte,MG,Sudeste,-19.93217,-43.91463,push,True,True,baixo
+CUST0316,SYNTHETIC,25,weekend,Curitiba,PR,Sul,-25.44445,-49.26481,push,True,True,baixo
+CUST0317,SYNTHETIC,41,frequent_traveler,Campinas,SP,Sudeste,-22.88709,-47.08816,push,True,True,médio
+CUST0318,SYNTHETIC,50,frequent_traveler,Brasília,DF,Centro-Oeste,-15.76809,-47.90957,app,False,True,alto
+CUST0319,SYNTHETIC,40,urban_commuter,Campinas,SP,Sudeste,-22.88786,-47.07413,email,True,True,baixo
+CUST0320,SYNTHETIC,45,family,Campinas,SP,Sudeste,-22.90249,-47.09806,push,True,True,médio
+CUST0321,SYNTHETIC,46,urban_commuter,Campinas,SP,Sudeste,-22.93752,-47.04172,app,True,True,alto
+CUST0322,SYNTHETIC,30,low_use,Porto Alegre,RS,Sul,-30.04559,-51.2323,push,True,True,alto
+CUST0323,SYNTHETIC,32,low_use,Salvador,BA,Nordeste,-12.95439,-38.48654,push,True,True,médio
+CUST0324,SYNTHETIC,64,frequent_traveler,Belo Horizonte,MG,Sudeste,-19.88439,-43.97467,email,True,True,alto
+CUST0325,SYNTHETIC,37,family,Fortaleza,CE,Nordeste,-3.69162,-38.52932,email,True,True,médio
+CUST0326,SYNTHETIC,58,frequent_traveler,Recife,PE,Nordeste,-8.01589,-34.93828,app,True,True,médio
+CUST0327,SYNTHETIC,45,family,Fortaleza,CE,Nordeste,-3.71998,-38.5511,email,True,True,baixo
+CUST0328,SYNTHETIC,44,urban_commuter,Campinas,SP,Sudeste,-22.87823,-47.04745,app,False,True,alto
+CUST0329,SYNTHETIC,50,urban_commuter,Salvador,BA,Nordeste,-12.93236,-38.46722,push,False,True,alto
+CUST0330,SYNTHETIC,56,low_use,Curitiba,PR,Sul,-25.39723,-49.27559,app,True,True,médio
+CUST0331,SYNTHETIC,24,low_use,Rio de Janeiro,RJ,Sudeste,-22.88877,-43.13959,push,False,True,médio
+CUST0332,SYNTHETIC,34,urban_commuter,São Paulo,SP,Sudeste,-23.5879,-46.59112,email,True,True,alto
+CUST0333,SYNTHETIC,45,urban_commuter,Fortaleza,CE,Nordeste,-3.76364,-38.50761,app,False,True,alto
+CUST0334,SYNTHETIC,33,urban_commuter,Goiânia,GO,Centro-Oeste,-16.70454,-49.28742,app,True,True,médio
+CUST0335,SYNTHETIC,62,frequent_traveler,Rio de Janeiro,RJ,Sudeste,-22.9108,-43.18401,push,True,True,médio
+CUST0336,SYNTHETIC,59,utility,Salvador,BA,Nordeste,-12.9625,-38.49798,email,True,True,alto
+CUST0337,SYNTHETIC,48,weekend,Recife,PE,Nordeste,-8.01129,-34.93686,push,True,True,baixo
+CUST0338,SYNTHETIC,50,urban_commuter,Goiânia,GO,Centro-Oeste,-16.69645,-49.21648,email,True,True,médio
+CUST0339,SYNTHETIC,57,low_use,Salvador,BA,Nordeste,-12.99918,-38.50692,push,True,True,baixo
+CUST0340,SYNTHETIC,64,family,Curitiba,PR,Sul,-25.39743,-49.24628,email,True,True,baixo
+CUST0341,SYNTHETIC,62,frequent_traveler,Florianópolis,SC,Sul,-27.55402,-48.55971,push,True,True,baixo
+CUST0342,SYNTHETIC,26,utility,Rio de Janeiro,RJ,Sudeste,-22.91643,-43.18524,push,True,True,alto
+CUST0343,SYNTHETIC,39,utility,Salvador,BA,Nordeste,-13.00902,-38.50019,push,True,True,alto
+CUST0344,SYNTHETIC,28,frequent_traveler,Brasília,DF,Centro-Oeste,-15.7819,-47.91947,email,True,True,alto
+CUST0345,SYNTHETIC,64,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.92208,-43.19837,app,True,True,médio
+CUST0346,SYNTHETIC,41,business,Rio de Janeiro,RJ,Sudeste,-22.90111,-43.15468,email,True,True,médio
+CUST0347,SYNTHETIC,46,family,Curitiba,PR,Sul,-25.3982,-49.24438,push,True,True,médio
+CUST0348,SYNTHETIC,56,family,Recife,PE,Nordeste,-8.07321,-34.92328,app,True,True,alto
+CUST0349,SYNTHETIC,43,business,Brasília,DF,Centro-Oeste,-15.80923,-47.87399,email,True,True,baixo
+CUST0350,SYNTHETIC,37,business,Rio de Janeiro,RJ,Sudeste,-22.89331,-43.13166,app,True,True,baixo
+CUST0351,SYNTHETIC,44,urban_commuter,Brasília,DF,Centro-Oeste,-15.80203,-47.85552,app,True,True,alto
+CUST0352,SYNTHETIC,58,frequent_traveler,Curitiba,PR,Sul,-25.44409,-49.30951,email,True,True,médio
+CUST0353,SYNTHETIC,53,family,Porto Alegre,RS,Sul,-29.99671,-51.20622,email,True,True,médio
+CUST0354,SYNTHETIC,26,utility,Brasília,DF,Centro-Oeste,-15.76319,-47.89605,email,True,True,alto
+CUST0355,SYNTHETIC,40,urban_commuter,São Paulo,SP,Sudeste,-23.52274,-46.64287,push,True,True,alto
+CUST0356,SYNTHETIC,25,family,Florianópolis,SC,Sul,-27.60828,-48.58306,app,True,True,médio
+CUST0357,SYNTHETIC,35,urban_commuter,Porto Alegre,RS,Sul,-29.99693,-51.2345,app,False,True,alto
+CUST0358,SYNTHETIC,29,urban_commuter,Porto Alegre,RS,Sul,-30.00423,-51.19496,email,True,True,baixo
+CUST0359,SYNTHETIC,25,family,Belo Horizonte,MG,Sudeste,-19.90504,-43.93246,app,True,True,médio
+CUST0360,SYNTHETIC,43,urban_commuter,Fortaleza,CE,Nordeste,-3.75396,-38.54707,email,True,True,médio
+CUST0361,SYNTHETIC,23,urban_commuter,Curitiba,PR,Sul,-25.39334,-49.26523,app,True,True,alto
+CUST0362,SYNTHETIC,59,family,Florianópolis,SC,Sul,-27.61041,-48.5843,email,True,True,alto
+CUST0363,SYNTHETIC,29,urban_commuter,Fortaleza,CE,Nordeste,-3.73931,-38.56311,push,True,True,alto
+CUST0364,SYNTHETIC,57,urban_commuter,Porto Alegre,RS,Sul,-30.06372,-51.19618,push,True,True,baixo
+CUST0365,SYNTHETIC,52,business,Fortaleza,CE,Nordeste,-3.73236,-38.4942,app,True,True,médio
+CUST0366,SYNTHETIC,27,urban_commuter,Goiânia,GO,Centro-Oeste,-16.68197,-49.26188,push,True,True,médio
+CUST0367,SYNTHETIC,43,urban_commuter,Florianópolis,SC,Sul,-27.58551,-48.58433,push,False,True,médio
+CUST0368,SYNTHETIC,27,family,Goiânia,GO,Centro-Oeste,-16.69274,-49.22489,email,False,True,médio
+CUST0369,SYNTHETIC,59,low_use,Florianópolis,SC,Sul,-27.56306,-48.58085,email,False,True,médio
+CUST0370,SYNTHETIC,61,urban_commuter,Brasília,DF,Centro-Oeste,-15.8213,-47.85487,push,True,True,médio
+CUST0371,SYNTHETIC,63,weekend,Rio de Janeiro,RJ,Sudeste,-22.88521,-43.14943,email,True,True,médio
+CUST0372,SYNTHETIC,43,low_use,Campinas,SP,Sudeste,-22.92602,-47.03645,email,True,True,médio
+CUST0373,SYNTHETIC,26,family,Rio de Janeiro,RJ,Sudeste,-22.92046,-43.16609,app,True,True,alto
+CUST0374,SYNTHETIC,60,frequent_traveler,Campinas,SP,Sudeste,-22.91846,-47.07455,push,False,True,médio
+CUST0375,SYNTHETIC,58,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.91923,-43.13604,push,True,True,médio
+CUST0376,SYNTHETIC,32,urban_commuter,Fortaleza,CE,Nordeste,-3.71229,-38.53106,push,True,True,baixo
+CUST0377,SYNTHETIC,52,urban_commuter,Salvador,BA,Nordeste,-12.96925,-38.49584,push,False,True,médio
+CUST0378,SYNTHETIC,55,family,Florianópolis,SC,Sul,-27.60846,-48.51587,email,True,True,baixo
+CUST0379,SYNTHETIC,28,frequent_traveler,Salvador,BA,Nordeste,-12.99863,-38.4815,push,False,True,alto
+CUST0380,SYNTHETIC,27,low_use,Fortaleza,CE,Nordeste,-3.71527,-38.52686,email,True,True,alto
+CUST0381,SYNTHETIC,59,frequent_traveler,Recife,PE,Nordeste,-8.03129,-34.90632,push,True,True,baixo
+CUST0382,SYNTHETIC,60,frequent_traveler,Fortaleza,CE,Nordeste,-3.75647,-38.56587,push,True,True,médio
+CUST0383,SYNTHETIC,62,urban_commuter,Curitiba,PR,Sul,-25.44752,-49.24137,app,True,True,alto
+CUST0384,SYNTHETIC,38,family,Rio de Janeiro,RJ,Sudeste,-22.91121,-43.14605,app,True,True,baixo
+CUST0385,SYNTHETIC,51,family,Brasília,DF,Centro-Oeste,-15.77192,-47.90662,email,True,True,baixo
+CUST0386,SYNTHETIC,53,family,Goiânia,GO,Centro-Oeste,-16.69589,-49.23031,email,True,True,médio
+CUST0387,SYNTHETIC,23,frequent_traveler,Recife,PE,Nordeste,-8.0669,-34.87622,push,True,True,alto
+CUST0388,SYNTHETIC,40,business,Salvador,BA,Nordeste,-12.9832,-38.51863,app,True,True,alto
+CUST0389,SYNTHETIC,34,family,Recife,PE,Nordeste,-8.06494,-34.93915,app,True,True,baixo
+CUST0390,SYNTHETIC,41,low_use,Campinas,SP,Sudeste,-22.92985,-47.09728,email,True,True,baixo
+CUST0391,SYNTHETIC,31,business,São Paulo,SP,Sudeste,-23.55992,-46.60889,email,True,True,baixo
+CUST0392,SYNTHETIC,63,urban_commuter,Fortaleza,CE,Nordeste,-3.73372,-38.49038,push,True,True,médio
+CUST0393,SYNTHETIC,26,family,Brasília,DF,Centro-Oeste,-15.80934,-47.85498,app,False,True,baixo
+CUST0394,SYNTHETIC,57,urban_commuter,São Paulo,SP,Sudeste,-23.5285,-46.65253,email,True,True,médio
+CUST0395,SYNTHETIC,39,weekend,São Paulo,SP,Sudeste,-23.52782,-46.6685,push,True,True,alto
+CUST0396,SYNTHETIC,44,low_use,Rio de Janeiro,RJ,Sudeste,-22.87763,-43.16403,email,False,True,médio
+CUST0397,SYNTHETIC,53,low_use,Brasília,DF,Centro-Oeste,-15.8203,-47.87718,push,True,True,alto
+CUST0398,SYNTHETIC,28,family,Recife,PE,Nordeste,-8.02271,-34.87916,push,True,True,baixo
+CUST0399,SYNTHETIC,29,family,Florianópolis,SC,Sul,-27.57955,-48.56126,app,False,True,alto
+CUST0400,SYNTHETIC,38,weekend,Florianópolis,SC,Sul,-27.59086,-48.58496,email,True,True,médio
+CUST0401,SYNTHETIC,25,family,Belo Horizonte,MG,Sudeste,-19.92756,-43.96307,email,False,True,alto
+CUST0402,SYNTHETIC,54,urban_commuter,Florianópolis,SC,Sul,-27.57769,-48.5523,email,True,True,baixo
+CUST0403,SYNTHETIC,42,urban_commuter,Fortaleza,CE,Nordeste,-3.70434,-38.56222,email,True,True,alto
+CUST0404,SYNTHETIC,50,urban_commuter,São Paulo,SP,Sudeste,-23.56301,-46.60313,email,False,True,médio
+CUST0405,SYNTHETIC,34,weekend,Belo Horizonte,MG,Sudeste,-19.93316,-43.97034,app,False,True,baixo
+CUST0406,SYNTHETIC,31,urban_commuter,Salvador,BA,Nordeste,-13.002,-38.47221,email,False,True,baixo
+CUST0407,SYNTHETIC,64,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.9025,-43.1873,email,False,True,alto
+CUST0408,SYNTHETIC,34,family,Brasília,DF,Centro-Oeste,-15.78116,-47.91699,app,False,True,alto
+CUST0409,SYNTHETIC,38,weekend,Belo Horizonte,MG,Sudeste,-19.94465,-43.90107,app,True,True,alto
+CUST0410,SYNTHETIC,30,urban_commuter,Belo Horizonte,MG,Sudeste,-19.89627,-43.92518,push,False,True,baixo
+CUST0411,SYNTHETIC,50,urban_commuter,Curitiba,PR,Sul,-25.44989,-49.26065,push,True,True,baixo
+CUST0412,SYNTHETIC,30,frequent_traveler,Goiânia,GO,Centro-Oeste,-16.71433,-49.27118,push,True,True,médio
+CUST0413,SYNTHETIC,29,family,Porto Alegre,RS,Sul,-30.05103,-51.23699,app,False,True,baixo
+CUST0414,SYNTHETIC,62,urban_commuter,Rio de Janeiro,RJ,Sudeste,-22.9136,-43.17901,app,False,True,alto
+CUST0415,SYNTHETIC,25,urban_commuter,Porto Alegre,RS,Sul,-30.01462,-51.26523,app,True,True,médio
+CUST0416,SYNTHETIC,33,business,Curitiba,PR,Sul,-25.40684,-49.25896,email,True,True,alto
+CUST0417,SYNTHETIC,53,weekend,Campinas,SP,Sudeste,-22.88304,-47.07767,email,False,True,alto
+CUST0418,SYNTHETIC,59,urban_commuter,Salvador,BA,Nordeste,-12.93814,-38.50658,app,True,True,médio
+CUST0419,SYNTHETIC,29,low_use,Goiânia,GO,Centro-Oeste,-16.6838,-49.27076,email,True,True,alto
+CUST0420,SYNTHETIC,64,family,Curitiba,PR,Sul,-25.39008,-49.30873,email,True,True,baixo
+CUST0421,SYNTHETIC,48,low_use,Rio de Janeiro,RJ,Sudeste,-22.9352,-43.14028,email,False,True,alto
+CUST0422,SYNTHETIC,41,urban_commuter,Recife,PE,Nordeste,-8.05593,-34.91842,email,True,True,alto
+CUST0423,SYNTHETIC,47,urban_commuter,Belo Horizonte,MG,Sudeste,-19.93075,-43.93047,push,True,True,baixo
+CUST0424,SYNTHETIC,57,family,Porto Alegre,RS,Sul,-30.06092,-51.23172,email,True,True,alto
+CUST0425,SYNTHETIC,27,urban_commuter,Curitiba,PR,Sul,-25.44017,-49.27381,email,True,True,médio
+CUST0426,SYNTHETIC,27,low_use,Fortaleza,CE,Nordeste,-3.75493,-38.49928,app,True,True,médio
+CUST0427,SYNTHETIC,32,urban_commuter,Curitiba,PR,Sul,-25.43029,-49.24,email,True,True,médio
+CUST0428,SYNTHETIC,64,frequent_traveler,Brasília,DF,Centro-Oeste,-15.82828,-47.90488,app,True,True,alto
+CUST0429,SYNTHETIC,56,weekend,Goiânia,GO,Centro-Oeste,-16.65265,-49.25438,push,True,True,médio
+CUST0430,SYNTHETIC,26,utility,Curitiba,PR,Sul,-25.45813,-49.28725,app,True,True,alto
+CUST0431,SYNTHETIC,30,family,Rio de Janeiro,RJ,Sudeste,-22.94671,-43.18467,app,False,True,médio
+CUST0432,SYNTHETIC,46,urban_commuter,Porto Alegre,RS,Sul,-30.03413,-51.19196,email,True,True,baixo
+CUST0433,SYNTHETIC,23,urban_commuter,Porto Alegre,RS,Sul,-29.99239,-51.22631,email,True,True,alto
+CUST0434,SYNTHETIC,51,low_use,Salvador,BA,Nordeste,-12.98291,-38.53101,push,True,True,baixo
+CUST0435,SYNTHETIC,37,business,Brasília,DF,Centro-Oeste,-15.79432,-47.9126,app,True,True,alto
+CUST0436,SYNTHETIC,51,weekend,São Paulo,SP,Sudeste,-23.53583,-46.59339,email,False,True,baixo
+CUST0437,SYNTHETIC,50,low_use,Rio de Janeiro,RJ,Sudeste,-22.92043,-43.18017,push,True,True,médio
+CUST0438,SYNTHETIC,51,frequent_traveler,Florianópolis,SC,Sul,-27.60691,-48.52555,push,False,True,baixo
+CUST0439,SYNTHETIC,56,frequent_traveler,Curitiba,PR,Sul,-25.39107,-49.30471,email,False,True,baixo
+CUST0440,SYNTHETIC,59,frequent_traveler,Recife,PE,Nordeste,-8.02958,-34.92905,app,False,True,médio
+CUST0441,SYNTHETIC,52,weekend,Goiânia,GO,Centro-Oeste,-16.70204,-49.2267,app,True,True,médio
+CUST0442,SYNTHETIC,54,urban_commuter,Brasília,DF,Centro-Oeste,-15.75746,-47.86842,app,True,True,médio
+CUST0443,SYNTHETIC,53,business,Curitiba,PR,Sul,-25.39206,-49.24454,push,True,True,médio
+CUST0444,SYNTHETIC,31,low_use,Goiânia,GO,Centro-Oeste,-16.69141,-49.28577,push,False,True,alto
+CUST0445,SYNTHETIC,63,urban_commuter,Recife,PE,Nordeste,-8.07534,-34.93244,app,True,True,médio
+CUST0446,SYNTHETIC,45,weekend,Recife,PE,Nordeste,-8.02413,-34.93897,email,True,True,médio
+CUST0447,SYNTHETIC,55,urban_commuter,Campinas,SP,Sudeste,-22.93231,-47.08493,email,True,True,médio
+CUST0448,SYNTHETIC,42,family,Goiânia,GO,Centro-Oeste,-16.66472,-49.27888,push,True,True,baixo
+CUST0449,SYNTHETIC,32,low_use,Rio de Janeiro,RJ,Sudeste,-22.89496,-43.18541,app,True,True,baixo
+CUST0450,SYNTHETIC,35,urban_commuter,Brasília,DF,Centro-Oeste,-15.82137,-47.85656,email,True,True,médio
+CUST0451,SYNTHETIC,29,urban_commuter,Fortaleza,CE,Nordeste,-3.70741,-38.49639,app,True,True,baixo
+CUST0452,SYNTHETIC,60,family,Florianópolis,SC,Sul,-27.60217,-48.57716,email,True,True,alto
+CUST0453,SYNTHETIC,41,urban_commuter,Florianópolis,SC,Sul,-27.61626,-48.52968,app,True,True,baixo
+CUST0454,SYNTHETIC,34,urban_commuter,Fortaleza,CE,Nordeste,-3.70322,-38.4915,push,True,True,alto
+CUST0455,SYNTHETIC,56,urban_commuter,Goiânia,GO,Centro-Oeste,-16.70913,-49.22902,email,True,True,alto
+CUST0456,SYNTHETIC,41,family,São Paulo,SP,Sudeste,-23.55344,-46.61111,email,False,True,baixo
+CUST0457,SYNTHETIC,46,frequent_traveler,São Paulo,SP,Sudeste,-23.57566,-46.5901,push,True,True,médio
+CUST0458,SYNTHETIC,60,family,Brasília,DF,Centro-Oeste,-15.75179,-47.86069,app,True,True,médio
+CUST0459,SYNTHETIC,54,frequent_traveler,Campinas,SP,Sudeste,-22.92772,-47.04292,email,True,True,alto
+CUST0460,SYNTHETIC,32,family,Recife,PE,Nordeste,-8.02856,-34.93136,push,False,True,médio
+CUST0461,SYNTHETIC,27,urban_commuter,Florianópolis,SC,Sul,-27.59015,-48.58786,app,False,True,alto
+CUST0462,SYNTHETIC,56,business,São Paulo,SP,Sudeste,-23.52859,-46.60658,app,True,True,alto
+CUST0463,SYNTHETIC,30,frequent_traveler,Belo Horizonte,MG,Sudeste,-19.92931,-43.95484,push,False,True,médio
+CUST0464,SYNTHETIC,31,frequent_traveler,Goiânia,GO,Centro-Oeste,-16.695,-49.25887,app,False,True,alto
+CUST0465,SYNTHETIC,48,urban_commuter,Recife,PE,Nordeste,-8.06893,-34.89272,push,True,True,médio
+CUST0466,SYNTHETIC,60,family,Porto Alegre,RS,Sul,-30.06785,-51.19869,push,False,True,baixo
+CUST0467,SYNTHETIC,38,business,Belo Horizonte,MG,Sudeste,-19.94019,-43.92815,email,True,True,alto
+CUST0468,SYNTHETIC,43,weekend,Belo Horizonte,MG,Sudeste,-19.95701,-43.92738,push,False,True,médio
+CUST0469,SYNTHETIC,43,family,Salvador,BA,Nordeste,-12.9642,-38.47533,app,True,True,médio
+CUST0470,SYNTHETIC,35,frequent_traveler,Porto Alegre,RS,Sul,-30.03024,-51.20221,app,True,True,médio
+CUST0471,SYNTHETIC,28,utility,Salvador,BA,Nordeste,-12.95258,-38.49374,email,True,True,médio
+CUST0472,SYNTHETIC,64,urban_commuter,Porto Alegre,RS,Sul,-30.0041,-51.22963,push,False,True,alto
+CUST0473,SYNTHETIC,55,business,Curitiba,PR,Sul,-25.43374,-49.24892,app,True,True,alto
+CUST0474,SYNTHETIC,52,utility,Fortaleza,CE,Nordeste,-3.74857,-38.51897,email,False,True,alto
+CUST0475,SYNTHETIC,38,urban_commuter,Goiânia,GO,Centro-Oeste,-16.70796,-49.23518,push,False,True,médio
+CUST0476,SYNTHETIC,33,business,Curitiba,PR,Sul,-25.44948,-49.2619,push,True,True,baixo
+CUST0477,SYNTHETIC,58,frequent_traveler,Goiânia,GO,Centro-Oeste,-16.6407,-49.25624,app,True,True,baixo
+CUST0478,SYNTHETIC,34,weekend,Fortaleza,CE,Nordeste,-3.71846,-38.56662,email,False,True,baixo
+CUST0479,SYNTHETIC,28,family,Brasília,DF,Centro-Oeste,-15.79825,-47.85282,app,True,True,baixo
+CUST0480,SYNTHETIC,61,family,São Paulo,SP,Sudeste,-23.58022,-46.60547,push,False,True,alto
+CUST0481,SYNTHETIC,36,urban_commuter,São Paulo,SP,Sudeste,-23.51241,-46.63484,push,True,True,médio
+CUST0482,SYNTHETIC,38,low_use,Goiânia,GO,Centro-Oeste,-16.64293,-49.21965,app,True,True,médio
+CUST0483,SYNTHETIC,26,business,Florianópolis,SC,Sul,-27.57475,-48.5269,app,True,True,alto
+CUST0484,SYNTHETIC,23,family,Goiânia,GO,Centro-Oeste,-16.64722,-49.25856,push,True,True,baixo
+CUST0485,SYNTHETIC,64,family,Fortaleza,CE,Nordeste,-3.7375,-38.56729,app,False,True,médio
+CUST0486,SYNTHETIC,39,low_use,Rio de Janeiro,RJ,Sudeste,-22.90949,-43.18185,email,True,True,médio
+CUST0487,SYNTHETIC,23,urban_commuter,Fortaleza,CE,Nordeste,-3.73795,-38.51974,push,True,True,baixo
+CUST0488,SYNTHETIC,31,frequent_traveler,Goiânia,GO,Centro-Oeste,-16.69915,-49.235,push,True,True,baixo
+CUST0489,SYNTHETIC,37,weekend,Brasília,DF,Centro-Oeste,-15.82834,-47.91816,email,True,True,baixo
+CUST0490,SYNTHETIC,50,business,Brasília,DF,Centro-Oeste,-15.78197,-47.90806,push,True,True,alto
+CUST0491,SYNTHETIC,36,family,São Paulo,SP,Sudeste,-23.57476,-46.60105,push,True,True,alto
+CUST0492,SYNTHETIC,41,urban_commuter,Salvador,BA,Nordeste,-12.95186,-38.52485,app,False,True,baixo
+CUST0493,SYNTHETIC,60,family,Campinas,SP,Sudeste,-22.89526,-47.06335,app,False,True,baixo
+CUST0494,SYNTHETIC,39,weekend,Florianópolis,SC,Sul,-27.62416,-48.54544,app,True,True,baixo
+CUST0495,SYNTHETIC,47,business,Recife,PE,Nordeste,-8.0658,-34.90842,push,True,True,alto
+CUST0496,SYNTHETIC,44,frequent_traveler,Recife,PE,Nordeste,-8.01977,-34.92945,push,False,True,baixo
+CUST0497,SYNTHETIC,46,family,Goiânia,GO,Centro-Oeste,-16.6459,-49.26737,push,True,True,alto
+CUST0498,SYNTHETIC,63,weekend,Rio de Janeiro,RJ,Sudeste,-22.88614,-43.20574,app,True,True,baixo
+CUST0499,SYNTHETIC,50,frequent_traveler,Florianópolis,SC,Sul,-27.62072,-48.51839,push,True,True,médio
+CUST0500,SYNTHETIC,32,low_use,São Paulo,SP,Sudeste,-23.58011,-46.66251,push,True,True,baixo

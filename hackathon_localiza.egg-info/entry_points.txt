@@ -1,0 +1,2 @@
+[console_scripts]
+brandpulse = app.cli:main
