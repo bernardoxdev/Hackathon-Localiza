@@ -38,6 +38,7 @@ dist-ssr
 *.sln
 *.sw?
 flask_session/*
-logs/
-data/database.db
-data/*.db
+data/
+docs/
+brandpulse.egg-info/
+tests/
