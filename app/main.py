@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import math
-from functools import cache
 from pathlib import Path
 from typing import Any
 
@@ -11,15 +9,20 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from app.core.data import DATASETS, DATASET_LABELS, dataset_or_404, json_safe, latest_by, load_dataset, pct, records
+from app.route.review_analysis import router as review_analysis_router
+from app.route.reviews import router as reviews_router
+
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "app" / "data"
-STATIC_DIR = BASE_DIR / "app" / "static"
-TEMPLATE_DIR = BASE_DIR / "app" / "templates"
+STATIC_DIR = BASE_DIR / "static"
+TEMPLATE_DIR = BASE_DIR / "templates"
+DASHBOARD_TEMPLATE = TEMPLATE_DIR / "dashboard" / "index.html"
+PROTOTYPE_TEMPLATE = TEMPLATE_DIR / "prototype" / "index.html"
 
 app = FastAPI(
     title="RUPTURA 2026 — Case 2 Mobility Data Explorer",
-    description="Dashboard conceitual para explorar datasets sintéticos e fontes públicas do protótipo Localiza Assinatura.",
-    version="1.0.0",
+    description="Dashboard conceitual para explorar datasets sintéticos, dados públicos e voz do cliente do protótipo Localiza Assinatura.",
+    version="1.2.0",
 )
 
 app.add_middleware(
@@ -31,99 +34,18 @@ app.add_middleware(
 )
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
-
-DATASETS = {
-    "vehicles": "vehicles.csv",
-    "clients": "clients.csv",
-    "contracts": "contracts.csv",
-    "telemetry": "telemetry.csv",
-    "trips": "trips.csv",
-    "maintenance": "maintenance.csv",
-    "app_events": "app_events.csv",
-    "context_events": "context_events.csv",
-    "recommendations": "recommendations.csv",
-    "prototype_scenarios": "prototype_scenarios.csv",
-    "data_dictionary": "data_dictionary.csv",
-    "relationships": "relationships.csv",
-    "insights_examples": "insights_examples.csv",
-    "public_datasets": "public_datasets.csv",
-}
-
-DATASET_LABELS = {
-    "vehicles": "Veículos",
-    "clients": "Clientes",
-    "contracts": "Contratos",
-    "telemetry": "Telemetria",
-    "trips": "Viagens",
-    "maintenance": "Manutenção",
-    "app_events": "Eventos do App",
-    "context_events": "Contexto",
-    "recommendations": "Recomendações",
-    "prototype_scenarios": "Cenários do Protótipo",
-    "data_dictionary": "Dicionário de Dados",
-    "relationships": "Relacionamentos",
-    "insights_examples": "Insights de Exemplo",
-    "public_datasets": "Datasets Públicos",
-}
-
-
-def json_safe(value: Any) -> Any:
-    if value is None:
-        return None
-    if isinstance(value, float) and (math.isnan(value) or math.isinf(value)):
-        return None
-    if isinstance(value, (pd.Timestamp,)):
-        return value.isoformat()
-    if hasattr(value, "item"):
-        try:
-            value = value.item()
-        except Exception:
-            pass
-    if isinstance(value, (pd.Timestamp,)):
-        return value.isoformat()
-    if pd.isna(value) if not isinstance(value, (list, dict, tuple)) else False:
-        return None
-    return value
-
-
-def records(df: pd.DataFrame) -> list[dict[str, Any]]:
-    return [
-        {k: json_safe(v) for k, v in row.items()}
-        for row in df.to_dict(orient="records")
-    ]
-
-
-@cache
-def load_dataset(name: str) -> pd.DataFrame:
-    filename = DATASETS.get(name)
-    if not filename:
-        raise KeyError(name)
-    path = DATA_DIR / filename
-    if not path.exists():
-        raise FileNotFoundError(path)
-    df = pd.read_csv(path)
-    return df
-
-
-def dataset_or_404(name: str) -> pd.DataFrame:
-    if name not in DATASETS:
-        raise HTTPException(status_code=404, detail=f"Dataset desconhecido: {name}")
-    return load_dataset(name)
-
-
-def pct(v: float) -> float:
-    return round(float(v), 1)
-
-
-def latest_by(df: pd.DataFrame, key: str, date_col: str) -> pd.DataFrame:
-    x = df.copy()
-    x[date_col] = pd.to_datetime(x[date_col], errors="coerce")
-    return x.sort_values(date_col).drop_duplicates(key, keep="last")
+app.include_router(review_analysis_router)
+app.include_router(reviews_router)
 
 
 @app.get("/", include_in_schema=False)
 def index() -> FileResponse:
-    return FileResponse(TEMPLATE_DIR / "index.html")
+    return FileResponse(DASHBOARD_TEMPLATE)
+
+
+@app.get("/prototype", include_in_schema=False)
+def prototype() -> FileResponse:
+    return FileResponse(PROTOTYPE_TEMPLATE)
 
 
 @app.get("/api/health")
@@ -193,6 +115,7 @@ def summary() -> dict[str, Any]:
     apps = load_dataset("app_events")
     contexts = load_dataset("context_events")
     recs = load_dataset("recommendations")
+    reviews = load_dataset("googleplay_reviews")
 
     active_contracts = contracts[
         contracts["status"].astype(str).str.lower().eq("active")
@@ -215,6 +138,8 @@ def summary() -> dict[str, Any]:
         "maintenance_schedules": int(scheduled),
         "recommendations_actioned": int(action_taken),
         "recommendation_action_rate": pct(action_taken / max(len(recs), 1) * 100),
+        "googleplay_reviews": int(len(reviews)),
+        "googleplay_average_rating": round(float(pd.to_numeric(reviews["rating"], errors="coerce").mean()), 2) if not reviews.empty else 0.0,
         "origins": {
             "synthetic": int(
                 sum(

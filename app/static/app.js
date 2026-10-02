@@ -1,5 +1,5 @@
 const API = '/api';
-const state = { dataset: 'vehicles', page: 1, pageSize: 50, customer: 'CUST0001' };
+const state = { dataset: 'vehicles', page: 1, pageSize: 50, customer: 'CUST0001', reviewPage: 1, reviewPageSize: 25 };
 
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => [...document.querySelectorAll(sel)];
@@ -20,7 +20,7 @@ function renderBars(el, obj){
 
 async function loadDashboard(){
   const [s,c]=await Promise.all([api('/summary'),api('/charts')]);
-  const items=[['Clientes',s.customers],['Veículos',s.vehicles],['Telemetria',s.telemetry_records.toLocaleString('pt-BR')],['Viagens',s.trips.toLocaleString('pt-BR')],['Recomendações',s.recommendations.toLocaleString('pt-BR')],['Contratos ativos',s.active_contracts],['Eventos do app',s.app_events.toLocaleString('pt-BR')],['Contextos',s.context_events.toLocaleString('pt-BR')],['Ações de recomendação',s.recommendations_actioned.toLocaleString('pt-BR')],['Action rate',s.recommendation_action_rate+'%']];
+  const items=[['Clientes',s.customers],['Veículos',s.vehicles],['Telemetria',s.telemetry_records.toLocaleString('pt-BR')],['Viagens',s.trips.toLocaleString('pt-BR')],['Recomendações',s.recommendations.toLocaleString('pt-BR')],['Contratos ativos',s.active_contracts],['Eventos do app',s.app_events.toLocaleString('pt-BR')],['Contextos',s.context_events.toLocaleString('pt-BR')],['Ações de recomendação',s.recommendations_actioned.toLocaleString('pt-BR')],['Action rate',s.recommendation_action_rate+'%'],['Reviews Google Play',s.googleplay_reviews.toLocaleString('pt-BR')],['Nota média Play',s.googleplay_average_rating]];
   $('#kpis').innerHTML=items.map(([l,v])=>`<div class="kpi"><div class="label">${l}</div><div class="value">${v}</div></div>`).join('');
   renderBars($('#chart-engagement'),c.engagement_segment);renderBars($('#chart-powertrain'),c.powertrain);renderBars($('#chart-context'),c.context_priority);renderBars($('#chart-recommendations'),c.recommendation_type);
 }
@@ -62,9 +62,50 @@ async function runContext(){const id=$('#context-customer-select').value;const d
 }
 $('#run-context').addEventListener('click',runContext);
 
+
+async function loadReviewSummary(){
+  const s=await api('/reviews/summary');
+  const ratingLabels={'5':'5 estrelas','4':'4 estrelas','3':'3 estrelas','2':'2 estrelas','1':'1 estrela'};
+  $('#review-kpis').innerHTML=[
+    ['Reviews',s.total.toLocaleString('pt-BR')],
+    ['Nota média',s.average_rating],
+    ['Respondidas',s.replied_count.toLocaleString('pt-BR')],
+    ['Taxa de resposta',s.reply_rate+'%']
+  ].map(([l,v])=>`<div class="kpi"><div class="label">${l}</div><div class="value">${v}</div></div>`).join('');
+  renderBars($('#review-rating-chart'),Object.fromEntries(Object.entries(s.rating_distribution).map(([k,v])=>[ratingLabels[k]||k,v])));
+  renderBars($('#review-version-chart'),s.app_versions);
+}
+async function loadReviews(){
+  const q=encodeURIComponent($('#review-search').value.trim());
+  const rating=$('#review-rating').value;
+  const version=encodeURIComponent($('#review-version').value);
+  const replied=$('#review-replied').value;
+  const params=new URLSearchParams({page:String(state.reviewPage),page_size:String(state.reviewPageSize),q});
+  if(rating) params.set('rating',rating);
+  if(version) params.set('app_version',version);
+  if(replied) params.set('has_reply',replied);
+  const d=await api(`/reviews?${params.toString()}`);
+  const versions=$('#review-version');
+  const current=versions.value;
+  if(versions.options.length<=1){
+    versions.innerHTML='<option value="">Todas as versões</option>'+d.available_versions.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
+    versions.value=current;
+  }
+  $('#review-table').innerHTML=simpleTable(d.rows,['review_date','rating','app_version','review_text','thumbs_up_count','reply_content']);
+  $('#review-page-info').textContent=`Página ${d.page} de ${d.pages || 1} · ${d.total.toLocaleString('pt-BR')} reviews`;
+}
+async function initReviews(){await loadReviewSummary();await loadReviews();}
+$('#review-search-btn').addEventListener('click',()=>{state.reviewPage=1;loadReviews()});
+$('#review-search').addEventListener('keydown',e=>{if(e.key==='Enter'){state.reviewPage=1;loadReviews()}});
+$('#review-rating').addEventListener('change',()=>{state.reviewPage=1;loadReviews()});
+$('#review-version').addEventListener('change',()=>{state.reviewPage=1;loadReviews()});
+$('#review-replied').addEventListener('change',()=>{state.reviewPage=1;loadReviews()});
+$('#review-prev').addEventListener('click',()=>{if(state.reviewPage>1){state.reviewPage--;loadReviews()}});
+$('#review-next').addEventListener('click',()=>{state.reviewPage++;loadReviews()});
+
 async function loadRecommendations(){const [c,d]=await Promise.all([api('/charts'),api('/datasets/recommendations?page=1&page_size=25')]);renderBars($('#rec-type-chart'),c.recommendation_type);renderBars($('#rec-outcome-chart'),c.recommendation_outcomes);const cols=['recommendation_id','customer_id','recommendation_type','recommendation_text','action_label','context_score','status','action_taken','outcome'];$('#rec-table').innerHTML=simpleTable(d.rows,cols)}
 async function loadScenarios(){const d=await api('/datasets/prototype_scenarios?page=1&page_size=50');$('#scenario-grid').innerHTML=d.rows.map(s=>`<article class="scenario"><div class="pill">${esc(s.scenario_id)} · ${esc(s.profile)}</div><h3>${esc(s.need)}</h3><div class="muted">${esc(s.city)} · ${esc(s.vehicle)}</div><div class="flow"><div class="flow-box"><small>Contexto</small>${esc(s.context)}</div><div class="flow-box"><small>Necessidade</small>${esc(s.need)}</div><div class="flow-box"><small>Recomendação</small>${esc(s.recommendation)}</div><div class="flow-box"><small>Ação / valor</small>${esc(s.action)} · ${esc(s.value)}</div></div></article>`).join('')}
 async function loadDictionary(){const name=$('#dictionary-select').value;const [meta,pub,rel]=await Promise.all([api('/metadata/'+name),api('/datasets/public_datasets?page=1&page_size=20'),api('/datasets/relationships?page=1&page_size=50')]);$('#dictionary-meta').innerHTML=`<div class="meta-grid">${meta.columns.map(c=>`<div class="meta-item"><strong>${esc(c.name)}</strong><div>${esc(c.description||'')}</div><div class="muted">${esc(c.type||c.dtype)} · ${esc(c.unit||'—')} · ${esc(c.origin||'—')}</div></div>`).join('')}</div>`;$('#public-datasets').innerHTML=pub.rows.map(r=>`<div class="signal"><div class="top"><span>${esc(r.dataset_name)}</span><span>${esc(r.origin)}</span></div><div>${esc(r.use_in_case)}</div><div class="muted">${esc(r.source)} · <a href="${esc(r.url)}" target="_blank" rel="noreferrer">fonte</a> · licença: ${esc(r.license)}</div><div class="muted">Limitações: ${esc(r.limitations)}</div></div>`).join('');$('#relationships-table').innerHTML=simpleTable(rel.rows,['parent_table','parent_key','child_table','child_key','cardinality','purpose'])}
 $('#dictionary-select').addEventListener('change',loadDictionary);
 
-Promise.all([loadDashboard(),initDatasets(),initCustomers(),loadRecommendations(),loadScenarios()]).catch(err=>{console.error(err);showToast('Erro ao carregar dados. Veja o console.');});
+Promise.all([loadDashboard(),initDatasets(),initCustomers(),loadRecommendations(),loadScenarios(),initReviews()]).catch(err=>{console.error(err);showToast('Erro ao carregar dados. Veja o console.');});

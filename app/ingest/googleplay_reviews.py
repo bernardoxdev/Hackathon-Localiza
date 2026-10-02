@@ -9,7 +9,7 @@ from google_play_scraper import Sort, reviews
 
 APP_ID = "com.localiza.meoo.app"
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = BASE_DIR / "data" / "googleplay"
 OUTPUT_FILE = OUTPUT_DIR / "google_play_reviews.csv"
 
@@ -107,6 +107,7 @@ def normalize_reviews(reviews_data: list[dict]) -> pd.DataFrame:
                 "language": LANGUAGE,
                 "country": COUNTRY,
                 "source": "google_play",
+                "data_origin": "GOOGLE_PLAY",
             }
         )
 
@@ -152,7 +153,7 @@ def save_reviews(df: pd.DataFrame) -> None:
     )
 
 
-def main():
+def create_reviews():
     logger.info(
         "Iniciando ingestão do Google Play: %s",
         APP_ID,
@@ -187,4 +188,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    create_reviews()

@@ -176,3 +176,36 @@ recommendations,action_taken,boolean,—,SYNTHETIC,Synthetic field generated for
 recommendations,outcome,string,—,SYNTHETIC,Synthetic field generated for prototype simulation.
 recommendations,model_type,string,—,SYNTHETIC,Synthetic field generated for prototype simulation.
 recommendations,explanation,string,—,SYNTHETIC,Synthetic field generated for prototype simulation.
+googleplay_reviews,review_id,string,—,GOOGLE_PLAY,ID único da avaliação no Google Play
+googleplay_reviews,author_name,string,—,GOOGLE_PLAY,Nome exibido pelo autor
+googleplay_reviews,rating,int,estrelas,GOOGLE_PLAY,Nota de 1 a 5 estrelas
+googleplay_reviews,review_text,string,texto,GOOGLE_PLAY,Texto integral da avaliação
+googleplay_reviews,thumbs_up_count,int,votos,GOOGLE_PLAY,Quantidade de avaliações úteis da review
+googleplay_reviews,thumbs_up_count,int,votos,GOOGLE_PLAY,Quantidade de votos úteis da review
+googleplay_reviews,app_version,string,versão,GOOGLE_PLAY,Versão do app informada na avaliação
+googleplay_reviews,review_date,datetime,timestamp,GOOGLE_PLAY,Data/hora de criação da avaliação
+googleplay_reviews,reply_content,string,texto,GOOGLE_PLAY,"Resposta da equipe, quando existente"
+googleplay_reviews,reply_date,datetime,timestamp,GOOGLE_PLAY,"Data/hora da resposta, quando existente"
+googleplay_reviews,app_id,string,package,GOOGLE_PLAY,Identificador do app no Google Play
+googleplay_reviews,language,string,ISO,GOOGLE_PLAY,Idioma da avaliação
+googleplay_reviews,country,string,ISO,GOOGLE_PLAY,País da avaliação
+googleplay_reviews,source,string,—,GOOGLE_PLAY,Fonte do dado
+googleplay_reviews,data_origin,string,—,GOOGLE_PLAY,Origem do dado
+review_analysis,review_id,string,—,DERIVED,Identificador da review de origem no Google Play
+review_analysis,rating,integer,1-5,GOOGLE_PLAY,Nota original da review
+review_analysis,review_text,string,—,GOOGLE_PLAY,Texto original da review
+review_analysis,normalized_text,string,—,DERIVED,Texto normalizado para classificação por regras
+review_analysis,sentiment,string,—,DERIVED,Classificação de percepção: positivo neutro ou negativo
+review_analysis,sentiment_score,integer,pontos,DERIVED,Score heurístico de sentimento antes do rótulo final
+review_analysis,sentiment_confidence,float,0-1,DERIVED,Confiança da classificação heurística de sentimento
+review_analysis,voice_signal,string,—,DERIVED,Sinal de voz do cliente: dor sugestão elogio ou neutro
+review_analysis,topic,string,—,DERIVED,Tema principal identificado na review
+review_analysis,journey_moment,string,—,DERIVED,Momento da jornada associado ao tema
+review_analysis,pain_category,string,—,DERIVED,Categoria de fricção ou dor identificada
+review_analysis,urgency,string,—,DERIVED,Prioridade heurística da ocorrência
+review_analysis,product_area,string,—,DERIVED,Área do produto relacionada à review
+review_analysis,context_opportunity,string,—,DERIVED,Oportunidade contextual derivada da análise
+review_analysis,recommended_action,string,—,DERIVED,Ação contextual sugerida para o protótipo
+review_analysis,confidence,float,0-1,DERIVED,Confiança agregada da classificação
+review_analysis,matched_signals,string,—,DERIVED,Termos e sinais que acionaram as regras
+review_analysis,analysis_method,string,—,DERIVED,Versão do motor de regras utilizado
