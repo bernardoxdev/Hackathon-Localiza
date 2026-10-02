@@ -25,7 +25,8 @@ def criar_parser() -> argparse.ArgumentParser:
     )
 
     review_pipeline = subparsers.add_parser(
-        "review", help="Analisa as reviews ingeridas e gera os artefatos da pipeline."
+        "review",
+        help="Analisa as reviews ingeridas e gera os artefatos da pipeline."
     )
 
     run_parser = subparsers.add_parser(

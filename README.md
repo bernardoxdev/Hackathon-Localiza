@@ -139,3 +139,33 @@ PYTHONPATH=. pytest -q
 ```
 
 A suíte atual valida ingestão/análise das reviews, endpoints de reviews e a página de Voz do Cliente.
+
+## Páginas do projeto
+
+O projeto mantém duas frentes complementares:
+
+### Páginas de dados e análise
+
+- `/` — dashboard e exploração dos dados do protótipo;
+- `/voice-of-customer` — análise das reviews do Google Play;
+- `/prototype` — demonstração do fluxo conceitual do Context Engine;
+
+### Página de interface
+
+- `/localiza-app` — reconstrução conceitual da interface do Localiza Assinatura/Meoo, baseada em referências públicas, preservando a identidade visual do produto e demonstrando a evolução para uma experiência contextual.
+
+A página de interface não substitui as páginas de dados. Ela complementa a camada analítica com a demonstração visual da experiência proposta.
+
+## Execução
+
+Como o ponto de entrada da aplicação fica dentro do pacote `app`, a API é iniciada por:
+
+```bash
+uv run localiza run --reload
+```
+
+ou, diretamente:
+
+```bash
+uv run uvicorn app.main:app --reload
+```

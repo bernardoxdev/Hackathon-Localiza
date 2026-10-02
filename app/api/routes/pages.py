@@ -24,3 +24,8 @@ def prototype() -> FileResponse:
 @router.get("/voice-of-customer", include_in_schema=False)
 def voice_of_customer() -> FileResponse:
     return FileResponse(TEMPLATE_DIR / "dashboard" / "voice_of_customer.html")
+
+
+@router.get("/localiza-app", include_in_schema=False)
+def localiza_app() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "prototype" / "localiza_app.html")

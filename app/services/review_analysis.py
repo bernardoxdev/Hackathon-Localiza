@@ -4,6 +4,7 @@ from typing import Any
 
 import pandas as pd
 
+
 ANALYSIS_COLUMNS = [
     "review_id",
     "rating",
@@ -125,12 +126,8 @@ def filter_analysis(
     result = df.copy()
     if q.strip():
         query = q.strip().lower()
-        mask = (
-            result["review_text"]
-            .fillna("")
-            .astype(str)
-            .str.lower()
-            .str.contains(query, na=False)
+        mask = result["review_text"].fillna("").astype(str).str.lower().str.contains(
+            query, na=False
         )
         result = result.loc[mask]
 

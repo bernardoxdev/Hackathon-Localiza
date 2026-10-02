@@ -106,3 +106,19 @@ CSV / dados do protótipo
 As rotas cuidam da camada HTTP e não implementam a lógica de classificação ou ingestão. As regras de processamento ficam em `app/services` e a leitura padronizada dos datasets fica em `app/core/data.py`.
 
 A estrutura não introduz banco ou repository apenas por simetria com o BrandPulse. Neste projeto, os dados ainda são consumidos de CSVs; caso a persistência evolua, uma camada de repository pode ser adicionada sem alterar a responsabilidade das rotas.
+
+## Organização das páginas
+
+A aplicação mantém as páginas de dados separadas das páginas de prototipação visual:
+
+```text
+app/templates/
+├── dashboard/
+│   ├── index.html
+│   └── voice_of_customer.html
+└── prototype/
+    ├── index.html
+    └── localiza_app.html
+```
+
+As rotas de páginas ficam em `app/api/routes/pages.py`. A interface conceitual do Localiza Assinatura é acessada em `/localiza-app`, enquanto `/` continua sendo a área principal de dados e `/voice-of-customer` continua dedicada à análise das reviews.

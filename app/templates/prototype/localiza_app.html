@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Localiza Assinatura — Protótipo de interface</title>
+  <link rel="stylesheet" href="/static/localiza_app.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <div class="brand-mark" aria-label="Localiza Assinatura">
+        <span class="brand-localiza">localiza</span>
+        <span class="brand-assinatura">assinatura</span>
+      </div>
+      <div class="research-note">
+        <span class="dot"></span>
+        reconstrução baseada em referências públicas
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="intro">
+        <div class="eyebrow">RUPTURA 2026 · CASE 2</div>
+        <h1>Uma interface que parece<br><span>Localiza Assinatura.</span></h1>
+        <p>
+          Reconstrução conceitual inspirada nas capturas oficiais do app, nos conteúdos
+          da Localiza sobre suas telas e nas funcionalidades publicadas do produto.
+        </p>
+        <div class="source-row">
+          <a href="https://play.google.com/store/apps/details?id=com.localiza.meoo.app" target="_blank" rel="noreferrer">Google Play ↗</a>
+          <a href="https://assinatura.localiza.com/" target="_blank" rel="noreferrer">Localiza Assinatura ↗</a>
+          <a href="https://assinatura.localiza.com/blog/post/app-localiza-meoo-sua-assinatura-na-palma-da-mao" target="_blank" rel="noreferrer">Conteúdo sobre o app ↗</a>
+        </div>
+      </section>
+
+      <section class="prototype-stage">
+        <div class="stage-controls">
+          <button class="mode active" data-mode="current">Experiência atual</button>
+          <button class="mode" data-mode="future">Evolução contextual</button>
+        </div>
+
+        <div class="phone-wrap">
+          <div class="phone">
+            <div class="speaker"></div>
+            <div class="screen">
+              <div class="statusbar"><span>9:41</span><span>● ● ▮</span></div>
+
+              <section class="phone-view current-view active">
+                <div class="app-topline">
+                  <div>
+                    <div class="mini-brand"><span>localiza</span><b>assinatura</b></div>
+                    <div class="hello">Olá, Bernardo</div>
+                  </div>
+                  <button class="avatar" aria-label="Perfil">B</button>
+                </div>
+
+                <div class="hero-card">
+                  <div class="car-thumb">
+                    <div class="car-shadow"></div>
+                    <div class="car-body"></div>
+                    <div class="car-window"></div>
+                    <div class="wheel left"></div>
+                    <div class="wheel right"></div>
+                  </div>
+                  <div class="hero-copy">
+                    <span class="eyebrow-phone">MEU CARRO</span>
+                    <h2>Chevrolet Onix</h2>
+                    <p>OQX-2A18 · 2025</p>
+                    <div class="mini-status"><span class="live"></span> Assinatura ativa</div>
+                  </div>
+                </div>
+
+                <div class="quick-grid">
+                  <button class="quick" data-screen="vehicle"><span class="icon">⌁</span><span>CRLV</span></button>
+                  <button class="quick" data-screen="services"><span class="icon">⚙</span><span>Serviços</span></button>
+                  <button class="quick" data-screen="fines"><span class="icon">!</span><span>Multas</span></button>
+                  <button class="quick" data-screen="invoice"><span class="icon">R$</span><span>Fatura</span></button>
+                </div>
+
+                <div class="section-title"><span>Minha assinatura</span><button>Ver detalhes</button></div>
+                <div class="subscription-card">
+                  <div><span>Franquia mensal</span><strong>1.000 km</strong></div>
+                  <div class="meter"><span style="width:72%"></span></div>
+                  <div class="sub-foot"><span>720 km utilizados</span><span>280 km restantes</span></div>
+                </div>
+
+                <div class="section-title"><span>Meus benefícios</span><button>Ver todos</button></div>
+                <div class="benefit-card">
+                  <div class="benefit-logo">P</div>
+                  <div><strong>Estacionamento</strong><span>Desconto para sua próxima parada</span></div>
+                  <span class="arrow">›</span>
+                </div>
+              </section>
+
+              <section class="phone-view services-view">
+                <div class="inner-head"><button class="back">‹</button><div><span class="eyebrow-phone">SERVIÇOS</span><h2>Cuide do seu carro</h2></div></div>
+                <div class="service-alert"><span class="alert-icon">!</span><div><strong>Revisão próxima</strong><p>Seu veículo está se aproximando da próxima revisão.</p></div></div>
+                <div class="service-list">
+                  <button class="service-item"><span class="service-icon">↻</span><div><strong>Revisão</strong><small>Agendar revisão preventiva</small></div><span>›</span></button>
+                  <button class="service-item"><span class="service-icon">✦</span><div><strong>Outros serviços</strong><small>Escolha fornecedor, data e horário</small></div><span>›</span></button>
+                  <button class="service-item"><span class="service-icon">◷</span><div><strong>Histórico</strong><small>Veja serviços anteriores</small></div><span>›</span></button>
+                </div>
+              </section>
+
+              <section class="phone-view invoice-view">
+                <div class="inner-head"><button class="back">‹</button><div><span class="eyebrow-phone">FINANCEIRO</span><h2>Faturas</h2></div></div>
+                <div class="invoice-highlight"><span>Próximo vencimento</span><strong>30 OUT</strong><b>R$ 2.189,00</b><button>Ver fatura</button></div>
+                <div class="invoice-list"><div><span>SET</span><strong>R$ 2.189,00</strong><small>Pago</small></div><div><span>AGO</span><strong>R$ 2.189,00</strong><small>Pago</small></div></div>
+                <div class="card-note">Você também pode cadastrar seu cartão de crédito pelo perfil do app.</div>
+              </section>
+
+              <section class="phone-view fines-view">
+                <div class="inner-head"><button class="back">‹</button><div><span class="eyebrow-phone">DOCUMENTOS</span><h2>Multas</h2></div></div>
+                <div class="fine-card"><div class="fine-count">1</div><div><strong>Nova multa disponível</strong><p>Confira a infração e indique o condutor responsável.</p></div><span>›</span></div>
+                <div class="history-title">Histórico</div>
+                <div class="history-row"><span>05 AGO</span><div><strong>Velocidade</strong><small>BR-381 · MG</small></div><b>R$ 130,16</b></div>
+              </section>
+
+              <section class="phone-view vehicle-view">
+                <div class="inner-head"><button class="back">‹</button><div><span class="eyebrow-phone">MEU CARRO</span><h2>Detalhes</h2></div></div>
+                <div class="vehicle-card"><div class="large-car"></div><div><span>Chevrolet Onix</span><strong>OQX-2A18</strong><small>2025 · 1.0 Turbo</small></div></div>
+                <div class="doc-grid"><button><span>▣</span>CRLV</button><button><span>⌁</span>Quilometragem</button><button><span>◉</span>Proteção</button><button><span>＋</span>Assistência</button></div>
+              </section>
+
+              <section class="phone-view future-view">
+                <div class="future-top"><span class="eyebrow-phone">MOBILITY HOME</span><button class="avatar">B</button></div>
+                <h2>Bom dia, Bernardo.</h2>
+                <p class="future-lead">Hoje, sua próxima ação é simples.</p>
+                <div class="proactive-card">
+                  <div class="proactive-kicker"><span>PROACTIVE CARE</span><span>Agora</span></div>
+                  <h3>Sua revisão está próxima.</h3>
+                  <p>Você está a 420 km do próximo marco de manutenção.</p>
+                  <button>Agendar revisão</button>
+                </div>
+                <div class="context-grid">
+                  <div><span>720 km</span><small>já usados no mês</small></div>
+                  <div><span>280 km</span><small>restantes</small></div>
+                  <div><span>3</span><small>benefícios relevantes</small></div>
+                </div>
+                <div class="future-card"><span class="spark">✦</span><div><strong>Encontramos algo para sua rotina</strong><p>Você costuma dirigir aos fins de semana. Há uma vantagem disponível para estacionamento.</p></div><span>›</span></div>
+              </section>
+
+              <nav class="bottom-nav">
+                <button class="nav active" data-home><span>⌂</span><small>Início</small></button>
+                <button class="nav" data-screen="invoice"><span>◫</span><small>Faturas</small></button>
+                <button class="nav" data-screen="services"><span>⚙</span><small>Serviços</small></button>
+                <button class="nav" data-help><span>?</span><small>Ajuda</small></button>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-explainer">
+          <div class="mode-copy current-copy active">
+            <span class="label">O que preservamos</span>
+            <h3>Controle da assinatura sem reinventar o aplicativo.</h3>
+            <p>Carro, quilometragem, revisão, faturas, multas, documentos, benefícios e ajuda aparecem como caminhos curtos e reconhecíveis.</p>
+            <div class="feature-tags"><span>Meus carros</span><span>Faturas</span><span>Revisão</span><span>Multas</span><span>Benefícios</span></div>
+          </div>
+          <div class="mode-copy future-copy">
+            <span class="label">O que evolui</span>
+            <h3>A mesma linguagem visual, agora orientada por contexto.</h3>
+            <p>A mudança do hackathon não precisa parecer um novo produto. Ela pode ser uma evolução da home: identificar o próximo momento útil e colocá-lo na frente do cliente.</p>
+            <div class="context-flow"><span>Dados</span><b>→</b><span>Contexto</span><b>→</b><span>Necessidade</span><b>→</b><span>Ação</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="design-grid">
+        <article><span class="num">01</span><h3>Visual</h3><p>Verde vibrante, branco, superfícies suaves, tipografia limpa e CTAs arredondados.</p></article>
+        <article><span class="num">02</span><h3>Arquitetura</h3><p>Home centrada no veículo, atalhos de autosserviço e navegação inferior para rotas recorrentes.</p></article>
+        <article><span class="num">03</span><h3>Evolução</h3><p>O Proactive Care entra como uma camada adicional, sem apagar as funções que o usuário já conhece.</p></article>
+      </section>
+
+      <footer>
+        <p>Interface conceitual para o RUPTURA 2026. Não é uma reprodução oficial nem uma tela entregue pela Localiza.</p>
+        <div>Referências: Google Play · Localiza Assinatura · conteúdos oficiais do app</div>
+      </footer>
+    </main>
+  </div>
+  <script src="/static/localiza_app.js"></script>
+</body>
+</html>

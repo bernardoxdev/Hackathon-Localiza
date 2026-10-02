@@ -4,6 +4,7 @@ from typing import Any
 
 import pandas as pd
 
+
 REVIEW_COLUMNS = [
     "review_id",
     "author_name",
@@ -34,12 +35,8 @@ def filter_reviews(
 
     if q.strip():
         query = q.strip().lower()
-        mask = (
-            result["review_text"]
-            .fillna("")
-            .astype(str)
-            .str.lower()
-            .str.contains(query, na=False)
+        mask = result["review_text"].fillna("").astype(str).str.lower().str.contains(
+            query, na=False
         )
         result = result.loc[mask]
 
@@ -91,9 +88,7 @@ def summarize_reviews(df: pd.DataFrame) -> dict[str, Any]:
     )
 
     top = (
-        df.assign(
-            _thumbs=pd.to_numeric(df["thumbs_up_count"], errors="coerce").fillna(0)
-        )
+        df.assign(_thumbs=pd.to_numeric(df["thumbs_up_count"], errors="coerce").fillna(0))
         .sort_values(["_thumbs", "review_date"], ascending=[False, False])
         .head(10)
     )
@@ -124,11 +119,7 @@ def summarize_reviews(df: pd.DataFrame) -> dict[str, Any]:
         },
         "app_versions": {
             str(k): int(v)
-            for k, v in df["app_version"]
-            .fillna("Sem versão")
-            .value_counts()
-            .head(10)
-            .items()
+            for k, v in df["app_version"].fillna("Sem versão").value_counts().head(10).items()
         },
         "top_reviews": top_reviews,
     }
