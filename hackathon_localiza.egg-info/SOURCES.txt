@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-hackathon_localiza.egg-info/PKG-INFO
-hackathon_localiza.egg-info/SOURCES.txt
-hackathon_localiza.egg-info/dependency_links.txt
-hackathon_localiza.egg-info/entry_points.txt
-hackathon_localiza.egg-info/requires.txt
-hackathon_localiza.egg-info/top_level.txt
