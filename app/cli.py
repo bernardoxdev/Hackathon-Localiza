@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 def criar_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="CLI do BrandPulse.",
+        description="CLI do Hackathon Localiza.",
     )
 
     subparsers = parser.add_subparsers(
@@ -21,17 +21,16 @@ def criar_parser() -> argparse.ArgumentParser:
 
     ingest_parser = subparsers.add_parser(
         "ingest",
-        help="Importa respostas de um arquivo JSON.",
+        help="Importa reviews do Google Play.",
     )
 
     review_pipeline = subparsers.add_parser(
-        "review",
-        help="Faz o review dos dados gerados pelo ingest"
+        "review", help="Analisa as reviews ingeridas e gera os artefatos da pipeline."
     )
 
     run_parser = subparsers.add_parser(
         "run",
-        help="Inicia a API do BrandPulse.",
+        help="Inicia a API do Hackathon Localiza.",
     )
 
     run_parser.add_argument(
@@ -70,6 +69,7 @@ def executar_review() -> None:
     print(f"Saída: {review_path}")
     print(f"Insights: {insights_path}")
 
+
 def main() -> None:
     parser = criar_parser()
     args = parser.parse_args()
@@ -83,7 +83,6 @@ def main() -> None:
 
         elif args.comando == "review":
             executar_review()
-
 
     except (FileNotFoundError, ValueError) as erro:
         parser.error(str(erro))

@@ -72,7 +72,10 @@ def json_safe(value: Any) -> Any:
 
 
 def records(df: pd.DataFrame) -> list[dict[str, Any]]:
-    return [{k: json_safe(v) for k, v in row.items()} for row in df.to_dict(orient="records")]
+    return [
+        {k: json_safe(v) for k, v in row.items()}
+        for row in df.to_dict(orient="records")
+    ]
 
 
 @cache

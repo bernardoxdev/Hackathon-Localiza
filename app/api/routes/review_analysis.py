@@ -35,8 +35,9 @@ def list_analysis(
     urgency: str | None = Query(None),
     context_opportunity: str | None = Query(None),
 ) -> dict[str, Any]:
+    source_df = _analysis_df()
     df = filter_analysis(
-        _analysis_df(),
+        source_df,
         q=q,
         sentiment=sentiment,
         topic=topic,
@@ -46,21 +47,6 @@ def list_analysis(
         context_opportunity=context_opportunity,
     )
     page_df, total = paginate_analysis(df, page, page_size)
-
-    options = {
-        "sentiments": sorted(_analysis_df()["sentiment"].dropna().unique().tolist()),
-        "topics": sorted(_analysis_df()["topic"].dropna().unique().tolist()),
-        "journey_moments": sorted(
-            _analysis_df()["journey_moment"].dropna().unique().tolist()
-        ),
-        "pain_categories": sorted(
-            _analysis_df()["pain_category"].dropna().unique().tolist()
-        ),
-        "urgencies": sorted(_analysis_df()["urgency"].dropna().unique().tolist()),
-        "context_opportunities": sorted(
-            _analysis_df()["context_opportunity"].dropna().unique().tolist()
-        ),
-    }
 
     return {
         "total": int(total),
@@ -76,7 +62,20 @@ def list_analysis(
             "urgency": urgency,
             "context_opportunity": context_opportunity,
         },
-        "options": options,
+        "options": {
+            "sentiments": sorted(source_df["sentiment"].dropna().unique().tolist()),
+            "topics": sorted(source_df["topic"].dropna().unique().tolist()),
+            "journey_moments": sorted(
+                source_df["journey_moment"].dropna().unique().tolist()
+            ),
+            "pain_categories": sorted(
+                source_df["pain_category"].dropna().unique().tolist()
+            ),
+            "urgencies": sorted(source_df["urgency"].dropna().unique().tolist()),
+            "context_opportunities": sorted(
+                source_df["context_opportunity"].dropna().unique().tolist()
+            ),
+        },
         "rows": records(page_df),
     }
 

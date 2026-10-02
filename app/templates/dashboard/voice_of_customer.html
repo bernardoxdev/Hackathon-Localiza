@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Voz do Cliente — RUPTURA 2026</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="stylesheet" href="/static/voice.css" />
+</head>
+<body class="voice-page">
+  <header class="topbar voice-topbar">
+    <div>
+      <div class="eyebrow">RUPTURA 2026 · CASE 2 · GOOGLE PLAY</div>
+      <h1>Voz do Cliente</h1>
+      <p>Da review ao contexto: transformar feedback em oportunidade de produto.</p>
+    </div>
+    <div class="voice-header-actions">
+      <span class="source-badge">754 reviews reais</span>
+      <a class="back-link" href="/">← Voltar ao explorer</a>
+    </div>
+  </header>
+
+  <main class="voice-content">
+    <section class="voice-hero">
+      <div>
+        <span class="voice-kicker">REVIEW INTELLIGENCE</span>
+        <h2>O que os clientes estão tentando dizer?</h2>
+        <p>
+          O texto da review é apenas o sinal bruto. A pipeline transforma cada avaliação em
+          sentimento, dor, jornada, oportunidade contextual e ação potencial.
+        </p>
+      </div>
+      <div class="voice-flow">
+        <span>Review</span><b>→</b><span>Contexto</span><b>→</b><span>Necessidade</span><b>→</b><span>Ação</span>
+      </div>
+    </section>
+
+    <section id="voice-kpis" class="kpi-grid voice-kpis"></section>
+
+    <section class="grid-2 voice-main-grid">
+      <div class="panel voice-panel">
+        <div class="panel-title-row">
+          <div><h3>Sinais da voz do cliente</h3><p class="muted">Como as 754 avaliações se distribuem.</p></div>
+        </div>
+        <div class="signal-matrix" id="voice-signal-matrix"></div>
+      </div>
+
+      <div class="panel voice-panel">
+        <div class="panel-title-row">
+          <div><h3>Prioridades encontradas</h3><p class="muted">Oportunidades inferidas a partir das reviews classificadas.</p></div>
+        </div>
+        <div id="voice-opportunity-list" class="opportunity-list"></div>
+      </div>
+    </section>
+
+    <section class="panel voice-panel">
+      <div class="panel-title-row">
+        <div>
+          <h3>Da dor para a ação</h3>
+          <p class="muted">Os principais sinais conectados ao que o produto poderia fazer.</p>
+        </div>
+        <span class="pill">Dado → inferência → proposta</span>
+      </div>
+      <div id="voice-funnel" class="voice-funnel"></div>
+    </section>
+
+    <section class="grid-2 voice-main-grid">
+      <div class="panel voice-panel">
+        <div class="panel-title-row"><div><h3>Temas da jornada</h3><p class="muted">Concentração por tema classificado.</p></div></div>
+        <div id="voice-topics" class="bars"></div>
+      </div>
+      <div class="panel voice-panel">
+        <div class="panel-title-row"><div><h3>Momentos da jornada</h3><p class="muted">Onde a fricção aparece.</p></div></div>
+        <div id="voice-journey" class="bars"></div>
+      </div>
+    </section>
+
+    <section class="panel voice-panel">
+      <div class="panel-title-row">
+        <div>
+          <h3>Reviews prioritárias</h3>
+          <p class="muted">Explore as avaliações classificadas e veja a relação entre dor, contexto e ação.</p>
+        </div>
+        <div class="priority-note"><span class="priority-dot"></span> Alta urgência</div>
+      </div>
+      <div class="toolbar voice-toolbar">
+        <input id="voice-search" placeholder="Buscar na review..." />
+        <select id="voice-sentiment"><option value="">Todos os sentimentos</option></select>
+        <select id="voice-topic"><option value="">Todos os temas</option></select>
+        <select id="voice-urgency"><option value="">Todas as urgências</option></select>
+        <select id="voice-opportunity"><option value="">Todas as oportunidades</option></select>
+        <button id="voice-filter" class="primary">Aplicar filtros</button>
+        <button id="voice-clear" class="ghost-btn">Limpar</button>
+      </div>
+      <div id="voice-review-list" class="review-list"></div>
+      <div class="pager">
+        <button id="voice-prev">← Anterior</button>
+        <span id="voice-page-info"></span>
+        <button id="voice-next">Próxima →</button>
+      </div>
+    </section>
+
+    <section class="voice-disclaimer">
+      <strong>Leitura dos dados:</strong>
+      as reviews são dados públicos do Google Play. As categorias de sentimento, tema, jornada,
+      oportunidade e ação são classificações analíticas da pipeline do protótipo, não dados internos
+      da Localiza e não representam vínculo entre uma review e um cliente identificado.
+    </section>
+  </main>
+
+  <script src="/static/voice.js"></script>
+</body>
+</html>

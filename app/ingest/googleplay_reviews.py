@@ -187,5 +187,9 @@ def create_reviews():
     print("======================================\n")
 
 
-if __name__ == "__main__":
+def main() -> None:
     create_reviews()
+
+
+if __name__ == "__main__":
+    main()

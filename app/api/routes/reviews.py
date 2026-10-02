@@ -4,20 +4,14 @@ from typing import Any
 
 from fastapi import APIRouter, HTTPException, Query
 
+from app.core.data import load_dataset, records
 from app.services.googleplay_reviews import filter_reviews, paginate, summarize_reviews
 
 router = APIRouter(prefix="/api/reviews", tags=["Google Play Reviews"])
 
 
-from app.core.data import load_dataset, records
-
-
-def _dataframe_from_main(name: str):
-    return load_dataset(name)
-
-
-def _review_records(df) -> list[dict[str, Any]]:
-    return records(df)
+def _reviews_df():
+    return load_dataset("googleplay_reviews")
 
 
 @router.get("")
@@ -30,7 +24,7 @@ def list_reviews(
     has_reply: bool | None = Query(None),
 ) -> dict[str, Any]:
     df = filter_reviews(
-        _dataframe_from_main("googleplay_reviews"),
+        _reviews_df(),
         q=q,
         rating=rating,
         app_version=app_version,
@@ -54,19 +48,19 @@ def list_reviews(
             "has_reply": has_reply,
         },
         "available_versions": versions,
-        "rows": _review_records(page_df),
+        "rows": records(page_df),
     }
 
 
 @router.get("/summary")
 def reviews_summary() -> dict[str, Any]:
-    return summarize_reviews(_dataframe_from_main("googleplay_reviews"))
+    return summarize_reviews(_reviews_df())
 
 
 @router.get("/{review_id}")
 def review_detail(review_id: str) -> dict[str, Any]:
-    df = _dataframe_from_main("googleplay_reviews")
+    df = _reviews_df()
     result = df[df["review_id"].astype(str).eq(review_id)]
     if result.empty:
         raise HTTPException(status_code=404, detail="Review não encontrada")
-    return _review_records(result.head(1))[0]
+    return records(result.head(1))[0]
