@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mobility Planner | Localiza Assinatura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/static/mobility_dashboard.css"><link rel="stylesheet" href="/static/mobility_pages.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header"><a href="/mobility-dashboard" class="brand"><span class="brand-mark"><i class="bi bi-car-front-fill"></i></span><span><strong>Localiza</strong><small>ASSINATURA</small></span></a><button class="sidebar-close" id="sidebarClose"><i class="bi bi-x-lg"></i></button></div>
+    <div class="profile-card"><div class="profile-avatar" id="customerAvatar">BC</div><div class="profile-copy"><strong id="customerName">Cliente</strong><span id="customerLocation">Cliente · —</span></div><select id="customerSelect" class="customer-select"></select></div>
+    <nav class="sidebar-nav">
+      <div class="nav-section"><span class="nav-label">Experiência</span>
+        <a class="sidebar-link" href="/mobility-dashboard"><i class="bi bi-grid-1x2"></i><span>Visão geral</span></a>
+        <a class="sidebar-link active" href="/mobility-planner"><i class="bi bi-signpost-split"></i><span>Mobility Planner</span></a>
+        <a class="sidebar-link" href="/mobility-today"><i class="bi bi-stars"></i><span>O que eu preciso hoje?</span></a>
+        <a class="sidebar-link" href="/mobility-routine"><i class="bi bi-arrow-repeat"></i><span>Seu carro, sua rotina</span></a>
+        <a class="sidebar-link" href="/mobility-assistant"><i class="bi bi-chat-dots"></i><span>Assistente contextual</span></a>
+      </div>
+      <div class="nav-section"><span class="nav-label">Inteligência</span><a class="sidebar-link" href="/"><i class="bi bi-database"></i><span>Dados</span></a><a class="sidebar-link" href="/voice-of-customer"><i class="bi bi-chat-square-quote"></i><span>Voz do cliente</span></a><a class="sidebar-link" href="/localiza-app"><i class="bi bi-phone"></i><span>Interface atual</span></a></div>
+    </nav>
+    <div class="sidebar-footer"><div class="prototype-badge"><i class="bi bi-beaker"></i><span>Protótipo com dados sintéticos</span></div><a href="/" class="sidebar-link"><i class="bi bi-arrow-left"></i><span>Voltar ao Explorer</span></a></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar"><div class="topbar-left"><button class="mobile-menu" id="mobileMenu"><i class="bi bi-list"></i></button><div class="breadcrumb"><span>Mobility Companion</span><i class="bi bi-chevron-right"></i><strong>Mobility Planner</strong></div></div><div class="topbar-actions"><button class="topbar-btn" id="themeToggle"><i class="bi bi-moon"></i></button><div class="status-pill"><span></span> Motor contextual ativo</div></div></header>
+    <div class="content-wrap">
+      <section class="hero-row page-hero"><div><span class="eyebrow">MOBILITY PLANNER · PLANEJAMENTO</span><h1>Prepare sua próxima saída.</h1><p>O planner cruza viagem, KM, manutenção, contrato e condição atual do carro para transformar uma rota em uma checklist de mobilidade.</p></div><div class="hero-meta"><div class="data-badge"><i class="bi bi-database-check"></i> Dados sintéticos</div><div class="hero-date" id="heroDate">—</div></div></section>
+      <section class="planner-page-grid">
+        <article class="panel"><div class="panel-header"><div><span class="panel-eyebrow">SUA VIAGEM</span><h2>Planeje um trajeto</h2></div><span class="context-badge">contextual</span></div>
+          <div class="form-grid"><label class="field"><span>Origem</span><input id="originInput" value="Belo Horizonte" /></label><label class="field"><span>Destino</span><input id="destinationInput" value="São Paulo" /></label><label class="field"><span>Data</span><input id="dateInput" type="date" /></label><label class="field"><span>Motivo</span><select id="purposeInput"><option>lazer</option><option>trabalho</option><option>família</option><option>rotina</option></select></label></div>
+          <div class="planner-route-preview"><div class="route-point"><span class="dot origin"></span><div><small>ORIGEM</small><strong id="originPreview">Belo Horizonte</strong></div></div><div class="route-line"></div><div class="route-point"><span class="dot destination"></span><div><small>DESTINO</small><strong id="destinationPreview">São Paulo</strong></div></div></div>
+          <button class="primary-btn page-action" id="planBtn"><i class="bi bi-stars"></i> Analisar viagem</button>
+        </article>
+        <article class="panel"><div class="panel-header"><div><span class="panel-eyebrow">LEITURA DO CONTEXTO</span><h2>Prontidão do carro</h2></div><span class="panel-status" id="plannerStatus">—</span></div><div class="planner-score"><div class="readiness-ring large"><span id="readinessScore">—%</span><small>pronto</small></div><div><strong id="readinessTitle">Análise ainda não executada</strong><p id="readinessText">Analise a viagem para cruzar seus sinais atuais.</p></div></div><div class="status-metrics planner-metrics"><div><span>KM disponíveis</span><strong id="kmAvailable">—</strong></div><div><span>Uso da franquia</span><strong id="kmUsage">—</strong></div><div><span>Revisão</span><strong id="maintenanceKm">—</strong></div><div><span>Contrato</span><strong id="contractMonths">—</strong></div></div></article>
+      </section>
+      <section class="two-column-page">
+        <article class="panel"><div class="panel-header"><div><span class="panel-eyebrow">CHECKLIST</span><h2>Antes de sair</h2></div><span class="small-muted" id="checkCount">—</span></div><div class="check-list" id="plannerChecks"></div></article>
+        <article class="panel"><div class="panel-header"><div><span class="panel-eyebrow">RECOMENDAÇÃO</span><h2>O que o planner encontrou</h2></div><span class="context-badge">ação</span></div><div class="context-hero"><div class="context-icon"><i class="bi bi-compass"></i></div><div><span class="context-label">Próxima ação</span><h3 id="plannerRecommendationTitle">—</h3><p id="plannerRecommendationText">—</p></div></div><div class="planner-alerts" id="plannerAlerts"></div></article>
+      </section>
+      <section class="panel"><div class="panel-header"><div><span class="panel-eyebrow">ÚLTIMAS SAÍDAS</span><h2>Seu histórico de mobilidade</h2></div><span class="small-muted">dados atuais do perfil</span></div><div class="mini-trip-list" id="recentTrips"></div></section>
+    </div>
+  </main>
+</div><div class="mobile-overlay" id="sidebarOverlay"></div><div class="toast" id="toast"></div>
+<script src="/static/mobility_pages.js"></script><script src="/static/mobility_planner.js"></script>
+</body></html>

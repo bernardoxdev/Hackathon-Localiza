@@ -6,6 +6,7 @@ from app.api.routes.customers import router as customers_router
 from app.api.routes.datasets import router as datasets_router
 from app.api.routes.health import router as health_router
 from app.api.routes.metadata import router as metadata_router
+from app.api.routes.mobility import router as mobility_router
 from app.api.routes.pages import router as pages_router
 from app.api.routes.reclameaqui import router as reclameaqui_router
 from app.api.routes.review_analysis import router as review_analysis_router
@@ -20,6 +21,7 @@ __all__ = [
     "datasets_router",
     "health_router",
     "metadata_router",
+    "mobility_router",
     "pages_router",
     "reclameaqui_router",
     "review_analysis_router",

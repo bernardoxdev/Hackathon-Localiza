@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobility Companion | Localiza Assinatura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/static/mobility_dashboard.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <a href="/" class="brand">
+          <span class="brand-mark"><i class="bi bi-car-front-fill"></i></span>
+          <span><strong>Localiza</strong><small>ASSINATURA</small></span>
+        </a>
+        <button class="sidebar-close" id="sidebarClose" aria-label="Fechar menu"><i class="bi bi-x-lg"></i></button>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-avatar" id="customerAvatar">BC</div>
+        <div class="profile-copy">
+          <strong id="customerName">Bernardo</strong>
+          <span id="customerLocation">Cliente · —</span>
+        </div>
+        <select id="customerSelect" class="customer-select" aria-label="Selecionar cliente"></select>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section">
+          <span class="nav-label">Experiência</span>
+          <a class="sidebar-link active" href="#overview"><i class="bi bi-grid-1x2"></i><span>Visão geral</span></a>
+          <a class="sidebar-link" href="/mobility-planner"><i class="bi bi-signpost-split"></i><span>Mobility Planner</span></a>
+          <a class="sidebar-link" href="/mobility-today"><i class="bi bi-stars"></i><span>O que eu preciso hoje?</span></a>
+          <a class="sidebar-link" href="/mobility-routine"><i class="bi bi-arrow-repeat"></i><span>Seu carro, sua rotina</span></a>
+          <a class="sidebar-link" href="/mobility-assistant"><i class="bi bi-chat-dots"></i><span>Assistente contextual</span></a>
+        </div>
+        <div class="nav-section">
+          <span class="nav-label">Inteligência</span>
+          <a class="sidebar-link" href="/"><i class="bi bi-database"></i><span>Dados</span></a>
+          <a class="sidebar-link" href="/voice-of-customer"><i class="bi bi-chat-square-quote"></i><span>Voz do cliente</span></a>
+          <a class="sidebar-link" href="/localiza-app"><i class="bi bi-phone"></i><span>Interface atual</span></a>
+        </div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="prototype-badge"><i class="bi bi-beaker"></i><span>Protótipo com dados sintéticos</span></div>
+        <a href="/" class="sidebar-link"><i class="bi bi-arrow-left"></i><span>Voltar ao Explorer</span></a>
+      </div>
+    </aside>
+
+    <main class="main-content" id="overview">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="mobile-menu" id="mobileMenu" aria-label="Abrir menu"><i class="bi bi-list"></i></button>
+          <div class="breadcrumb"><span>Mobility Companion</span><i class="bi bi-chevron-right"></i><strong>Visão contextual</strong></div>
+        </div>
+        <div class="topbar-actions">
+          <button class="topbar-btn" id="themeToggle" aria-label="Alternar tema"><i class="bi bi-moon"></i></button>
+          <a href="/voice-of-customer" class="topbar-btn" title="Voz do cliente"><i class="bi bi-chat-square-quote"></i></a>
+          <div class="status-pill"><span></span> Motor contextual ativo</div>
+        </div>
+      </header>
+
+      <div class="content-wrap">
+        <section class="hero-row">
+          <div>
+            <span class="eyebrow">MOBILITY HOME · PROTÓTIPO</span>
+            <h1>Olá, <span id="heroFirstName">Bernardo</span>.</h1>
+            <p>O app deixa de esperar o cliente ter uma necessidade e começa a reconhecer momentos em que pode gerar valor.</p>
+          </div>
+          <div class="hero-meta">
+            <div class="data-badge"><i class="bi bi-database-check"></i> Dados sintéticos</div>
+            <div class="hero-date" id="heroDate">—</div>
+          </div>
+        </section>
+
+        <section class="kpi-grid">
+          <article class="kpi-card">
+            <div class="kpi-icon green"><i class="bi bi-speedometer2"></i></div>
+            <div><span class="kpi-label">KM disponíveis</span><strong id="kpiKm">—</strong><small id="kpiKmMeta">—</small></div>
+          </article>
+          <article class="kpi-card">
+            <div class="kpi-icon amber"><i class="bi bi-tools"></i></div>
+            <div><span class="kpi-label">Próxima manutenção</span><strong id="kpiMaintenance">—</strong><small id="kpiMaintenanceMeta">—</small></div>
+          </article>
+          <article class="kpi-card">
+            <div class="kpi-icon blue"><i class="bi bi-file-earmark-text"></i></div>
+            <div><span class="kpi-label">Contrato</span><strong id="kpiContract">—</strong><small id="kpiContractMeta">—</small></div>
+          </article>
+          <article class="kpi-card">
+            <div class="kpi-icon purple"><i class="bi bi-car-front"></i></div>
+            <div><span class="kpi-label">Seu carro</span><strong id="kpiVehicle">—</strong><small id="kpiVehicleMeta">—</small></div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <article class="panel planner-panel" id="planner">
+            <div class="panel-header">
+              <div><span class="panel-eyebrow">MOBILITY PLANNER</span><h2>Prepare sua próxima saída</h2></div>
+              <span class="panel-status" id="plannerStatus">—</span>
+            </div>
+            <div class="planner-content">
+              <div class="route-card">
+                <div class="route-point"><span class="dot origin"></span><div><small>Origem</small><strong id="plannerOrigin">—</strong></div></div>
+                <div class="route-line"><span></span></div>
+                <div class="route-point"><span class="dot destination"></span><div><small>Destino</small><strong id="plannerDestination">—</strong></div></div>
+              </div>
+              <div class="planner-summary">
+                <div class="trip-main"><span id="plannerPurpose">—</span><strong id="plannerDistance">— km</strong><small id="plannerDate">—</small></div>
+                <div class="readiness-ring" id="readinessRing"><span id="readinessValue">—%</span><small>pronto</small></div>
+              </div>
+            </div>
+            <div class="check-list" id="plannerChecks"></div>
+            <div class="panel-footer-action"><button class="primary-btn" data-toast="Planner conceitual aberto">Abrir Mobility Planner <i class="bi bi-arrow-right"></i></button></div>
+          </article>
+
+          <article class="panel today-panel" id="today">
+            <div class="panel-header"><div><span class="panel-eyebrow">O QUE EU PRECISO HOJE?</span><h2>Uma pergunta, uma ação</h2></div><span class="context-badge">contextual</span></div>
+            <div class="assistant-greeting" id="todayGreeting">—</div>
+            <div class="intent-box">
+              <i class="bi bi-stars"></i>
+              <input id="intentInput" type="text" placeholder="Ex.: preciso fazer minha revisão..." autocomplete="off">
+              <button id="intentSubmit" aria-label="Perguntar"><i class="bi bi-arrow-up"></i></button>
+            </div>
+            <div class="intent-chips">
+              <button data-intent="Preciso fazer minha revisão">Revisão</button>
+              <button data-intent="Quero saber meus km">KM</button>
+              <button data-intent="Vou viajar">Viagem</button>
+              <button data-intent="Quero ver benefícios">Benefícios</button>
+            </div>
+            <div class="intent-result" id="intentResult">
+              <div class="empty-state"><span>Digite uma necessidade ou escolha um atalho.</span></div>
+            </div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid secondary-grid">
+          <article class="panel routine-panel" id="routine">
+            <div class="panel-header"><div><span class="panel-eyebrow">SEU CARRO, SUA ROTINA</span><h2>Padrões que já conseguimos enxergar</h2></div><span class="small-muted">base histórica</span></div>
+            <div class="vehicle-strip">
+              <div class="vehicle-icon"><i class="bi bi-car-front-fill"></i></div>
+              <div><strong id="vehicleName">—</strong><span id="vehicleMeta">—</span></div>
+              <div class="vehicle-location"><i class="bi bi-geo-alt"></i><span id="vehicleCity">—</span></div>
+            </div>
+            <div class="routine-list" id="routineList"></div>
+          </article>
+
+          <article class="panel context-panel" id="assistant">
+            <div class="panel-header"><div><span class="panel-eyebrow">ASSISTENTE DE MOBILIDADE CONTEXTUAL</span><h2>Por que estou vendo isso?</h2></div><span class="context-score" id="contextScore">—</span></div>
+            <div class="context-hero">
+              <div class="context-icon" id="contextIcon"><i class="bi bi-stars"></i></div>
+              <div><span class="context-label">Próxima ação sugerida</span><h3 id="contextTitle">—</h3><p id="contextDescription">—</p></div>
+            </div>
+            <div class="signal-list" id="signalList"></div>
+            <div class="assistant-actions">
+              <button class="secondary-btn" data-toast="Contexto explicado no protótipo"><i class="bi bi-info-circle"></i> Como cheguei nisso</button>
+              <button class="primary-btn" id="contextAction">— <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </article>
+        </section>
+
+        <section class="bottom-grid">
+          <article class="panel vehicle-status-panel">
+            <div class="panel-header"><div><span class="panel-eyebrow">STATUS DO CARRO</span><h2>Leitura rápida</h2></div></div>
+            <div class="status-metrics">
+              <div><span>Combustível</span><strong id="fuelStatus">—</strong></div>
+              <div><span>Uso da franquia</span><strong id="usageStatus">—</strong></div>
+              <div><span>Viagens / 30d</span><strong id="tripCountStatus">—</strong></div>
+              <div><span>Autonomia estimada</span><strong id="rangeStatus">—</strong></div>
+            </div>
+          </article>
+          <article class="panel recent-panel">
+            <div class="panel-header"><div><span class="panel-eyebrow">RECOMENDAÇÕES RECENTES</span><h2>O motor já está gerando sinais</h2></div><a href="/">Ver dados</a></div>
+            <div class="recommendation-list" id="recommendationList"></div>
+          </article>
+        </section>
+
+        <footer class="page-footer">
+          <span>Localiza Mobility Companion · protótipo conceitual</span>
+          <span>DADO → CONTEXTO → NECESSIDADE → AÇÃO → VALOR</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <div class="mobile-overlay" id="sidebarOverlay"></div>
+  <div class="toast" id="toast"></div>
+  <script src="/static/mobility_dashboard.js"></script>
+</body>
+</html>

@@ -15,6 +15,7 @@ from app.api.routes import (
     datasets_router,
     health_router,
     metadata_router,
+    mobility_router,
     pages_router,
     reclameaqui_router,
     review_analysis_router,
@@ -26,8 +27,8 @@ STATIC_DIR = BASE_DIR / "static"
 
 app = FastAPI(
     title="RUPTURA 2026 — Case 2 Mobility Data Explorer",
-    description="Dashboard conceitual para explorar datasets sintéticos, dados públicos e voz do cliente do protótipo Localiza Assinatura.",
-    version="1.4.0",
+    description="Dashboard conceitual para explorar dados, voz do cliente e experiências contextuais do protótipo Localiza Assinatura.",
+    version="1.5.0",
 )
 
 app.add_middleware(
@@ -50,6 +51,7 @@ for router in (
     customers_router,
     context_router,
     metadata_router,
+    mobility_router,
     reclameaqui_router,
     review_analysis_router,
     reviews_router,

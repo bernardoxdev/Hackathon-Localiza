@@ -39,3 +39,28 @@ def localiza_app() -> FileResponse:
 @router.get("/app-store", include_in_schema=False)
 def app_store() -> FileResponse:
     return FileResponse(TEMPLATE_DIR / "dashboard" / "voice_of_customer.html")
+
+
+@router.get("/mobility-dashboard", include_in_schema=False)
+def mobility_dashboard_page() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "prototype" / "mobility_dashboard.html")
+
+
+@router.get("/mobility-planner", include_in_schema=False)
+def mobility_planner_page() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "prototype" / "mobility_planner.html")
+
+
+@router.get("/mobility-today", include_in_schema=False)
+def mobility_today_page() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "prototype" / "mobility_today.html")
+
+
+@router.get("/mobility-routine", include_in_schema=False)
+def mobility_routine_page() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "prototype" / "mobility_routine.html")
+
+
+@router.get("/mobility-assistant", include_in_schema=False)
+def mobility_assistant_page() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "prototype" / "mobility_assistant.html")

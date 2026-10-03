@@ -298,3 +298,19 @@ Para testes curtos, é possível limitar o número de páginas:
 ```bash
 uv run localiza reclameaqui --pages 20
 ```
+
+## Mobility Companion
+
+A experiência contextual do protótipo está disponível em `/mobility-dashboard`.
+A página segue uma linguagem visual inspirada no dashboard do ClinicFlow (sidebar, topbar,
+KPI cards, painéis e modo claro/escuro), adaptada para o contexto Localiza Assinatura.
+
+Ela demonstra quatro ideias do Case 2:
+
+- Mobility Planner;
+- “O que eu preciso hoje?”;
+- “Seu carro, sua rotina”;
+- Assistente de mobilidade contextual.
+
+A API correspondente é exposta em `/api/mobility-dashboard` e usa os dados sintéticos de
+cliente, contrato, veículo, telemetria, viagens, manutenção, contexto e recomendações.
