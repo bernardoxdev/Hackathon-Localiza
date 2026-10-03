@@ -9,6 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from app.api.routes import (
     analytics_router,
     appstore_router,
+    assistant_router,
     context_router,
     customer_voice_router,
     customers_router,
@@ -47,6 +48,7 @@ for router in (
     health_router,
     datasets_router,
     analytics_router,
+    assistant_router,
     appstore_router,
     customers_router,
     context_router,

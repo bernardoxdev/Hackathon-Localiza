@@ -1,5 +1,6 @@
 from app.api.routes.analytics import router as analytics_router
 from app.api.routes.appstore import router as appstore_router
+from app.api.routes.assistant import router as assistant_router
 from app.api.routes.context import router as context_router
 from app.api.routes.customer_voice import router as customer_voice_router
 from app.api.routes.customers import router as customers_router
@@ -14,6 +15,7 @@ from app.api.routes.reviews import router as reviews_router
 
 __all__ = [
     "analytics_router",
+    "assistant_router",
     "appstore_router",
     "context_router",
     "customer_voice_router",
