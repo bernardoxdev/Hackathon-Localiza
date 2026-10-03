@@ -20,9 +20,7 @@ def context_engine(customer_id: str) -> dict[str, Any]:
             status_code=404, detail="Contexto do cliente não encontrado"
         )
 
-    client_rows["timestamp"] = pd.to_datetime(
-        client_rows["timestamp"], errors="coerce"
-    )
+    client_rows["timestamp"] = pd.to_datetime(client_rows["timestamp"], errors="coerce")
     current = client_rows.sort_values("timestamp").iloc[-1]
 
     signals = []
@@ -96,7 +94,9 @@ def context_engine(customer_id: str) -> dict[str, Any]:
         "customer_id": customer_id,
         "latest_context": {k: json_safe(v) for k, v in current.to_dict().items()},
         "signals": signals,
-        "recommended_action": signals[0]["action"] if signals else "Nenhuma ação prioritária",
+        "recommended_action": signals[0]["action"]
+        if signals
+        else "Nenhuma ação prioritária",
         "explanation": "Motor conceitual de protótipo: regras sintéticas, não regras da Localiza.",
         "recent_recommendations": records(
             recs[recs.customer_id.eq(customer_id)]

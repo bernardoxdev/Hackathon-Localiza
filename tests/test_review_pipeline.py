@@ -2,8 +2,12 @@ from pathlib import Path
 
 import pandas as pd
 
-from app.ingest.review_pipeline import analyze_reviews, build_insights, normalize_text, run_pipeline
-
+from app.ingest.review_pipeline import (
+    analyze_reviews,
+    build_insights,
+    normalize_text,
+    run_pipeline,
+)
 
 BASE = Path(__file__).resolve().parents[1]
 REVIEWS = BASE / "data" / "googleplay" / "google_play_reviews.csv"

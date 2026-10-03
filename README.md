@@ -23,7 +23,8 @@ Abra `http://127.0.0.1:8000`.
 
 - `/` — dashboard/explorador de dados.
 - `/prototype` — espaço das telas conceituais do protótipo.
-- `/voice-of-customer` — análise da Voz do Cliente a partir das reviews do Google Play.
+- `/voice-of-customer` — camada consolidada de Voz do Cliente (Google Play + Reclame AQUI).
+- `/reclame-aqui?source=reclameaqui` — visão filtrada para Reclame AQUI.
 
 ## API
 
@@ -45,6 +46,11 @@ GET /api/reviews/{review_id}
 GET /api/reviews/analysis-summary
 GET /api/reviews/analysis
 GET /api/reviews/insights
+GET /api/reclameaqui/summary
+GET /api/reclameaqui
+GET /api/reclameaqui/{complaint_id}
+GET /api/customer-voice/summary
+GET /api/customer-voice
 ```
 
 ## Google Play Reviews
@@ -101,6 +107,60 @@ uv run localiza ingest
 ```
 
 A classificação é determinística e explicável. Os dados da review são públicos; as categorias de sentimento, tema, jornada, oportunidade e ação são inferências da pipeline do protótipo.
+
+
+## Reclame AQUI
+
+A camada de Reclame AQUI segue o mesmo desenho da camada de Google Play:
+
+```text
+Reclamações públicas
+        ↓
+normalização
+        ↓
+sentimento / sinal
+        ↓
+tema
+        ↓
+momento da jornada
+        ↓
+pain point
+        ↓
+urgência
+        ↓
+oportunidade contextual
+        ↓
+ação recomendada
+        ↓
+insights
+```
+
+Os artefatos ficam em:
+
+```text
+data/reclameaqui/reclameaqui_complaints.csv
+data/reclameaqui/complaint_analysis.csv
+data/reclameaqui/complaint_insights.csv
+data/reclameaqui/reclameaqui_snapshot.csv
+```
+
+O snapshot incluído no repositório foi construído a partir de páginas públicas pesquisadas em 02/10/2026. O Reclame AQUI pode usar listagem dinâmica e proteção contra automação; por isso a pipeline mantém `source_url`, `collection_method` e `data_origin`, e oferece um helper de refresh que aceita um snapshot CSV/JSON normalizado.
+
+Para executar a análise:
+
+```bash
+uv run localiza reclameaqui
+```
+
+A camada consolidada usa as duas fontes:
+
+```text
+Google Play + Reclame AQUI
+          ↓
+     Customer Voice
+          ↓
+     Context Engine
+```
 
 ## Estrutura
 
@@ -168,4 +228,73 @@ ou, diretamente:
 
 ```bash
 uv run uvicorn app.main:app --reload
+```
+
+## Ingestão das fontes de voz do cliente
+
+### Reclame AQUI
+
+A CLI coleta a listagem pública paginada da Localiza Meoo usando o endpoint público utilizado pelo site e continua até encontrar uma página vazia (ou até o limite informado):
+
+```bash
+uv run localiza reclameaqui
+```
+
+Limitar a quantidade de páginas durante testes:
+
+```bash
+uv run localiza reclameaqui --pages 20
+```
+
+O coletor usa até 10 registros por página, deduplica por `complaint_id` e grava:
+
+- `data/reclameaqui/reclameaqui_complaints.csv`
+- `data/reclameaqui/reclameaqui_snapshot.csv`
+- `data/reclameaqui/complaint_analysis.csv`
+- `data/reclameaqui/complaint_insights.csv`
+
+O endpoint público utilizado pelo coletor não é a RA Data Hub oficial. Para integração corporativa oficial, o Reclame AQUI oferece a RA Data Hub/RA API com autenticação. O coletor deste projeto é destinado à pesquisa pública do hackathon e pode exigir atualização caso a infraestrutura pública do site mude.
+
+### Apple App Store
+
+A CLI coleta o feed público de avaliações da Apple nas 10 páginas públicas disponíveis para o storefront configurado:
+
+```bash
+uv run localiza appstore
+```
+
+Por padrão usa o storefront `br`. Também é possível informar outro país:
+
+```bash
+uv run localiza appstore --country br --pages 10
+```
+
+O feed RSS público da Apple é limitado a aproximadamente 10 páginas, cerca de 500 reviews mais recentes por storefront. Portanto, ele não representa todo o histórico existente da App Store. Para recuperar o histórico completo de reviews do próprio app, a Apple disponibiliza a App Store Connect API, que requer acesso/autenticação da conta que publica o app.
+
+O preview de 4 registros só deve ser usado explicitamente:
+
+```bash
+uv run localiza appstore --preview
+```
+
+A execução normal não cai silenciosamente para o preview; se o feed ao vivo falhar, o comando retorna erro para deixar claro que os dados reais não foram coletados.
+
+## Coleta do Reclame AQUI
+
+A ingestão do Reclame AQUI percorre a paginação pública do BFF e salva um checkpoint a cada página para evitar perda de dados em caso de bloqueio temporário. O cliente utiliza intervalo maior entre requisições, jitter e backoff exponencial para respostas HTTP 403/429.
+
+```bash
+uv run localiza reclameaqui
+```
+
+Em caso de interrupção, retome do último checkpoint com:
+
+```bash
+uv run localiza reclameaqui --resume
+```
+
+Para testes curtos, é possível limitar o número de páginas:
+
+```bash
+uv run localiza reclameaqui --pages 20
 ```

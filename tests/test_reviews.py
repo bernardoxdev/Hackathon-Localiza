@@ -36,7 +36,9 @@ def test_reviews_search_text():
     assert response.status_code == 200
     payload = response.json()
     assert payload["total"] > 0
-    assert all("aplicativo" in (row["review_text"] or "").lower() for row in payload["rows"])
+    assert all(
+        "aplicativo" in (row["review_text"] or "").lower() for row in payload["rows"]
+    )
 
 
 def test_review_detail():

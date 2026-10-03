@@ -29,6 +29,14 @@ DATASETS = {
     "googleplay_reviews": "googleplay/google_play_reviews.csv",
     "review_analysis": "googleplay/review_analysis.csv",
     "review_insights": "googleplay/review_insights.csv",
+    "reclameaqui_complaints": "reclameaqui/reclameaqui_complaints.csv",
+    "reclameaqui_snapshot": "reclameaqui/reclameaqui_snapshot.csv",
+    "reclameaqui_analysis": "reclameaqui/complaint_analysis.csv",
+    "reclameaqui_insights": "reclameaqui/complaint_insights.csv",
+    "appstore_reviews": "appstore/app_store_reviews.csv",
+    "appstore_analysis": "appstore/review_analysis.csv",
+    "appstore_insights": "appstore/review_insights.csv",
+    "appstore_snapshot": "appstore/appstore_snapshot.csv",
 }
 
 DATASET_LABELS = {
@@ -49,6 +57,14 @@ DATASET_LABELS = {
     "googleplay_reviews": "Reviews Google Play",
     "review_analysis": "Análise das Reviews",
     "review_insights": "Insights das Reviews",
+    "reclameaqui_complaints": "Reclame AQUI — Reclamações",
+    "reclameaqui_snapshot": "Reclame AQUI — Snapshot da empresa",
+    "reclameaqui_analysis": "Reclame AQUI — Análise das reclamações",
+    "reclameaqui_insights": "Reclame AQUI — Insights",
+    "appstore_reviews": "Reviews Apple App Store",
+    "appstore_analysis": "Apple App Store — Análise das reviews",
+    "appstore_insights": "Apple App Store — Insights",
+    "appstore_snapshot": "Apple App Store — Snapshot do app",
 }
 
 
@@ -72,7 +88,10 @@ def json_safe(value: Any) -> Any:
 
 
 def records(df: pd.DataFrame) -> list[dict[str, Any]]:
-    return [{k: json_safe(v) for k, v in row.items()} for row in df.to_dict(orient="records")]
+    return [
+        {k: json_safe(v) for k, v in row.items()}
+        for row in df.to_dict(orient="records")
+    ]
 
 
 @cache

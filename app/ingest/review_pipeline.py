@@ -16,6 +16,8 @@ PIPELINE_VERSION = "review-rule-engine-v1"
 def _safe_mean(series: pd.Series) -> float:
     values = pd.to_numeric(series, errors="coerce").dropna()
     return round(float(values.mean()), 2) if not values.empty else 0.0
+
+
 INPUT_DATASET = "googleplay_reviews"
 OUTPUT_RELATIVE_PATH = Path("googleplay") / "review_analysis.csv"
 INSIGHTS_RELATIVE_PATH = Path("googleplay") / "review_insights.csv"
@@ -353,7 +355,10 @@ OPPORTUNITY_MAP = {
     "contrato_assinatura": ("zero_surpresa", "Ver contrato e próximos eventos"),
     "mobilidade_viagem": ("mobility_planner", "Planejar mobilidade"),
     "beneficios": ("beneficio_contextual", "Ver benefício relevante"),
-    "suporte_atendimento": ("support_prevention", "Resolver necessidade antes do contato"),
+    "suporte_atendimento": (
+        "support_prevention",
+        "Resolver necessidade antes do contato",
+    ),
     "notificacoes": ("notification_control", "Ajustar notificações"),
     "acesso_login": ("app_reliability", "Resolver acesso ao app"),
     "performance_estabilidade": ("app_reliability", "Corrigir experiência do app"),
@@ -445,7 +450,9 @@ def classify_sentiment(text: str, rating: Any) -> tuple[str, int, float, list[st
     return label, int(score), round(confidence, 2), evidence
 
 
-def classify_by_rules(text: str, rules: dict[str, tuple[str, ...]]) -> tuple[str, list[str]]:
+def classify_by_rules(
+    text: str, rules: dict[str, tuple[str, ...]]
+) -> tuple[str, list[str]]:
     normalized = normalize_text(text)
     scores: dict[str, int] = {}
     evidence: dict[str, list[str]] = {}
@@ -511,7 +518,9 @@ def classify_urgency(text: str, rating: Any, sentiment: str, pain: str) -> str:
         "semanas",
     )
     rating_value = float(rating) if pd.notna(rating) else 3.0
-    if sentiment == "negativo" and (pain == "seguranca_privacidade" or any(x in normalized for x in high_markers)):
+    if sentiment == "negativo" and (
+        pain == "seguranca_privacidade" or any(x in normalized for x in high_markers)
+    ):
         return "alta"
     if rating_value <= 2 or sentiment == "negativo":
         return "media"
@@ -524,8 +533,8 @@ def analyze_reviews(df: pd.DataFrame) -> pd.DataFrame:
 
     for _, row in result.iterrows():
         text = "" if pd.isna(row.get("review_text")) else str(row.get("review_text"))
-        sentiment, sentiment_score, sentiment_conf, sentiment_evidence = classify_sentiment(
-            text, row.get("rating")
+        sentiment, sentiment_score, sentiment_conf, sentiment_evidence = (
+            classify_sentiment(text, row.get("rating"))
         )
         topic, topic_evidence = classify_by_rules(text, TOPIC_RULES)
         if topic == "geral" and sentiment == "negativo":
@@ -535,9 +544,7 @@ def analyze_reviews(df: pd.DataFrame) -> pd.DataFrame:
         journey = JOURNEY_MAP.get(topic, "uso_do_app")
         pain, pain_evidence = classify_pain(text, topic, sentiment)
         urgency = classify_urgency(text, row.get("rating"), sentiment, pain)
-        opportunity, action = OPPORTUNITY_MAP.get(
-            topic, ("none", "nenhuma")
-        )
+        opportunity, action = OPPORTUNITY_MAP.get(topic, ("none", "nenhuma"))
         if sentiment != "negativo" and topic == "geral":
             opportunity, action = "none", "nenhuma"
 
@@ -613,7 +620,9 @@ def build_insights(analyzed: pd.DataFrame) -> pd.DataFrame:
                     "negative_rate_pct": round(negative / max(count, 1) * 100, 1),
                     "high_urgency_count": high_urgency,
                     "average_rating": _safe_mean(group["rating"]),
-                    "actionable_count": int(group["recommended_action"].ne("nenhuma").sum()),
+                    "actionable_count": int(
+                        group["recommended_action"].ne("nenhuma").sum()
+                    ),
                 }
             )
 

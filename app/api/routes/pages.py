@@ -26,6 +26,16 @@ def voice_of_customer() -> FileResponse:
     return FileResponse(TEMPLATE_DIR / "dashboard" / "voice_of_customer.html")
 
 
+@router.get("/reclame-aqui", include_in_schema=False)
+def reclame_aqui() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "dashboard" / "voice_of_customer.html")
+
+
 @router.get("/localiza-app", include_in_schema=False)
 def localiza_app() -> FileResponse:
     return FileResponse(TEMPLATE_DIR / "prototype" / "localiza_app.html")
+
+
+@router.get("/app-store", include_in_schema=False)
+def app_store() -> FileResponse:
+    return FileResponse(TEMPLATE_DIR / "dashboard" / "voice_of_customer.html")

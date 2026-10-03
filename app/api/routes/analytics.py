@@ -47,9 +47,7 @@ def summary() -> dict[str, Any]:
         "googleplay_reviews": int(len(reviews)),
         "googleplay_average_rating": (
             round(
-                float(
-                    pd.to_numeric(reviews["rating"], errors="coerce").mean()
-                ),
+                float(pd.to_numeric(reviews["rating"], errors="coerce").mean()),
                 2,
             )
             if not reviews.empty
@@ -83,19 +81,17 @@ def charts() -> dict[str, Any]:
     recs = load_dataset("recommendations")
 
     return {
-        "engagement_segment": clients["app_engagement_segment"].value_counts(
-            dropna=False
-        ).to_dict(),
+        "engagement_segment": clients["app_engagement_segment"]
+        .value_counts(dropna=False)
+        .to_dict(),
         "powertrain": vehicles["powertrain"].value_counts(dropna=False).to_dict(),
         "contract_status": contracts["status"].value_counts(dropna=False).to_dict(),
         "app_features": apps["feature"].value_counts().head(10).to_dict(),
-        "context_priority": contexts["context_priority"].value_counts(
-            dropna=False
-        ).to_dict(),
-        "recommendation_type": recs["recommendation_type"].value_counts(
-            dropna=False
-        ).to_dict(),
-        "recommendation_outcomes": recs["outcome"].value_counts(
-            dropna=False
-        ).to_dict(),
+        "context_priority": contexts["context_priority"]
+        .value_counts(dropna=False)
+        .to_dict(),
+        "recommendation_type": recs["recommendation_type"]
+        .value_counts(dropna=False)
+        .to_dict(),
+        "recommendation_outcomes": recs["outcome"].value_counts(dropna=False).to_dict(),
     }

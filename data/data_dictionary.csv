@@ -1,4 +1,4 @@
-﻿dataset,column,type,unit,origin,description
+dataset,column,type,unit,origin,description
 clients,customer_id,string,—,SYNTHETIC,Synthetic field generated for prototype simulation.
 clients,data_origin,string,—,SYNTHETIC,Synthetic field generated for prototype simulation.
 clients,age,integer,—,SYNTHETIC,Synthetic field generated for prototype simulation.
@@ -209,3 +209,11 @@ review_analysis,recommended_action,string,—,DERIVED,Ação contextual sugerida
 review_analysis,confidence,float,0-1,DERIVED,Confiança agregada da classificação
 review_analysis,matched_signals,string,—,DERIVED,Termos e sinais que acionaram as regras
 review_analysis,analysis_method,string,—,DERIVED,Versão do motor de regras utilizado
+appstore_reviews,review_id,string,id,Apple App Store,Identificador da review no App Store
+appstore_reviews,rating,integer,1-5,Apple App Store,Nota atribuída à aplicação
+appstore_reviews,review_title,string,texto,Apple App Store,Título da avaliação
+appstore_reviews,review_text,string,texto,Apple App Store,Texto da avaliação
+appstore_reviews,review_date,datetime,ISO 8601,Apple App Store,Data/hora de publicação/atualização
+appstore_reviews,app_version,string,versão,Apple App Store,Versão do app associada à review
+appstore_reviews,collection_method,string,categorical,Projeto,Método de coleta do registro
+appstore_reviews,is_preview,boolean,true/false,Projeto,"Indica se o registro é preview público, e não resultado do feed live"
